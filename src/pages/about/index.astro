@@ -2,6 +2,7 @@
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
 import { site } from "../../lib/site";
+import headerImage from "../../assets/images/about-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
   ? { href: `tel:${site.phoneNumber}`, text: `📞 ${site.phoneNumber}` }
@@ -17,6 +18,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     heading={`About Water Softeners of ${site.city} | Trusted Local Specialists`}
     primaryCta={primaryCta}
     secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
+    image={headerImage}
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>

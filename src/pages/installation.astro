@@ -4,6 +4,7 @@ import PageHero from "../components/PageHero.astro";
 import SystemTour from "../components/SystemTour.astro";
 import QuickFacts from "../components/QuickFacts.astro";
 import { site } from "../lib/site";
+import headerImage from "../assets/images/installation-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
   ? { href: `tel:${site.phoneNumber}`, text: `📞 ${site.phoneNumber}` }
@@ -19,6 +20,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     heading={`Water Softener Installation in ${site.city}, ${site.stateAbbr} | Trusted Local Specialists`}
     primaryCta={primaryCta}
     secondaryCta={{ href: "/quote/", text: "Get a Free Water Softener Quote in Albuquerque" }}
+    image={headerImage}
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
