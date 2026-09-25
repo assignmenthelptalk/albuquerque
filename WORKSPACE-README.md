@@ -14,7 +14,7 @@ in per-city data here — that's the rest of this file, below.
 | Homepage (10 sections: hero, services grid, GPG data, 2 alternating image-text, CityMap placeholder, service areas, why-choose-us, FAQ accordion, slim CTA bar) | ✅ synced from Henderson structural improvements |
 | New pages: repair, about, contact | ✅ created this pass |
 | 6 expansion pages (salt-based-installation, salt-free-installation, water-softener-sizing, new-construction-installation, control-head-repair, free-water-test) | ✅ added 2026-09-23, ported from the Minneapolis site build — linked contextually from installation/repair/water-quality, not in main nav/footer |
-| PageHero.astro (split inner-page hero: breadcrumbs, H1, opening paragraph, CTAs left; real photo or GPG stat-card right) | ✅ added 2026-09-24, wired into all 21 inner pages, replacing the old single-column `.page-header` + placeholder-image-section pattern. No real photography exists on the boilerplate, so every page renders the GPG stat-card fallback — a per-city task is to add real photos and pass them via the `image` prop, same as Tampa did |
+| PageHero.astro (split inner-page hero: breadcrumbs, H1, opening paragraph, CTAs left; real photo or GPG stat-card right) | ✅ added 2026-09-24, wired into all 21 inner pages, replacing the old single-column `.page-header` + placeholder-image-section pattern. The boilerplate itself still has no photography (new cities still start on the GPG stat-card fallback) — Albuquerque is now fully populated with real photos on every page (see 2026-09-26 note) |
 | Opening paragraph pattern (Glendale Elite: Brand IS on homepage, Brand OFFERS inside the hero on inner pages) | ✅ updated 2026-09-24 — superseded the old separate `.page-opening` section below the header; now lives inside `PageHero`'s `opening` slot, brand name underlined and linked to `/`. Homepage still uses the older separate-section placement (`.page-opening` under the hero) — syncing it into the homepage hero itself is a separate, not-yet-requested task |
 | QuoteForm.astro | ✅ commit 3b6e9cf, updated to use businessEmail |
 | Breadcrumbs.astro | ✅ commit 3b6e9cf |
@@ -103,14 +103,18 @@ Run: cd C:\Users\lenevo\Local-SEO-Toolkit
 Full report: Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026-09-25.json
 
 ## Current task
-Content pass complete as of 2026-09-25 (Steps 5, 5b, 6, 6b all done — see
-checklist below and the dated note in Notes for full detail). All 22 pages
-written, build is clean (0 errors/0 warnings, 23 pages), and all 20
-EAV-scored pages are ship-ready at 80+ (average 84/100). GitHub repo created
-manually by the user (github.com/assignmenthelptalk/albuquerque) and both
-commits pushed to `main`. Next action: Step 7 — deploy to Vercel
-(`vercel link` + `vercel --prod` from the site folder; Vercel CLI/login
-status not yet verified in this environment), then Step 8 (custom domain).
+Content, branding, and photography are all complete as of 2026-09-26 — see
+checklist below and the dated notes for full detail. All 22 pages written
+and scored (20/20 EAV-scored pages ship-ready, average 84/100), a custom
+favicon is in place, and all 24 site photos (homepage hero + 2 tiles + 21
+inner-page headers) are generated, identified, renamed, and wired in via
+`<Image>`/`PageHero`'s `image` prop — no `placehold.co` placeholders remain
+anywhere on the site. `npm run build` is clean (0 errors/0 warnings, 23
+pages). GitHub repo created manually by the user
+(github.com/assignmenthelptalk/albuquerque) with 5 commits pushed to `main`.
+Next action: Step 7 — deploy to Vercel (`vercel link` + `vercel --prod` from
+the site folder; Vercel CLI/login status not yet verified in this
+environment), then Step 8 (custom domain).
 
 ## Local data
 - Neighbourhoods:  Nob Hill, North Valley, Sandia Heights, Four Hills, Taylor Ranch
@@ -142,6 +146,41 @@ itself if a step here needs more detail than fits on one line.
 
 ## Notes
 _Add any city-specific notes, open data gaps, or decisions made here._
+
+- **2026-09-26 — favicon, image prompts, and full site photography added.**
+  Added `public/favicon.svg`: a rounded-square water-droplet mark using the
+  site's own design tokens (terracotta `#A6521B` background, `#F5E9DE`
+  droplet, `#2C9C9A` accent ellipse), matching the exact pattern Tampa and
+  Indianapolis each use for their per-city favicons (the boilerplate itself
+  ships none). Wrote `brand_assets/image-prompts.md`: 24 AI image-generation
+  prompts (one per site photo — homepage hero + 2 alternating-section tiles
+  + 21 inner-page `PageHero` headers), reverse-engineered from Tampa's own
+  live photography (`watersoftenertampafl/src/assets/images/`) so the whole
+  portfolio reads as one consistent photo library — same photorealistic,
+  no-visible-face equipment/interior style, with exterior/context shots
+  (about, contact, neighbourhood, new-construction) reskinned to
+  Albuquerque's high-desert Southwest look (Pueblo-Revival stucco,
+  xeriscaping, Sandia Mountains) instead of Tampa's palm trees.
+
+  User generated all 24 images externally and saved them (twice — 21 in one
+  batch, the final 3 in a second batch) into `public/` under generic
+  `Gemini_Generated_Image_*.jpg` export names with no correspondence to the
+  prompt list. Each one was opened and visually matched by hand against the
+  24 prompts (not assumed from save order), renamed to the target filename,
+  and moved into `src/assets/images/` — images consumed by Astro's
+  `<Image>`/`PageHero` `image` prop must be *imported* source files, not
+  static `public/` assets, per this project's own image-handling rule (see
+  CLAUDE.md "Astro-Specific Rules"). One near-duplicate control-head-repair
+  shot (near-identical multimeter/circuit-board photo, second angle) was
+  dropped rather than force-fit elsewhere. Wired every image in via a small
+  Node script (18 pages) plus 3 direct edits (homepage's 3 images) rather
+  than 40+ manual tool calls, then rebuilt to confirm Astro's image pipeline
+  optimizes every one automatically (~550-800KB source JPGs down to
+  10-40KB output WebP) with 0 errors. All 22 content pages now show real,
+  page-matched photography — the GPG stat-card fallback no longer appears
+  anywhere on this site (it remains the correct default for any
+  *unfinished* site in the portfolio). GitHub repo now has 5 commits total,
+  all pushed to `main` (`github.com/assignmenthelptalk/albuquerque`).
 
 - **2026-09-25 — all 22 pages written, built, and scored (Steps 5/5b/6/6b
   complete).** Wrote real Albuquerque-specific content for every page,
