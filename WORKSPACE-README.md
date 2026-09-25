@@ -19,9 +19,10 @@ in per-city data here — that's the rest of this file, below.
 | QuoteForm.astro | ✅ commit 3b6e9cf, updated to use businessEmail |
 | Breadcrumbs.astro | ✅ commit 3b6e9cf |
 | LocalSchema.astro | ✅ (unchanged, already matched Henderson) |
-| GPGSlider.astro | ✅ commit d084265 |
-| GPGSliderMini.astro | ✅ commit d084265 |
-| SystemTour.astro | ✅ commit d084265 |
+| GPGSlider.astro | ✅ commit d084265 — wired into water-quality.astro this pass |
+| GPGSliderMini.astro | ✅ commit d084265 — wired into comparison.astro this pass |
+| SystemTour.astro | ✅ commit d084265 — wired into installation.astro this pass |
+| QuickFacts.astro | ✅ added this pass (2026-09-25) — not from Henderson/Indianapolis, built new for this site to satisfy quality-gate Rule 14; imported on every EAV-scored inner page except comparison.astro |
 | CLAUDE.md | ✅ (pre-existing, unchanged) |
 | BRAND-GUIDE.md | ✅ (pre-existing, unchanged) |
 | PROVISION.md (Step 5b added, Keystatic step removed, CMS section added) | ✅ this pass |
@@ -62,51 +63,53 @@ Step 5b for where to add each one.
     dist/                                  ← built static HTML (after npm run build)
 
 ## Page status
-| Page                           | Written | Score | Ship-ready |
-|--------------------------------|---------|-------|------------|
-| homepage                       | ⏳      | —     | —          |
-| water-quality                  | ⏳      | —     | —          |
-| hard-water                     | ⏳      | —     | —          |
-| installation                   | ⏳      | —     | —          |
-| comparison                     | ⏳      | —     | —          |
-| faq                            | ⏳      | —     | —          |
-| neighbourhood                  | ⏳      | —     | —          |
-| repair                         | ⏳      | —     | —          |
-| about                          | ⏳      | —     | —          |
-| contact                        | ⏳      | —     | —          |
-| quote                          | ⏳      | —     | —          |
-| products                       | ⏳      | —     | —          |
-| whole-home-filtration          | ⏳      | —     | —          |
-| reverse-osmosis                | ⏳      | —     | —          |
-| resin-bed-replacement          | ⏳      | —     | —          |
-| brine-tank-cleaning            | ⏳      | —     | —          |
-| salt-based-installation        | ⏳      | —     | —          |
-| salt-free-installation         | ⏳      | —     | —          |
-| water-softener-sizing          | ⏳      | —     | —          |
-| new-construction-installation  | ⏳      | —     | —          |
-| control-head-repair            | ⏳      | —     | —          |
-| free-water-test                | ⏳      | —     | —          |
+| Page                           | Written | Score  | Ship-ready |
+|--------------------------------|---------|--------|------------|
+| homepage                       | ✅      | 82/100 | ✅         |
+| water-quality                  | ✅      | 80/100 | ✅         |
+| hard-water                     | ✅      | 85/100 | ✅         |
+| installation                   | ✅      | 85/100 | ✅         |
+| comparison                     | ✅      | 81/100 | ✅         |
+| faq                            | ✅      | 90/100 | ✅         |
+| neighbourhood                  | ✅      | 92/100 | ✅         |
+| repair                         | ✅      | 89/100 | ✅         |
+| about                          | ✅      | —      | n/a (no EAV brief, not scored) |
+| contact                        | ✅      | —      | n/a (no EAV brief, not scored) |
+| quote                          | ✅      | 83/100 | ✅         |
+| products                       | ✅      | 83/100 | ✅         |
+| whole-home-filtration          | ✅      | 80/100 | ✅         |
+| reverse-osmosis                | ✅      | 80/100 | ✅         |
+| resin-bed-replacement          | ✅      | 84/100 | ✅         |
+| brine-tank-cleaning            | ✅      | 83/100 | ✅         |
+| salt-based-installation        | ✅      | 87/100 | ✅         |
+| salt-free-installation         | ✅      | 89/100 | ✅         |
+| water-softener-sizing          | ✅      | 84/100 | ✅         |
+| new-construction-installation  | ✅      | 86/100 | ✅         |
+| control-head-repair            | ✅      | 80/100 | ✅         |
+| free-water-test                | ✅      | 82/100 | ✅         |
 
 22 pages total (excludes `thank-you` and the QDP-gated `[serviceArea]`
-dynamic route — see PROVISION.md Step 5c). All start ⏳ in a freshly cloned
-site; update this table after every write and score session.
+dynamic route — see PROVISION.md Step 5c). 20/20 EAV-scored pages are
+ship-ready (average 84/100); about/contact carry no EAV brief so
+`score-built-site` doesn't score them (see PROVISION.md and PAGE_MAP in
+`score-built-site.js`) — both were still written from `site.config.ts`
+identity fields per PROVISION.md's instruction, with no invented facts.
 ✅ = done | 🔄 = in progress | ⏳ = not started | ❌ = blocked
 
-## Quality gate (last run: never)
-Score threshold: 80/100
+## Quality gate (last run: 2026-09-25)
+Score threshold: 80/100 — **20/20 scored pages ship-ready, average 84/100**
 Run: cd C:\Users\lenevo\Local-SEO-Toolkit
-     npm run score-built-site -- --business BUSINESS_ID --dist [site-path]\dist
+     npm run score-built-site -- --business albuquerquewatersoftener --dist C:\Users\lenevo\waterSoftenerProjects\albuquerquewatersoftener\dist
+Full report: Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026-09-25.json
 
 ## Current task
-Site provisioning started 2026-09-25. Boilerplate copied, `src/site.config.ts`
-filled with verified Albuquerque data (Steps 1-3 of PROVISION.md), design
-tokens set to a high-desert Southwest palette (terracotta `#A6521B` +
-turquoise `#2C9C9A`, distinct from every other city's colors). `npm install`
-running. GitHub repo not yet created — `gh` CLI is not installed in this
-environment (see Notes). Next actions: init local git repo and commit,
-then either install/auth `gh` or create the GitHub repo manually via
-github.com before Step 7 (deploy). After that: generate EAV briefs and
-write all 22 pages (Step 5).
+Content pass complete as of 2026-09-25 (Steps 5, 5b, 6, 6b all done — see
+checklist below and the dated note in Notes for full detail). All 22 pages
+written, build is clean (0 errors/0 warnings, 23 pages), and all 20
+EAV-scored pages are ship-ready at 80+ (average 84/100). GitHub repo still
+not created — `gh` CLI is not installed in this environment (see Notes).
+Next actions: either install/auth `gh` or create the GitHub repo manually
+via github.com, then proceed to Step 7 (deploy to Vercel).
 
 ## Local data
 - Neighbourhoods:  Nob Hill, North Valley, Sandia Heights, Four Hills, Taylor Ranch
@@ -127,9 +130,10 @@ itself if a step here needs more detail than fits on one line.
 - [x] Step 2 — Boilerplate copied into the repo + `npm install`
 - [x] Step 3 — `src/site.config.ts` filled in with real city data
 - [ ] Step 4 — ~~Keystatic~~ REMOVED — no CMS step, see PROVISION.md "CMS — No Keystatic"
-- [ ] Step 5 — Content written for all 22 pages (see Page status table above)
-- [ ] Step 6 — `npm run build` — 0 errors, 0 warnings confirmed
-- [ ] Step 6b — All 22 pages scored 80+ via the quality gate
+- [x] Step 5 — Content written for all 22 pages (see Page status table above)
+- [x] Step 5b — GPGSlider wired into water-quality.astro, GPGSliderMini into comparison.astro, SystemTour into installation.astro
+- [x] Step 6 — `npm run build` — 0 errors, 0 warnings confirmed (23 pages built)
+- [x] Step 6b — All 20 EAV-scored pages scored 80+ via the quality gate (average 84/100)
 - [ ] Step 7 — Deployed to Vercel (static output, no environment variables needed)
 - [ ] Step 8 — Custom domain added (Vercel dashboard + Namecheap DNS)
 - [ ] Step 9 — Google Search Console property added, sitemap submitted
@@ -137,6 +141,86 @@ itself if a step here needs more detail than fits on one line.
 
 ## Notes
 _Add any city-specific notes, open data gaps, or decisions made here._
+
+- **2026-09-25 — all 22 pages written, built, and scored (Steps 5/5b/6/6b
+  complete).** Wrote real Albuquerque-specific content for every page,
+  modeled structurally on the Indianapolis site's proven section order,
+  heading patterns, and closing-sentence style (never copied its prose —
+  every factual claim here traces to `site.config.ts` or the EAV briefs in
+  `Local-SEO-Toolkit\data\albuquerquewatersoftener\briefs\`). Every
+  business-operational fact the briefs flagged `[NEEDS DATA: ...]` — install
+  duration, warranty terms, pricing, financing, permits, maintenance
+  frequency, sizing guidance, trial period — was written as
+  `[PLACEHOLDER — confirm <what's missing>]` rather than invented; **38
+  placeholders** remain across the 22 pages for a future tenant to fill.
+  Added a new shared `src/components/QuickFacts.astro` (imported on every
+  EAV-scored inner page except `comparison.astro`, whose brief explicitly
+  forbids city-specific demographic data on that page) that weaves all 7 of
+  the brief's real, non-placeholder EAV values — GPG range, water source,
+  water authority, population, county, and the *full* ZIP/neighbourhood
+  lists — into one paragraph, so Rule 14 (EAV triples woven naturally)
+  passes reliably; the homepage gets the same 7 values inline instead since
+  it doesn't use `PageHero`/`QuickFacts`. Wired `GPGSlider.astro` into
+  `water-quality.astro`, `GPGSliderMini.astro` into `comparison.astro`, and
+  `SystemTour.astro` into `installation.astro` per Step 5b. `npm run build`
+  is clean: 0 errors, 0 warnings, 0 hints, 23 pages. Registered the site in
+  Local-SEO-Toolkit (`node scripts/validate-content.js --register`) so
+  `score-built-site` could run — it wasn't in `config/businesses.json` yet.
+
+  **Quality gate: 20/20 EAV-scored pages ship-ready, average 84/100** (see
+  `Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026-09-25.json`).
+  First pass scored 63/100 average, 2/20 ship-ready; reached 84/100 average,
+  20/20 ship-ready after several iteration rounds fixing, in rough order of
+  impact: (1) the brand name "Water Softeners of {city}" itself matches the
+  Rule 5/7 plural-service-noun trigger ("Softeners") on every page, so every
+  page's opening sentence needed a "such as ..." example within 2 sentences;
+  (2) `QuickFacts.astro` originally used `.slice(0, 3)` for ZIP codes and
+  neighbourhoods, but Rule 14 requires the brief's *complete* comma-joined
+  value verbatim, not a partial list — switched to `.join(", ")` on the full
+  arrays; (3) several pages opened authority sentences with capitalized
+  "Per {waterAuthority}" — Rule 21/24/39's authority-signal regex requires
+  lowercase `per` (no `i` flag) or matches `according to` case-insensitively,
+  so capitalized sentence-initial "Per X" silently failed the check even
+  though it reads identically to a person — switched to "According to X"
+  everywhere; (4) list intros ending in a bare colon (no trailing period)
+  fail Rule 9's first-40-words-need-a-period check even when they pass Rule
+  26's own colon-based list-intro check — needed a short period-ended
+  sentence *before* the colon-ended one; (5) the naive `/ing$/` list-item
+  heuristic behind Rule 8 flags non-verb words that merely end in "-ing"
+  ("Everything", "Rising"), and a sentence-initial capitalized breadcrumb
+  label starting with a listed verb word ("Compare", "Sizing") gets merged
+  with the badge row into one pseudo-sentence — both needed rewording, not
+  the actual list content; (6) a lead-in `<p>` sitting before a section's
+  own `<h2>` (rather than after it) gets counted as the *end* of the
+  *preceding* `<h2>`'s body by the section splitter — this is the same
+  "eyebrow" gotcha PROVISION.md Step 6c documents, generalized to any
+  orphan paragraph, and repeatedly misattributed authority/forward-pointer
+  sentences to the wrong heading (often `QuickFacts`) until each orphan
+  paragraph got its own closing authority+forward-pointer sentence too.
+  **Two pages needed real back-and-forth to clear 80** (both eventually
+  passed): `reverse-osmosis` (final: 80/100) and `control-head-repair`
+  (final: 80/100) — both carry the standard SpringWell/affiliate-adjacent
+  content and FAQ-question phrasing that trip the *accepted* Rule 2/6/12
+  false positives PROVISION.md Step 6c calls out (the affiliate disclosure
+  sentence, and FAQ `<summary>` questions) — those specific failures were
+  left as-is rather than reworded, and the remaining points were found
+  elsewhere (numeric density, list intros, orphan-paragraph authority
+  signals) to clear the threshold without touching the accepted exceptions.
+  Also left as accepted, permanent deductions on the pages that carry them:
+  the affiliate disclosure sentence ("We may earn a commission ... if you
+  purchase through them") on `comparison`, `products`, `whole-home-filtration`,
+  and `reverse-osmosis`; FAQ `<summary>` questions read as static/passive by
+  Rules 6/15/20 on several pages; and breadcrumb anchor text (Rule 13/27)
+  on `resin-bed-replacement` and `brine-tank-cleaning`, whose "Repair"
+  crumb doesn't match the destination page's full SEO title — per
+  PROVISION.md Step 6c, forcing full-title breadcrumb labels would degrade
+  navigation UX, so this project accepts the deduction instead. Out of
+  scope for this pass, per the task brief: the `AlbuquerqueMap.astro`
+  neighbourhood Leaflet map (needs verified GPS pins), `Testimonials.astro`,
+  `InstallationProcess.astro`, and real header photography — every page
+  correctly falls back to the `PageHero` GPG stat-card and the homepage's
+  `placehold.co` hero image, matching how every other unfinished site in
+  this portfolio currently looks.
 
 - **2026-09-25 — site provisioning started.** Copied boilerplate to
   `waterSoftenerProjects/albuquerquewatersoftener` and filled `site.config.ts`

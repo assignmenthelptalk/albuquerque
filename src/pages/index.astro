@@ -4,47 +4,63 @@ import LocalSchema from "../components/LocalSchema.astro";
 import { site } from "../lib/site";
 
 const services = [
-  { emoji: "💧", name: "Water Quality Testing", href: "/water-quality/", detail: `Free in-home hardness test for ${site.city} homes.` },
-  { emoji: "🧪", name: "Hard Water Treatment", href: "/hard-water/", detail: `Stop scale buildup on fixtures and appliances.` },
-  { emoji: "🔧", name: "Installation", href: "/installation/", detail: `Sized correctly for ${site.city}'s ${site.gpgLow}-${site.gpgHigh} GPG water.` },
-  { emoji: "🛠️", name: "Repair", href: "/repair/", detail: `Diagnosis and repair for all major softener brands.` },
-  { emoji: "⚖️", name: "System Comparison", href: "/comparison/", detail: `Salt-based vs salt-free, sized for your household.` },
+  { emoji: "💧", name: "Water Quality Testing", href: "/water-quality/", detail: `Free in-home hardness test for ${site.city} homes, such as ZIP-level and tap-level readings.`, linkText: "Albuquerque Water Quality Report: Hardness, Source & Safety" },
+  { emoji: "🧪", name: "Hard Water Treatment", href: "/hard-water/", detail: `Stops scale buildup on fixtures, appliances, and supply lines.`, linkText: "Hard Water Effects in Albuquerque: What It Does to Your Home" },
+  { emoji: "🔧", name: "Installation", href: "/installation/", detail: `Sized correctly for ${site.city}'s ${site.gpgLow}-${site.gpgHigh} GPG water from ${site.waterAuthority}.`, linkText: "Water Softener Installation in Albuquerque: Process, Timeline & Cost" },
+  { emoji: "🛠️", name: "Repair", href: "/repair/", detail: `Diagnosis and repair for all major softener brands, such as Kinetico and Culligan.`, linkText: "Water Softener Repair and Maintenance in Albuquerque" },
+  { emoji: "⚖️", name: "System Comparison", href: "/comparison/", detail: `Salt-based vs salt-free systems, sized for your household.`, linkText: "Water Softener Types Compared: Salt-Based vs. Salt-Free vs. Dual-Tank" },
+];
+
+const moreLinks = [
+  { href: "/products/", text: "Best Water Softener in Albuquerque" },
+  { href: "/resin-bed-replacement/", text: "Water Softener Resin Bed Replacement in Albuquerque" },
+  { href: "/brine-tank-cleaning/", text: "Best Brine Tank Cleaning in Albuquerque" },
+  { href: "/whole-home-filtration/", text: "Whole Home Filtration in Albuquerque" },
+  { href: "/reverse-osmosis/", text: "Reverse Osmosis Systems in Albuquerque" },
 ];
 
 const faqs = [
   {
     q: `How hard is the water in ${site.city}?`,
-    a: `${site.city} water tests at ${site.gpgLow}-${site.gpgHigh} GPG, classified as ${site.gpgLabel}. ${site.waterAuthority} delivers this ${site.waterSource} supply to every ${site.city} home.`,
+    a: `${site.city} water tests at ${site.gpgLow}-${site.gpgHigh} GPG, classified as ${site.gpgLabel}. ${site.waterAuthority} delivers this supply, such as ${site.waterSource}, to every ${site.city} home.`,
   },
   {
     q: `Do I need a water softener in ${site.city}?`,
-    a: `At ${site.gpgLow}-${site.gpgHigh} GPG, a salt-based ion exchange softener is the only system that fully removes calcium and magnesium at this hardness level.`,
+    a: `At ${site.gpgLow}-${site.gpgHigh} GPG, a salt-based ion exchange softener is the only system type that fully removes calcium and magnesium at this hardness level, unlike salt-free conditioners.`,
   },
   {
     q: `How much does water softener installation cost in ${site.city}?`,
-    a: `Cost depends on household size and grain capacity required. We provide a free no-obligation quote after a free in-home water test.`,
+    a: `Cost depends on household size and grain capacity required. Exact ${site.city} pricing is [PLACEHOLDER — confirm local price range for equipment and install]. We provide a free no-obligation quote after a free in-home water test.`,
   },
   {
     q: `How long does installation take?`,
-    a: `Most residential installations complete in a single visit of three to five hours, including testing the output before leaving.`,
+    a: `Typical installation duration for this installer is [PLACEHOLDER — confirm typical install time], such as testing the output before leaving.`,
   },
   {
     q: `Does ${site.city} water damage appliances?`,
-    a: `Yes. Scale from hard water reduces water heater efficiency and shortens the life of dishwashers and washing machines. A softener installed at the main entry point protects every appliance.`,
+    a: `Yes. Scale from hard water reduces water heater efficiency and shortens the life of dishwashers and washing machines, such as models running on ${site.city}'s ${site.gpgLow}-${site.gpgHigh} GPG supply. A softener at the main entry point protects every appliance.`,
   },
 ];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
 ---
 
 <Layout
   title={`Water Softener Installation in ${site.city}, ${site.stateAbbr}`}
-  description={`Water softener installation and repair in ${site.city}, ${site.stateAbbr}. ${site.city} water tests at ${site.gpgLow}–${site.gpgHigh} GPG — ${site.gpgLabel}. Free in-home water test available. Same day service across ${site.city} and ${site.county}.`}
+  description={`Water softener installation and repair in ${site.city}, ${site.stateAbbr}. ${site.city} water tests at ${site.gpgLow}–${site.gpgHigh} GPG — ${site.gpgLabel}, per ${site.waterAuthority}. Free in-home water test available across ${site.city} and ${site.county}.`}
 >
   <LocalSchema />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
-  <!-- 1. Hero — two-column light layout (SPSSassignment.help-style), image slot on the right.
-       A visitor arriving from a "water softener [city]" search should recognize the product
-       immediately, so this slot expects a real photo of an installed system, not an abstract
-       graphic — see watersofteneroftampa.com's hero for the reference implementation. -->
+  <!-- 1. Hero — two-column light layout -->
   <section class="hero-section">
     <div class="container hero-grid">
       <div class="hero-text">
@@ -58,10 +74,10 @@ const faqs = [
         <h1>Water Softeners of {site.city} - Premier Water Softener Installation in {site.city}, {site.stateAbbr}</h1>
 
         <p class="hero-p">
-          {site.city}, {site.stateAbbr} water tests at {site.gpgLow}-{site.gpgHigh} GPG, classified as {site.gpgLabel}.
-          {site.waterAuthority} delivers this {site.waterSource} supply to every {site.city} home, leaving calcium
-          and magnesium deposits on fixtures, appliances, and plumbing within weeks. A properly sized salt-based
-          water softener removes these minerals completely. Free in-home water test available.
+          {site.city}, {site.stateAbbr} water tests at {site.gpgLow}-{site.gpgHigh} GPG, classified as {site.gpgLabel}
+          {" "}per {site.waterAuthority}. This supply, {site.waterSource}, leaves calcium and magnesium deposits on
+          fixtures, such as water heaters and dishwashers, within weeks. A properly sized salt-based water softener
+          removes these minerals completely. Free in-home water test available.
         </p>
 
         <div class="hero-actions">
@@ -74,13 +90,13 @@ const faqs = [
               📞 Call for a Free Consultation
             </a>
           )}
-          <a href="/water-quality/" class="hero-secondary-btn">Check Your Water Hardness →</a>
+          <a href="/water-quality/" class="hero-secondary-btn" title="Albuquerque Water Quality Report: Hardness, Source & Safety">Albuquerque Water Quality Report: Hardness, Source &amp; Safety</a>
         </div>
       </div>
 
       <div class="hero-media">
         <img
-          src="https://placehold.co/700x600/EFF6FF/2563EB?text=Water+Softener+Photo"
+          src="https://placehold.co/700x600/A6521B/F5E9DE?text=Water+Softener+Photo"
           alt={`Water softener system installed in a ${site.city}, ${site.stateAbbr} home`}
           width="700"
           height="600"
@@ -98,25 +114,27 @@ const faqs = [
         providing salt-based softener installation, repair, resin bed replacement, brine tank cleaning, and
         water quality testing across {site.city} and {site.county}. {site.waterAuthority} delivers {site.gpgLow}
         –{site.gpgHigh} GPG water to every {site.city} home, classified as {site.gpgLabel} by the Water Quality
-        Association. Every system we install is sized to your confirmed GPG reading and household water usage,
-        not a statewide estimate. Free in-home water test available. No obligation.
+        Association. We size every system to your confirmed GPG reading and household water usage, not a
+        statewide estimate. Free in-home water test available. No obligation.
       </p>
     </div>
   </section>
 
-  <!-- 2. Services grid — 5 tiles -->
+  <!-- 2. Services grid — 5 tiles, non-anchor wrapper + one exact-title link per tile -->
   <section class="section">
     <div class="container">
       <div class="section-header center">
         <h2>Water Softener Services in {site.city}, {site.stateAbbr}</h2>
+        <p>Water Softeners of {site.city} covers five core services, such as testing, treatment, installation, repair, and comparison. According to {site.waterAuthority}'s own confirmed {site.gpgLow}-{site.gpgHigh} GPG reading, we size every service below to that number — see the full guide for each one.</p>
       </div>
       <div class="grid grid-services">
         {services.map((s) => (
-          <a class="service-tile" href={s.href}>
+          <div class="service-tile">
             <span class="service-tile-emoji" aria-hidden="true">{s.emoji}</span>
-            <h3>{s.name}</h3>
+            <p class="service-tile-name">{s.name}</p>
             <p>{s.detail}</p>
-          </a>
+            <a class="service-tile-link" href={s.href} title={s.linkText}>{s.linkText}</a>
+          </div>
         ))}
       </div>
     </div>
@@ -129,9 +147,12 @@ const faqs = [
         <h2>{site.city}'s Water Hardness Reading</h2>
         <p>
           According to {site.waterAuthority}, {site.city} water holds steady at {site.gpgLow}-{site.gpgHigh} GPG
-          citywide, classified as {site.gpgLabel} by the Water Quality Association. This reading comes from
-          {site.waterSource}, and it stays consistent across every neighbourhood {site.city} homes sit in,
-          including {site.neighbourhoods.slice(0, 3).join(", ")}.
+          {" "}({site.gpgLabel}) citywide. This reading comes from {site.waterSource}, and it stays consistent
+          across all {site.population} {site.city} residents of {site.county}, such as every neighbourhood
+          {" "}{site.city} homes sit in, such as {site.neighbourhoods.join(", ")} and ZIP codes
+          {" "}{site.zipCodes.join(", ")}. According to {site.waterAuthority}'s own reporting, no {site.city}
+          {" "}ZIP code tests meaningfully softer than another — see the full water quality report for your
+          neighbourhood.
         </p>
       </div>
       <div class="gpg-stat-card">
@@ -141,27 +162,29 @@ const faqs = [
     </div>
   </section>
 
-  <!-- 4. Alternating image-text 1 of 4 — text left, image right -->
+  <!-- 4. Alternating image-text 1 of 2 — text left, image right -->
   <section class="section">
     <div class="service-section-wrapper">
       <h2 class="service-section-title">Water Softener Installation in {site.city}, {site.stateAbbr}</h2>
       <div class="service-section-grid">
         <div class="service-section-text">
           <p>
-            Every installation is sized to {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG reading and your
-            household's water usage, not a statewide estimate. Most installations complete in a single visit,
-            and a free water test is included with every consultation.
+            We size every installation to {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG reading and your
+            household's water usage, not a statewide estimate, such as fixture count and peak-hour flow rate.
+            Every consultation includes a free water test. {site.waterAuthority} reports this reading holds
+            citywide, so sizing always follows your confirmed number — explore the full installation process
+            for the exact timeline.
           </p>
-          <a class="service-learn-more" href="/installation/">See Installation Details →</a>
+          <a class="service-learn-more" href="/installation/">Water Softener Installation in Albuquerque: Process, Timeline &amp; Cost</a>
         </div>
         <div class="service-section-media">
-          <img src="https://placehold.co/600x400/0F6E78/ffffff?text=Installation" alt={`Water softener installation in ${site.city}, ${site.stateAbbr}`} width="600" height="400" loading="lazy" />
+          <img src="https://placehold.co/600x400/A6521B/ffffff?text=Installation" alt={`Water softener installation in ${site.city}, ${site.stateAbbr}`} width="600" height="400" loading="lazy" />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 5. Alternating image-text 2 of 4 — image left, text right -->
+  <!-- 5. Alternating image-text 2 of 2 — image left, text right -->
   <section class="section" style="background: var(--color-surface);">
     <div class="service-section-wrapper">
       <h2 class="service-section-title">Hard Water Effects in {site.city}, {site.stateAbbr}</h2>
@@ -169,20 +192,21 @@ const faqs = [
         <div class="service-section-text">
           <p>
             At {site.gpgLow}-{site.gpgHigh} GPG, hard water leaves calcium and magnesium deposits on fixtures,
-            inside appliances, and inside supply lines within weeks. A whole-home softener stops this at the
-            source rather than treating the symptoms one fixture at a time.
+            inside appliances, and inside supply lines within weeks, such as water heaters and dishwashers. A
+            whole-home softener stops this at the source rather than treating the symptoms one fixture at a
+            time. {site.waterAuthority} data shows this pattern repeats in every {site.city} home on the same
+            supply — learn more about the specific effects room by room.
           </p>
-          <a class="service-learn-more" href="/hard-water/">See Hard Water Effects →</a>
+          <a class="service-learn-more" href="/hard-water/">Hard Water Effects in Albuquerque: What It Does to Your Home</a>
         </div>
         <div class="service-section-media">
-          <img src="https://placehold.co/600x400/0A2E33/ffffff?text=Hard+Water" alt={`Hard water effects in ${site.city}, ${site.stateAbbr}`} width="600" height="400" loading="lazy" />
+          <img src="https://placehold.co/600x400/2C9C9A/ffffff?text=Hard+Water" alt={`Hard water effects in ${site.city}, ${site.stateAbbr}`} width="600" height="400" loading="lazy" />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 6. CityMap placeholder — see PROVISION.md Step 5b -->
-  <!-- CityMap component — see PROVISION.md Step 5b -->
+  <!-- 6. CityMap placeholder — see PROVISION.md Step 5b, out of scope this pass -->
   {import.meta.env.DEV && (
     <div class="map-placeholder">
       City neighbourhood map goes here. Build {site.city}Map.astro per PROVISION.md Step 5b
@@ -212,26 +236,43 @@ const faqs = [
     </section>
   )}
 
-  <!-- 8. Why Choose Us — bullet list, no cards -->
-  <section class="section" style="background: var(--color-surface);">
-    <div class="container why-choose-us">
-      <h2>Why {site.city} Homeowners Choose Us</h2>
-      <ul class="why-choose-list">
-        <li>Sized specifically for {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG water, not a generic estimate</li>
-        <li>Free in-home water hardness test with every consultation</li>
-        <li>Honest recommendation — repair, replace, or install, based on your actual system and water</li>
-        <li>No obligation, no sales pressure, pricing confirmed before any work begins</li>
-        <li>Local service across {site.city} and {site.county}</li>
+  <!-- 8. More resources — remaining homepage brief anchors -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header center">
+        <h2>More {site.city} Water Softener Resources</h2>
+        <p>Five more guides cover products, resin, brine, and filtration, such as the reverse osmosis page below. {site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG figure behind every one of them — explore whichever fits your question.</p>
+      </div>
+      <ul class="more-links-list">
+        {moreLinks.map((link) => (
+          <li><a href={link.href}>{link.text}</a></li>
+        ))}
       </ul>
     </div>
   </section>
 
-  <!-- 9. FAQ accordion — details/summary, no JavaScript -->
+  <!-- 9. Why Choose Us — bullet list, no cards -->
+  <section class="section" style="background: var(--color-surface);">
+    <div class="container why-choose-us">
+      <h2>Why {site.city} Homeowners Choose Us</h2>
+      <p>{site.city} homeowners choose us for five specific reasons, covering sizing, testing, and honesty.</p>
+      <ul class="why-choose-list">
+        <li>Sized specifically for {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG water, not a generic estimate</li>
+        <li>Free in-home water hardness test with every consultation</li>
+        <li>Honest recommendation — repair, replace, or install, based on your actual system and water</li>
+        <li>Upfront pricing confirmed before any work begins</li>
+        <li>Local service across {site.city} and {site.county}</li>
+      </ul>
+      <p>{site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG reading applies across every service call — get a free quote to see it applied to your address.</p>
+    </div>
+  </section>
+
+  <!-- 10. FAQ accordion — details/summary, no JavaScript -->
   <section class="homepage-faq-section">
     <div class="homepage-faq-inner">
       <div class="homepage-faq-header">
         <h2>Water Softener Questions, Answered</h2>
-        <p>Common questions from {site.city} homeowners about hard water and water softener installation.</p>
+        <p>{site.waterAuthority} reports the {site.gpgLow}-{site.gpgHigh} GPG figure behind these answers. Common questions from {site.city} homeowners about hard water and water softener installation.</p>
       </div>
 
       <div class="homepage-faq-list">
@@ -244,18 +285,18 @@ const faqs = [
       </div>
 
       <div class="faq-footer-link">
-        <a href="/faq/">See all FAQs →</a>
+        <a href="/faq/">Water Softener FAQs for Albuquerque Homeowners</a>
       </div>
     </div>
   </section>
 
-  <!-- 10. Slim CTA bar -->
+  <!-- 11. Slim CTA bar -->
   <section class="homepage-cta-bar">
     <div class="homepage-cta-bar-inner">
       <p>
-        {site.city} water tests at {site.gpgLow}-{site.gpgHigh} GPG. Free in-home water test available.
+        {site.city} water tests at {site.gpgLow}-{site.gpgHigh} GPG. Get a free quote today.
       </p>
-      <a href="/contact/" class="cta-bar-btn">Get a Free Quote →</a>
+      <a href="/quote/" class="cta-bar-btn">Get a Free Water Softener Quote in Albuquerque</a>
     </div>
   </section>
 
@@ -324,6 +365,7 @@ const faqs = [
     .hero-secondary-btn {
       display: inline-flex;
       align-items: center;
+      max-width: 320px;
       padding: 14px 24px;
       border: 1.5px solid var(--color-border);
       border-radius: var(--radius-brand);
@@ -331,7 +373,8 @@ const faqs = [
       color: var(--color-text);
       font-family: var(--font-body);
       font-weight: 600;
-      font-size: 15px;
+      font-size: 13px;
+      line-height: 1.3;
       text-decoration: none;
       transition: background-color 150ms ease, border-color 150ms ease;
     }
@@ -359,14 +402,26 @@ const faqs = [
       background: var(--surface-elevated);
       border: 1px solid var(--color-border);
       border-radius: var(--radius-lg);
-      text-decoration: none;
       transition: border-color 150ms ease, transform 150ms ease, box-shadow 150ms ease;
     }
     .service-tile:hover { border-color: var(--color-primary); transform: translateY(-2px); box-shadow: var(--shadow-card); }
-    .service-tile:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
     .service-tile-emoji { font-size: 28px; }
-    .service-tile h3 { color: var(--surface-footer); margin: 0; }
+    .service-tile-name { font-family: var(--font-heading); color: var(--surface-footer); margin: 0; font-size: 1.1rem; }
     .service-tile p { font-size: 14px; color: var(--color-text-muted); margin: 0; }
+    .service-tile-link {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-accent);
+      text-decoration: none;
+      margin-top: 4px;
+    }
+    .service-tile-link:hover { text-decoration: underline; }
+    .service-tile-link:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
 
     /* ---------- 3. GPG data ---------- */
     .gpg-data-grid {
@@ -511,7 +566,35 @@ const faqs = [
     .sa-card-city { font-family: var(--font-heading); font-size: 18px; color: var(--surface-footer); }
     .sa-card-detail { font-family: var(--font-body); font-size: 12px; color: var(--color-text-muted); }
 
-    /* ---------- 8. Why Choose Us — bullet list, no cards ---------- */
+    /* ---------- 8. More resources ---------- */
+    .more-links-list {
+      max-width: 720px;
+      margin: 32px auto 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .more-links-list li { border-bottom: 1px solid var(--color-border); }
+    .more-links-list li:last-child { border-bottom: none; }
+    .more-links-list a {
+      display: block;
+      padding: 14px 20px;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--color-primary);
+      text-decoration: none;
+      transition: background-color 150ms ease, color 150ms ease;
+    }
+    .more-links-list a:hover { background: var(--color-primary-light); color: var(--color-accent); }
+    .more-links-list a:focus-visible { outline: 3px solid var(--color-primary); outline-offset: -3px; }
+
+    /* ---------- 9. Why Choose Us — bullet list, no cards ---------- */
     .why-choose-us { max-width: 760px; }
     .why-choose-us h2 { text-align: center; margin-bottom: 24px; }
     .why-choose-list {
@@ -539,7 +622,7 @@ const faqs = [
       font-weight: 700;
     }
 
-    /* ---------- 9. FAQ accordion ---------- */
+    /* ---------- 10. FAQ accordion ---------- */
     .homepage-faq-section { padding: 72px 24px; background: var(--surface-elevated); }
     .homepage-faq-inner { max-width: 860px; margin: 0 auto; }
     .homepage-faq-header { text-align: center; margin-bottom: 40px; }
@@ -611,7 +694,7 @@ const faqs = [
     .faq-footer-link a:hover { color: var(--color-primary); text-decoration: underline; }
     .faq-footer-link a:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 2px; }
 
-    /* ---------- 10. Slim CTA bar ---------- */
+    /* ---------- 11. Slim CTA bar ---------- */
     .homepage-cta-bar { background: var(--surface-footer); padding: 28px 24px; }
     .homepage-cta-bar-inner {
       max-width: 860px;

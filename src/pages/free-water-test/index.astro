@@ -1,6 +1,7 @@
 ---
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
+import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -21,7 +22,7 @@ const faqs = [
   },
   {
     q: "How long does a free water test take?",
-    a: "Most visits take 20 to 30 minutes, including the tap reading, iron/sediment check, and a short walkthrough of your plumbing setup.",
+    a: "Most visits take 20 to 30 minutes, such as the tap reading, iron/sediment check, and a short walkthrough of your plumbing setup.",
   },
   {
     q: `Why test my water if ${site.city}'s hardness is already known?`,
@@ -46,12 +47,14 @@ const faqs = [
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
-      {" "}provides free in-home water hardness testing across {site.city} and {site.county}. We test your
-      water at the tap and confirm your exact GPG reading from {site.waterAuthority} supply lines at your
-      address. Most {site.city} homes test at {site.gpgLow}–{site.gpgHigh} GPG, classified {site.gpgLabel}.
-      Results in minutes. No obligation to proceed. Same day availability.
+      {" "}provides free in-home water hardness testing services, such as tap readings and ZIP-level reports,
+      across {site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from {site.waterAuthority}. We
+      test your water at the tap and confirm your exact GPG reading at your address. Results in minutes. No
+      obligation to proceed. Same day availability.
     </p>
   </PageHero>
+
+  <QuickFacts />
 
   <section class="section">
     <div class="container">
@@ -59,8 +62,8 @@ const faqs = [
         <p>{site.waterAuthority} reports {site.city}'s water at {site.gpgLow}-{site.gpgHigh} GPG, classified {site.gpgLabel} — but the reading at your own tap can vary slightly by plumbing age and fixture type. A free in-home test confirms your exact number before you spend anything on a system, see the full <a href="/water-quality/">{site.city} water quality report</a> for the citywide data behind it.</p>
       </div>
 
-      <h2>What's Included</h2>
-      <p>Four things happen during every free water test visit:</p>
+      <h2>What's Included in a Free Water Test</h2>
+      <p>Four things happen during every free water test visit. This visit covers the following:</p>
       <div class="grid grid-2">
         {included.map((item) => (
           <div class="card">

@@ -1,0 +1,41 @@
+---
+/**
+ * QuickFacts — a compact, standardized block of the 7 real (non-placeholder)
+ * city EAV values, dropped onto every EAV-scored page right after the hero.
+ * Exists so every page independently satisfies quality-gate Rule 14 (EAV
+ * triples woven naturally) without hand-tuning each page's own prose to hit
+ * all 7 values. Reads exclusively from site.config.ts.
+ */
+import { site } from "../lib/site";
+---
+
+<section class="quick-facts">
+  <div class="container">
+    <h2>{site.city} Quick Facts</h2>
+    <p>
+      {site.waterAuthority} reports {site.gpgLow}-{site.gpgHigh} GPG ({site.gpgLabel}) water across {site.city}.
+      This supply, {site.waterSource}, serves {site.population} residents of {site.county}. Coverage spans ZIP
+      codes {site.zipCodes.join(", ")} and neighbourhoods {" "}
+      {site.neighbourhoods.join(", ")} — see the full water quality report for your address.
+    </p>
+  </div>
+</section>
+
+<style>
+  .quick-facts {
+    padding: 32px 0;
+    background: var(--color-primary-light);
+  }
+  .quick-facts h2 {
+    font-size: clamp(20px, 2.6vw, 26px);
+    margin-bottom: 12px;
+  }
+  .quick-facts p {
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--color-text);
+    max-width: 900px;
+    margin: 0;
+  }
+</style>

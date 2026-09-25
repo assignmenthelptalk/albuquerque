@@ -1,6 +1,7 @@
 ---
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
+import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -9,12 +10,12 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
 
 const faqs = [
   {
-    q: "When should a water softener be planned during new construction?",
+    q: "When does a water softener need planning during new construction?",
     a: "Before drywall goes up. The rough-in stage is when a dedicated loop, drain line, and outlet can be added without cutting into finished walls later.",
   },
   {
     q: "Does the builder or the homeowner arrange this?",
-    a: `Either can. Some ${site.city} builders include a pre-plumbed loop as a standard option; if yours doesn't, we coordinate directly with your builder or GC on rough-in timing.`,
+    a: `Either can. If your builder doesn't already include a pre-plumbed loop as a standard option, we coordinate directly with your builder or GC on rough-in timing.`,
   },
   {
     q: "Can a softener be added after the home is built instead?",
@@ -35,13 +36,16 @@ const faqs = [
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
-      {" "}offers water softener installation for new construction homes across {site.city} and {site.county}.
-      New {site.city} builds receive {site.gpgLow}–{site.gpgHigh} GPG water from {site.waterAuthority} from
-      day one. Installing a softener during construction is the cleanest and most cost-effective point, since
-      plumbing rough-in is already exposed. Free consultation available for builders and homeowners. Same day
-      service across {site.county}.
+      {" "}offers water softener installation services for new construction homes, such as rough-in loop
+      planning, across {site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from
+      {" "}{site.waterAuthority}. New {site.city} builds receive this supply from day one. Installing a
+      softener during construction is the cleanest and most cost-effective point, since plumbing rough-in is
+      already exposed. Free consultation available for builders and homeowners. Same day service across
+      {" "}{site.county}.
     </p>
   </PageHero>
+
+  <QuickFacts />
 
   <section class="section">
     <div class="container">

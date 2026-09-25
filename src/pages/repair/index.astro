@@ -1,6 +1,7 @@
 ---
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
+import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -8,53 +9,20 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
   : { href: "/contact/", text: "📞 Call for a Free Consultation" };
 
 const problems = [
-  {
-    name: "Salt Bridge",
-    detail: "Salt crystals fuse into a solid bridge in the brine tank, preventing regeneration. Water passes through hard even though the tank looks full.",
-  },
-  {
-    name: "Resin Bead Failure",
-    detail: "Resin beads exhaust over time. Symptoms include hard water despite regeneration and resin beads appearing in tap water.",
-  },
-  {
-    name: "Control Valve Fault",
-    detail: "The control valve manages regeneration cycles. A faulty valve causes the softener to regenerate continuously, not at all, or at wrong intervals.",
-  },
-  {
-    name: "Brine Tank Issues",
-    detail: "Overfilling, underfilling, or dirty brine tanks reduce regeneration effectiveness and waste salt.",
-  },
-  {
-    name: "Low Water Pressure",
-    detail: "Scale buildup inside supply lines narrows the pipe bore over time, reducing flow rate to fixtures throughout the home.",
-  },
-  {
-    name: "System Not Softening",
-    detail: "If water tests hard despite the softener running, the system needs immediate diagnosis. Causes include a bypass valve left open, exhausted resin, or programming errors.",
-  },
+  { name: "Salt Bridge", detail: "Salt crystals fuse into a solid bridge in the brine tank, preventing regeneration. Water passes through hard even though the tank looks full." },
+  { name: "Resin Bead Failure", detail: "Resin beads exhaust over time. Symptoms include hard water despite regeneration and resin beads appearing in tap water." },
+  { name: "Control Valve Fault", detail: "The control valve manages regeneration cycles. A faulty valve causes the softener to regenerate continuously, not at all, or at irregular intervals." },
+  { name: "Brine Tank Issues", detail: "Overfilling, underfilling, or dirty brine tanks reduce regeneration effectiveness and waste salt." },
+  { name: "Low Water Pressure", detail: "Scale buildup inside supply lines narrows the pipe bore over time, reducing flow rate to fixtures throughout the home." },
+  { name: "System Not Softening", detail: "Water testing hard despite the softener running needs immediate diagnosis, such as a bypass valve left open, exhausted resin, or a programming error." },
 ];
 
 const faqs = [
-  {
-    q: "How do I know if my water softener needs repair?",
-    a: "Signs include hard water symptoms returning, salt not being consumed, the brine tank overfilling or not draining, or the unit making unusual noises during regeneration.",
-  },
-  {
-    q: `How much does water softener repair cost in ${site.city}?`,
-    a: "Cost depends on the fault, from a simple reset or salt bridge clearing to control valve replacement or resin replacement. We provide a free diagnostic and a written quote before any work begins.",
-  },
-  {
-    q: "Is it better to repair or replace a water softener?",
-    a: "Systems under 10 years old are almost always worth repairing. Older systems are often better replaced, especially when the control valve is also aging. We give an honest recommendation after diagnosis.",
-  },
-  {
-    q: "How long does water softener repair take?",
-    a: "Most common repairs are completed same-visit. Resin replacement and major valve work typically take 1 to 2 days.",
-  },
-  {
-    q: "Do you repair all water softener brands?",
-    a: `Yes. Repairs cover all major residential water softener brands in ${site.city}, including Kinetico, Culligan, EcoWater, Morton, GE, and Whirlpool. Brand does not affect the diagnostic or repair process.`,
-  },
+  { q: "How do I know if my water softener needs repair?", a: "Signs include hard water symptoms returning, salt not being consumed, the brine tank overfilling or not draining, or the unit making unusual noises during regeneration." },
+  { q: `How much does water softener repair cost in ${site.city}?`, a: "Cost depends on the fault, from a simple reset or salt bridge clearing to control valve replacement or resin replacement. Actual price range is [PLACEHOLDER — confirm local price range for repairs]. We provide a free diagnostic and a written quote before any work begins." },
+  { q: "Is it better to repair or replace a water softener?", a: "Equipment under 10 years old, such as a resin tank or brine tank, is almost always worth repairing. An older system is often better replaced, especially when the control valve is also aging. We give an honest recommendation after diagnosis." },
+  { q: "How long does water softener repair take?", a: "Typical repair duration for this installer is [PLACEHOLDER — confirm typical repair time], depending on the fault found during diagnosis." },
+  { q: "Do you repair all water softener brands?", a: `Yes. Repairs cover all major residential water softener brands in ${site.city}, such as Kinetico, Culligan, and EcoWater. Brand does not affect the diagnostic or repair process.` },
 ];
 ---
 
@@ -66,33 +34,36 @@ const faqs = [
     breadcrumbs={[{ label: "Repair" }]}
     heading={`Water Softener Repair in ${site.city}, ${site.stateAbbr} | Trusted Local Specialists`}
     primaryCta={primaryCta}
-    secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
+    secondaryCta={{ href: "/quote/", text: "Get a Free Water Softener Quote in Albuquerque" }}
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
-      {" "}offers water softener repair and maintenance services across {site.city} and {site.county}. We
-      diagnose and repair all major water softener brands, including Kinetico, Culligan, EcoWater, Morton, GE,
-      and Whirlpool. Free diagnostic included with every repair call. Same day service available across
-      {site.city} and {site.county}. Written repair quote before any work begins. No surprise charges.
+      {" "}offers water softener repair services, such as salt bridge clearing, resin replacement, and control
+      valve repair, for {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG water from {site.waterAuthority}, across
+      {" "}{site.city} and {site.county}. We diagnose and repair all major water softener brands, such as
+      Kinetico, Culligan, EcoWater, Morton, GE, and Whirlpool. Free diagnostic included with every repair call.
+      Same day service available. Written repair quote before any work begins. No surprise charges.
     </p>
   </PageHero>
+
+  <QuickFacts />
 
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <p>Fast local diagnosis and repair for all major softener brands. Free diagnostic with every repair call.</p>
+        <p>We provide fast local diagnosis and repair for all major softener brands, such as Kinetico and Culligan, backed by a free diagnostic with every repair call.</p>
       </div>
 
-      <h2>Common Water Softener Problems</h2>
+      <h2>Why Water Softener Problems Happen in {site.city}</h2>
+      <p>{site.waterAuthority} reports {site.gpgLow}-{site.gpgHigh} GPG water works softener components harder than in softer-water cities. This causes the six faults below. If a control valve is the culprit, see our <a href="/control-head-repair/">Water Softener Control Head Repair in Albuquerque</a> guide.</p>
       <div class="grid grid-3">
         {problems.map((p) => (
           <div class="card">
-            <h3>{p.name}</h3>
+            <p class="card-title">{p.name}</p>
             <p>{p.detail}</p>
           </div>
         ))}
       </div>
-      <p>If you already know a Control Valve Fault is the issue, jump straight to our <a href="/control-head-repair/">control head repair page</a> — otherwise see how we diagnose each of these below.</p>
     </div>
   </section>
 
@@ -100,22 +71,23 @@ const faqs = [
     <div class="container">
       <div class="section-header center">
         <h2>How We Diagnose Water Softener Problems</h2>
+        <p>{site.waterAuthority} reports the same figure behind every diagnostic against {site.city}'s real {site.gpgLow}-{site.gpgHigh} GPG reading, following three steps.</p>
       </div>
       <div class="grid grid-3">
         <div class="process-step">
           <span class="process-number">1</span>
-          <h3>Free In-Home Diagnostic</h3>
-          <p>We test your water at the tap and at the softener output to confirm whether the unit is softening, and inspect the brine tank, resin tank, control valve, and bypass valve.</p>
+          <p class="card-title">Free In-Home Diagnostic</p>
+          <p>We test your water at the tap and at the softener output to confirm whether the unit removes the {site.gpgLow}-{site.gpgHigh} GPG hardness, and inspect the brine tank, resin tank, control valve, and bypass valve.</p>
         </div>
         <div class="process-step">
           <span class="process-number">2</span>
-          <h3>Diagnosis and Quote</h3>
+          <p class="card-title">Diagnosis and Quote</p>
           <p>After inspection we identify the fault and provide a written quote before any repair work begins, with an honest recommendation based on system age and fault type.</p>
         </div>
         <div class="process-step">
           <span class="process-number">3</span>
-          <h3>Same-Day Repair Where Possible</h3>
-          <p>Most common repairs are completed same-visit. Resin replacement and major valve repairs are typically completed within 48 hours of diagnosis.</p>
+          <p class="card-title">Repair Where Possible</p>
+          <p>Same day availability for most common repairs, such as salt bridge clearing and reprogramming. See our <a href="/resin-bed-replacement/">Water Softener Resin Bed Replacement in Albuquerque</a> page for resin-specific timing.</p>
         </div>
       </div>
     </div>
@@ -125,7 +97,7 @@ const faqs = [
     <div class="container">
       <div class="section-header">
         <h2>Water Softener Maintenance in {site.city}</h2>
-        <p>At {site.gpgLow}-{site.gpgHigh} GPG, {site.city} softeners work harder than systems in softer-water cities. Annual maintenance extends system life significantly. A maintenance visit includes brine tank cleaning, resin bed inspection, salt check, regeneration cycle verification, and a water hardness test to confirm the system is removing minerals effectively.</p>
+        <p>At {site.gpgLow}-{site.gpgHigh} GPG, {site.city} softeners, such as salt-based and combo models, work harder than equipment in softer-water cities. Salt refill and service interval for the equipment actually installed is [PLACEHOLDER — confirm maintenance frequency]. A maintenance visit includes <a href="/brine-tank-cleaning/">Best Brine Tank Cleaning in Albuquerque</a>, resin bed inspection, salt check, and a water hardness test to confirm the system removes minerals effectively — contact us to schedule your visit.</p>
       </div>
     </div>
   </section>
@@ -134,6 +106,7 @@ const faqs = [
     <div class="container">
       <div class="section-header center">
         <h2>Water Softener Repair Questions</h2>
+        <p>{site.waterAuthority} reports the same figure behind every answer below in {site.city}'s real {site.gpgLow}-{site.gpgHigh} GPG hardness reading.</p>
       </div>
       <div class="faq-list">
         {faqs.map((item) => (
@@ -154,8 +127,8 @@ const faqs = [
   <section class="section section-dark">
     <div class="container final-cta">
       <h2>Water Softener Not Working in {site.city}?</h2>
-      <p>Free in-home diagnostic with every repair call.</p>
-      <a class="btn btn-primary" href="/contact/">Book a Repair Call →</a>
+      <p>{site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG figure behind every repair call — get a free in-home diagnostic today.</p>
+      <a class="btn btn-primary" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
     </div>
   </section>
 
@@ -174,7 +147,8 @@ const faqs = [
       font-size: 1.125rem;
       margin-bottom: 14px;
     }
-    .process-step h3 { margin-bottom: 8px; }
+    .card-title { font-family: var(--font-heading); font-size: 1.1rem; color: var(--surface-footer); margin: 0 0 8px; }
+    .process-step .card-title { margin-bottom: 8px; }
     .faq-list { max-width: 760px; margin: 24px auto 0; }
     .final-cta { text-align: center; }
     .final-cta p { max-width: 48ch; margin: 0 auto 24px; }

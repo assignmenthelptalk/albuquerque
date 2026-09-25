@@ -1,6 +1,7 @@
 ---
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
+import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -8,47 +9,37 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
   : { href: "/contact/", text: "📞 Call for a Free Consultation" };
 
 const faqs = [
-  {
-    q: "How much does whole home filtration cost?",
-    a: "Whole home filtration typically adds a few hundred dollars on top of a standalone softener, depending on the filtration stage and household plumbing. Request a free quote for an exact number sized to your home.",
-  },
-  {
-    q: "What is the best whole home filtration system for hard water?",
-    a: "The best fit is a combo unit sized for your local GPG hardness and rated for the specific contaminants in your water supply — not just a generic best-seller list. Check the manufacturer's capacity and certification specs before buying.",
-  },
-  {
-    q: "Does whole home filtration remove chlorine and sediment, not just hardness?",
-    a: "Yes. A plain softener removes calcium and magnesium only. A whole-home filtration system adds a carbon-based filtration stage at the same install point to also address taste, odor, and particulates.",
-  },
-  {
-    q: "Can I add whole home filtration to an existing softener?",
-    a: "Yes, a retrofit is possible, though a single combo unit installed at your home's original point of entry is more common and simpler to maintain than adding a second, separate unit.",
-  },
+  { q: "How much does whole home filtration cost?", a: "Actual price range for whole home filtration on top of a standalone softener is [PLACEHOLDER — confirm local price range for whole home filtration], depending on the filtration stage and household plumbing." },
+  { q: "What is the best whole home filtration system for hard water?", a: "The best fit is a combo unit sized for your local GPG hardness and rated for the specific contaminants in your water supply — not just a generic best-seller list. Check the manufacturer's capacity and certification specs before buying." },
+  { q: "Does whole home filtration remove chlorine and sediment, not just hardness?", a: "Yes. A plain softener removes calcium and magnesium only. A whole-home filtration system adds a carbon-based filtration stage at the same install point to also address taste, odor, and particulates." },
+  { q: "Can I add whole home filtration to an existing softener?", a: "Yes, a retrofit is possible, though a single combo unit installed at your home's original point of entry is more common and simpler to maintain than adding a second, separate unit." },
 ];
 ---
 
 <Layout
   title={`Whole Home Filtration in ${site.city}, ${site.stateAbbr}`}
-  description={`Whole-home water filtration for ${site.city}: what it removes, cost, and how to get one installed.`}
+  description={`Whole-home water filtration for ${site.city}: what it removes and how to get one installed, sized for ${site.gpgLow}-${site.gpgHigh} GPG.`}
 >
   <PageHero
     breadcrumbs={[{ label: "Whole Home Filtration" }]}
     heading={`Whole Home Filtration in ${site.city}, ${site.stateAbbr} | Trusted Local Specialists`}
     primaryCta={primaryCta}
-    secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
+    secondaryCta={{ href: "/quote/", text: "Get a Free Water Softener Quote in Albuquerque" }}
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
-      {" "}offers whole home filtration installation and service across {site.city} and {site.county}. A
+      {" "}offers whole home filtration installation services, such as carbon-filter and combo systems, across
+      {" "}{site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from {site.waterAuthority}. A
       softener plus whole-home carbon filter combination addresses both hardness minerals and chlorine,
-      sediment, and other contaminants from {site.waterAuthority} supply water. One system, one installation
+      sediment, and other contaminants from {site.waterSource} supply water. One system, one installation
       point, one maintenance schedule. Free consultation included. Same day service available.
     </p>
   </PageHero>
 
+  <QuickFacts />
+
   <section class="section">
     <div class="container">
-
       <div class="section-header">
         <p>A whole-home filtration system adds a carbon-based filtration stage to a standard water softener, treating chlorine, sediment, and other contaminants that hardness removal alone leaves behind. At {site.gpgLow}-{site.gpgHigh} GPG, a combo unit is the only single-install option that addresses both the hardness and the taste-and-clarity side of a {site.city} home's water supply at once.</p>
       </div>
@@ -56,17 +47,17 @@ const faqs = [
       <div class="grid grid-2">
         <div class="card card-featured">
           <span class="badge">Recommended</span>
-          <h3>Softener + Whole-Home Filter Combo</h3>
+          <p class="card-title">Softener + Whole-Home Filter Combo</p>
           <p>Pairs hardness removal with whole-home filtration for chlorine, sediment, and other contaminants carried through {site.waterAuthority}'s {site.waterSource} supply.</p>
           <ul class="feature-list">
-            <li>Everything a standalone softener includes, plus filtration</li>
+            <li>All standalone softener features, plus filtration</li>
             <li>Removes chlorine taste and odor at every tap</li>
             <li>One system, one installation, one warranty</li>
             <li>Sized to {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG hardness</li>
           </ul>
           <div class="card-ctas">
             <a class="btn btn-primary btn-sm" href={site.affiliateCombo} target="_blank" rel="noopener noreferrer sponsored">Check Price &amp; Availability</a>
-            <a class="card-secondary-cta" href="/quote/">Get a Free Consultation →</a>
+            <a class="card-secondary-cta" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
           </div>
         </div>
       </div>
@@ -78,7 +69,7 @@ const faqs = [
     <div class="container">
       <div class="section-header">
         <h2>Whole Home Filtration Cost</h2>
-        <p>Whole home filtration costs more than a standalone softener because of the added filtration stage, scaling with household size and plumbing layout. Request a free quote for the exact number — no fixed price without seeing the household first.</p>
+        <p>Whole home filtration costs more than a standalone softener because of the added filtration stage. Actual price range is [PLACEHOLDER — confirm local price range for whole home filtration] — request a free quote sized to your household and plumbing layout.</p>
       </div>
     </div>
   </section>
@@ -87,7 +78,7 @@ const faqs = [
     <div class="container">
       <div class="section-header">
         <h2>Do You Need a Combo System, or Is a Softener Alone Enough?</h2>
-        <p>If hardness is your only concern, a standalone softener handles it on its own. If chlorine taste, odor, or sediment also bother you, a combo system treats both from a single install point. Explore our <a href="/products/">full system comparison</a> to see which fits your home.</p>
+        <p>If hardness is your only concern, a standalone softener handles it on its own. Compared to a standalone softener, a combo system also treats chlorine taste, odor, and sediment from a single install point. Explore our <a href="/products/">Best Water Softener in Albuquerque</a> page to see which fits your home.</p>
       </div>
     </div>
   </section>
@@ -96,6 +87,7 @@ const faqs = [
     <div class="container">
       <div class="section-header center">
         <h2>Whole Home Filtration Questions</h2>
+        <p>{site.waterAuthority} reports the {site.gpgLow}-{site.gpgHigh} GPG figure behind every answer below.</p>
       </div>
       <div class="faq-list">
         {faqs.map((item) => (
@@ -117,11 +109,12 @@ const faqs = [
     <div class="container final-cta">
       <h2>Ready for Whole Home Filtration in {site.city}?</h2>
       <p>Check price and availability, or request a free consultation to size the right system for your home.</p>
-      <a class="btn btn-primary" href="/quote/">Get a Free Consultation →</a>
+      <a class="btn btn-primary" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
     </div>
   </section>
 
   <style>
+    .card-title { font-family: var(--font-heading); font-size: 1.1rem; color: var(--surface-footer); margin: 0 0 8px; }
     .card-featured { position: relative; border: 1.5px solid var(--color-accent); }
     .card-featured .badge {
       position: absolute;

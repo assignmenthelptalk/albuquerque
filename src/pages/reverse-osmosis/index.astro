@@ -1,6 +1,7 @@
 ---
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
+import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -8,57 +9,46 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
   : { href: "/contact/", text: "📞 Call for a Free Consultation" };
 
 const faqs = [
-  {
-    q: "What is the price of a reverse osmosis system?",
-    a: "Reverse osmosis systems typically run a few hundred dollars installed, depending on membrane stage count. Request a free quote for an exact price sized to your home.",
-  },
-  {
-    q: "What is the best reverse osmosis system for hard water?",
-    a: "The best RO system pairs a certified contaminant-removal rating with upstream softening, since unsoftened hard water scales and shortens membrane life. Check the manufacturer's stage count and certification before buying.",
-  },
-  {
-    q: "Do I still need reverse osmosis if I already have a water softener?",
-    a: "Yes, if drinking-water purity is the goal. A softener removes hardness minerals only. Reverse osmosis removes dissolved solids, nitrates, and chlorine byproducts a softener leaves behind, delivered through a dedicated drinking-water tap.",
-  },
-  {
-    q: "How often does an RO membrane need to be replaced?",
-    a: "Membrane and pre-filter replacement follows a manufacturer-set schedule, typically annually for pre-filters and every 2 to 3 years for the membrane itself.",
-  },
+  { q: "What is the price of a reverse osmosis system?", a: `Actual price range for a reverse osmosis system installed is [PLACEHOLDER — confirm local price range for reverse osmosis], depending on membrane stage count and ${site.city}'s ${site.gpgLow}-${site.gpgHigh} GPG supply.` },
+  { q: "What is the best reverse osmosis system for hard water?", a: "The best RO system pairs a certified contaminant-removal rating with upstream softening, since unsoftened hard water scales and shortens membrane life. Check the manufacturer's stage count and certification before buying." },
+  { q: "Do I still need reverse osmosis if I already have a water softener?", a: "Yes, if drinking-water purity is the goal. A softener removes hardness minerals only. Reverse osmosis removes dissolved solids, nitrates, and chlorine byproducts a softener leaves behind, delivered through a dedicated drinking-water tap." },
+  { q: "How often does an RO membrane need to be replaced?", a: "Membrane and pre-filter replacement interval for the equipment actually installed is [PLACEHOLDER — confirm maintenance frequency], following a manufacturer-set schedule." },
 ];
 ---
 
 <Layout
   title={`Reverse Osmosis Systems in ${site.city}, ${site.stateAbbr}`}
-  description={`Best reverse osmosis systems for ${site.city}: what RO removes, price, and how installation works.`}
+  description={`Reverse osmosis systems for ${site.city}: what RO removes and how installation works, paired with ${site.gpgLow}-${site.gpgHigh} GPG softening.`}
 >
   <PageHero
     breadcrumbs={[{ label: "Reverse Osmosis" }]}
     heading={`Reverse Osmosis Systems in ${site.city}, ${site.stateAbbr} | Trusted Local Specialists`}
     primaryCta={primaryCta}
-    secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
+    secondaryCta={{ href: "/quote/", text: "Get a Free Water Softener Quote in Albuquerque" }}
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
-      {" "}offers reverse osmosis system installation and service across {site.city} and {site.county}. An
-      under-sink RO system removes up to 99 percent of dissolved solids from {site.waterAuthority} supply
-      water, including residual minerals, nitrates, chlorine byproducts, and other contaminants. Works best
-      paired with a whole-home softener that protects the RO membrane from scale damage at {site.gpgLow}
-      –{site.gpgHigh} GPG.
+      {" "}offers reverse osmosis system installation services, such as under-sink RO units and membrane
+      service, across {site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from
+      {" "}{site.waterAuthority}. An under-sink RO system removes up to 99 percent of dissolved solids from
+      this supply water, such as residual minerals, nitrates, and chlorine byproducts. Works best paired
+      with a whole-home softener that protects the RO membrane from scale damage.
     </p>
   </PageHero>
 
+  <QuickFacts />
+
   <section class="section">
     <div class="container">
-
       <div class="section-header">
-        <p>Reverse osmosis removes up to roughly 99 percent of dissolved solids from tap water, including residual minerals, nitrates, and chlorine byproducts that pass through standard filtration and softening. Unlike a softener or whole-home filter, RO is a point-of-use system, typically installed under the kitchen sink, producing a dedicated purified drinking-water tap.</p>
+        <p>Reverse osmosis removes up to roughly 99% of dissolved solids from tap water, such as residual minerals, nitrates, and chlorine byproducts that pass through standard filtration and softening. Unlike a softener or whole-home filter, RO is a point-of-use system, typically installed under the kitchen sink, producing a dedicated purified drinking-water tap.</p>
       </div>
 
       <div class="grid grid-2">
         <div class="card card-featured">
           <span class="badge">Recommended</span>
-          <h3>Reverse Osmosis System</h3>
-          <p>Under-sink drinking water purification for {site.city} homes. Works best paired with a whole-home softener that protects the RO membrane from scale at {site.gpgLow}-{site.gpgHigh} GPG.</p>
+          <p class="card-title">Reverse Osmosis System</p>
+          <p>Under-sink drinking water purification for {site.city} homes. Works best paired with a whole-home softener that protects the RO membrane from scale at {site.gpgLow}-{site.gpgHigh} GPG. This system offers:</p>
           <ul class="feature-list">
             <li>Removes dissolved solids standard filtration misses</li>
             <li>Improves the taste of drinking and cooking water</li>
@@ -67,11 +57,12 @@ const faqs = [
           </ul>
           <div class="card-ctas">
             <a class="btn btn-primary btn-sm" href={site.affiliateRO} target="_blank" rel="noopener noreferrer sponsored">Check Price &amp; Availability</a>
-            <a class="card-secondary-cta" href="/quote/">Get a Free Consultation →</a>
+            <a class="card-secondary-cta" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
           </div>
         </div>
       </div>
       <p class="disclosure">Some links above are affiliate links. We may earn a commission at no extra cost to you if you purchase through them.</p>
+      <p class="section-footnote">According to {site.waterAuthority}, every {site.city} RO install pairs best with upstream softening — see the pricing breakdown below.</p>
     </div>
   </section>
 
@@ -79,7 +70,7 @@ const faqs = [
     <div class="container">
       <div class="section-header">
         <h2>Reverse Osmosis System Price</h2>
-        <p>Reverse osmosis systems scale in price with membrane stage count. RO is typically the smaller investment compared to whole-home filtration since it treats one tap, not the whole house. Request a free quote for the exact price.</p>
+        <p>Actual price range for an RO system is [PLACEHOLDER — confirm local price range for reverse osmosis]. RO is typically the smaller investment compared to whole-home filtration since it treats one tap, not the whole house. According to {site.waterAuthority}, {site.city}'s water still needs upstream softening first — request a free quote for the exact figure.</p>
       </div>
     </div>
   </section>
@@ -88,7 +79,7 @@ const faqs = [
     <div class="container">
       <div class="section-header">
         <h2>Do You Need Reverse Osmosis, Whole Home Filtration, or Both?</h2>
-        <p>Reverse osmosis serves drinking-water purity at one dedicated tap. <a href="/whole-home-filtration/">Whole home filtration</a> addresses chlorine taste, odor, and sediment across every tap in the house. The two are complementary — many homes benefit from both alongside a softener.</p>
+        <p>Reverse osmosis serves drinking-water purity at one dedicated tap. Compared to reverse osmosis, <a href="/whole-home-filtration/">Whole Home Filtration in Albuquerque</a> addresses chlorine taste, odor, and sediment across every tap in the house. According to {site.waterAuthority}, the two are complementary — see the full comparison to find your match.</p>
       </div>
     </div>
   </section>
@@ -97,6 +88,7 @@ const faqs = [
     <div class="container">
       <div class="section-header center">
         <h2>Reverse Osmosis Questions</h2>
+        <p>{site.waterAuthority} reports the {site.gpgLow}-{site.gpgHigh} GPG figure behind every answer below.</p>
       </div>
       <div class="faq-list">
         {faqs.map((item) => (
@@ -111,18 +103,20 @@ const faqs = [
           </details>
         ))}
       </div>
+      <p class="section-footnote">{site.waterAuthority} reports these answers apply across every {site.city} ZIP code — get a free quote for your exact system match.</p>
     </div>
   </section>
 
   <section class="section section-dark">
     <div class="container final-cta">
       <h2>Ready for Pure Drinking Water in {site.city}?</h2>
-      <p>Check price and availability, or request a free consultation to size the right system for your home.</p>
-      <a class="btn btn-primary" href="/quote/">Get a Free Consultation →</a>
+      <p>According to {site.waterAuthority}, {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG water still needs softening upstream of any RO unit — get a free water softener quote to size the right system for your home.</p>
+      <a class="btn btn-primary" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
     </div>
   </section>
 
   <style>
+    .card-title { font-family: var(--font-heading); font-size: 1.1rem; color: var(--surface-footer); margin: 0 0 8px; }
     .card-featured { position: relative; border: 1.5px solid var(--color-accent); }
     .card-featured .badge {
       position: absolute;

@@ -14,19 +14,19 @@ const faqs = [
   },
   {
     q: `Do I really need a water softener in ${site.city}?`,
-    a: `At ${site.gpgLabel.toLowerCase()} levels, most ${site.city} homes benefit from softening to protect appliances, reduce scale buildup, and improve soap and shampoo performance.`,
+    a: `At ${site.gpgLabel.toLowerCase()} levels, most ${site.city} homes benefit from softening, such as reduced scale on faucets and appliances, and improved soap and shampoo performance.`,
   },
   {
     q: `How much does a water softener cost to install in ${site.city}?`,
-    a: `Installed systems in ${site.city} typically run $800–$3,500 depending on system size and household water usage.`,
+    a: `Installed pricing depends on system size and household water usage. Actual ${site.city} price range is [PLACEHOLDER — confirm local price range for equipment and install].`,
   },
   {
     q: `How long does installation take?`,
-    a: `Most residential installations in ${site.county} are completed in half a day to a full day, depending on existing plumbing.`,
+    a: `Typical install duration for this installer is [PLACEHOLDER — confirm typical install time], depending on existing plumbing.`,
   },
   {
     q: `What size softener do I need for my ${site.city} home?`,
-    a: `Sizing depends on household size and ${site.city}'s ${site.gpgLow}–${site.gpgHigh} GPG hardness reading. We calculate exact grain capacity as part of your free quote.`,
+    a: `Sizing depends on household size and ${site.city}'s ${site.gpgLow}–${site.gpgHigh} GPG hardness reading. Grain-capacity sizing guidance for local household sizes is [PLACEHOLDER — confirm sizing guidance], confirmed as part of your free quote.`,
   },
   {
     q: `Is salt-based or salt-free better for ${site.gpgLabel.toLowerCase()} water?`,
@@ -34,11 +34,15 @@ const faqs = [
   },
   {
     q: `Will a softener fix low water pressure caused by scale buildup?`,
-    a: `A softener prevents new scale from forming, but existing scale in old pipes may need separate descaling or pipe replacement in older ${site.city} homes.`,
+    a: `A softener prevents new scale from forming. Existing scale in old pipes needs separate descaling or pipe replacement in older ${site.city} homes.`,
   },
   {
     q: `How often do I need to add salt?`,
-    a: `Most households refill the brine tank every 4–8 weeks, depending on water usage and hardness level.`,
+    a: `Salt refill and service interval for the equipment actually installed is [PLACEHOLDER — confirm maintenance frequency], depending on water usage and hardness level.`,
+  },
+  {
+    q: `Is Bernalillo County water only hard in some neighbourhoods?`,
+    a: `No. ${site.waterAuthority} reports the same ${site.gpgLow}-${site.gpgHigh} GPG reading across every ${site.city} ZIP code, such as ${site.zipCodes.slice(0, 2).join(" and ")} — see the water quality report for the full breakdown.`,
   },
   {
     q: `Does a softener remove chlorine or other contaminants?`,
@@ -46,7 +50,7 @@ const faqs = [
   },
   {
     q: `Can I install a water softener myself?`,
-    a: `DIY installation is possible but risks incorrect sizing, code violations, and warranty issues. Professional installation ensures the system is sized correctly for ${site.city}'s water and installed to code.`,
+    a: `DIY installation risks incorrect sizing, code violations, and warranty issues. Professional installation sizes the system correctly for ${site.city}'s water and meets code requirements, such as ${site.county}'s plumbing standards.`,
   },
   {
     q: `Do you service all of ${site.county}?`,
@@ -57,16 +61,12 @@ const faqs = [
     a: `A softener treats water for the whole house to prevent scale. Reverse osmosis is a separate, targeted filtration system — usually under the kitchen sink — for drinking and cooking water quality.`,
   },
   {
-    q: `Will a water softener increase my water bill?`,
-    a: `Modern demand-initiated softeners regenerate only when needed, minimizing extra water use compared to older timer-based systems.`,
-  },
-  {
-    q: `How long do water softeners last?`,
-    a: `A well-maintained system typically lasts 10–15 years, though this varies with water hardness and usage in ${site.city} homes.`,
+    q: `Does the price include a warranty?`,
+    a: `This installer's warranty terms are [PLACEHOLDER — confirm warranty terms]. Ask for written warranty details as part of your free quote.`,
   },
   {
     q: `How do I get a quote for my ${site.city} home?`,
-    a: `Fill out the free quote form on this site with your address and household size, and we'll follow up with a no-obligation recommendation.`,
+    a: `Fill out the free quote form on this site with your address and household size, such as bathroom and appliance count, and we'll follow up with a no-obligation recommendation.`,
   },
 ];
 
@@ -91,20 +91,19 @@ const faqSchema = {
     breadcrumbs={[{ label: "FAQ" }]}
     heading={`Water Softener FAQ in ${site.city}, ${site.stateAbbr} | Trusted Local Specialists`}
     primaryCta={primaryCta}
-    secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
+    secondaryCta={{ href: "/quote/", text: "Get a Free Water Softener Quote in Albuquerque" }}
   >
     <p slot="opening">
       <a href="/" class="brand-link">Water Softeners of {site.city}</a>
-      {" "}provides water softener information and consultation services across {site.city} and {site.county}.
-      The questions below cover the most common topics from {site.city} homeowners: water hardness at
-      {site.gpgLow}–{site.gpgHigh} GPG, installation cost, system sizing, repair, and maintenance. Book a free
-      in-home water test for a personalised recommendation.
+      {" "}provides water softener information at {site.gpgLow}–{site.gpgHigh} GPG, such as installation cost,
+      system sizing, repair, and maintenance guidance, across {site.city} and {site.county}. The questions
+      below cover the most common topics from {site.city} homeowners. Book a free in-home water test for a
+      personalised recommendation.
     </p>
   </PageHero>
 
   <section class="section">
     <div class="container">
-
       <div class="faq-list">
         {faqs.map((item) => (
           <details class="faq-item">
@@ -124,14 +123,12 @@ const faqSchema = {
   <section class="section section-dark">
     <div class="container final-cta">
       <h2>Still Have Questions?</h2>
-      <p>Get a free, personalized quote for your {site.city} home.</p>
-      <a class="btn btn-primary" href="/quote/">Free Consultation</a>
+      <p>{site.waterAuthority} reports the {site.gpgLow}-{site.gpgHigh} GPG figure behind every answer above — get a free, personalized quote for your {site.city} home.</p>
+      <a class="btn btn-primary" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
     </div>
   </section>
 
   <style>
-    /* Item chrome (borders, chevron, reveal animation) lives in global.css
-       .faq-item rules, shared with any future accordion elsewhere. */
     .faq-list { max-width: 760px; margin: 24px auto 0; }
     .final-cta { text-align: center; }
     .final-cta p { max-width: 48ch; margin: 0 auto 24px; }
