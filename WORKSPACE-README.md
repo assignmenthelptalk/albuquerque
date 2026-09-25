@@ -47,10 +47,10 @@ Step 5b for where to add each one.
 - Water source:     Santa Fe Group Aquifer groundwater blended with San Juan-Chama surface water (since 2008)
 - Water authority:  Albuquerque Bernalillo County Water Utility Authority (ABCWUA)
 - Primary keyword:  albuquerque water softener (0 vol/mo — open data gap, no keyword-tool access from this build)
-- GitHub repo:      assignmenthelptalk/albuquerquewatersoftener (not yet created — gh CLI unavailable, see Notes)
-- Vercel project:   albuquerquewatersoftener
-- Vercel URL:       https://albuquerquewatersoftener.vercel.app
-- Live domain:      https://albuquerquewatersoftener.com
+- GitHub repo:      assignmenthelptalk/albuquerque (note: repo name is "albuquerque", not "albuquerquewatersoftener" — created manually by the user, doesn't match the PROVISION.md Step 1 naming convention)
+- Vercel project:   albuquerquewatersoftener (not yet created)
+- Vercel URL:       https://albuquerquewatersoftener.vercel.app (not yet live)
+- Live domain:      https://albuquerquewatersoftener.com (not yet connected)
 
 ## Folder structure
 - Local-SEO-Toolkit/
@@ -106,10 +106,11 @@ Full report: Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026
 Content pass complete as of 2026-09-25 (Steps 5, 5b, 6, 6b all done — see
 checklist below and the dated note in Notes for full detail). All 22 pages
 written, build is clean (0 errors/0 warnings, 23 pages), and all 20
-EAV-scored pages are ship-ready at 80+ (average 84/100). GitHub repo still
-not created — `gh` CLI is not installed in this environment (see Notes).
-Next actions: either install/auth `gh` or create the GitHub repo manually
-via github.com, then proceed to Step 7 (deploy to Vercel).
+EAV-scored pages are ship-ready at 80+ (average 84/100). GitHub repo created
+manually by the user (github.com/assignmenthelptalk/albuquerque) and both
+commits pushed to `main`. Next action: Step 7 — deploy to Vercel
+(`vercel link` + `vercel --prod` from the site folder; Vercel CLI/login
+status not yet verified in this environment), then Step 8 (custom domain).
 
 ## Local data
 - Neighbourhoods:  Nob Hill, North Valley, Sandia Heights, Four Hills, Taylor Ranch
@@ -126,7 +127,7 @@ via github.com, then proceed to Step 7 (deploy to Vercel).
 Mirrors PROVISION.md step-for-step, in the same order — check PROVISION.md
 itself if a step here needs more detail than fits on one line.
 
-- [ ] Step 1 — GitHub repo created (`gh repo create`) — blocked: `gh` CLI not installed in this environment
+- [x] Step 1 — GitHub repo created manually (github.com/assignmenthelptalk/albuquerque) and pushed — `gh` CLI unavailable in this environment, see Notes
 - [x] Step 2 — Boilerplate copied into the repo + `npm install`
 - [x] Step 3 — `src/site.config.ts` filled in with real city data
 - [ ] Step 4 — ~~Keystatic~~ REMOVED — no CMS step, see PROVISION.md "CMS — No Keystatic"
