@@ -76,13 +76,13 @@ const faqSchema = {
           <span class="hero-badge">✓ No Obligation</span>
         </div>
 
-        <h1>{site.city} Water Softener - Premier Water Softener Installation in {site.city}, {site.stateAbbr}</h1>
+        <h1>{site.city} Water Softener - Expert Water Softener Services in {site.city}, {site.stateAbbr}</h1>
+
+        <h3 class="hero-subheading">Professional Water Softener Installation and Repair in {site.city}</h3>
 
         <p class="hero-p">
-          {site.city}, {site.stateAbbr} water tests at {site.gpgLow}-{site.gpgHigh} GPG, classified as {site.gpgLabel}
-          {" "}per {site.waterAuthority}. This supply, {site.waterSource}, leaves calcium and magnesium deposits on
-          fixtures, such as water heaters and dishwashers, within weeks. A properly sized salt-based water softener
-          removes these minerals completely. Free in-home water test available.
+          {site.city} Water Softener specializes in water softener installation, repair, and maintenance for
+          homes and businesses dealing with hard water.
         </p>
 
         <div class="hero-actions">
@@ -115,12 +115,10 @@ const faqSchema = {
   <section class="section" style="padding-bottom: 0;">
     <div class="container">
       <p class="page-opening">
-        {site.city} Water Softener is a professional water softener installation and service company
-        providing salt-based softener installation, repair, resin bed replacement, brine tank cleaning, and
-        water quality testing across {site.city} and {site.county}. {site.waterAuthority} delivers {site.gpgLow}
-        –{site.gpgHigh} GPG water to every {site.city} home, classified as {site.gpgLabel} by the Water Quality
-        Association. We size every system to your confirmed GPG reading and household water usage, not a
-        statewide estimate. Free in-home water test available. No obligation.
+        In {site.city}, water typically tests at {site.gpgLow} to {site.gpgHigh} GPG, classified as
+        {" "}{site.gpgLabel} by {site.waterAuthority}. {site.waterSource}, leaving calcium and
+        magnesium deposits on fixtures, water heaters, and dishwashers within weeks. Free in-home water testing
+        is available.
       </p>
     </div>
   </section>
@@ -339,6 +337,14 @@ const faqSchema = {
       line-height: 1.1;
       letter-spacing: -0.02em;
       margin-bottom: 20px;
+    }
+    .hero-subheading {
+      font-family: var(--font-body);
+      font-style: italic;
+      font-weight: 600;
+      color: var(--color-accent);
+      font-size: clamp(17px, 1.6vw, 20px);
+      margin: 0 0 16px;
     }
     .hero-p {
       font-family: var(--font-body);
