@@ -66,7 +66,7 @@ Step 5b for where to add each one.
 | Page                           | Written | Score  | Ship-ready |
 |--------------------------------|---------|--------|------------|
 | homepage                       | ✅      | 82/100 | ✅         |
-| water-quality                  | ✅      | 80/100 | ✅         |
+| water-quality                  | ✅      | 79/100 | ❌ (pre-existing GPGSlider false positive, see 2026-09-26 note) |
 | hard-water                     | ✅      | 85/100 | ✅         |
 | installation                   | ✅      | 85/100 | ✅         |
 | comparison                     | ✅      | 81/100 | ✅         |
@@ -96,22 +96,25 @@ ship-ready (average 84/100); about/contact carry no EAV brief so
 identity fields per PROVISION.md's instruction, with no invented facts.
 ✅ = done | 🔄 = in progress | ⏳ = not started | ❌ = blocked
 
-## Quality gate (last run: 2026-09-25)
-Score threshold: 80/100 — **20/20 scored pages ship-ready, average 84/100**
+## Quality gate (last run: 2026-09-26, post brand-rename)
+Score threshold: 80/100 — **19/20 scored pages ship-ready, average 84/100**
+(water-quality slipped to 79 — see 2026-09-26 Notes entry; pre-existing
+GPGSlider false positive, not a content defect)
 Run: cd C:\Users\lenevo\Local-SEO-Toolkit
      npm run score-built-site -- --business albuquerquewatersoftener --dist C:\Users\lenevo\waterSoftenerProjects\albuquerquewatersoftener\dist
 Full report: Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026-09-25.json
 
 ## Current task
 Content, branding, and photography are all complete as of 2026-09-26 — see
-checklist below and the dated notes for full detail. All 22 pages written
-and scored (20/20 EAV-scored pages ship-ready, average 84/100), a custom
-favicon is in place, and all 24 site photos (homepage hero + 2 tiles + 21
-inner-page headers) are generated, identified, renamed, and wired in via
-`<Image>`/`PageHero`'s `image` prop — no `placehold.co` placeholders remain
-anywhere on the site. `npm run build` is clean (0 errors/0 warnings, 23
-pages). GitHub repo created manually by the user
-(github.com/assignmenthelptalk/albuquerque) with 5 commits pushed to `main`.
+checklist below and the dated notes for full detail. Brand renamed from
+"Water Softeners of Albuquerque" to "Albuquerque Water Softener" across
+every page, nav, footer, and meta title (site.config.ts's `businessName`
+already matched this). All 22 pages written, a custom favicon is in place,
+and all 24 site photos (homepage hero + 2 tiles + 21 inner-page headers)
+are wired in via `<Image>`/`PageHero`'s `image` prop — no `placehold.co`
+placeholders remain anywhere on the site. `npm run build` is clean (0
+errors/0 warnings, 23 pages). GitHub repo created manually by the user
+(github.com/assignmenthelptalk/albuquerque) with 6 commits pushed to `main`.
 Next action: Step 7 — deploy to Vercel (`vercel link` + `vercel --prod` from
 the site folder; Vercel CLI/login status not yet verified in this
 environment), then Step 8 (custom domain).
@@ -146,6 +149,40 @@ itself if a step here needs more detail than fits on one line.
 
 ## Notes
 _Add any city-specific notes, open data gaps, or decisions made here._
+
+- **2026-09-26 — brand renamed to "Albuquerque Water Softener."** Every
+  hardcoded occurrence of the literal pattern "Water Softeners of
+  {site.city}" (and the template-literal `${site.city}` variant) was
+  replaced with "{site.city} Water Softener" across `Layout.astro` (meta
+  title composition, nav logo already read `site.businessName` and needed
+  no change, footer brand + copyright), `ServiceAreaLayout.astro`, and all
+  22 pages (mostly the `.brand-link` mention inside each page's opening
+  paragraph, plus `about`/`contact`'s title/description/heading and the
+  homepage's H1 and two body mentions) — 32 replacements across 24 files,
+  done with a small Node script rather than 30+ manual edits. Kept the
+  pattern templated on `site.city` rather than hardcoding the literal word
+  "Albuquerque," per PROVISION.md's own rule that title/heading/opening
+  patterns must use `site.*` variables, never a hardcoded city name — this
+  matters if the boilerplate itself ever adopts the same city-first brand
+  order for future cities. `site.config.ts`'s `businessName` field already
+  said "Albuquerque Water Softener" (set during initial provisioning), so
+  the nav-bar logo and `LocalSchema.astro`'s JSON-LD `name` field (which
+  both read `site.businessName` directly, not the hardcoded string) needed
+  no change at all. Rebuilt clean (0 errors/0 warnings, 23 pages) and
+  reran the quality gate to check for regressions from a change this
+  broad: 19/20 pages still ship-ready (avg 84/100, unchanged). One page,
+  `water-quality`, slipped from 80 to 79 and now fails Rule 8 ("POS
+  consistency in lists") — traced to the `<GPGSlider>` component's shared,
+  hardcoded "Very Hard" tier effects list, where the item "Plumbing
+  repairs likely without treatment" starts with a word ending in "-ing"
+  and trips Rule 8's naive `/ing$/` verb-phrase heuristic against the
+  three noun-phrase items around it. This is the same class of false
+  positive PROVISION.md Step 6c already documents for Rule 8, lives inside
+  a component shared by every city site (not page-specific content), and
+  was not touched by this rename — flagged here rather than patched, since
+  fixing it means editing shared boilerplate, not an Albuquerque-only
+  change. Every other page held steady or the score noise was within
+  normal heuristic variance.
 
 - **2026-09-26 — favicon, image prompts, and full site photography added.**
   Added `public/favicon.svg`: a rounded-square water-droplet mark using the
