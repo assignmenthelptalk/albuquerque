@@ -261,3 +261,92 @@ window light. No face. [+ shared style block]
   images (`hero-softener`, `installation-tile`, `hard-water-tile` — 3
   total) plus a separate import pattern; see Tampa's `index.astro` for the
   exact reference wiring.
+
+---
+
+## About page — 6 additional images
+
+The About page (`src/pages/about/index.astro`) currently renders these 6
+slots as `placehold.co` graphics — the hero image already has real
+photography (`about-header.jpg`, done). Generate these 6, save with the
+exact filenames below into `src/assets/images/`, and they can replace the
+`placehold.co` `<img>` blocks with real `<Image>` imports the same way the
+other 21 headers were wired in.
+
+Aspect ratio: all six are wide (~900x400 or 900x300, matching the current
+placeholder dimensions in the page source) since they sit as full-width
+banner images between sections, not side-by-side with text like the
+`PageHero` headers.
+
+### 25. `about-before-after.jpg` — "What We Do" section
+```
+A split-frame photorealistic comparison image, divided by a thin vertical
+line down the center. Left half: a chrome bathroom faucet and showerhead
+crusted with heavy white mineral scale buildup, dull and spotted. Right
+half: an identical chrome faucet and showerhead, completely clean and
+gleaming, with a few clear water droplets. Same camera angle, framing, and
+lighting on both halves so the only difference is the scale buildup. No
+text or labels overlaid — this is a photo, not an infographic. [+ shared
+style block from the top of this file]
+```
+
+### 26. `about-team-working.jpg` — "What Makes Us Different" section
+```
+Two technicians in matching grey work uniforms working together on a water
+softener installation in a home utility room — one holding a wrench at a
+copper pipe fitting, the other holding a tablet or clipboard nearby. Crop
+both at the neck/shoulders or shoot from behind/the side — no faces
+visible, consistent with every other technician shot on this site. Copper
+piping and a softener tank in frame, natural window light. [+ shared style
+block]
+```
+
+### 27. `about-homeowner.jpg` — "Who Uses Our Services" section
+```
+A homeowner's bare hand (no glove, unlike the technician shots — this is a
+homeowner, not staff) filling a drinking glass at a modern kitchen faucet,
+morning light, a coffee mug and a small potted plant softly out of focus
+on the counter behind. Warm, lived-in domestic mood rather than a showroom
+look. No face, no posed family, no clinking-glasses cliché — just a quiet
+everyday moment. [+ shared style block]
+```
+
+### 28. `about-founders.jpg` — "Team" section
+```
+Two tradespeople in grey work uniforms standing together in a home utility
+room or driveway, arms crossed or one gesturing mid-conversation, candid
+rather than a posed studio headshot — this should read as "caught during a
+work day," not a corporate stock photo. Unlike every other photo on this
+site, faces ARE visible here since this is specifically a founders/team
+portrait. Natural daylight, approachable and confident expressions, no
+exaggerated smiling-at-camera stock-photo look. [+ shared style block,
+EXCEPT ignore the "never show a face" line for this one image only]
+```
+
+### 29. `about-process-steps.jpg` — "How It Works" section
+```
+Note: this slot is a 4-step process explainer, not a documentary photo —
+an AI photo generator will struggle to render clean, readable step
+numbers/icons. Two options:
+  (a) Skip the image generator entirely and build this as a coded 4-icon
+      row instead (SVG icons + labels, matching the site's existing inline-SVG
+      icon convention per CLAUDE.md) — this will look cleaner and stays
+      on-brand with zero risk of AI-garbled text.
+  (b) If a photo is still wanted here, use a wide establishing shot instead
+      of a literal diagram: a technician's hands laying out water-test
+      strips, a wrench, and a tablet in a neat row on a clipboard/counter,
+      top-down flat-lay composition, suggesting "a clear process" without
+      needing rendered text. [+ shared style block]
+Recommendation: (a).
+```
+
+### 30. `about-water-closeup.jpg` — FAQ section
+```
+Extreme macro close-up of clear water actively pouring/splashing into a
+glass, mid-motion with visible ripples and bubbles, backlit so the water
+catches the light, dark neutral background so the water itself is the only
+subject in frame. No faucet, no hand, no glass rim visible — pure water in
+motion, abstract and clean. Distinct from `water-quality-header.jpg`
+(which shows a full faucet-and-glass scene) so the two don't read as
+duplicates. [+ shared style block]
+```
