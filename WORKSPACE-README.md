@@ -96,13 +96,19 @@ ship-ready (average 84/100); about/contact carry no EAV brief so
 identity fields per PROVISION.md's instruction, with no invented facts.
 ✅ = done | 🔄 = in progress | ⏳ = not started | ❌ = blocked
 
-## Quality gate (last run: 2026-09-26, post brand-rename)
-Score threshold: 80/100 — **19/20 scored pages ship-ready, average 84/100**
-(water-quality slipped to 79 — see 2026-09-26 Notes entry; pre-existing
-GPGSlider false positive, not a content defect)
+## Quality gate (last run: 2026-09-26, post em-dash removal)
+Score threshold: 80/100 — **18/20 scored pages ship-ready, average 84/100**
+- water-quality: 79/100, pre-existing GPGSlider false positive, not a content defect
+- homepage: 70/100, failing — accepted as-is by explicit user decision (2026-09-26).
+  Root cause is not the em-dash cleanup: the GPG figure no longer falls in the
+  first 60 words (Rule 1) because the GPG paragraph was deliberately moved to
+  *second*, after the opening paragraph, and the "See our recommendation for..."
+  anchor text (also requested) doesn't exact-match its destination page's title
+  (Rule 13/27). Both are intentional content decisions, not defects — see
+  2026-09-26 Notes entry.
 Run: cd C:\Users\lenevo\Local-SEO-Toolkit
      npm run score-built-site -- --business albuquerquewatersoftener --dist C:\Users\lenevo\waterSoftenerProjects\albuquerquewatersoftener\dist
-Full report: Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026-09-25.json
+Full report: Local-SEO-Toolkit\data\albuquerquewatersoftener\quality-report-2026-09-26.json
 
 ## Current task
 Content, branding, and photography are all complete as of 2026-09-26 — see
