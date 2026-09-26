@@ -1,30 +1,33 @@
 /* =============================================================================
    Water Softener Boilerplate — Design System
    =============================================================================
-   Deep teal (#0F6E78) as primary, warm orange (#E65100) reserved for CTAs
-   and key highlights, DM Serif Display for headings, Inter for body/labels/
-   navigation. This file is NOT city-specific — every city site cloned from
-   this boilerplate inherits it unchanged; only src/site.config.ts differs
-   per city. Legacy --brand-* / --font-display names are kept as aliases so
-   any selector not explicitly migrated still renders on-brand instead of
-   silently falling back to an unstyled default.
+   Albuquerque override: terracotta (#A6521B) as primary, turquoise (#2C9C9A)
+   reserved for CTAs and key highlights — a high-desert Southwest palette
+   synced from src/site.config.ts's design tokens (this file is otherwise
+   NOT city-specific; every city site cloned from this boilerplate starts
+   with the same teal/orange defaults and hand-syncs its own colors here,
+   same as Tampa's blue and Indianapolis's navy/gold overrides). DM Serif
+   Display for headings, Inter for body/labels/navigation. Legacy --brand-*
+   / --font-display names are kept as aliases so any selector not explicitly
+   migrated still renders on-brand instead of silently falling back to an
+   unstyled default.
    ============================================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
   /* Brand colors — exact hex values from the site's design tokens */
-  --color-primary:       #0F6E78;
-  --color-primary-dark:  #0A4F57; /* hero gradient endpoint */
-  --color-primary-light: #E1F5EE;
-  --color-accent:        #E65100;
-  --color-accent-dark:   #C2410C; /* accent hover/active state */
-  --color-accent-light:  #FDE4D0; /* light accent tint for badges */
+  --color-primary:       #A6521B;
+  --color-primary-dark:  #7A3D14; /* hero gradient endpoint */
+  --color-primary-light: #F5E9DE;
+  --color-accent:        #2C9C9A;
+  --color-accent-dark:   #1F6F6D; /* accent hover/active state */
+  --color-accent-light:  #D9F0EF; /* light accent tint for badges */
 
   /* Depth system: base -> elevated -> floating, never one flat z-plane */
   --surface-base:     #ffffff;
-  --surface-elevated: #F8FFFE;
-  --surface-footer:   #0A2E33; /* darkened primary, footer only */
+  --surface-elevated: #FBF6F1;
+  --surface-footer:   #3D2410; /* darkened primary, footer only */
 
   /* Never the same font for headings and body */
   --font-heading: 'DM Serif Display', Georgia, serif;
@@ -51,11 +54,11 @@
   --radius-brand: 8px;
 
   /* Layered, color-tinted shadows — never a flat shadow-md */
-  --shadow-card:         0 1px 2px rgba(15, 110, 120, 0.06), 0 4px 16px rgba(15, 110, 120, 0.10);
-  --shadow-card-hover:   0 2px 4px rgba(15, 110, 120, 0.08), 0 12px 28px rgba(15, 110, 120, 0.14);
-  --shadow-button-hover: 0 2px 8px rgba(230, 81, 0, 0.25);
-  --shadow-nav:          0 1px 0 rgba(15, 110, 120, 0.08), 0 4px 16px rgba(15, 110, 120, 0.05);
-  --shadow-floating:     0 8px 24px rgba(15, 110, 120, 0.16);
+  --shadow-card:         0 1px 2px rgba(166, 82, 27, 0.06), 0 4px 16px rgba(166, 82, 27, 0.10);
+  --shadow-card-hover:   0 2px 4px rgba(166, 82, 27, 0.08), 0 12px 28px rgba(166, 82, 27, 0.14);
+  --shadow-button-hover: 0 2px 8px rgba(44, 156, 154, 0.25);
+  --shadow-nav:          0 1px 0 rgba(166, 82, 27, 0.08), 0 4px 16px rgba(166, 82, 27, 0.05);
+  --shadow-floating:     0 8px 24px rgba(166, 82, 27, 0.16);
   --shadow-sm: var(--shadow-card);
   --shadow-md: var(--shadow-card);
   --shadow-lg: var(--shadow-floating);

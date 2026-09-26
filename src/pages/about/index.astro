@@ -1,8 +1,13 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
 import { site } from "../../lib/site";
 import headerImage from "../../assets/images/about-header.jpg";
+import beforeAfterImage from "../../assets/images/about-before-after.jpg";
+import teamWorkingImage from "../../assets/images/about-team-working.jpg";
+import homeownerImage from "../../assets/images/about-homeowner.jpg";
+import waterCloseupImage from "../../assets/images/about-water-closeup.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
   ? { href: `tel:${site.phoneNumber}`, text: `📞 ${site.phoneNumber}` }
@@ -48,10 +53,10 @@ const audiences = [
 ];
 
 const steps = [
-  { step: "Step 1", text: "Schedule a water test" },
-  { step: "Step 2", text: "Get a custom system recommendation" },
-  { step: "Step 3", text: "Fast installation within 1 to 2 days" },
-  { step: "Step 4", text: "Ongoing maintenance and support" },
+  { step: "Step 1", text: "Schedule a water test", icon: "droplet" },
+  { step: "Step 2", text: "Get a custom system recommendation", icon: "clipboard" },
+  { step: "Step 3", text: "Fast installation within 1 to 2 days", icon: "wrench" },
+  { step: "Step 4", text: "Ongoing maintenance and support", icon: "shield" },
 ];
 
 const keyFacts = [
@@ -123,13 +128,7 @@ const faqs = [
         <h2>What We Do | Water Softener {site.city} {site.stateAbbr} Services</h2>
       </div>
       <div class="about-media-wrap">
-        <img
-          src={`https://placehold.co/900x400/${site.design.primaryColor.replace("#", "")}/${site.design.primaryLight.replace("#", "")}?text=Before+%2F+After+Hard+Water+Results`}
-          alt="Before and after comparison of hard water vs soft water results"
-          width="900"
-          height="400"
-          loading="lazy"
-        />
+        <Image src={beforeAfterImage} alt="Before and after comparison of hard water vs soft water results" width={900} height={400} loading="lazy" />
       </div>
       <div class="grid grid-2">
         {services.map((s) => (
@@ -150,13 +149,7 @@ const faqs = [
         <h2>What Makes {site.city} Water Softener Different | Water Softener {site.city} {site.stateAbbr} Experts</h2>
       </div>
       <div class="about-media-wrap">
-        <img
-          src={`https://placehold.co/900x400/${site.design.accentColor.replace("#", "")}/ffffff?text=Team+On+A+Service+Call`}
-          alt="Team working on installation or service call"
-          width="900"
-          height="400"
-          loading="lazy"
-        />
+        <Image src={teamWorkingImage} alt="Team working on installation or service call" width={900} height={400} loading="lazy" />
       </div>
       <div class="grid grid-3">
         {differentiators.map((d) => (
@@ -176,13 +169,7 @@ const faqs = [
         <h2>Who Uses Our Water Softener {site.city} {site.stateAbbr} Services</h2>
       </div>
       <div class="about-media-wrap">
-        <img
-          src={`https://placehold.co/900x400/${site.design.primaryColor.replace("#", "")}/${site.design.primaryLight.replace("#", "")}?text=Happy+Homeowner`}
-          alt="Happy homeowner using clean water at home"
-          width="900"
-          height="400"
-          loading="lazy"
-        />
+        <Image src={homeownerImage} alt="Homeowner filling a glass with clean water at home" width={900} height={400} loading="lazy" />
       </div>
       <ul class="about-audience-list">
         {audiences.map((a) => <li>{a}</li>)}
@@ -223,18 +210,35 @@ const faqs = [
       <div class="section-header center">
         <h2>How Our Water Softener {site.city} {site.stateAbbr} Service Works</h2>
       </div>
-      <div class="about-media-wrap">
-        <img
-          src={`https://placehold.co/900x300/${site.design.primaryColor.replace("#", "")}/${site.design.primaryLight.replace("#", "")}?text=Our+4-Step+Process`}
-          alt="Step by step process diagram"
-          width="900"
-          height="300"
-          loading="lazy"
-        />
-      </div>
       <div class="grid grid-2">
         {steps.map((s) => (
-          <div class="card">
+          <div class="card step-card">
+            <span class="step-icon" aria-hidden="true">
+              {s.icon === "droplet" && (
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2c0 0-7 8.5-7 13a7 7 0 0 0 14 0c0-4.5-7-13-7-13z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              )}
+              {s.icon === "clipboard" && (
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <rect x="6" y="4" width="12" height="17" rx="2" stroke="currentColor" stroke-width="1.8" />
+                  <path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="9" y1="11" x2="15" y2="11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="9" y1="15" x2="15" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              )}
+              {s.icon === "wrench" && (
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              )}
+              {s.icon === "shield" && (
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              )}
+            </span>
             <p class="card-title">{s.step}</p>
             <p>{s.text}</p>
           </div>
@@ -274,13 +278,7 @@ const faqs = [
         <h2>Frequently Asked Questions | Water Softener {site.city} {site.stateAbbr}</h2>
       </div>
       <div class="about-media-wrap">
-        <img
-          src={`https://placehold.co/900x300/${site.design.accentColor.replace("#", "")}/ffffff?text=Clean+Water+Flowing`}
-          alt="Close up of clean water flowing"
-          width="900"
-          height="300"
-          loading="lazy"
-        />
+        <Image src={waterCloseupImage} alt="Close up of clean water flowing" width={900} height={300} loading="lazy" />
       </div>
       <div class="faq-list">
         {faqs.map((item) => (
@@ -333,5 +331,17 @@ const faqs = [
       justify-content: center;
     }
     .about-process-meta p { margin: 0; }
+    .step-card { text-align: center; }
+    .step-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--color-primary-light, #F5E9DE);
+      color: var(--color-primary, #A6521B);
+      margin: 0 auto 16px;
+    }
   </style>
 </Layout>
