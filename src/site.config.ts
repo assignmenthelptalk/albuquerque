@@ -192,7 +192,17 @@ export interface SiteConfig {
   affiliateRO: string;
 
   // ── Business identity — edit directly, no CMS ────────────────────────────
-  /** Business name shown in the header, footer, and page titles */
+  /** The brand mention used everywhere across the site: nav logo, footer,
+   * meta titles, every page's opening-paragraph brand-link, the homepage
+   * H1/H3/hero paragraphs, and the LocalBusiness schema name. Single
+   * source of truth — no page hardcodes the brand string.
+   *
+   * Two accepted formats, chosen per city based on domain availability:
+   *   - "[City] Water Softener"     (city-first — used here, since
+   *     albuquerquewatersoftener.com was available)
+   *   - "Water Softeners of [City]" (fallback for cities where the
+   *     city-first domain isn't available)
+   * Do not mix formats within one site. */
   businessName: string;
   /** Phone number — SCREAMING_SNAKE_CASE placeholder until a tenant signs.
    * Every phone display checks for this exact placeholder string (not just
