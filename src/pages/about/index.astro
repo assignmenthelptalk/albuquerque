@@ -10,18 +10,18 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
 ---
 
 <Layout
-  title={`About Water Softeners of ${site.city}`}
-  description={`About Water Softeners of ${site.city}. Serving ${site.city} and ${site.county} homeowners with professional water softener installation, repair, and maintenance. Free consultation available.`}
+  title={`About ${site.city} Water Softener`}
+  description={`About ${site.city} Water Softener. Serving ${site.city} and ${site.county} homeowners with professional water softener installation, repair, and maintenance. Free consultation available.`}
 >
   <PageHero
     breadcrumbs={[{ label: "About" }]}
-    heading={`About Water Softeners of ${site.city} | Trusted Local Specialists`}
+    heading={`About ${site.city} Water Softener | Trusted Local Specialists`}
     primaryCta={primaryCta}
     secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">Water Softeners of {site.city}</a>
+      <a href="/" class="brand-link">{site.city} Water Softener</a>
       {" "}provides professional water softener installation, repair, and maintenance service across
       {site.city} and {site.county}. {site.waterAuthority} delivers {site.gpgLow}–{site.gpgHigh} GPG water to
       every {site.city} home. We size every system to your confirmed GPG reading, not a regional estimate.

@@ -81,7 +81,7 @@ const footerNavLinks = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <SEO
-      title={fullTitle || `${title} | Water Softeners of ${site.city}: Water Softener Installation and Repair`}
+      title={fullTitle || `${title} | ${site.city} Water Softener: Water Softener Installation and Repair`}
       description={description}
       canonical={canonical}
       noindex={noindex}
@@ -181,7 +181,7 @@ const footerNavLinks = [
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <span class="footer-brand">{site.city} Water Softeners</span>
+        <span class="footer-brand">{site.city} Water Softener</span>
         {site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER" && (
           <a class="footer-phone" href={`tel:${site.phoneNumber}`}>{site.phoneNumber}</a>
         )}
@@ -194,7 +194,7 @@ const footerNavLinks = [
 
         <div class="footer-bottom">
           <div>
-            <p class="footer-copyright">&copy; {new Date().getFullYear()} {site.city} Water Softeners. All rights reserved.</p>
+            <p class="footer-copyright">&copy; {new Date().getFullYear()} {site.city} Water Softener. All rights reserved.</p>
             <p class="footer-disclaimer">This website connects {site.city} homeowners with licensed local water softener installers serving {site.county}.</p>
           </div>
           <p class="footer-copyright">{site.city}, {site.stateAbbr}</p>

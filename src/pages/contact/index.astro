@@ -11,18 +11,18 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
 ---
 
 <Layout
-  title={`Contact Water Softeners of ${site.city}`}
-  description={`Contact Water Softeners of ${site.city}. Free in-home water hardness test available today. Same day service across ${site.city} and ${site.county}. No obligation.`}
+  title={`Contact ${site.city} Water Softener`}
+  description={`Contact ${site.city} Water Softener. Free in-home water hardness test available today. Same day service across ${site.city} and ${site.county}. No obligation.`}
 >
   <PageHero
     breadcrumbs={[{ label: "Contact" }]}
-    heading={`Contact Water Softeners of ${site.city} | Trusted Local Specialists`}
+    heading={`Contact ${site.city} Water Softener | Trusted Local Specialists`}
     primaryCta={primaryCta}
     secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">Water Softeners of {site.city}</a>
+      <a href="/" class="brand-link">{site.city} Water Softener</a>
       {" "}provides free water testing and no-obligation consultation across {site.city} and {site.county}.
       Free in-home water hardness test available today. Same day availability. Pricing confirmed before any
       work begins. No surprise charges. Call or fill in the form below to schedule.
