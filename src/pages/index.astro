@@ -85,6 +85,13 @@ const faqSchema = {
           homes and businesses dealing with hard water.
         </p>
 
+        <p class="hero-p">
+          In {site.city}, water typically tests at {site.gpgLow} to {site.gpgHigh} GPG, classified as
+          {" "}{site.gpgLabel} by {site.waterAuthority}. {site.waterSource}, leaving calcium and
+          magnesium deposits on fixtures, water heaters, and dishwashers within weeks. Free in-home water testing
+          is available.
+        </p>
+
         <div class="hero-actions">
           {site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER" ? (
             <a href={`tel:${site.phoneNumber}`} class="hero-phone-btn">
@@ -108,18 +115,6 @@ const faqSchema = {
           loading="eager"
         />
       </div>
-    </div>
-  </section>
-
-  <!-- 1b. Brand IS opening paragraph — Glendale Elite pattern -->
-  <section class="section" style="padding-bottom: 0;">
-    <div class="container">
-      <p class="page-opening">
-        In {site.city}, water typically tests at {site.gpgLow} to {site.gpgHigh} GPG, classified as
-        {" "}{site.gpgLabel} by {site.waterAuthority}. {site.waterSource}, leaving calcium and
-        magnesium deposits on fixtures, water heaters, and dishwashers within weeks. Free in-home water testing
-        is available.
-      </p>
     </div>
   </section>
 
