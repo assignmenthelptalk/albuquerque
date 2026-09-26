@@ -12,7 +12,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
 
 <Layout
   title={`Water Softener Systems in ${site.city}, ${site.stateAbbr}`}
-  fullTitle={`Best Water Softener for ${site.city} ${site.stateAbbr} | ${site.city} Water Softener`}
+  fullTitle={`Best Water Softener for ${site.city} ${site.stateAbbr} | ${site.businessName}`}
   description={`Recommended water softener systems for ${site.city}, ${site.stateAbbr}. Systems selected and sized for ${site.gpgLow}–${site.gpgHigh} GPG hard water from ${site.waterAuthority}.`}
 >
   <PageHero
@@ -23,7 +23,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.city} Water Softener</a>
+      <a href="/" class="brand-link">{site.businessName}</a>
       {" "}offers recommended water softener systems, such as salt-based and combo filtration models, selected
       and sized for {site.city}'s {site.gpgLow}–{site.gpgHigh} GPG hard water from {site.waterAuthority}.
       Salt-free conditioners are not included since they do not remove hardness minerals at {site.gpgLow}

@@ -60,7 +60,7 @@ const steps = [
 ];
 
 const keyFacts = [
-  { label: "Company Name", value: `${site.city} Water Softener` },
+  { label: "Company Name", value: `${site.businessName}` },
   { label: "Type", value: `Water Softener ${site.city} ${site.stateAbbr} Company` },
   { label: "Founded", value: "2024" },
   { label: "Founder", value: "Ethan Morales, Ryan Carter" },
@@ -103,18 +103,18 @@ const faqs = [
 ---
 
 <Layout
-  title={`About ${site.city} Water Softener`}
-  description={`About ${site.city} Water Softener. Serving ${site.city} and ${site.county} homeowners with professional water softener installation, repair, and maintenance. Free consultation available.`}
+  title={`About ${site.businessName}`}
+  description={`About ${site.businessName}. Serving ${site.city} and ${site.county} homeowners with professional water softener installation, repair, and maintenance. Free consultation available.`}
 >
   <PageHero
     breadcrumbs={[{ label: "About" }]}
-    heading={`About ${site.city} Water Softener | Trusted Local Specialists`}
+    heading={`About ${site.businessName} | Trusted Local Specialists`}
     primaryCta={primaryCta}
     secondaryCta={{ href: "/quote/", text: "Get a Free Quote" }}
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.city} Water Softener</a>
+      <a href="/" class="brand-link">{site.businessName}</a>
       {" "}is a Water Softener {site.city} {site.stateAbbr} company that installs and services water softener
       systems for homeowners and property owners. We help eliminate hard water problems like scale buildup, dry
       skin, and appliance damage by installing reliable, high performance systems tailored to {site.city} homes.
@@ -146,7 +146,7 @@ const faqs = [
   <section class="section" style="background: var(--color-surface);">
     <div class="container">
       <div class="section-header center">
-        <h2>What Makes {site.city} Water Softener Different | Water Softener {site.city} {site.stateAbbr} Experts</h2>
+        <h2>What Makes {site.businessName} Different | Water Softener {site.city} {site.stateAbbr} Experts</h2>
       </div>
       <div class="about-media-wrap">
         <Image src={teamWorkingImage} alt="Team working on installation or service call" width={900} height={400} loading="lazy" />
@@ -181,7 +181,7 @@ const faqs = [
   <section class="section" style="background: var(--color-surface);">
     <div class="container">
       <div class="section-header center">
-        <h2>The Team Behind {site.city} Water Softener</h2>
+        <h2>The Team Behind {site.businessName}</h2>
       </div>
       <div class="about-media-wrap">
         <img
@@ -193,7 +193,7 @@ const faqs = [
         />
       </div>
       <p>
-        {site.city} Water Softener was founded by Ethan Morales and Ryan Carter, specialists in plumbing and
+        {site.businessName} was founded by Ethan Morales and Ryan Carter, specialists in plumbing and
         water treatment systems.
       </p>
       <p>
@@ -298,7 +298,7 @@ const faqs = [
 
   <section class="section section-dark">
     <div class="container final-cta">
-      <h2>{site.city} Water Softener is your trusted local expert</h2>
+      <h2>{site.businessName} is your trusted local expert</h2>
       <p>For Water Softener {site.city} {site.stateAbbr} installation, repair, and maintenance. Get a free, no-obligation quote today.</p>
       <a class="btn btn-primary" href="/contact/">Get in Touch →</a>
     </div>

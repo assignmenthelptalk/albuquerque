@@ -59,7 +59,7 @@ const faqSchema = {
 
 <Layout
   title={`Water Softener Installation in ${site.city}, ${site.stateAbbr}`}
-  fullTitle={`${site.city} Water Softener | Expert Water Softener Services in ${site.city}`}
+  fullTitle={`${site.businessName} | Expert Water Softener Services in ${site.city}`}
   description={`Water softener installation and repair in ${site.city}, ${site.stateAbbr}. ${site.city} water tests at ${site.gpgLow}–${site.gpgHigh} GPG (${site.gpgLabel}), per ${site.waterAuthority}. Free in-home water test available across ${site.city} and ${site.county}.`}
 >
   <LocalSchema />
@@ -76,12 +76,12 @@ const faqSchema = {
           <span class="hero-badge">✓ No Obligation</span>
         </div>
 
-        <h1>{site.city} Water Softener - Expert Water Softener Services in {site.city}, {site.stateAbbr}</h1>
+        <h1>{site.businessName} - Expert Water Softener Services in {site.city}, {site.stateAbbr}</h1>
 
         <h3 class="hero-subheading">Professional Water Softener Installation and Repair in {site.city}</h3>
 
         <p class="hero-p">
-          {site.city} Water Softener specializes in water softener installation, repair, and maintenance for
+          {site.businessName} specializes in water softener installation, repair, and maintenance for
           homes and businesses dealing with hard water.
         </p>
 
@@ -123,7 +123,7 @@ const faqSchema = {
     <div class="container">
       <div class="section-header center">
         <h2>Water Softener Services in {site.city}, {site.stateAbbr}</h2>
-        <p>{site.city} Water Softener covers five core services, such as testing, treatment, installation, repair, and comparison. According to {site.waterAuthority}'s own confirmed {site.gpgLow}-{site.gpgHigh} GPG reading, we size every service below to that number. See the full guide for each one.</p>
+        <p>{site.businessName} covers five core services, such as testing, treatment, installation, repair, and comparison. According to {site.waterAuthority}'s own confirmed {site.gpgLow}-{site.gpgHigh} GPG reading, we size every service below to that number. See the full guide for each one.</p>
       </div>
       <div class="grid grid-services">
         {services.map((s) => (
@@ -255,7 +255,7 @@ const faqSchema = {
   <section class="section">
     <div class="container">
       <div class="section-header center">
-        <h2>More {site.city} Water Softener Resources</h2>
+        <h2>More {site.businessName} Resources</h2>
         <p>Five more guides cover products, resin, brine, and filtration, such as the reverse osmosis page below. {site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG figure behind every one of them. Explore whichever fits your question.</p>
       </div>
       <ul class="more-links-list">
