@@ -19,15 +19,15 @@ const faqs = [
   },
   {
     q: `How much does a water softener cost to install in ${site.city}?`,
-    a: `Installed pricing depends on system size and household water usage. Actual ${site.city} price range is [PLACEHOLDER — confirm local price range for equipment and install].`,
+    a: `Installed pricing depends on system size and household water usage. Actual ${site.city} price range is [PLACEHOLDER. Confirm local price range for equipment and install].`,
   },
   {
     q: `How long does installation take?`,
-    a: `Typical install duration for this installer is [PLACEHOLDER — confirm typical install time], depending on existing plumbing.`,
+    a: `Typical install duration for this installer is [PLACEHOLDER. Confirm typical install time], depending on existing plumbing.`,
   },
   {
     q: `What size softener do I need for my ${site.city} home?`,
-    a: `Sizing depends on household size and ${site.city}'s ${site.gpgLow}–${site.gpgHigh} GPG hardness reading. Grain-capacity sizing guidance for local household sizes is [PLACEHOLDER — confirm sizing guidance], confirmed as part of your free quote.`,
+    a: `Sizing depends on household size and ${site.city}'s ${site.gpgLow}–${site.gpgHigh} GPG hardness reading. Grain-capacity sizing guidance for local household sizes is [PLACEHOLDER. Confirm sizing guidance], confirmed as part of your free quote.`,
   },
   {
     q: `Is salt-based or salt-free better for ${site.gpgLabel.toLowerCase()} water?`,
@@ -39,15 +39,15 @@ const faqs = [
   },
   {
     q: `How often do I need to add salt?`,
-    a: `Salt refill and service interval for the equipment actually installed is [PLACEHOLDER — confirm maintenance frequency], depending on water usage and hardness level.`,
+    a: `Salt refill and service interval for the equipment actually installed is [PLACEHOLDER. Confirm maintenance frequency], depending on water usage and hardness level.`,
   },
   {
     q: `Is Bernalillo County water only hard in some neighbourhoods?`,
-    a: `No. ${site.waterAuthority} reports the same ${site.gpgLow}-${site.gpgHigh} GPG reading across every ${site.city} ZIP code, such as ${site.zipCodes.slice(0, 2).join(" and ")} — see the water quality report for the full breakdown.`,
+    a: `No. ${site.waterAuthority} reports the same ${site.gpgLow}-${site.gpgHigh} GPG reading across every ${site.city} ZIP code, such as ${site.zipCodes.slice(0, 2).join(" and ")}. See the water quality report for the full breakdown.`,
   },
   {
     q: `Does a softener remove chlorine or other contaminants?`,
-    a: `No — a standalone softener only targets hardness minerals. A softener/filter combo system also addresses chlorine and sediment from ${site.waterAuthority}'s supply.`,
+    a: `No, a standalone softener only targets hardness minerals. A softener/filter combo system also addresses chlorine and sediment from ${site.waterAuthority}'s supply.`,
   },
   {
     q: `Can I install a water softener myself?`,
@@ -59,11 +59,11 @@ const faqs = [
   },
   {
     q: `What's the difference between a softener and reverse osmosis?`,
-    a: `A softener treats water for the whole house to prevent scale. Reverse osmosis is a separate, targeted filtration system — usually under the kitchen sink — for drinking and cooking water quality.`,
+    a: `A softener treats water for the whole house to prevent scale. Reverse osmosis is a separate, targeted filtration system, usually under the kitchen sink. For drinking and cooking water quality.`,
   },
   {
     q: `Does the price include a warranty?`,
-    a: `This installer's warranty terms are [PLACEHOLDER — confirm warranty terms]. Ask for written warranty details as part of your free quote.`,
+    a: `This installer's warranty terms are [PLACEHOLDER. Confirm warranty terms]. Ask for written warranty details as part of your free quote.`,
   },
   {
     q: `How do I get a quote for my ${site.city} home?`,
@@ -84,7 +84,7 @@ const faqSchema = {
 
 <Layout
   title={`Water Softener FAQ ${site.city}, ${site.stateAbbr}`}
-  description={`Common water softener questions from ${site.city}, ${site.stateAbbr} homeowners. ${site.city} water hardness, installation cost, system sizing, and maintenance — all answered.`}
+  description={`Common water softener questions from ${site.city}, ${site.stateAbbr} homeowners. ${site.city} water hardness, installation cost, system sizing, and maintenance. All answered.`}
 >
   <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
@@ -125,7 +125,7 @@ const faqSchema = {
   <section class="section section-dark">
     <div class="container final-cta">
       <h2>Still Have Questions?</h2>
-      <p>{site.waterAuthority} reports the {site.gpgLow}-{site.gpgHigh} GPG figure behind every answer above — get a free, personalized quote for your {site.city} home.</p>
+      <p>{site.waterAuthority} reports the {site.gpgLow}-{site.gpgHigh} GPG figure behind every answer above. Get a free, personalized quote for your {site.city} home.</p>
       <a class="btn btn-primary" href="/quote/">Get a Free Water Softener Quote in Albuquerque</a>
     </div>
   </section>

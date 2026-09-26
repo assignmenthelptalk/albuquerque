@@ -34,11 +34,11 @@ const faqs = [
   },
   {
     q: `How much does water softener installation cost in ${site.city}?`,
-    a: `Cost depends on household size and grain capacity required. Exact ${site.city} pricing is [PLACEHOLDER — confirm local price range for equipment and install]. We provide a free no-obligation quote after a free in-home water test.`,
+    a: `Cost depends on household size and grain capacity required. Exact ${site.city} pricing is [PLACEHOLDER. Confirm local price range for equipment and install]. We provide a free no-obligation quote after a free in-home water test.`,
   },
   {
     q: `How long does installation take?`,
-    a: `Typical installation duration for this installer is [PLACEHOLDER — confirm typical install time], such as testing the output before leaving.`,
+    a: `Typical installation duration for this installer is [PLACEHOLDER. Confirm typical install time], such as testing the output before leaving.`,
   },
   {
     q: `Does ${site.city} water damage appliances?`,
@@ -60,12 +60,12 @@ const faqSchema = {
 <Layout
   title={`Water Softener Installation in ${site.city}, ${site.stateAbbr}`}
   fullTitle={`${site.city} Water Softener | Expert Water Softener Services in ${site.city}`}
-  description={`Water softener installation and repair in ${site.city}, ${site.stateAbbr}. ${site.city} water tests at ${site.gpgLow}–${site.gpgHigh} GPG — ${site.gpgLabel}, per ${site.waterAuthority}. Free in-home water test available across ${site.city} and ${site.county}.`}
+  description={`Water softener installation and repair in ${site.city}, ${site.stateAbbr}. ${site.city} water tests at ${site.gpgLow}–${site.gpgHigh} GPG (${site.gpgLabel}), per ${site.waterAuthority}. Free in-home water test available across ${site.city} and ${site.county}.`}
 >
   <LocalSchema />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
-  <!-- 1. Hero — two-column light layout -->
+  <!-- 1. Hero. Two-column light layout -->
   <section class="hero-section">
     <div class="container hero-grid">
       <div class="hero-text">
@@ -118,12 +118,12 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 2. Services grid — 5 tiles, non-anchor wrapper + one exact-title link per tile -->
+  <!-- 2. Services grid: 5 tiles, non-anchor wrapper + one exact-title link per tile -->
   <section class="section">
     <div class="container">
       <div class="section-header center">
         <h2>Water Softener Services in {site.city}, {site.stateAbbr}</h2>
-        <p>{site.city} Water Softener covers five core services, such as testing, treatment, installation, repair, and comparison. According to {site.waterAuthority}'s own confirmed {site.gpgLow}-{site.gpgHigh} GPG reading, we size every service below to that number — see the full guide for each one.</p>
+        <p>{site.city} Water Softener covers five core services, such as testing, treatment, installation, repair, and comparison. According to {site.waterAuthority}'s own confirmed {site.gpgLow}-{site.gpgHigh} GPG reading, we size every service below to that number. See the full guide for each one.</p>
       </div>
       <div class="grid grid-services">
         {services.map((s) => (
@@ -155,7 +155,7 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 3. GPG data — two column, text left, stat right -->
+  <!-- 3. GPG data. Two column, text left, stat right -->
   <section class="section" style="background: var(--color-surface);">
     <div class="container gpg-data-grid">
       <div>
@@ -166,7 +166,7 @@ const faqSchema = {
           across all {site.population} {site.city} residents of {site.county}, such as every neighbourhood
           {" "}{site.city} homes sit in, such as {site.neighbourhoods.join(", ")} and ZIP codes
           {" "}{site.zipCodes.join(", ")}. According to {site.waterAuthority}'s own reporting, no {site.city}
-          {" "}ZIP code tests meaningfully softer than another — see the full water quality report for your
+          {" "}ZIP code tests meaningfully softer than another. See the full water quality report for your
           neighbourhood.
         </p>
       </div>
@@ -177,7 +177,7 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 4. Alternating image-text 1 of 2 — text left, image right -->
+  <!-- 4. Alternating image-text 1 of 2. Text left, image right -->
   <section class="section">
     <div class="service-section-wrapper">
       <h2 class="service-section-title">Water Softener Installation in {site.city}, {site.stateAbbr}</h2>
@@ -187,7 +187,7 @@ const faqSchema = {
             We size every installation to {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG reading and your
             household's water usage, not a statewide estimate, such as fixture count and peak-hour flow rate.
             Every consultation includes a free water test. {site.waterAuthority} reports this reading holds
-            citywide, so sizing always follows your confirmed number — explore the full installation process
+            citywide, so sizing always follows your confirmed number. Explore the full installation process
             for the exact timeline.
           </p>
           <a class="service-learn-more" href="/installation/">Water Softener Installation in Albuquerque: Process, Timeline &amp; Cost</a>
@@ -199,7 +199,7 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 5. Alternating image-text 2 of 2 — image left, text right -->
+  <!-- 5. Alternating image-text 2 of 2. Image left, text right -->
   <section class="section" style="background: var(--color-surface);">
     <div class="service-section-wrapper">
       <h2 class="service-section-title">Hard Water Effects in {site.city}, {site.stateAbbr}</h2>
@@ -210,7 +210,7 @@ const faqSchema = {
             inside appliances, and inside supply lines within weeks, such as water heaters and dishwashers. A
             whole-home softener stops this at the source rather than treating the symptoms one fixture at a
             time. {site.waterAuthority} data shows this pattern repeats in every {site.city} home on the same
-            supply — learn more about the specific effects room by room.
+            supply. Learn more about the specific effects room by room.
           </p>
           <a class="service-learn-more" href="/hard-water/">Hard Water Effects in Albuquerque: What It Does to Your Home</a>
         </div>
@@ -221,14 +221,14 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 6. CityMap placeholder — see PROVISION.md Step 5b, out of scope this pass -->
+  <!-- 6. CityMap placeholder. See PROVISION.md Step 5b, out of scope this pass -->
   {import.meta.env.DEV && (
     <div class="map-placeholder">
       City neighbourhood map goes here. Build {site.city}Map.astro per PROVISION.md Step 5b
     </div>
   )}
 
-  <!-- 7. Service areas — conditional, only renders with QDP-verified entries -->
+  <!-- 7. Service areas. Conditional, only renders with QDP-verified entries -->
   {site.serviceAreas.filter((a) => a.qdp.verified && a.qdp.verdict === "PASS").length > 0 && (
     <section class="homepage-service-areas">
       <div class="homepage-service-areas-inner">
@@ -251,12 +251,12 @@ const faqSchema = {
     </section>
   )}
 
-  <!-- 8. More resources — remaining homepage brief anchors -->
+  <!-- 8. More resources. Remaining homepage brief anchors -->
   <section class="section">
     <div class="container">
       <div class="section-header center">
         <h2>More {site.city} Water Softener Resources</h2>
-        <p>Five more guides cover products, resin, brine, and filtration, such as the reverse osmosis page below. {site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG figure behind every one of them — explore whichever fits your question.</p>
+        <p>Five more guides cover products, resin, brine, and filtration, such as the reverse osmosis page below. {site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG figure behind every one of them. Explore whichever fits your question.</p>
       </div>
       <ul class="more-links-list">
         {moreLinks.map((link) => (
@@ -266,7 +266,7 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 9. Why Choose Us — bullet list, no cards -->
+  <!-- 9. Why Choose Us. Bullet list, no cards -->
   <section class="section" style="background: var(--color-surface);">
     <div class="container why-choose-us">
       <h2>Why {site.city} Homeowners Choose Us</h2>
@@ -274,15 +274,15 @@ const faqSchema = {
       <ul class="why-choose-list">
         <li>Sized specifically for {site.city}'s {site.gpgLow}-{site.gpgHigh} GPG water, not a generic estimate</li>
         <li>Free in-home water hardness test with every consultation</li>
-        <li>Honest recommendation — repair, replace, or install, based on your actual system and water</li>
+        <li>Honest recommendation. Repair, replace, or install, based on your actual system and water</li>
         <li>Upfront pricing confirmed before any work begins</li>
         <li>Local service across {site.city} and {site.county}</li>
       </ul>
-      <p>{site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG reading applies across every service call — get a free quote to see it applied to your address.</p>
+      <p>{site.waterAuthority} reports the same {site.gpgLow}-{site.gpgHigh} GPG reading applies across every service call. Get a free quote to see it applied to your address.</p>
     </div>
   </section>
 
-  <!-- 10. FAQ accordion — details/summary, no JavaScript -->
+  <!-- 10. FAQ accordion. Details/summary, no JavaScript -->
   <section class="homepage-faq-section">
     <div class="homepage-faq-inner">
       <div class="homepage-faq-header">
@@ -316,7 +316,7 @@ const faqSchema = {
   </section>
 
   <style>
-    /* ---------- 1. Hero — two-column light layout ---------- */
+    /* ---------- 1. Hero. Two-column light layout ---------- */
     .hero-section {
       background: linear-gradient(180deg, #ffffff 0%, var(--color-primary-light) 100%);
       padding: clamp(48px, 8vw, 88px) 24px;
@@ -617,7 +617,7 @@ const faqSchema = {
     .more-links-list a:hover { background: var(--color-primary-light); color: var(--color-accent); }
     .more-links-list a:focus-visible { outline: 3px solid var(--color-primary); outline-offset: -3px; }
 
-    /* ---------- 9. Why Choose Us — bullet list, no cards ---------- */
+    /* ---------- 9. Why Choose Us. Bullet list, no cards ---------- */
     .why-choose-us { max-width: 760px; }
     .why-choose-us h2 { text-align: center; margin-bottom: 24px; }
     .why-choose-list {
