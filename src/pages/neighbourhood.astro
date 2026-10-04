@@ -3,6 +3,7 @@ import Layout from "../components/Layout.astro";
 import PageHero from "../components/PageHero.astro";
 import QuickFacts from "../components/QuickFacts.astro";
 import { site } from "../lib/site";
+import HomeLink from "../components/HomeLink.astro";
 import headerImage from "../assets/images/neighbourhood-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -22,7 +23,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="naked" />
       {" "}provides water softener installation services across every {site.city} neighbourhood and surrounding
       {" "}{site.county} community, such as {site.neighbourhoods.slice(0, 2).join(" and ")}, at {site.gpgLow}
       –{site.gpgHigh} GPG from {site.waterAuthority}. Every neighbourhood receives the same {site.gpgLabel}

@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
 import { site } from "../../lib/site";
+import HomeLink from "../../components/HomeLink.astro";
 import headerImage from "../../assets/images/about-header.jpg";
 import beforeAfterImage from "../../assets/images/about-before-after.jpg";
 import teamWorkingImage from "../../assets/images/about-team-working.jpg";
@@ -114,7 +115,7 @@ const faqs = [
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="exact" />
       {" "}is a Water Softener {site.city} {site.stateAbbr} company that installs and services water softener
       systems for homeowners and property owners. We help eliminate hard water problems like scale buildup, dry
       skin, and appliance damage by installing reliable, high performance systems tailored to {site.city} homes.

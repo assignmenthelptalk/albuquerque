@@ -3,6 +3,7 @@ import Layout from "../components/Layout.astro";
 import PageHero from "../components/PageHero.astro";
 import GPGSliderMini from "../components/GPGSliderMini.astro";
 import { site } from "../lib/site";
+import HomeLink from "../components/HomeLink.astro";
 import headerImage from "../assets/images/comparison-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -22,7 +23,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="naked" />
       {" "}compares salt-based softeners against salt-free conditioners for {site.city} homeowners at
       {" "}{site.gpgLow}–{site.gpgHigh} GPG from {site.waterAuthority}. Not every system works at this hardness
       level. Salt-free conditioners do not remove calcium and magnesium, while salt-based ion exchange removes

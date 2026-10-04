@@ -4,6 +4,7 @@ import PageHero from "../components/PageHero.astro";
 import QuoteForm from "../components/QuoteForm.astro";
 import QuickFacts from "../components/QuickFacts.astro";
 import { site } from "../lib/site";
+import HomeLink from "../components/HomeLink.astro";
 import headerImage from "../assets/images/quote-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -23,7 +24,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="exact" />
       {" "}provides free water testing and no-obligation quotes, such as in-home and virtual options, across
       {" "}{site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from {site.waterAuthority}. Every
       quote starts with a free in-home water hardness test confirming your exact reading. Pricing confirmed in

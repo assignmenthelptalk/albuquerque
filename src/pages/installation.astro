@@ -4,6 +4,7 @@ import PageHero from "../components/PageHero.astro";
 import SystemTour from "../components/SystemTour.astro";
 import QuickFacts from "../components/QuickFacts.astro";
 import { site } from "../lib/site";
+import HomeLink from "../components/HomeLink.astro";
 import headerImage from "../assets/images/installation-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -23,7 +24,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="naked" />
       {" "}offers professional installation services, such as single-tank, dual-tank, and whole-home combo
       systems, sized to {site.city}'s {site.gpgLow}–{site.gpgHigh} GPG reading from {site.waterAuthority},
       across {site.city} and {site.county}. We size every installation to your household water usage, not a

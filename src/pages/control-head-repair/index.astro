@@ -3,6 +3,7 @@ import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
 import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
+import HomeLink from "../../components/HomeLink.astro";
 import headerImage from "../../assets/images/control-head-repair-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -45,7 +46,7 @@ const faqs = [
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="exact" />
       {" "}offers water softener control head repair services, such as reprogramming and full head
       replacement, across {site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from
       {" "}{site.waterAuthority}. The control head manages regeneration cycles. A faulty control valve causes

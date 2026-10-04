@@ -3,6 +3,7 @@ import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
 import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
+import HomeLink from "../../components/HomeLink.astro";
 import headerImage from "../../assets/images/products-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -23,7 +24,7 @@ const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="exact" />
       {" "}offers recommended water softener systems, such as salt-based and combo filtration models, selected
       and sized for {site.city}'s {site.gpgLow}–{site.gpgHigh} GPG hard water from {site.waterAuthority}.
       Salt-free conditioners are not included since they do not remove hardness minerals at {site.gpgLow}

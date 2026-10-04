@@ -3,6 +3,7 @@ import Layout from "../../components/Layout.astro";
 import PageHero from "../../components/PageHero.astro";
 import QuickFacts from "../../components/QuickFacts.astro";
 import { site } from "../../lib/site";
+import HomeLink from "../../components/HomeLink.astro";
 import headerImage from "../../assets/images/salt-based-installation-header.jpg";
 
 const primaryCta = site.phoneNumber && site.phoneNumber !== "PHONE_NUMBER"
@@ -41,7 +42,7 @@ const faqs = [
     image={headerImage}
   >
     <p slot="opening">
-      <a href="/" class="brand-link">{site.businessName}</a>
+      <HomeLink variant="exact" />
       {" "}offers salt-based water softener installation services, such as single-tank and dual-tank systems,
       across {site.city} and {site.county} at {site.gpgLow}–{site.gpgHigh} GPG from {site.waterAuthority}.
       Salt-based ion exchange is the only system that fully removes calcium and magnesium at this hardness
