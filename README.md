@@ -19,6 +19,11 @@ redeploys automatically.
 `[serviceArea]` dynamic route for expanding into nearby cities once they
 pass the QDP test (see `PROVISION.md` Step 5c).
 
+The homepage includes an interactive neighbourhood hardness map
+(`src/components/AlbuquerqueMap.astro`, Leaflet) covering Nob Hill, North
+Valley, Sandia Heights, Four Hills, and Taylor Ranch — see `PROVISION.md`
+Step 5b for how to add or update pins.
+
 ## Development
 
 ```
