@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import Layout from "../components/Layout.astro";
 import LocalSchema from "../components/LocalSchema.astro";
+import AlbuquerqueMap from "../components/AlbuquerqueMap.astro";
 import { site } from "../lib/site";
 import heroImage from "../assets/images/hero-softener.jpg";
 import installationImage from "../assets/images/installation-tile.jpg";
@@ -221,12 +222,7 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- 6. CityMap placeholder. See PROVISION.md Step 5b, out of scope this pass -->
-  {import.meta.env.DEV && (
-    <div class="map-placeholder">
-      City neighbourhood map goes here. Build {site.city}Map.astro per PROVISION.md Step 5b
-    </div>
-  )}
+  <AlbuquerqueMap />
 
   <!-- 7. Service areas. Conditional, only renders with QDP-verified entries -->
   {site.serviceAreas.filter((a) => a.qdp.verified && a.qdp.verdict === "PASS").length > 0 && (
@@ -529,26 +525,6 @@ const faqSchema = {
       .service-section-grid-reverse .service-section-media {
         order: initial;
       }
-    }
-
-    /* ---------- 6. CityMap dev-only placeholder ---------- */
-    .map-placeholder {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 48px 24px;
-      background: repeating-linear-gradient(
-        45deg,
-        var(--color-primary-light),
-        var(--color-primary-light) 10px,
-        var(--surface-elevated) 10px,
-        var(--surface-elevated) 20px
-      );
-      border: 2px dashed var(--color-primary);
-      border-radius: var(--radius-lg);
-      text-align: center;
-      font-family: var(--font-body);
-      font-weight: 600;
-      color: var(--surface-footer);
     }
 
     /* ---------- 7. Service areas (only rendered when serviceAreas is non-empty) ---------- */

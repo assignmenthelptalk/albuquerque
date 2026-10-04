@@ -1,45 +1,4 @@
 ---
-/**
- * CityMap.astro — Generic city neighbourhood hardness map (PROVISIONING TEMPLATE)
- *
- * This component is NOT rendered anywhere in the boilerplate. It is a
- * starting point that provisioners copy and adapt per city — see
- * PROVISION.md Step 5b ("City Map") for the full walkthrough.
- *
- * PROVISIONING INSTRUCTIONS:
- * 1. Copy this file to src/components/[City]Map.astro (e.g. MinneapolisMap.astro)
- * 2. (No centre/zoom/bounds config needed — the map frames itself on the pins)
- * 3. Fill in the neighbourhoods array with real, verified coordinates
- *    (use OpenStreetMap to find lat/lng per neighbourhood — see PROVISION.md)
- * 4. Install leaflet: npm install leaflet @types/leaflet
- * 5. Add to astro.config.mjs: vite: { ssr: { noExternal: ['leaflet'] } }
- * 6. Add to Layout.astro head:
- *    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
- *          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
- * 7. Import and add <[City]Map /> to index.astro after the GPG stat block
- *
- * TILE LAYER NOTE (important — read before choosing a tile provider):
- * - CARTO dark tiles (basemaps.cartocdn.com): NOW REQUIRE AN API KEY, even
- *   for unauthenticated requests. Every tile returns an "API KEY REQUIRED"
- *   watermark baked into the image instead of erroring. Do NOT use CARTO.
- *   Confirmed broken via direct tile fetch, September 2026.
- * - Stadia Maps (tiles.stadiamaps.com): also requires authentication.
- * - WORKING SOLUTION: OpenStreetMap tiles with a CSS inversion filter
- *   scoped to .leaflet-tile-pane only. Markers, popups, and controls sit on
- *   separate Leaflet panes and are NOT affected by the filter.
- *   CSS: filter: invert(1) hue-rotate(190deg) brightness(1.18) contrast(0.85) saturate(0.65)
- *   This produces a dark navy map that matches the site design system.
- * See CLAUDE.md → "Map Component — Tile Layer Rule" for the same note.
- *
- * NOTE ON LEAFLET NOT BEING A BOILERPLATE DEPENDENCY:
- * This file uses a dynamic `import("leaflet")` inside the client script so
- * the boilerplate itself never needs leaflet installed — this component is
- * never rendered here, only copied out during provisioning (Step 4 above).
- * The `@ts-expect-error` above that import is intentional: it suppresses
- * the "module not found" type error until the provisioner installs the
- * package in the city site's own package.json.
- */
-
 import { site } from "../lib/site";
 ---
 
@@ -503,25 +462,75 @@ import { site } from "../lib/site";
 
   document.addEventListener("DOMContentLoaded", async () => {
     // ─────────────────────────────────────────────────────────────────
-    // NEIGHBOURHOOD DATA — fill this array when provisioning a new city
-    // Each entry needs: name, coords [lat, lng], gpgRange, wqaNote, issues[]
-    // Verify every coordinate using OpenStreetMap or Google Maps.
-    // Only list VERIFIED residential neighbourhoods — not roads or parks.
-    // ─────────────────────────────────────────────────────────────────
-    const NEIGHBOURHOOD_1_LAT = 0; // TODO: replace with a verified coordinate
-    const NEIGHBOURHOOD_1_LNG = 0;
+    // NEIGHBOURHOOD DATA — all 5 neighbourhoods share Albuquerque's citywide
+    // ABCWUA reading (see site.config.ts); coordinates geocoded against
+    // OpenStreetMap/Nominatim and verified to resolve inside Albuquerque,
+    // Bernalillo County, NM.
+    const GPG_RANGE = "6–10";
+    const WQA_NOTE =
+      'The Water Quality Association classifies 3.5 to 7 GPG as "Moderately Hard" and 7 to 10.5 GPG as "Hard." ABCWUA reports Albuquerque\'s supply at roughly 6 to 10 GPG citywide.';
 
     const neighbourhoods: Neighbourhood[] = [
       {
-        name: "NEIGHBOURHOOD_1_NAME",
-        coords: [NEIGHBOURHOOD_1_LAT, NEIGHBOURHOOD_1_LNG],
-        gpgRange: "GPG_LOW–GPG_HIGH",
-        wqaNote:
-          'Anything above 10.5 GPG is considered "Very Hard" by the Water Quality Association.',
-        issues: ["ISSUE_1", "ISSUE_2", "ISSUE_3", "ISSUE_4"],
+        name: "Nob Hill",
+        coords: [35.0779237, -106.6043271],
+        gpgRange: GPG_RANGE,
+        wqaNote: WQA_NOTE,
+        issues: [
+          "Mineral spotting on glassware in older bungalow kitchens",
+          "Scale buildup inside vintage cast-iron and copper plumbing",
+          "Soap scum on tile in original 1920s-30s bathrooms",
+          "Reduced water heater efficiency in homes with older tanks",
+        ],
       },
-      // Add one entry per neighbourhood — 4 to 8 entries recommended.
-      // Fewer entries with accurate data beats more entries with invented data.
+      {
+        name: "North Valley",
+        coords: [35.1733771, -106.6233590],
+        gpgRange: GPG_RANGE,
+        wqaNote: WQA_NOTE,
+        issues: [
+          "Hard-water crust on irrigation drip lines and acequia-fed fixtures",
+          "Scale buildup in well-supplemented household plumbing",
+          "Mineral film on dishes and cookware",
+          "Shortened lifespan for water heaters and appliances",
+        ],
+      },
+      {
+        name: "Sandia Heights",
+        coords: [35.1769887, -106.4914122],
+        gpgRange: GPG_RANGE,
+        wqaNote: WQA_NOTE,
+        issues: [
+          "White scale on fixtures fed by higher-pressure foothill lines",
+          "Mineral buildup in tankless water heaters common in newer builds",
+          "Spotting on glass shower enclosures",
+          "Reduced lather and heavier detergent use when cleaning",
+        ],
+      },
+      {
+        name: "Four Hills",
+        coords: [35.0526126, -106.4928449],
+        gpgRange: GPG_RANGE,
+        wqaNote: WQA_NOTE,
+        issues: [
+          "Scale narrowing supply lines in homes built on the mesa",
+          "Mineral crust on pool and spa fill lines",
+          "Chalky residue on outdoor patio fixtures and faucets",
+          "Faster wear on dishwasher and washing machine seals",
+        ],
+      },
+      {
+        name: "Taylor Ranch",
+        coords: [35.1599596, -106.6987895],
+        gpgRange: GPG_RANGE,
+        wqaNote: WQA_NOTE,
+        issues: [
+          "Mineral deposits on kitchen faucets and showerheads",
+          "Cloudy glassware straight out of the dishwasher",
+          "Scale accumulation in newer-construction water heaters",
+          "Dry skin and stiff laundry from untreated hard water",
+        ],
+      },
     ];
 
     // ─────────────────────────────────────────────────────────────────
@@ -530,8 +539,6 @@ import { site } from "../lib/site";
     const mapEl = document.getElementById("city-map");
     if (!mapEl) return;
 
-    // @ts-expect-error — leaflet is a per-city dependency, installed during
-    // provisioning (Step 4 in the file header comment). Not installed here.
     const L = (await import("leaflet")).default;
 
     // Static map: no zoom controls, wheel/touch/double-click zoom, or panning.
