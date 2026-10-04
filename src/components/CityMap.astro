@@ -8,7 +8,7 @@
  *
  * PROVISIONING INSTRUCTIONS:
  * 1. Copy this file to src/components/[City]Map.astro (e.g. MinneapolisMap.astro)
- * 2. Fill in MAP_CONFIG below with the city's centre coordinates and bounds
+ * 2. (No centre/zoom/bounds config needed — the map frames itself on the pins)
  * 3. Fill in the neighbourhoods array with real, verified coordinates
  *    (use OpenStreetMap to find lat/lng per neighbourhood — see PROVISION.md)
  * 4. Install leaflet: npm install leaflet @types/leaflet
@@ -60,13 +60,6 @@ import { site } from "../lib/site";
       <!-- Left: map -->
       <div class="city-map-left">
         <div id="city-map"></div>
-        <button
-          class="map-reset-btn"
-          id="map-reset-btn"
-          aria-label={`Reset map to ${site.city} view`}
-        >
-          ⌖ Reset View
-        </button>
         <div class="map-legend" aria-hidden="true">
           <span class="legend-selected">● Selected Area</span>
           <span class="legend-available">○ Available Data</span>
@@ -110,7 +103,7 @@ import { site } from "../lib/site";
               <div class="gpg-row">
                 <span class="gpg-number" id="report-gpg"></span>
                 <span class="gpg-unit">GPG</span>
-                <span class="gpg-badge">VERY HARD</span>
+                <span class="gpg-badge">{site.gpgLabel.toUpperCase()}</span>
               </div>
             </div>
 
@@ -131,7 +124,7 @@ import { site } from "../lib/site";
     </div>
 
     <p class="map-footnote">
-      All {site.city} neighbourhoods receive water from {site.waterAuthority}
+      All {site.city} neighbourhoods receive water from {site.waterAuthority}{" "}
       at a consistent {site.gpgLow}–{site.gpgHigh} GPG hardness level.
     </p>
 
@@ -510,29 +503,6 @@ import { site } from "../lib/site";
 
   document.addEventListener("DOMContentLoaded", async () => {
     // ─────────────────────────────────────────────────────────────────
-    // MAP CONFIG — fill these values when provisioning a new city
-    // Find coordinates using: https://www.openstreetmap.org (right-click → Show address)
-    // Find the bounding box using: https://boundingbox.klokantech.com
-    // ─────────────────────────────────────────────────────────────────
-    const CITY_LAT = 0; // TODO: replace with the real city centre latitude
-    const CITY_LNG = 0; // TODO: replace with the real city centre longitude
-    const BOUNDS_SOUTH = 0; // TODO: southwest corner of the service area
-    const BOUNDS_WEST = 0;
-    const BOUNDS_NORTH = 0; // TODO: northeast corner of the service area
-    const BOUNDS_EAST = 0;
-
-    const MAP_CONFIG = {
-      centre: [CITY_LAT, CITY_LNG] as [number, number],
-      zoom: 12,
-      minZoom: 11, // prevents zooming out to show the wider metro area
-      maxZoom: 14,
-      bounds: {
-        sw: [BOUNDS_SOUTH, BOUNDS_WEST] as [number, number],
-        ne: [BOUNDS_NORTH, BOUNDS_EAST] as [number, number],
-      },
-    };
-
-    // ─────────────────────────────────────────────────────────────────
     // NEIGHBOURHOOD DATA — fill this array when provisioning a new city
     // Each entry needs: name, coords [lat, lng], gpgRange, wqaNote, issues[]
     // Verify every coordinate using OpenStreetMap or Google Maps.
@@ -564,14 +534,33 @@ import { site } from "../lib/site";
     // provisioning (Step 4 in the file header comment). Not installed here.
     const L = (await import("leaflet")).default;
 
+    // Static map: no zoom controls, wheel/touch/double-click zoom, or panning.
+    // The view is framed once around the neighbourhood pins and then locked,
+    // so no city centre, zoom, or bounds config is needed per city.
     const map = L.map(mapEl, {
-      center: MAP_CONFIG.centre,
-      zoom: MAP_CONFIG.zoom,
-      minZoom: MAP_CONFIG.minZoom,
-      maxZoom: MAP_CONFIG.maxZoom,
-      zoomControl: true,
+      zoomControl: false,
+      dragging: false,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      touchZoom: false,
+      boxZoom: false,
+      keyboard: false,
+      zoomSnap: 0.25,
       attributionControl: true,
     });
+
+    const pinBounds = L.latLngBounds(neighbourhoods.map((hood) => hood.coords));
+    function frameMap() {
+      map.invalidateSize();
+      map.setMinZoom(1);
+      map.setMaxZoom(18);
+      map.fitBounds(pinBounds, { padding: [48, 48], animate: false });
+      const lockedZoom = map.getZoom();
+      map.setMinZoom(lockedZoom);
+      map.setMaxZoom(lockedZoom);
+    }
+    frameMap();
+    window.addEventListener("resize", frameMap);
 
     // ── TILE LAYER ──
     // OSM with CSS inversion — dark navy aesthetic, no API key required.
@@ -584,13 +573,6 @@ import { site } from "../lib/site";
       subdomains: "abc",
       maxZoom: 19,
     }).addTo(map);
-
-    // ── BOUNDS LOCK ──
-    const cityBounds = L.latLngBounds(MAP_CONFIG.bounds.sw, MAP_CONFIG.bounds.ne);
-    map.setMaxBounds(cityBounds);
-    map.on("drag", () => {
-      map.panInsideBounds(cityBounds, { animate: false });
-    });
 
     // ── PIN ICONS ──
     function defaultIcon() {
@@ -628,23 +610,17 @@ import { site } from "../lib/site";
     const reportIssues = document.getElementById("report-issues");
     const reportCta = document.getElementById("report-cta");
 
-    // ── RESET VIEW BUTTON ──
-    const resetBtn = document.getElementById("map-reset-btn");
-    if (resetBtn) {
-      resetBtn.addEventListener("click", () => {
-        map.setView(MAP_CONFIG.centre, MAP_CONFIG.zoom, { animate: true });
-        if (activePopup) map.closePopup(activePopup);
-      });
-    }
-
     // ── MARKERS ──
     let activeMarker: ReturnType<typeof L.marker> | null = null;
     let activePopup: ReturnType<typeof L.popup> | null = null;
+
+    const markers: ReturnType<typeof L.marker>[] = [];
 
     neighbourhoods.forEach((hood) => {
       const marker = L.marker(hood.coords, { icon: defaultIcon() }).addTo(map);
 
       // Hover tooltip — name and GPG reading on mouseover
+      markers.push(marker);
       marker.bindTooltip(
         `<div class="map-hover-tooltip">
            <span class="tooltip-name">${hood.name}</span>
@@ -671,14 +647,12 @@ import { site } from "../lib/site";
         marker.setIcon(activeIcon());
         activeMarker = marker;
 
-        // Centre map on clicked neighbourhood
-        map.setView(hood.coords, MAP_CONFIG.zoom, { animate: true });
-
         // White label popup on map
         activePopup = L.popup({
           closeButton: false,
           className: "map-label-popup",
           offset: [0, -12],
+          autoPan: false, // keep the static map view fixed
         })
           .setLatLng(hood.coords)
           .setContent(`<strong>${hood.name}</strong>`)
@@ -705,5 +679,8 @@ import { site } from "../lib/site";
         if (reportCta) reportCta.textContent = `Free Consultation for ${hood.name} →`;
       });
     });
+
+    // Open with the first neighbourhood selected so the report is never empty.
+    markers[0]?.fire("click");
   });
 </script>
