@@ -114,7 +114,8 @@ city. Import and add after the installation cost section.
 
 **City-specific components to build per city (not in boilerplate):**
 - Neighbourhood hardness map (requires city-specific pin coordinates) — see
-  the City Map section below, a template exists at `CityMap.astro`
+  the City Map section below. Already built for this city at
+  `src/components/AlbuquerqueMap.astro`.
 - Installation process section (requires city-specific copy)
 - Testimonials section (requires city-specific placeholder copy)
 
@@ -125,7 +126,8 @@ Build these during Step 5 using the Henderson versions as reference.
 The neighbourhood hardness map is a city-specific component because it requires
 real GPS coordinates for each neighbourhood — these cannot be genericised.
 `src/components/CityMap.astro` is a template with every interaction pattern
-(zoom lock, bounds lock, reset button, hover tooltips) already implemented —
+(static non-zoomable view auto-framed on the pins, first neighbourhood
+preselected, hover tooltips, click-to-select report panel) already implemented —
 copy it rather than building the map from scratch.
 
 **Steps to build the city map:**
@@ -133,21 +135,13 @@ copy it rather than building the map from scratch.
 1. Copy `src/components/CityMap.astro` to `src/components/[City]Map.astro`
    Example: `src/components/MinneapolisMap.astro`
 
-2. Find the city centre coordinates using OpenStreetMap:
-   Go to https://www.openstreetmap.org → search for the city
-   Right-click the city centre → "Show address" → copy lat/lng
+2. No city-centre, zoom, or bounds configuration is needed. The map is
+   static (no zoom controls, no scroll/touch zoom, no panning) and frames
+   itself once around the neighbourhood pins on load, then locks that view.
 
-3. Fill in the MAP_CONFIG constants near the top of the `<script>` block:
-   ```
-   CITY_LAT / CITY_LNG        ← city centre coordinates
-   zoom:     12                 ← leave at 12 unless city is very large/small
-   minZoom:  11                 ← prevents zooming out to wider metro
-   maxZoom:  14
-   BOUNDS_SOUTH / BOUNDS_WEST  ← southwest corner of the service area
-   BOUNDS_NORTH / BOUNDS_EAST  ← northeast corner of the service area
-   ```
-   Find the bounding box: https://boundingbox.klokantech.com → search city →
-   copy the CSV coordinates into the four `BOUNDS_*` constants.
+3. Skip — there is no `MAP_CONFIG` block anymore. Coordinates are only
+   needed for the neighbourhood pins (step 4). Keep the pins reasonably
+   close together: the locked zoom is chosen to fit all of them.
 
 4. Find neighbourhood coordinates — for each neighbourhood in
    `site.config.ts`'s `neighbourhoods` array:
@@ -189,11 +183,12 @@ copy it rather than building the map from scratch.
    ```
 
 10. Run `npm run dev` — verify at localhost:4321:
-    - All neighbourhood pins visible within the viewport at zoom 12
+    - The map loads framed on the pins with all of them visible
+    - The first neighbourhood is already selected, its report showing
     - Hover over a pin — tooltip shows neighbourhood name and GPG
-    - Click a pin — report panel updates, map centres on that neighbourhood
-    - Reset View button returns the map to the default view
-    - Map cannot be panned outside the city bounds
+    - Click a pin — the report panel and label update (the map does not move)
+    - There are no zoom controls, and scroll, pinch, double-click and drag
+      do nothing
 
 **TILE LAYER — DO NOT CHANGE:**
 The tile layer uses OpenStreetMap with a CSS inversion filter. Do not switch
