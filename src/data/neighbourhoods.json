@@ -1,0 +1,44 @@
+{
+  "hardness": {
+    "value": "8.44",
+    "unit": "GPG",
+    "label": "Hard",
+    "short": "8.44 GPG avg (2023)",
+    "intro": "ABCWUA's 2023 water quality report put the city average hardness at 8.44 GPG, within a range of 2.09 to 11.72 GPG. Click a neighbourhood to see what that means for your home.",
+    "reportNote": "ABCWUA's 2023 water quality report gave a citywide average of 8.44 GPG (about 144 mg/L), within a range of 2.09 to 11.72 GPG. The U.S. Geological Survey rates 121 to 180 mg/L as \"Hard.\"",
+    "footnote": "Hardness is ABCWUA's citywide figure from its 2023 report; the zone each neighbourhood sits in can read higher or lower."
+  },
+  "issues": [
+    "White scale on faucets and showerheads",
+    "Spotting and film on glassware and dishes",
+    "Scale buildup in water heaters and appliances",
+    "Soap scum, dry skin and stiff laundry"
+  ],
+  "neighbourhoods": [
+    {
+      "name": "Nob Hill",
+      "lat": 35.0779237,
+      "lng": -106.6043271
+    },
+    {
+      "name": "North Valley",
+      "lat": 35.1733771,
+      "lng": -106.623359
+    },
+    {
+      "name": "Sandia Heights",
+      "lat": 35.1769887,
+      "lng": -106.4914122
+    },
+    {
+      "name": "Four Hills",
+      "lat": 35.0526126,
+      "lng": -106.4928449
+    },
+    {
+      "name": "Taylor Ranch",
+      "lat": 35.1599596,
+      "lng": -106.6987895
+    }
+  ]
+}

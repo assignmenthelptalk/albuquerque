@@ -150,6 +150,9 @@ export interface SiteConfig {
   state: string;
   /** Two-letter state abbreviation, e.g. "NV" */
   stateAbbr: string;
+  /** Wider region the business serves, used in the homepage "Why We're the
+   * Best" heading, e.g. "Greater Austin" */
+  region: string;
   /** Live domain, no protocol, no trailing slash, e.g. "lasvegaswatersoftener.com" */
   domain: string;
 
@@ -160,6 +163,9 @@ export interface SiteConfig {
   gpgHigh: number;
   /** Human label for the hardness range, e.g. "Very Hard" | "Extreme" */
   gpgLabel: string;
+  /** Set to false while the hardness range is not confirmed by the utility. The About page then shows
+   * a [VERIFY] marker beside the figure. Omit (or true) once the utility's own number is in. */
+  hardnessVerified?: boolean;
   /** Where the city's tap water comes from, e.g. "Municipal reservoir supply" */
   waterSource: string;
   /** The utility/authority that manages the water supply */
@@ -194,15 +200,18 @@ export interface SiteConfig {
   // ── Business identity — edit directly, no CMS ────────────────────────────
   /** The brand mention used everywhere across the site: nav logo, footer,
    * meta titles, every page's opening-paragraph brand-link, the homepage
-   * H1/H3/hero paragraphs, and the LocalBusiness schema name. Single
-   * source of truth — no page hardcodes the brand string.
+   * H1/H3/hero paragraphs, and the LocalBusiness schema name. This is the
+   * single source of truth for the brand string — no page hardcodes it.
    *
-   * Two accepted formats, chosen per city based on domain availability:
-   *   - "[City] Water Softener"     (city-first — used here, since
-   *     albuquerquewatersoftener.com was available)
-   *   - "Water Softeners of [City]" (fallback for cities where the
-   *     city-first domain isn't available)
-   * Do not mix formats within one site. */
+   * Two accepted formats, chosen per city based on domain availability
+   * (check whichever domain you're buying before picking one):
+   *   - "[City] Water Softener"   (city-first — use when this domain,
+   *     e.g. albuquerquewatersoftener.com, is available)
+   *   - "Water Softeners of [City]" (fallback — use when the city-first
+   *     domain is taken, e.g. watersoftenerof[city].com is available instead)
+   * Prefer city-first when both are available. Do not mix formats within
+   * one site, and do not invent a third format — every page assumes one
+   * of these two exact shapes. */
   businessName: string;
   /** Phone number — SCREAMING_SNAKE_CASE placeholder until a tenant signs.
    * Every phone display checks for this exact placeholder string (not just
@@ -220,8 +229,27 @@ export interface SiteConfig {
   /** Google Business Profile URL — blank until claimed; used as the
    * footer link and the LocalBusiness schema's sameAs URL. */
   googleBusinessUrl: string;
+  /** Social profile URLs shown as icons in the footer. Leave a network blank until the profile exists: a blank one
+   * renders as an inert icon (no link). Filled-in URLs are also added to the LocalBusiness schema's sameAs. */
+  socialLinks: { facebook: string; instagram: string; pinterest: string; x: string; youtube: string };
   /** Fully-qualified site URL derived from `domain`, e.g. "https://example.com" */
   siteUrl: string;
+
+  // ── About page facts — edit directly, no CMS ─────────────────────────────
+  /** Founder/team name(s) shown on the About page — SCREAMING_SNAKE_CASE
+   * placeholder until a tenant provides real names. Never invent a name. */
+  founderNames: string;
+  /** Year the tenant business was founded — SCREAMING_SNAKE_CASE placeholder
+   * until a tenant confirms. Never invent a date. */
+  foundedYear: string;
+  /** Approximate customers served, shown in the About page Key Facts table —
+   * SCREAMING_SNAKE_CASE placeholder until a tenant provides a real figure.
+   * If used illustratively before a tenant signs, label it "(illustrative)"
+   * or similar rather than presenting it as a real, unverified statistic. */
+  customersServed: string;
+  /** Approximate projects delivered, shown in the About page Key Facts
+   * table — same placeholder rule as customersServed. */
+  projectsDelivered: string;
 
   // ── Design tokens (deep teal + warm orange defaults; other cities override) ─────
   design: {
@@ -256,34 +284,26 @@ export const siteConfig: SiteConfig = {
   city: "Albuquerque",
   state: "New Mexico",
   stateAbbr: "NM",
+  region: "central New Mexico",
   domain,
 
   // Water hardness data
-  gpgLow: 6,
-  gpgHigh: 10,
-  gpgLabel: "Moderately Hard to Hard",
-  waterSource:
-    "Groundwater pumped from the Santa Fe Group Aquifer, blended with treated surface water from the San Juan-Chama Drinking Water Project since 2008",
+  // ABCWUA Water Quality Report 2023 (distribution monitoring): city average 8.44 gpg, city range 2.09 to 11.72 gpg.
+  // ABCWUA's 2025 report lists no hardness, so 2023 is the latest figure read.
+  gpgLow: 8.44,
+  gpgHigh: 8.44,
+  gpgLabel: "Hard",
+  waterSource: "Groundwater pumped from the Santa Fe Group Aquifer, blended with treated surface water from the San Juan-Chama Drinking Water Project since 2008",
   waterAuthority: "Albuquerque Bernalillo County Water Utility Authority (ABCWUA)",
-
   // SEO
   primaryKeyword: "albuquerque water softener",
-  searchVol: 0, // open data gap — no keyword-tool access from this build
-  metaDescription:
-    "Professional water softener installation in Albuquerque, NM. Albuquerque tap water runs 6-10 GPG, moderately hard to hard, per ABCWUA. Get a free quote today.",
-
+  searchVol: 0,
+  metaDescription: "Water softener installation, repair and replacement in Albuquerque, NM. ABCWUA's 2023 report puts the city average at 8.44 grains per gallon. Get a free estimate.",
   // Local data
-  population: "557,161", // 2024 Census estimate, City of Albuquerque
+  population: "557,161",
   county: "Bernalillo County",
-  neighbourhoods: [
-    "Nob Hill",
-    "North Valley",
-    "Sandia Heights",
-    "Four Hills",
-    "Taylor Ranch",
-  ],
+  neighbourhoods: ["Nob Hill", "North Valley", "Sandia Heights", "Four Hills", "Taylor Ranch"],
   zipCodes: ["87106", "87107", "87111", "87120", "87123"],
-
   // Monetisation
   affiliateSoftener: "https://springwellwater.com/follow/softener/",
   affiliateCombo: "https://springwellwater.com/follow/combo/",
@@ -291,15 +311,20 @@ export const siteConfig: SiteConfig = {
 
   // Business identity — edit directly, no CMS
   businessName: "Albuquerque Water Softener",
-  phoneNumber: "PHONE_NUMBER",
+  phoneNumber: "(505) 000-0000",
   businessEmail: "BUSINESS_EMAIL",
   address: "",
   googleBusinessUrl: "",
+  socialLinks: { facebook: "", instagram: "", pinterest: "", x: "", youtube: "" },
   siteUrl: `https://${domain}`,
 
-  // Design tokens — high-desert Southwest palette (terracotta + turquoise),
-  // distinct from the teal/orange boilerplate default, Tampa (cobalt blue),
-  // and Indianapolis (navy/gold).
+  // About page facts — edit directly, no CMS
+  founderNames: "FOUNDER_NAMES",
+  foundedYear: "FOUNDED_YEAR",
+  customersServed: "CUSTOMERS_SERVED",
+  projectsDelivered: "PROJECTS_DELIVERED",
+
+  // Design tokens (deep teal + warm orange defaults — other cities override these)
   design: {
     primaryColor: "#A6521B",
     primaryLight: "#F5E9DE",

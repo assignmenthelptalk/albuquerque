@@ -1,16 +1,13 @@
 /* =============================================================================
    Water Softener Boilerplate — Design System
    =============================================================================
-   Albuquerque override: terracotta (#A6521B) as primary, turquoise (#2C9C9A)
-   reserved for CTAs and key highlights — a high-desert Southwest palette
-   synced from src/site.config.ts's design tokens (this file is otherwise
-   NOT city-specific; every city site cloned from this boilerplate starts
-   with the same teal/orange defaults and hand-syncs its own colors here,
-   same as Tampa's blue and Indianapolis's navy/gold overrides). DM Serif
-   Display for headings, Inter for body/labels/navigation. Legacy --brand-*
-   / --font-display names are kept as aliases so any selector not explicitly
-   migrated still renders on-brand instead of silently falling back to an
-   unstyled default.
+   Deep teal (#A6521B) as primary, warm orange (#2C9C9A) reserved for CTAs
+   and key highlights, DM Serif Display for headings, Inter for body/labels/
+   navigation. This file is NOT city-specific — every city site cloned from
+   this boilerplate inherits it unchanged; only src/site.config.ts differs
+   per city. Legacy --brand-* / --font-display names are kept as aliases so
+   any selector not explicitly migrated still renders on-brand instead of
+   silently falling back to an unstyled default.
    ============================================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
@@ -333,3 +330,7 @@ table.data-table tbody tr:nth-child(even) { background: var(--surface-elevated);
   border-radius: var(--radius-full);
   white-space: nowrap;
 }
+
+/* No photo yet: hide the grey placeholder art instead of showing it on a live page. When the real card photo
+   exists, `npm run import-content` swaps it in and this rule no longer matches. */
+.prose img[src*="/placeholders/"] { display: none; }
