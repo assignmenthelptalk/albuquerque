@@ -20,9 +20,9 @@ markerCount: 0
 
 We serve Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch, along with every other Albuquerque neighborhood. Each neighborhood page is published once its water provider is confirmed.
 
-- Nob Hill
-- North Valley
-- Sandia Heights
+- [Nob Hill](/water-softener-nob-hill-nm/)
+- [North Valley](/water-softener-north-valley-nm/)
+- [Sandia Heights](/water-softener-sandia-heights-nm/)
 - Four Hills
 - Taylor Ranch
 
@@ -30,7 +30,7 @@ Not sure whether your home is in our area? Call or request an estimate, and we w
 
 ## Why Water Varies Across Albuquerque
 
-Hardness changes across the city because ABCWUA blends locally pumped groundwater with treated San Juan-Chama surface water. ABCWUA's 2023 report gave a city range of 2.09 to 11.72 grains per gallon and a city average of 8.44, while the Zone 17 distribution table in the same report showed 2.09 to 9.72 with an average of 7.32. ABCWUA publishes water quality results by distribution zone, and homes outside the city system, such as private wells, have their own water. A free water test at your tap gives the number that matters.
+Hardness changes across the city because ABCWUA blends locally pumped groundwater with treated San Juan-Chama surface water. ABCWUA's 2023 report gave a city range of 2.09 to 11.72 grains per gallon and a city average of 8.44, while the Zone 17 distribution table in the same report showed 2.09 to 9.72 with an average of 7.32. ABCWUA publishes water quality results by distribution zone, and homes outside the city system have their own water: Sandia Heights is served by Sandia Peak Utility, and private wells, found in parts of the North Valley, are not covered by any utility report. A free water test at your tap gives the number that matters.
 
 
 
