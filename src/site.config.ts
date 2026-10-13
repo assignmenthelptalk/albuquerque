@@ -232,6 +232,8 @@ export interface SiteConfig {
   /** Social profile URLs shown as icons in the footer. Leave a network blank until the profile exists: a blank one
    * renders as an inert icon (no link). Filled-in URLs are also added to the LocalBusiness schema's sameAs. */
   socialLinks: { facebook: string; instagram: string; pinterest: string; x: string; youtube: string };
+  /** Optional Google Search Console verification token, rendered as a meta tag in the page head */
+  googleSiteVerification?: string;
   /** Fully-qualified site URL derived from `domain`, e.g. "https://example.com" */
   siteUrl: string;
 
@@ -316,6 +318,7 @@ export const siteConfig: SiteConfig = {
   address: "",
   googleBusinessUrl: "",
   socialLinks: { facebook: "", instagram: "", pinterest: "", x: "", youtube: "" },
+  googleSiteVerification: "1wI_ebre2EZXWKs_I_6eDd6TTCYVitUnJDJCuG818AM",
   siteUrl: `https://${domain}`,
 
   // About page facts — edit directly, no CMS
