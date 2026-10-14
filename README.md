@@ -1,6 +1,6 @@
 # albuquerque-tmp
 
-Rank-and-rent lead-generation site for **Albuquerque Water Softener** (albuquerquewatersoftener.com, target keyword "albuquerque water softener").
+Rank-and-rent lead-generation site for **Albuquerque Elite Water Softener** (albuquerquewatersoftener.com, target keyword "albuquerque water softener").
 Astro 7 static site created from `water-softener-boilerplate` with `Local-SEO-Toolkit/scripts/create-site-project.mjs`.
 
 **Status: scaffold only.** The site builds with starter pages (home, About, Contact, thank-you, 404). The topical map, briefs and

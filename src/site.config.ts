@@ -312,7 +312,7 @@ export const siteConfig: SiteConfig = {
   affiliateRO: "https://springwellwater.com/follow/ro/",
 
   // Business identity — edit directly, no CMS
-  businessName: "Albuquerque Water Softener",
+  businessName: "Albuquerque Elite Water Softener",
   phoneNumber: "(505) 000-0000",
   businessEmail: "BUSINESS_EMAIL",
   address: "",

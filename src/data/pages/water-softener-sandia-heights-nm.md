@@ -1,18 +1,18 @@
 ---
 title: "Water Softener Installation & Service in Sandia Heights, NM | Trusted Local Specialists"
-seoTitle: "Water Softener in Sandia Heights, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener in Sandia Heights, NM | Albuquerque Elite Water Softener"
 description: "Water softener installation and service in Sandia Heights, NM, where Sandia Peak Utility supplies water. Test your tap for hardness. Free estimate."
 metaDraft: false
 slug: "/water-softener-sandia-heights-nm/"
 pageType: "geo"
 parentSlug: "/service-areas/"
 crumb: "Water Softener Installation & Service in Sandia Heights, NM"
-openingHtml: "Water softener installation and service in Sandia Heights, NM covers installing, replacing, repairing and testing softeners for homes in this foothills neighborhood. Sandia Heights is served by Sandia Peak Utility, not by ABCWUA, so the Albuquerque city hardness figures do not describe your water. Albuquerque Water Softener serves Sandia Heights from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
+openingHtml: "Water softener installation and service in Sandia Heights, NM covers installing, replacing, repairing and testing softeners for homes in this foothills neighborhood. Sandia Heights is served by Sandia Peak Utility, not by ABCWUA, so the Albuquerque city hardness figures do not describe your water. Albuquerque Elite Water Softener serves Sandia Heights from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
 formHeading: ""
 formIntro: ""
 leadImage: null
 images: []
-faq: [{"q":"How hard is Sandia Heights water?","a":"Sandia Heights water has no published hardness figure that we found. A free test at your tap gives the number, and Sandia Peak Utility can provide its latest water quality report."},{"q":"Who supplies water in Sandia Heights?","a":"The New Mexico Public Regulation Commission lists Sandia Peak Utility's water service as covering Sandia Heights and Primrose Pointe. Your water bill confirms the provider for your address."},{"q":"Do ABCWUA's hardness figures apply to Sandia Heights?","a":"No. ABCWUA's report covers ABCWUA's own customers, and Sandia Heights is served by a different utility. Albuquerque Water Softener NM provides water softener installation and service in Sandia Heights, NM and serves homes and businesses across Bernalillo County."}]
+faq: [{"q":"How hard is Sandia Heights water?","a":"Sandia Heights water has no published hardness figure that we found. A free test at your tap gives the number, and Sandia Peak Utility can provide its latest water quality report."},{"q":"Who supplies water in Sandia Heights?","a":"The New Mexico Public Regulation Commission lists Sandia Peak Utility's water service as covering Sandia Heights and Primrose Pointe. Your water bill confirms the provider for your address."},{"q":"Do ABCWUA's hardness figures apply to Sandia Heights?","a":"No. ABCWUA's report covers ABCWUA's own customers, and Sandia Heights is served by a different utility. Albuquerque Elite Water Softener NM provides water softener installation and service in Sandia Heights, NM and serves homes and businesses across Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -69,7 +69,7 @@ No. ABCWUA's report covers ABCWUA's own customers, and Sandia Heights is served 
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener installation and service in Sandia Heights, NM and serves homes and businesses across Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener installation and service in Sandia Heights, NM and serves homes and businesses across Bernalillo County.
 
 </details>
 
@@ -77,4 +77,4 @@ No. ABCWUA's report covers ABCWUA's own customers, and Sandia Heights is served 
 
 ## Get Your Free Estimate
 
-Request a free water softener estimate in Sandia Heights, NM. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water softener estimate in Sandia Heights, NM. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

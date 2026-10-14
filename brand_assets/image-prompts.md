@@ -1,4 +1,4 @@
-# Image Prompts — Albuquerque Water Softener Site
+# Image Prompts — Albuquerque Elite Water Softener Site
 
 24 AI image-generation prompts, one per photo the site needs. Modeled on
 the Tampa site's already-live photography (`watersoftenertampafl/src/assets/images/`)

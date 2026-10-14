@@ -1,18 +1,18 @@
 ---
 title: "Water Softener Maintenance in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Softener Maintenance Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener Maintenance Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Water softener maintenance in Albuquerque, NM: salt refills, resin and brine tank cleaning and valve checks that keep your softener at full capacity."
 metaDraft: false
 slug: "/water-softener-maintenance/"
 pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Softener Maintenance"
-openingHtml: "Water softener maintenance in Albuquerque, NM means refilling salt, cleaning the resin and brine tank and inspecting the valve so your system keeps softening at full capacity. <a href=\"/\">Albuquerque Water Softener</a> services all major softener brands and schedules visits around your household. Request a free estimate and we will tell you what your system needs."
+openingHtml: "Water softener maintenance in Albuquerque, NM means refilling salt, cleaning the resin and brine tank and inspecting the valve so your system keeps softening at full capacity. <a href=\"/\">Albuquerque Elite Water Softener</a> services all major softener brands and schedules visits around your household. Request a free estimate and we will tell you what your system needs."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-maintenance-albuquerque-nm.webp","alt":"Water softener maintenance Albuquerque NM technician checking brine tank"}
 images: [{"file":"water-softener-maintenance-albuquerque-nm.webp","alt":"Water softener maintenance Albuquerque NM technician checking brine tank","exists":true},{"file":"card-water-softener-resin-cleaning-service-albuquerque-nm.webp","alt":"Water Softener Resin Cleaning Service Albuquerque NM","exists":false},{"file":"card-water-softener-salt-refill-service-albuquerque-nm.webp","alt":"Water Softener Salt Refill Service Albuquerque NM","exists":false},{"file":"card-water-softener-brine-tank-cleaning-albuquerque-nm.webp","alt":"Water Softener Brine Tank Cleaning Albuquerque NM","exists":false},{"file":"card-annual-maintenance-plans-albuquerque-nm.webp","alt":"Annual Maintenance Plans Albuquerque NM","exists":false}]
-faq: [{"q":"How much salt does a water softener use?","a":"Salt use depends on hardness and water use. Check the brine tank monthly and refill when the level drops near one-third full."},{"q":"Which type of salt suits my softener?","a":"Block, pellet or crystal salt all work, and your manual names the right one. Potassium chloride suits households that avoid sodium."},{"q":"What is a salt bridge?","a":"A salt bridge is a hard crust that forms above the water in the brine tank, so salt cannot dissolve into brine. We break it up and clean the tank."},{"q":"Why does my water feel hard right after a refill?","a":"Salt alone does not soften water. The unit must complete a regeneration cycle, and hard water after that points to resin, injector or valve trouble."},{"q":"Do you service softeners you did not install?","a":"Many brands can be serviced. Tell us the make and model when you request service and we will confirm whether we can work on it. Albuquerque Water Softener NM provides water softener maintenance for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"How much salt does a water softener use?","a":"Salt use depends on hardness and water use. Check the brine tank monthly and refill when the level drops near one-third full."},{"q":"Which type of salt suits my softener?","a":"Block, pellet or crystal salt all work, and your manual names the right one. Potassium chloride suits households that avoid sodium."},{"q":"What is a salt bridge?","a":"A salt bridge is a hard crust that forms above the water in the brine tank, so salt cannot dissolve into brine. We break it up and clean the tank."},{"q":"Why does my water feel hard right after a refill?","a":"Salt alone does not soften water. The unit must complete a regeneration cycle, and hard water after that points to resin, injector or valve trouble."},{"q":"Do you service softeners you did not install?","a":"Many brands can be serviced. Tell us the make and model when you request service and we will confirm whether we can work on it. Albuquerque Elite Water Softener NM provides water softener maintenance for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -124,7 +124,7 @@ Many brands can be serviced. Tell us the make and model when you request service
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener maintenance for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener maintenance for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -132,4 +132,4 @@ Many brands can be serviced. Tell us the make and model when you request service
 
 ## Get Your Free Estimate
 
-Request a free water softener service estimate. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water softener service estimate. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

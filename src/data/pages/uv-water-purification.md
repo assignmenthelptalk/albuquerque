@@ -1,18 +1,18 @@
 ---
 title: "UV Water Purification System Installation in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "UV Water Purification Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "UV Water Purification Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "UV water purification system installation in Albuquerque, NM inactivates bacteria and viruses without chemicals. See what UV treats and what it does not."
 metaDraft: false
 slug: "/uv-water-purification/"
 pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "UV Water Purification System Installation"
-openingHtml: "UV water purification system installation in Albuquerque, NM adds an ultraviolet light chamber that inactivates bacteria and viruses in your water without chemicals. <a href=\"/\">Albuquerque Water Softener</a> installs UV systems for homes, with a focus on private wells. Request a free estimate and a technician will test your water first."
+openingHtml: "UV water purification system installation in Albuquerque, NM adds an ultraviolet light chamber that inactivates bacteria and viruses in your water without chemicals. <a href=\"/\">Albuquerque Elite Water Softener</a> installs UV systems for homes, with a focus on private wells. Request a free estimate and a technician will test your water first."
 formHeading: ""
 formIntro: ""
 leadImage: null
 images: [{"file":"uv-water-purification-albuquerque-nm.webp","alt":"UV water purification Albuquerque NM ultraviolet system on a main line","exists":false},{"file":"card-how-uv-water-purification-works-albuquerque-nm.webp","alt":"How UV Water Purification Works Albuquerque NM","exists":false},{"file":"card-uv-system-installation-albuquerque-nm.webp","alt":"UV System Installation Albuquerque NM","exists":false},{"file":"card-uv-and-water-softener-combination-albuquerque-nm.webp","alt":"UV and Water Softener Combination Albuquerque NM","exists":false}]
-faq: [{"q":"Does UV remove chemicals or hardness?","a":"No. UV inactivates microbes only. Hardness, chemicals and sediment need other treatment."},{"q":"How often do I replace the UV lamp?","a":"Lamps commonly need replacing about once a year, even if they still glow, because output fades. Follow your unit's guidance."},{"q":"Does UV change the taste of water?","a":"No. UV adds no chemicals and leaves taste unchanged."},{"q":"Do I need a pre-filter with a UV system?","a":"Yes. Cloudy or sediment-heavy water shields microbes from the light, so a sediment filter goes ahead of the UV unit. Albuquerque Water Softener NM provides UV water purification system installation for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"Does UV remove chemicals or hardness?","a":"No. UV inactivates microbes only. Hardness, chemicals and sediment need other treatment."},{"q":"How often do I replace the UV lamp?","a":"Lamps commonly need replacing about once a year, even if they still glow, because output fades. Follow your unit's guidance."},{"q":"Does UV change the taste of water?","a":"No. UV adds no chemicals and leaves taste unchanged."},{"q":"Do I need a pre-filter with a UV system?","a":"Yes. Cloudy or sediment-heavy water shields microbes from the light, so a sediment filter goes ahead of the UV unit. Albuquerque Elite Water Softener NM provides UV water purification system installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -106,7 +106,7 @@ Yes. Cloudy or sediment-heavy water shields microbes from the light, so a sedime
 
 
 
-[Albuquerque Water Softener NM](/) provides UV water purification system installation for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides UV water purification system installation for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -114,4 +114,4 @@ Yes. Cloudy or sediment-heavy water shields microbes from the light, so a sedime
 
 ## Get Your Free Estimate
 
-Request a free UV water purification estimate. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free UV water purification estimate. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

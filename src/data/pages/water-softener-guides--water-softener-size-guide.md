@@ -1,6 +1,6 @@
 ---
 title: "Water Softener Size Guide in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Softener Size Guide Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener Size Guide Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Size a water softener for your Albuquerque, NM home. Use daily water use and hardness to find the grain capacity, with a worked example for 8.44 gpg water."
 metaDraft: false
 slug: "/water-softener-guides/water-softener-size-guide/"
@@ -12,7 +12,7 @@ formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-size-guide-albuquerque-nm.webp","alt":"Water softener size guide Albuquerque NM grain capacity chart"}
 images: [{"file":"water-softener-size-guide-albuquerque-nm.webp","alt":"Water softener size guide Albuquerque NM grain capacity chart","exists":true}]
-faq: [{"q":"Is bigger always better for a water softener?","a":"No. An oversized unit costs more and regenerates less often, which can leave resin idle. Aim for a regeneration every three to seven days."},{"q":"How often does a softener regenerate?","a":"Most households do best with a regeneration every three to seven days. Newer control heads regenerate by actual use."},{"q":"Does the number of bathrooms matter?","a":"Bathrooms matter through people and usage. Count people and heavy water use rather than rooms."},{"q":"What if my family grows or I add a pool?","a":"Re-run the formula. A larger load calls for the next size up or a dual tank system. Albuquerque Water Softener NM provides water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"Is bigger always better for a water softener?","a":"No. An oversized unit costs more and regenerates less often, which can leave resin idle. Aim for a regeneration every three to seven days."},{"q":"How often does a softener regenerate?","a":"Most households do best with a regeneration every three to seven days. Newer control heads regenerate by actual use."},{"q":"Does the number of bathrooms matter?","a":"Bathrooms matter through people and usage. Count people and heavy water use rather than rooms."},{"q":"What if my family grows or I add a pool?","a":"Re-run the formula. A larger load calls for the next size up or a dual tank system. Albuquerque Elite Water Softener NM provides water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -101,7 +101,7 @@ Re-run the formula. A larger load calls for the next size up or a dual tank syst
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener installation for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener installation for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -109,4 +109,4 @@ Re-run the formula. A larger load calls for the next size up or a dual tank syst
 
 ## Get Your Free Estimate
 
-Request a free water test and sizing for your Albuquerque home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water test and sizing for your Albuquerque home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

@@ -1,18 +1,18 @@
 ---
 title: "Water Treatment Services in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Treatment Services Albuquerque, NM | Albuquerque Water Softener"
-description: "Water filtration, well water treatment, reverse osmosis, UV purification and testing in Albuquerque, NM. Request a free estimate from Albuquerque Water Softener."
+seoTitle: "Water Treatment Services Albuquerque, NM | Albuquerque Elite Water Softener"
+description: "Water filtration, well water treatment, reverse osmosis, UV purification and testing in Albuquerque, NM. Request a free estimate from Albuquerque Elite Water Softener."
 metaDraft: false
 slug: "/water-treatment-and-testing/"
 pageType: "hub"
 parentSlug: "/"
 crumb: "Water Treatment Services"
-openingHtml: "Water treatment services in Albuquerque, NM start with a test, because ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon and free chlorine at 0.9 mg/L, and neither shows in the glass. <a href=\"/\">Albuquerque Water Softener</a> installs filtration, reverse osmosis, UV purification and well water treatment for homes in Albuquerque and Bernalillo County. Choose a service below, or request a free estimate."
+openingHtml: "Water treatment services in Albuquerque, NM start with a test, because ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon and free chlorine at 0.9 mg/L, and neither shows in the glass. <a href=\"/\">Albuquerque Elite Water Softener</a> installs filtration, reverse osmosis, UV purification and well water treatment for homes in Albuquerque and Bernalillo County. Choose a service below, or request a free estimate."
 formHeading: ""
 formIntro: ""
 leadImage: null
 images: [{"file":"water-treatment-albuquerque-nm.webp","alt":"Water treatment Albuquerque NM whole house filter and water softener setup","exists":false},{"file":"card-why-test-before-you-treat-albuquerque-nm.webp","alt":"Why Test Before You Treat Albuquerque NM","exists":false},{"file":"card-water-quality-testing-albuquerque-nm.webp","alt":"Water Quality Testing Albuquerque NM","exists":true},{"file":"card-water-filtration-system-installation-albuquerque-nm.webp","alt":"Water Filtration System Installation Albuquerque NM","exists":false},{"file":"card-well-water-softener-and-treatment-albuquerque-nm.webp","alt":"Well Water Softener and Treatment Albuquerque NM","exists":false},{"file":"card-water-contaminant-removal-albuquerque-nm.webp","alt":"Water Contaminant Removal Albuquerque NM","exists":false},{"file":"card-reverse-osmosis-system-installation-albuquerque-nm.webp","alt":"Reverse Osmosis System Installation Albuquerque NM","exists":false},{"file":"card-uv-water-purification-system-installation-albuquerque-nm.webp","alt":"UV Water Purification System Installation Albuquerque NM","exists":false},{"file":"card-drinking-water-system-installation-albuquerque-nm.webp","alt":"Drinking Water System Installation Albuquerque NM","exists":false}]
-faq: [{"q":"Do I need a filter if I have a water softener?","a":"A softener and a filter solve different problems, so many homes use both. A softener removes calcium and magnesium, and a carbon filter reduces chlorine taste and odor. ABCWUA's 2023 distribution monitoring measured free chlorine at a city average of 0.9 mg/L, so a carbon stage is the usual choice for households that notice chlorine."},{"q":"Does reverse osmosis remove hardness?","a":"Reverse osmosis removes most dissolved minerals at one tap, but it is built for drinking water, not for protecting a whole house. Hard water shortens a membrane's life, so a softener ahead of the system helps it last."},{"q":"How often does a private well need testing?","a":"EPA recommends that private well owners test for bacteria every year and test for other contaminants when a risk is present. Nobody tests a private well for you, so the owner schedules it."},{"q":"Does Albuquerque city water need UV treatment?","a":"City water from ABCWUA is already disinfected, so UV is mainly for private wells and for homes with a bacteria result on a test. A test shows whether a household needs it. Albuquerque Water Softener NM provides water treatment services for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"Do I need a filter if I have a water softener?","a":"A softener and a filter solve different problems, so many homes use both. A softener removes calcium and magnesium, and a carbon filter reduces chlorine taste and odor. ABCWUA's 2023 distribution monitoring measured free chlorine at a city average of 0.9 mg/L, so a carbon stage is the usual choice for households that notice chlorine."},{"q":"Does reverse osmosis remove hardness?","a":"Reverse osmosis removes most dissolved minerals at one tap, but it is built for drinking water, not for protecting a whole house. Hard water shortens a membrane's life, so a softener ahead of the system helps it last."},{"q":"How often does a private well need testing?","a":"EPA recommends that private well owners test for bacteria every year and test for other contaminants when a risk is present. Nobody tests a private well for you, so the owner schedules it."},{"q":"Does Albuquerque city water need UV treatment?","a":"City water from ABCWUA is already disinfected, so UV is mainly for private wells and for homes with a bacteria result on a test. A test shows whether a household needs it. Albuquerque Elite Water Softener NM provides water treatment services for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -172,7 +172,7 @@ EPA recommends that private well owners test for bacteria every year and test fo
 
 City water from ABCWUA is already disinfected, so UV is mainly for private wells and for homes with a bacteria result on a test. A test shows whether a household needs it.
 
-[Albuquerque Water Softener NM](/) provides water treatment services for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water treatment services for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 

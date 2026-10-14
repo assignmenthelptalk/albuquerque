@@ -1,18 +1,18 @@
 ---
 title: "Water Softener Replacement in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Softener Replacement Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener Replacement Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Water softener replacement in Albuquerque, NM: remove a failing unit and install a correctly sized new one, or replace the resin bed. Free estimate."
 metaDraft: false
 slug: "/water-softener-replacement/"
 pageType: "core-service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Softener Replacement"
-openingHtml: "Water softener replacement in Albuquerque, NM removes an old or failing unit and installs a correctly sized new one on your existing plumbing, so softened water returns to every tap. <a href=\"/\">Albuquerque Water Softener</a> replaces whole systems, resin beds and control valves, and tells you honestly when a repair is the cheaper answer. Request a free estimate and a technician will inspect your current unit and your water."
+openingHtml: "Water softener replacement in Albuquerque, NM removes an old or failing unit and installs a correctly sized new one on your existing plumbing, so softened water returns to every tap. <a href=\"/\">Albuquerque Elite Water Softener</a> replaces whole systems, resin beds and control valves, and tells you honestly when a repair is the cheaper answer. Request a free estimate and a technician will inspect your current unit and your water."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-replacement-albuquerque-nm.webp","alt":"Water softener replacement Albuquerque NM old and new unit"}
 images: [{"file":"water-softener-replacement-albuquerque-nm.webp","alt":"Water softener replacement Albuquerque NM old and new unit","exists":true},{"file":"card-full-water-softener-system-replacement-albuquerque-nm.webp","alt":"Full Water Softener System Replacement Albuquerque NM","exists":false},{"file":"card-resin-bed-replacement-albuquerque-nm.webp","alt":"Resin Bed Replacement Albuquerque NM","exists":false},{"file":"card-water-softener-upgrade-service-albuquerque-nm.webp","alt":"Water Softener Upgrade Service Albuquerque NM","exists":false}]
-faq: [{"q":"How long does water softener replacement take?","a":"Most replacements finish in a single visit. Most standard replacements take about 2 to 4 hours. The technician confirms timing at your estimate."},{"q":"Can I replace just the resin instead of the whole unit?","a":"Yes, when the tank and valve are sound. A resin replacement restores softening for less than a new system, and the technician tests your water to confirm the resin is the cause."},{"q":"Do you remove and dispose of my old water softener?","a":"Ask whether removal and disposal of the old unit is included. The estimate states exactly what is included."},{"q":"Will a new softener use less salt?","a":"A newer control head regenerates by actual water use instead of a fixed timer, which cuts unneeded cycles and salt. Savings depend on your household and your water."},{"q":"Is it worth repairing an old softener?","a":"Repair is worth it when one part has failed on an otherwise sound unit. Past roughly 10 to 15 years, or with a leaking tank, replacement usually costs less over time. Albuquerque Water Softener NM provides water softener replacement for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"How long does water softener replacement take?","a":"Most replacements finish in a single visit. Most standard replacements take about 2 to 4 hours. The technician confirms timing at your estimate."},{"q":"Can I replace just the resin instead of the whole unit?","a":"Yes, when the tank and valve are sound. A resin replacement restores softening for less than a new system, and the technician tests your water to confirm the resin is the cause."},{"q":"Do you remove and dispose of my old water softener?","a":"Ask whether removal and disposal of the old unit is included. The estimate states exactly what is included."},{"q":"Will a new softener use less salt?","a":"A newer control head regenerates by actual water use instead of a fixed timer, which cuts unneeded cycles and salt. Savings depend on your household and your water."},{"q":"Is it worth repairing an old softener?","a":"Repair is worth it when one part has failed on an otherwise sound unit. Past roughly 10 to 15 years, or with a leaking tank, replacement usually costs less over time. Albuquerque Elite Water Softener NM provides water softener replacement for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -135,7 +135,7 @@ Repair is worth it when one part has failed on an otherwise sound unit. Past rou
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener replacement for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener replacement for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -143,4 +143,4 @@ Repair is worth it when one part has failed on an otherwise sound unit. Past rou
 
 ## Get Your Free Estimate
 
-Request a free water softener replacement estimate for your Albuquerque home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for the full list of services. For all softener types, see our [Water Softener Systems in Albuquerque, NM](/water-softener-systems/).
+Request a free water softener replacement estimate for your Albuquerque home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for the full list of services. For all softener types, see our [Water Softener Systems in Albuquerque, NM](/water-softener-systems/).

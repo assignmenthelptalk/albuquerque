@@ -1,18 +1,18 @@
 ---
 title: "Water Softener Installation & Service in Nob Hill, NM | Trusted Local Specialists"
-seoTitle: "Water Softener in Nob Hill, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener in Nob Hill, NM | Albuquerque Elite Water Softener"
 description: "Water softener installation and service in Nob Hill, Albuquerque, NM. ABCWUA's 2023 city average is 8.44 gpg. Free water test and estimate."
 metaDraft: false
 slug: "/water-softener-nob-hill-nm/"
 pageType: "geo"
 parentSlug: "/service-areas/"
 crumb: "Water Softener Installation & Service in Nob Hill, NM"
-openingHtml: "Water softener installation and service in Nob Hill, NM covers installing, replacing, repairing and testing softeners for homes in this Albuquerque neighborhood along Central Avenue. Nob Hill lies within the City of Albuquerque, and ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, which is hard. Albuquerque Water Softener serves Nob Hill from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
+openingHtml: "Water softener installation and service in Nob Hill, NM covers installing, replacing, repairing and testing softeners for homes in this Albuquerque neighborhood along Central Avenue. Nob Hill lies within the City of Albuquerque, and ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, which is hard. Albuquerque Elite Water Softener serves Nob Hill from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
 formHeading: ""
 formIntro: ""
 leadImage: null
 images: []
-faq: [{"q":"How hard is Nob Hill water?","a":"Nob Hill water is hard. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, within a range of 2.09 to 11.72 grains per gallon, and the report gives no separate Nob Hill figure."},{"q":"Who supplies water in Nob Hill?","a":"Nob Hill is a neighborhood of the City of Albuquerque, and ABCWUA serves the city. Your water bill confirms the provider for your address."},{"q":"What size water softener does a Nob Hill home need?","a":"Size depends on household water use and your test result. At 8.44 grains per gallon, a household of four using 320 gallons a day removes about 2,700 grains daily, and a 24,000-grain unit fits that load. Albuquerque Water Softener NM provides water softener installation and service in Nob Hill, NM and serves homes and businesses across Bernalillo County."}]
+faq: [{"q":"How hard is Nob Hill water?","a":"Nob Hill water is hard. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, within a range of 2.09 to 11.72 grains per gallon, and the report gives no separate Nob Hill figure."},{"q":"Who supplies water in Nob Hill?","a":"Nob Hill is a neighborhood of the City of Albuquerque, and ABCWUA serves the city. Your water bill confirms the provider for your address."},{"q":"What size water softener does a Nob Hill home need?","a":"Size depends on household water use and your test result. At 8.44 grains per gallon, a household of four using 320 gallons a day removes about 2,700 grains daily, and a 24,000-grain unit fits that load. Albuquerque Elite Water Softener NM provides water softener installation and service in Nob Hill, NM and serves homes and businesses across Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -69,7 +69,7 @@ Size depends on household water use and your test result. At 8.44 grains per gal
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener installation and service in Nob Hill, NM and serves homes and businesses across Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener installation and service in Nob Hill, NM and serves homes and businesses across Bernalillo County.
 
 </details>
 
@@ -77,4 +77,4 @@ Size depends on household water use and your test result. At 8.44 grains per gal
 
 ## Get Your Free Estimate
 
-Request a free water softener estimate in Nob Hill, NM. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water softener estimate in Nob Hill, NM. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

@@ -1,13 +1,13 @@
 ---
 title: "Water Softener Service Areas in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Softener Service Areas in Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener Service Areas in Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Water softener service areas in Albuquerque, NM: Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch, with ABCWUA's 2023 hardness range. Free estimate."
 metaDraft: false
 slug: "/service-areas/"
 pageType: "geo-hub"
 parentSlug: "/"
 crumb: "Water Softener Service Areas"
-openingHtml: "<a href=\"/\">Albuquerque Water Softener</a> installs, replaces, repairs and tests water softeners across Albuquerque and Bernalillo County, where ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon within a range of 2.09 to 11.72. Hardness changes with the address, so we tailor each visit to the water at your home. Choose your neighborhood below, or request a free estimate and we will confirm service to your address."
+openingHtml: "<a href=\"/\">Albuquerque Elite Water Softener</a> installs, replaces, repairs and tests water softeners across Albuquerque and Bernalillo County, where ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon within a range of 2.09 to 11.72. Hardness changes with the address, so we tailor each visit to the water at your home. Choose your neighborhood below, or request a free estimate and we will confirm service to your address."
 formHeading: ""
 formIntro: ""
 leadImage: null
@@ -34,7 +34,7 @@ Hardness changes across the city because ABCWUA blends locally pumped groundwate
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener installation, replacement, repair and water testing for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener installation, replacement, repair and water testing for homes and businesses across Albuquerque and Bernalillo County.
 
 ## Get Your Free Estimate
 

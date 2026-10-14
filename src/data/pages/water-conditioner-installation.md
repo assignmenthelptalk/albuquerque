@@ -1,18 +1,18 @@
 ---
 title: "Water Conditioner Installation in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Conditioner Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Water Conditioner Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Water conditioner installation in Albuquerque, NM: a salt-free way to reduce scale on pipes and fixtures. See when it fits and when a softener is better."
 metaDraft: false
 slug: "/water-conditioner-installation/"
 pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Conditioner Installation"
-openingHtml: "Water conditioner installation in Albuquerque, NM adds a system that treats hard water so scale builds up more slowly on pipes, heaters and fixtures. <a href=\"/\">Albuquerque Water Softener</a> installs salt-free conditioners, potassium chloride softeners and scale inhibitor systems, and recommends the one that fits your goal. Request a free estimate and a technician will review your water and your plumbing."
+openingHtml: "Water conditioner installation in Albuquerque, NM adds a system that treats hard water so scale builds up more slowly on pipes, heaters and fixtures. <a href=\"/\">Albuquerque Elite Water Softener</a> installs salt-free conditioners, potassium chloride softeners and scale inhibitor systems, and recommends the one that fits your goal. Request a free estimate and a technician will review your water and your plumbing."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-conditioner-installation-albuquerque-nm.webp","alt":"Water conditioner installation Albuquerque NM on a main water line"}
 images: [{"file":"water-conditioner-installation-albuquerque-nm.webp","alt":"Water conditioner installation Albuquerque NM on a main water line","exists":true},{"file":"card-salt-free-water-conditioners-albuquerque-nm.webp","alt":"Salt-Free Water Conditioners Albuquerque NM","exists":false},{"file":"card-potassium-chloride-water-softener-systems-albuquerque-nm.webp","alt":"Potassium Chloride Water Softener Systems Albuquerque NM","exists":false},{"file":"card-hard-water-treatment-service-albuquerque-nm.webp","alt":"Hard Water Treatment Service Albuquerque NM","exists":false},{"file":"card-limescale-treatment-service-albuquerque-nm.webp","alt":"Limescale Treatment Service Albuquerque NM","exists":false},{"file":"card-scale-inhibitor-system-installation-albuquerque-nm.webp","alt":"Scale Inhibitor System Installation Albuquerque NM","exists":false}]
-faq: [{"q":"What is the difference between a water conditioner and a water softener?","a":"A softener removes calcium and magnesium. A conditioner leaves them in the water but changes how they form scale."},{"q":"Is a potassium chloride softener better than a salt softener?","a":"It softens the same way but adds potassium instead of sodium. It costs more to run, so it fits households avoiding sodium."},{"q":"Will a conditioner remove existing limescale?","a":"Not fully. Existing buildup needs a descaling service, and the conditioner slows new buildup."},{"q":"Do scale inhibitors work for a whole house?","a":"They protect pipes and heaters, but they do not make water feel soft. They suit equipment protection more than comfort."},{"q":"What does water conditioner installation cost in Albuquerque?","a":"The estimate is free and itemized. Albuquerque Water Softener NM provides water conditioner installation for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"What is the difference between a water conditioner and a water softener?","a":"A softener removes calcium and magnesium. A conditioner leaves them in the water but changes how they form scale."},{"q":"Is a potassium chloride softener better than a salt softener?","a":"It softens the same way but adds potassium instead of sodium. It costs more to run, so it fits households avoiding sodium."},{"q":"Will a conditioner remove existing limescale?","a":"Not fully. Existing buildup needs a descaling service, and the conditioner slows new buildup."},{"q":"Do scale inhibitors work for a whole house?","a":"They protect pipes and heaters, but they do not make water feel soft. They suit equipment protection more than comfort."},{"q":"What does water conditioner installation cost in Albuquerque?","a":"The estimate is free and itemized. Albuquerque Elite Water Softener NM provides water conditioner installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -141,7 +141,7 @@ The estimate is free and itemized.
 
 
 
-[Albuquerque Water Softener NM](/) provides water conditioner installation for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water conditioner installation for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -149,4 +149,4 @@ The estimate is free and itemized.
 
 ## Get Your Free Estimate
 
-Request a free water conditioner installation estimate. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water conditioner installation estimate. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

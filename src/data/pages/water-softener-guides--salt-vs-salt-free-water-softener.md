@@ -1,6 +1,6 @@
 ---
 title: "Salt-Based vs Salt-Free Water Softener in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Salt vs Salt-Free Softener Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Salt vs Salt-Free Softener Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Salt-based vs salt-free water softener in Albuquerque, NM: how each works, what each removes and which fits 8.44 gpg water. Compare both before you buy."
 metaDraft: false
 slug: "/water-softener-guides/salt-vs-salt-free-water-softener/"
@@ -12,7 +12,7 @@ formHeading: ""
 formIntro: ""
 leadImage: {"file":"salt-vs-salt-free-water-softener-albuquerque-nm.webp","alt":"Salt vs salt-free water softener Albuquerque NM side by side comparison"}
 images: [{"file":"salt-vs-salt-free-water-softener-albuquerque-nm.webp","alt":"Salt vs salt-free water softener Albuquerque NM side by side comparison","exists":true}]
-faq: [{"q":"Can I use potassium instead of salt?","a":"Yes. A salt-based softener can regenerate with potassium chloride. It costs more per bag and adds potassium instead of sodium to the water."},{"q":"Does a salt-free system really work?","a":"It reduces scale, and results depend on the technology and the water. It does not remove hardness minerals."},{"q":"Which uses more water?","a":"A salt-based softener uses water for each regeneration. A salt-free system sends no water to the drain."},{"q":"Which costs more?","a":"Prices vary by size and brand. Salt-free has lower running costs, and salt-based has the stronger result."},{"q":"Is softened water safe to drink?","a":"Yes for most people. Households limiting sodium can choose potassium chloride or an under-sink filter for drinking water. Albuquerque Water Softener NM provides salt-free water softener systems for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"Can I use potassium instead of salt?","a":"Yes. A salt-based softener can regenerate with potassium chloride. It costs more per bag and adds potassium instead of sodium to the water."},{"q":"Does a salt-free system really work?","a":"It reduces scale, and results depend on the technology and the water. It does not remove hardness minerals."},{"q":"Which uses more water?","a":"A salt-based softener uses water for each regeneration. A salt-free system sends no water to the drain."},{"q":"Which costs more?","a":"Prices vary by size and brand. Salt-free has lower running costs, and salt-based has the stronger result."},{"q":"Is softened water safe to drink?","a":"Yes for most people. Households limiting sodium can choose potassium chloride or an under-sink filter for drinking water. Albuquerque Elite Water Softener NM provides salt-free water softener systems for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -92,7 +92,7 @@ Yes for most people. Households limiting sodium can choose potassium chloride or
 
 
 
-[Albuquerque Water Softener NM](/) provides salt-free water softener systems for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides salt-free water softener systems for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -100,4 +100,4 @@ Yes for most people. Households limiting sodium can choose potassium chloride or
 
 ## Get Your Free Estimate
 
-Request a free estimate and we will compare both options for your home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free estimate and we will compare both options for your home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

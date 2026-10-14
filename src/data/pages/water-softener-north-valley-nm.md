@@ -1,18 +1,18 @@
 ---
 title: "Water Softener Installation & Service in North Valley, NM | Trusted Local Specialists"
-seoTitle: "Water Softener in North Valley, NM | Albuquerque Water Softener"
+seoTitle: "Water Softener in North Valley, NM | Albuquerque Elite Water Softener"
 description: "Water softener installation and service in the North Valley, Albuquerque, NM, for city water and private wells. ABCWUA's 2023 average is 8.44 gpg. Free test."
 metaDraft: false
 slug: "/water-softener-north-valley-nm/"
 pageType: "geo"
 parentSlug: "/service-areas/"
 crumb: "Water Softener Installation & Service in North Valley, NM"
-openingHtml: "Water softener installation and service in the North Valley, NM covers installing, replacing, repairing and testing softeners for homes on ABCWUA city water and on private wells in this Albuquerque neighborhood. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, but that figure does not cover a private well. Albuquerque Water Softener serves the North Valley from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
+openingHtml: "Water softener installation and service in the North Valley, NM covers installing, replacing, repairing and testing softeners for homes on ABCWUA city water and on private wells in this Albuquerque neighborhood. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, but that figure does not cover a private well. Albuquerque Elite Water Softener serves the North Valley from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
 formHeading: ""
 formIntro: ""
 leadImage: null
 images: []
-faq: [{"q":"How hard is North Valley water?","a":"For homes on city water, ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, within a range of 2.09 to 11.72. A private well has its own hardness, so only a test at your tap gives the number."},{"q":"Is my North Valley home on city water or a well?","a":"Your ABCWUA water bill shows that you are a customer, and a home with no water bill from the utility is on a private well or another supply. If you are unsure, ask us at the estimate."},{"q":"What size water softener does a North Valley home need?","a":"Size depends on household water use and your test result. At the city average of 8.44 grains per gallon, a household of four using 320 gallons a day removes about 2,700 grains daily, and a 24,000-grain unit fits that load. Albuquerque Water Softener NM provides water softener installation and service in North Valley, NM and serves homes and businesses across Bernalillo County."}]
+faq: [{"q":"How hard is North Valley water?","a":"For homes on city water, ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, within a range of 2.09 to 11.72. A private well has its own hardness, so only a test at your tap gives the number."},{"q":"Is my North Valley home on city water or a well?","a":"Your ABCWUA water bill shows that you are a customer, and a home with no water bill from the utility is on a private well or another supply. If you are unsure, ask us at the estimate."},{"q":"What size water softener does a North Valley home need?","a":"Size depends on household water use and your test result. At the city average of 8.44 grains per gallon, a household of four using 320 gallons a day removes about 2,700 grains daily, and a 24,000-grain unit fits that load. Albuquerque Elite Water Softener NM provides water softener installation and service in North Valley, NM and serves homes and businesses across Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -70,7 +70,7 @@ Size depends on household water use and your test result. At the city average of
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener installation and service in North Valley, NM and serves homes and businesses across Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener installation and service in North Valley, NM and serves homes and businesses across Bernalillo County.
 
 </details>
 
@@ -78,4 +78,4 @@ Size depends on household water use and your test result. At the city average of
 
 ## Get Your Free Estimate
 
-Request a free water softener estimate in the North Valley, NM. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water softener estimate in the North Valley, NM. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.

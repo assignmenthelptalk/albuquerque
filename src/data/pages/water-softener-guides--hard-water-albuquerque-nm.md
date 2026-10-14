@@ -1,6 +1,6 @@
 ---
 title: "Hard Water in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Hard Water Albuquerque, NM | Albuquerque Water Softener"
+seoTitle: "Hard Water Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Albuquerque water averaged 8.44 grains per gallon in ABCWUA's 2023 report, which is hard. Learn what that does to pipes and fixtures and how to fix it."
 metaDraft: false
 slug: "/water-softener-guides/hard-water-albuquerque-nm/"
@@ -12,7 +12,7 @@ formHeading: ""
 formIntro: ""
 leadImage: {"file":"hard-water-albuquerque-nm.webp","alt":"Hard water scale on a faucet in an Albuquerque NM home water softener needed"}
 images: [{"file":"hard-water-albuquerque-nm.webp","alt":"Hard water scale on a faucet in an Albuquerque NM home water softener needed","exists":true},{"file":"card-what-is-hard-water-albuquerque-nm.webp","alt":"What Is Hard Water? Albuquerque NM","exists":false},{"file":"card-why-is-new-braunfels-water-hard-albuquerque-nm.webp","alt":"Why Is Albuquerque Water Hard? Albuquerque NM","exists":false},{"file":"card-how-hard-is-new-braunfels-water-albuquerque-nm.webp","alt":"How Hard Is Albuquerque Water? Albuquerque NM","exists":false}]
-faq: [{"q":"Is Albuquerque water safe to drink?","a":"ABCWUA's water quality reports list results against federal limits. Hardness is a quality issue, not a health limit, and the reports cover regulated contaminants separately."},{"q":"Does a water softener remove minerals I need?","a":"A softener swaps calcium and magnesium for sodium or potassium. Food supplies most of your minerals, and drinking water is a minor source."},{"q":"Why does my glassware spot even with a rinse aid?","a":"Dissolved minerals dry on glass as white spots. Softened water stops the spotting at the source."},{"q":"Can hard water damage my water heater?","a":"Scale insulates the heating element or tank bottom, which makes the heater work harder and shortens its life. Flushing helps, and softened water prevents most of the buildup."},{"q":"Do homes on well water have harder water?","a":"Often yes, since private wells draw directly from the aquifer. A test shows the hardness and checks for iron and other minerals. Albuquerque Water Softener NM provides water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
+faq: [{"q":"Is Albuquerque water safe to drink?","a":"ABCWUA's water quality reports list results against federal limits. Hardness is a quality issue, not a health limit, and the reports cover regulated contaminants separately."},{"q":"Does a water softener remove minerals I need?","a":"A softener swaps calcium and magnesium for sodium or potassium. Food supplies most of your minerals, and drinking water is a minor source."},{"q":"Why does my glassware spot even with a rinse aid?","a":"Dissolved minerals dry on glass as white spots. Softened water stops the spotting at the source."},{"q":"Can hard water damage my water heater?","a":"Scale insulates the heating element or tank bottom, which makes the heater work harder and shortens its life. Flushing helps, and softened water prevents most of the buildup."},{"q":"Do homes on well water have harder water?","a":"Often yes, since private wells draw directly from the aquifer. A test shows the hardness and checks for iron and other minerals. Albuquerque Elite Water Softener NM provides water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
 
@@ -127,7 +127,7 @@ Often yes, since private wells draw directly from the aquifer. A test shows the 
 
 
 
-[Albuquerque Water Softener NM](/) provides water softener installation for homes and businesses across Albuquerque and Bernalillo County.
+[Albuquerque Elite Water Softener NM](/) provides water softener installation for homes and businesses across Albuquerque and Bernalillo County.
 
 </details>
 
@@ -135,4 +135,4 @@ Often yes, since private wells draw directly from the aquifer. A test shows the 
 
 ## Get Your Free Estimate
 
-Request a free water test and softener estimate for your Albuquerque home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Water Softener for every service we offer.
+Request a free water test and softener estimate for your Albuquerque home. We will contact you to confirm a time. [Get a Free Estimate](#estimate) or return to Albuquerque Elite Water Softener for every service we offer.
