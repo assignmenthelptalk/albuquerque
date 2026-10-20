@@ -281,7 +281,7 @@ export interface SiteConfig {
 
 // Declared separately so siteUrl below can derive from it without
 // duplicating the literal.
-const domain = "albuquerquewatersoftener.com";
+const domain = "www.albuquerquewatersoftener.com";
 
 export const siteConfig: SiteConfig = {
   // Identity
