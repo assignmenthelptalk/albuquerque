@@ -11,7 +11,7 @@ openingHtml: "Water softener repair in Albuquerque, NM finds and fixes the faile
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-repair-albuquerque-nm.webp","alt":"Water softener repair Albuquerque NM technician servicing a control valve"}
-images: [{"file":"water-softener-repair-albuquerque-nm.webp","alt":"Water softener repair Albuquerque NM technician servicing a control valve","exists":true},{"file":"card-water-softener-control-valve-repair-albuquerque-nm.webp","alt":"Water Softener Control Valve Repair Albuquerque NM","exists":false},{"file":"card-water-softener-motor-replacement-albuquerque-nm.webp","alt":"Water Softener Motor Replacement Albuquerque NM","exists":false},{"file":"card-float-valve-repair-albuquerque-nm.webp","alt":"Float Valve Repair Albuquerque NM","exists":false},{"file":"card-injector-cleaning-albuquerque-nm.webp","alt":"Injector Cleaning Albuquerque NM","exists":false},{"file":"card-head-replacement-albuquerque-nm.webp","alt":"Head Replacement Albuquerque NM","exists":false},{"file":"card-brine-line-repair-albuquerque-nm.webp","alt":"Brine Line Repair Albuquerque NM","exists":false},{"file":"card-water-softener-leak-repair-albuquerque-nm.webp","alt":"Water Softener Leak Repair Albuquerque NM","exists":false}]
+images: [{"file":"water-softener-repair-albuquerque-nm.webp","alt":"Water softener repair Albuquerque NM technician servicing a control valve","exists":true},{"file":"card-water-softener-control-valve-repair-albuquerque-nm.webp","alt":"Water Softener Control Valve Repair Albuquerque NM","exists":true},{"file":"card-water-softener-motor-replacement-albuquerque-nm.webp","alt":"Water Softener Motor Replacement Albuquerque NM","exists":true},{"file":"card-float-valve-repair-albuquerque-nm.webp","alt":"Float Valve Repair Albuquerque NM","exists":true},{"file":"card-injector-cleaning-albuquerque-nm.webp","alt":"Injector Cleaning Albuquerque NM","exists":true},{"file":"card-head-replacement-albuquerque-nm.webp","alt":"Head Replacement Albuquerque NM","exists":true},{"file":"card-brine-line-repair-albuquerque-nm.webp","alt":"Brine Line Repair Albuquerque NM","exists":true},{"file":"card-water-softener-leak-repair-albuquerque-nm.webp","alt":"Water Softener Leak Repair Albuquerque NM","exists":true}]
 faq: [{"q":"Why is my water still hard even though the softener has salt?","a":"Salt alone does not soften water. A clogged injector, fouled resin, a failed valve or a missed regeneration cycle can all leave hard water."},{"q":"How do I fix a water softener that is not regenerating?","a":"Check power and the control head settings first. If the unit still does not cycle, the motor, valve or head needs repair, and a technician diagnoses which."},{"q":"What causes a salt bridge?","a":"Humidity and salt type cause a crust to form above the water in the brine tank. Breaking the crust and cleaning the tank restores brine."},{"q":"Why is my water softener leaking?","a":"Leaks come from loose fittings, worn seals, a cracked drain line or a failing tank. A technician finds the source and replaces the part."},{"q":"How much does water softener repair cost?","a":"The cost depends on the part. We give a price before work begins."},{"q":"Do you offer same-day repair in Albuquerque?","a":"Same-day service depends on technician availability. Call and we will do our best to schedule quickly. Albuquerque Elite Water Softener NM provides water softener repair for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -41,7 +41,10 @@ Seven repairs cover the common failures: control valve repair, motor [replacemen
 <div class="svc-card">
 
 
-![Water Softener Control Valve Repair Albuquerque NM](/placeholders/card.svg)
+
+![Water Softener Control Valve Repair Albuquerque NM](../../assets/images/card-water-softener-control-valve-repair-albuquerque-nm.webp)
+
+
 
 ### Water Softener Control Valve Repair
 
@@ -52,7 +55,10 @@ The control valve directs water through the service, backwash, brine and rinse s
 <div class="svc-card">
 
 
-![Water Softener Motor Replacement Albuquerque NM](/placeholders/card.svg)
+
+![Water Softener Motor Replacement Albuquerque NM](../../assets/images/card-water-softener-motor-replacement-albuquerque-nm.webp)
+
+
 
 ### Water Softener Motor Replacement
 
@@ -63,7 +69,10 @@ The motor turns the valve through its cycle. A failed motor leaves the unit stuc
 <div class="svc-card">
 
 
-![Float Valve Repair Albuquerque NM](/placeholders/card.svg)
+
+![Float Valve Repair Albuquerque NM](../../assets/images/card-float-valve-repair-albuquerque-nm.webp)
+
+
 
 ### Float Valve Repair
 
@@ -74,7 +83,10 @@ The float valve limits how much water enters the brine tank. A stuck float cause
 <div class="svc-card">
 
 
-![Injector Cleaning Albuquerque NM](/placeholders/card.svg)
+
+![Injector Cleaning Albuquerque NM](../../assets/images/card-injector-cleaning-albuquerque-nm.webp)
+
+
 
 ### Injector Cleaning
 
@@ -85,7 +97,10 @@ The injector draws brine into the resin tank. Sediment clogs it, and a blocked i
 <div class="svc-card">
 
 
-![Head Replacement Albuquerque NM](/placeholders/card.svg)
+
+![Head Replacement Albuquerque NM](../../assets/images/card-head-replacement-albuquerque-nm.webp)
+
+
 
 ### Head Replacement
 
@@ -96,7 +111,10 @@ The control head holds the timer, display and electronics. When it loses its set
 <div class="svc-card">
 
 
-![Brine Line Repair Albuquerque NM](/placeholders/card.svg)
+
+![Brine Line Repair Albuquerque NM](../../assets/images/card-brine-line-repair-albuquerque-nm.webp)
+
+
 
 ### Brine Line Repair
 
@@ -107,7 +125,10 @@ The brine line carries brine from the tank to the valve. Cracks, kinks or loose 
 <div class="svc-card">
 
 
-![Water Softener Leak Repair Albuquerque NM](/placeholders/card.svg)
+
+![Water Softener Leak Repair Albuquerque NM](../../assets/images/card-water-softener-leak-repair-albuquerque-nm.webp)
+
+
 
 ### Water Softener Leak Repair
 
