@@ -20,7 +20,7 @@ Do not publish while any item below is open. Markers show on the site as highlig
 
 ## Totals
 - Pages built: 30
-- Open markers: 7
+- Open markers: 8
 - Draft meta descriptions: 0
 
 ## Per page
@@ -146,10 +146,11 @@ Do not publish while any item below is open. Markers show on the site as highlig
 
 ### /water-softener-rio-rancho-nm/
 - Meta description: final
-- Open markers: 3
+- Open markers: 4
+  - [NEEDS DATA: Rio Rancho's measured hardness from the City's Utilities Department or a tap test.]
+  - [NEEDS DATA: installed price range, from the tenant or a sourced New Mexico report.]
   - [NEEDS DATA: confirm the installer serves Rio Rancho.]
-  - [NEEDS DATA: Rio Rancho's measured hardness from the City's Utilities Department.]
-  - [NEEDS DATA: measured hardness from the City.]
+  - [NEEDS DATA: confirm the phone number, estimate terms and Rio Rancho service coverage.]
 
 ### /water-softener-sandia-heights-nm/
 - Meta description: final
