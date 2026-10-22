@@ -16,6 +16,12 @@ faq: [{"q":"Why is my water still hard even though the softener has salt?","a":"
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Water Softener Repairs Are Available in Albuquerque, NM?
 
 Seven repairs cover the common failures: control valve repair, motor [replacement](/water-softener-replacement/), float valve repair, injector cleaning, head replacement, brine line repair and leak repair. Find your symptom below, or call and describe what you are seeing.
