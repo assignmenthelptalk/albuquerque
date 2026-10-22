@@ -1,5 +1,36 @@
 {
-  "source": "",
-  "center": null,
-  "points": []
+  "source": "Coordinates: OpenStreetMap Nominatim, looked up 2026-10-22 (Albuquerque, Santa Fe and Rio Rancho: city relations, centre point; Sandia Heights: hamlet node). North Valley carried over from neighbourhood-map.json (Nominatim, resolves inside Albuquerque). Neighbourhood pins are approximate.",
+  "center": {
+    "name": "Albuquerque",
+    "lat": 35.0841,
+    "lng": -106.651
+  },
+  "points": [
+    {
+      "name": "North Valley",
+      "slug": "/water-softener-north-valley-nm/",
+      "lat": 35.1733771,
+      "lng": -106.623359,
+      "approx": true
+    },
+    {
+      "name": "Sandia Heights",
+      "slug": "/water-softener-sandia-heights-nm/",
+      "lat": 35.1769887,
+      "lng": -106.4914122,
+      "approx": true
+    },
+    {
+      "name": "Rio Rancho",
+      "slug": "/water-softener-rio-rancho-nm/",
+      "lat": 35.3108227,
+      "lng": -106.6847453
+    },
+    {
+      "name": "Santa Fe",
+      "slug": "/water-softener-santa-fe-nm/",
+      "lat": 35.6876096,
+      "lng": -105.938456
+    }
+  ]
 }
