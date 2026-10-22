@@ -19,8 +19,8 @@ Do not publish while any item below is open. Markers show on the site as highlig
 - [ ] Write or decide the remaining location pages (see the strategy folder's reports/)
 
 ## Totals
-- Pages built: 28
-- Open markers: 0
+- Pages built: 30
+- Open markers: 5
 - Draft meta descriptions: 0
 
 ## Per page
@@ -144,10 +144,23 @@ Do not publish while any item below is open. Markers show on the site as highlig
 - Open markers: 0
   - (none)
 
+### /water-softener-rio-rancho-nm/
+- Meta description: final
+- Open markers: 3
+  - [NEEDS DATA: confirm the installer serves Rio Rancho.]
+  - [NEEDS DATA: Rio Rancho's measured hardness from the City's Utilities Department.]
+  - [NEEDS DATA: measured hardness from the City.]
+
 ### /water-softener-sandia-heights-nm/
 - Meta description: final
 - Open markers: 0
   - (none)
+
+### /water-softener-santa-fe-nm/
+- Meta description: final
+- Open markers: 2
+  - [NEEDS DATA: confirm the installer serves Santa Fe.]
+  - [NEEDS DATA: a current measured hardness for Santa Fe from the City's Water Division or a tap test.]
 
 ### /water-softener-systems/
 - Meta description: final

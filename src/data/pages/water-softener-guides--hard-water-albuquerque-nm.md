@@ -82,6 +82,8 @@ Most Albuquerque homeowners choose a [salt-based](/water-softener-guides/salt-vs
 
 Test it. A home test strip gives a rough reading, and a technician test gives a precise one with iron and other values. Our [Water Quality Testing in Albuquerque, NM](/water-quality-testing/) covers hardness, total dissolved solids, iron, pH and more.
 
+Homeowners in Santa Fe can read how their water differs in [Water Softener Installation & Service in Santa Fe, NM](/water-softener-santa-fe-nm/).
+
 
 
 To go further, see [salt-free water softener systems](/salt-free-water-softener-systems/) and [what a water softener costs](/water-softener-guides/water-softener-cost-albuquerque-nm/).

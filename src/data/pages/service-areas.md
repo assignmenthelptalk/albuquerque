@@ -29,6 +29,13 @@ We serve Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch, al
 
 Not sure whether your home is in our area? Call or request an estimate, and we will confirm.
 
+## Nearby Cities
+
+Santa Fe and Rio Rancho run their own water systems, so their hardness is not assumed to match Albuquerque's.
+
+- [Santa Fe](/water-softener-santa-fe-nm/): a blend of Rio Grande surface water, Santa Fe River reservoir water and two well fields.
+- [Rio Rancho](/water-softener-rio-rancho-nm/): groundwater only, from the Santa Fe Group Aquifer.
+
 ## Why Water Varies Across Albuquerque
 
 Hardness changes across the city because ABCWUA blends locally pumped groundwater with treated San Juan-Chama surface water. ABCWUA's 2023 report gave a city range of 2.09 to 11.72 grains per gallon and a city average of 8.44, while the Zone 17 distribution table in the same report showed 2.09 to 9.72 with an average of 7.32. ABCWUA publishes water quality results by distribution zone, and homes outside the city system have their own water: Sandia Heights is served by Sandia Peak Utility, and private wells, found in parts of the North Valley, are not covered by any utility report. A free water test at your tap gives the number that matters.

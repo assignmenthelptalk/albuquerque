@@ -72,6 +72,8 @@ Water softener installation in Albuquerque costs depend on five things: system t
 
 Three things decide it: how many people use the water, how hard the water is at your tap and whether the home uses city water or a well. Hardness readings in Albuquerque vary with the supply mix, so a free test at your address replaces guesswork. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, which the U.S. Geological Survey rates as hard.
 
+Homeowners in Rio Rancho can read how their water differs in [Water Softener Installation & Service in Rio Rancho, NM](/water-softener-rio-rancho-nm/).
+
 
 
 Homeowners comparing options also read about [water softener replacement](/water-softener-replacement/), [dual tank water softeners](/dual-tank-water-softener/), [salt-free water softener systems](/salt-free-water-softener-systems/), [water conditioner installation](/water-conditioner-installation/) and [what a water softener costs](/water-softener-guides/water-softener-cost-albuquerque-nm/).
