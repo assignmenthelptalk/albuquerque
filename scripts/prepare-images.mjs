@@ -45,6 +45,7 @@ const NO_BRAND = args.includes("--no-brand");
 const existing = (rel) => (fs.existsSync(path.resolve(root, rel)) ? rel : undefined);
 const LOGO = NO_BRAND ? undefined : opt("logo", existing("src/assets/logo.png"));
 const CARD_LOGO = NO_BRAND ? undefined : opt("card-logo", existing("brand_assets/mark.png")); // smaller mark for card-* images
+const CARD_PLATE_OPACITY = parseFloat(opt("card-plate", "0.55")); // 0 = no plate behind the card mark
 const CARD_WIDTH_RATIO = parseFloat(opt("card-width", "0.11"));
 const LOGO_OPACITY = 0.8, PLATE_OPACITY = 0.55, WIDTH_RATIO = 0.22, MARGIN_RATIO = 0.03;
 
@@ -94,12 +95,12 @@ async function prepLogo(file) {
 const logoPng = LOGO ? await prepLogo(LOGO) : null;
 const cardLogoPng = CARD_LOGO ? await prepLogo(CARD_LOGO) : null;
 
-async function stamp(buf, width, height, png = logoPng, ratio = WIDTH_RATIO) {
+async function stamp(buf, width, height, png = logoPng, ratio = WIDTH_RATIO, plateOpacity = PLATE_OPACITY) {
   const lw = Math.round(width * ratio), pad = Math.round(lw * 0.08);
   const logo = await sharp(png).resize({ width: lw }).toBuffer();
   const lh = (await sharp(logo).metadata()).height;
   const pw = lw + pad * 2, ph = lh + pad * 2, r = Math.round(ph * 0.18);
-  const plate = Buffer.from(`<svg width="${pw}" height="${ph}"><rect width="${pw}" height="${ph}" rx="${r}" fill="#fff" fill-opacity="${PLATE_OPACITY}"/></svg>`);
+  const plate = Buffer.from(`<svg width="${pw}" height="${ph}"><rect width="${pw}" height="${ph}" rx="${r}" fill="#fff" fill-opacity="${plateOpacity}"/></svg>`);
   const m = Math.round(width * MARGIN_RATIO), left = width - pw - m, top = height - ph - m;
   return sharp(buf).composite([{ input: plate, left, top }, { input: logo, left: left + pad, top: top + pad }]);
 }
@@ -123,7 +124,7 @@ for (const { id, file } of plan) {
     const og = brand ? await stamp(crop, 1200, 630) : sharp(crop);
     await og.jpeg({ quality: 82, mozjpeg: true }).toFile(path.join(root, "public", "og-default.jpg"));
   }
-  const out = brand ? await stamp(resized, w, h, png, ratio) : sharp(resized);
+  const out = brand ? await stamp(resized, w, h, png, ratio, isCard && cardLogoPng ? CARD_PLATE_OPACITY : PLATE_OPACITY) : sharp(resized);
   await out.webp({ quality: 80 }).toFile(path.join(OUT, `${id}.webp`));
   const archived = path.join(ARCHIVE, `${id}${path.extname(file).toLowerCase()}`);
   if (path.resolve(input) !== path.resolve(archived)) fs.copyFileSync(input, archived);
