@@ -38,11 +38,13 @@ Hard water affects more than the appearance of your bathroom. Over time, calcium
 
 Look for these common signs:
 
-- White, chalky deposits on faucets and showerheads.
-- Spots or mineral residue on dishes and glassware.
-- Soap scum on shower doors and bathroom surfaces.
-- Scale buildup around kettles and water-heating equipment.
-- Water that does not lather easily with soap.
+<ul class="arrow-list">
+<li>White, chalky deposits on faucets and showerheads.</li>
+<li>Spots or mineral residue on dishes and glassware.</li>
+<li>Soap scum on shower doors and bathroom surfaces.</li>
+<li>Scale buildup around kettles and water-heating equipment.</li>
+<li>Water that does not lather easily with soap.</li>
+</ul>
 
 These signs can indicate hard water, but a water hardness test is the best way to confirm the problem.
 

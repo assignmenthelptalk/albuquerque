@@ -334,3 +334,19 @@ table.data-table tbody tr:nth-child(even) { background: var(--surface-elevated);
 /* No photo yet: hide the grey placeholder art instead of showing it on a live page. When the real card photo
    exists, `npm run import-content` swaps it in and this rule no longer matches. */
 .prose img[src*="/placeholders/"] { display: none; }
+
+/* Green arrow list: a bullet list with a green right-arrow marker instead of a plain dot.
+   Use <ul class="arrow-list"> inside page copy. */
+.prose ul.arrow-list { list-style: none; padding-left: 0; margin: 16px 0; }
+.prose ul.arrow-list li { position: relative; padding-left: 32px; margin: 0 0 10px; }
+.prose ul.arrow-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.32em;
+  width: 20px;
+  height: 20px;
+  background: #2e9e5b;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 12h14M12 5l7 7-7 7' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 12h14M12 5l7 7-7 7' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
