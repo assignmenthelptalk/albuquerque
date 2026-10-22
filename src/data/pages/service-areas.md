@@ -18,13 +18,14 @@ markerCount: 0
 
 ## Albuquerque Neighborhoods
 
-We serve Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch, along with every other Albuquerque neighborhood. Each neighborhood page is published once its water provider is confirmed.
+We serve Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch, along with every other Albuquerque neighborhood. These neighborhoods share the city's water system, so they are covered on this page instead of on separate pages.
 
-- [Nob Hill](/water-softener-nob-hill-nm/)
+- **Nob Hill:** About 80 percent of Nob Hill was built before World War II, on additions platted from 1916 to 1931, so homes can have original, repaired or fully replaced plumbing. ABCWUA's 2023 report put the city average hardness at 8.44 gpg, about 144 mg/L.
 - [North Valley](/water-softener-north-valley-nm/)
 - [Sandia Heights](/water-softener-sandia-heights-nm/)
 - Four Hills
 - Taylor Ranch
+
 
 Not sure whether your home is in our area? Call or request an estimate, and we will confirm.
 

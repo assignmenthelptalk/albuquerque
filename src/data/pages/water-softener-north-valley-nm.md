@@ -36,7 +36,7 @@ For homes on the city system, ABCWUA blends locally pumped groundwater with trea
 
 ## Service Areas Near the North Valley
 
-We serve Albuquerque and Bernalillo County, including [Nob Hill](/water-softener-nob-hill-nm/) and [Sandia Heights](/water-softener-sandia-heights-nm/). See the full [Water Softener Service Areas in Albuquerque, NM](/service-areas/) page for the list.
+We serve Albuquerque and Bernalillo County, including Nob Hill and [Sandia Heights](/water-softener-sandia-heights-nm/). See the full [Water Softener Service Areas in Albuquerque, NM](/service-areas/) page for the list.
 
 > **Not a good fit if...** your well water carries bacteria or high nitrate. A softener does not treat those, so we test first and refer you to the right treatment.
 

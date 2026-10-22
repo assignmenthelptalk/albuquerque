@@ -190,6 +190,16 @@
       "source": "/quote/",
       "destination": "/contact/",
       "permanent": true
+    },
+    {
+      "source": "/water-softener-nob-hill-nm",
+      "destination": "/service-areas/",
+      "permanent": true
+    },
+    {
+      "source": "/water-softener-nob-hill-nm/",
+      "destination": "/service-areas/",
+      "permanent": true
     }
   ]
 }

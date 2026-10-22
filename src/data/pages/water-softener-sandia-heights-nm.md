@@ -35,7 +35,7 @@ Sandia Peak Utility produces its own water quality reporting, separate from ABCW
 
 ## Service Areas Near Sandia Heights
 
-We serve Albuquerque and Bernalillo County, including [Nob Hill](/water-softener-nob-hill-nm/) and [North Valley](/water-softener-north-valley-nm/). See the full [Water Softener Service Areas in Albuquerque, NM](/service-areas/) page for the list.
+We serve Albuquerque and Bernalillo County, including Nob Hill and [North Valley](/water-softener-north-valley-nm/). See the full [Water Softener Service Areas in Albuquerque, NM](/service-areas/) page for the list.
 
 > **Not a good fit if...** your hardness test reads below 60 mg/L, which the U.S. Geological Survey rates as soft. A softener adds little in that case.
 
