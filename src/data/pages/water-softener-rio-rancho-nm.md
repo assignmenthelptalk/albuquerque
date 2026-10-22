@@ -10,8 +10,8 @@ crumb: "Water Softener Installation & Service in Rio Rancho, NM"
 openingHtml: "Water softener installation and service in Rio Rancho, NM covers installing, replacing, repairing and testing softeners for homes on City of Rio Rancho water, which the City's 2025 report says comes entirely from the Santa Fe Group Aquifer through 11 wells. Albuquerque Elite Water Softener serves Rio Rancho from its <a href=\"/\">water softener Albuquerque NM</a> base. <mark class=\"data-gap\">[NEEDS DATA: confirm the installer serves Rio Rancho.]</mark> Request a free estimate and a technician will measure the hardness at your tap."
 formHeading: ""
 formIntro: ""
-leadImage: null
-images: [{"file":"water-softener-rio-rancho-nm.webp","alt":"Water softener installation and service Rio Rancho NM stucco homes with desert landscaping","exists":false}]
+leadImage: {"file":"water-softener-rio-rancho-nm.webp","alt":"Water softener installation and service Rio Rancho NM stucco homes with desert landscaping"}
+images: [{"file":"water-softener-rio-rancho-nm.webp","alt":"Water softener installation and service Rio Rancho NM stucco homes with desert landscaping","exists":true}]
 faq: [{"q":"How hard is Rio Rancho water?","a":"The City of Rio Rancho's 2025 report states no hardness figure. The water is groundwater from the Santa Fe Group Aquifer, and a free test at your tap gives the number for your home."},{"q":"Where does Rio Rancho's water come from?","a":"According to the City's 2025 report, the water comes entirely from the Santa Fe Group Aquifer through 11 wells, many over 1,000 feet deep. The City occasionally buys supplemental water from ABCWUA."},{"q":"Does a water softener remove arsenic from Rio Rancho water?","a":"No. A softener removes calcium and magnesium. The City's report lists naturally occurring arsenic at 4 to 5.8 ppb, below the 10 ppb limit, and a reverse osmosis system lowers it at the drinking tap. Albuquerque Elite Water Softener NM provides water softener installation and service in Rio Rancho, NM and serves homes and businesses across Bernalillo County."}]
 markerCount: 3
 ---
