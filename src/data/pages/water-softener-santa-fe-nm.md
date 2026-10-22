@@ -10,8 +10,8 @@ crumb: "Water Softener Santa Fe, NM: Installation and Service"
 openingHtml: "Hard water can leave mineral deposits on faucets, shower doors, dishes and plumbing fixtures. A properly sized water softener helps reduce calcium and magnesium, making everyday cleaning easier and reducing scale buildup inside your plumbing system."
 formHeading: ""
 formIntro: ""
-leadImage: null
-images: [{"file":"santa-fe-hero-softener-nm.webp","alt":"Whole-house water softener installed in a clean residential utility room Santa Fe NM","exists":false},{"file":"santa-fe-hard-water-signs-nm.webp","alt":"Mineral deposits on a chrome faucet beside a clean bathroom fixture Santa Fe NM","exists":false},{"file":"card-santa-fe-softener-installation-nm.webp","alt":"Residential water softener installation with a resin tank, brine tank and neat plumbing Santa Fe NM","exists":false},{"file":"card-santa-fe-softener-replacement-nm.webp","alt":"New water softener installed beside an older unit awaiting removal Santa Fe NM","exists":false},{"file":"card-santa-fe-softener-repair-nm.webp","alt":"Water softener control valve and plumbing connections opened for inspection Santa Fe NM","exists":false},{"file":"card-santa-fe-water-testing-nm.webp","alt":"Water sample containers and a digital water testing instrument on a clean work surface Santa Fe NM","exists":false},{"file":"water-softener-santa-fe-nm.webp","alt":"Santa Fe NM aerial view of the city with the Sangre de Cristo mountains at golden hour","exists":true},{"file":"santa-fe-choose-softener-nm.webp","alt":"Residential water softener with a control valve and brine tank in a tidy utility room Santa Fe NM","exists":false},{"file":"santa-fe-installed-softener-nm.webp","alt":"Professionally installed water softener with neatly arranged plumbing Santa Fe NM","exists":false}]
+leadImage: {"file":"santa-fe-hero-softener-nm.webp","alt":"Whole-house water softener installed in a clean residential utility room Santa Fe NM"}
+images: [{"file":"santa-fe-hero-softener-nm.webp","alt":"Whole-house water softener installed in a clean residential utility room Santa Fe NM","exists":true},{"file":"santa-fe-hard-water-signs-nm.webp","alt":"Mineral deposits on a chrome faucet beside a clean bathroom fixture Santa Fe NM","exists":true},{"file":"card-santa-fe-softener-installation-nm.webp","alt":"Residential water softener installation with a resin tank, brine tank and neat plumbing Santa Fe NM","exists":true},{"file":"card-santa-fe-softener-replacement-nm.webp","alt":"New water softener installed beside an older unit awaiting removal Santa Fe NM","exists":true},{"file":"card-santa-fe-softener-repair-nm.webp","alt":"Water softener control valve and plumbing connections opened for inspection Santa Fe NM","exists":true},{"file":"card-santa-fe-water-testing-nm.webp","alt":"Water sample containers and a digital water testing instrument on a clean work surface Santa Fe NM","exists":true},{"file":"water-softener-santa-fe-nm.webp","alt":"Santa Fe NM aerial view of the city with the Sangre de Cristo mountains at golden hour","exists":true},{"file":"santa-fe-choose-softener-nm.webp","alt":"Residential water softener with a control valve and brine tank in a tidy utility room Santa Fe NM","exists":true},{"file":"santa-fe-installed-softener-nm.webp","alt":"Professionally installed water softener with neatly arranged plumbing Santa Fe NM","exists":false}]
 faq: [{"q":"How do I know if my Santa Fe home has hard water?","a":"Mineral deposits on faucets, soap scum and spots on dishes can indicate hard water. A water hardness test confirms the mineral level at your property."},{"q":"How much does a water softener cost in Santa Fe?","a":"The cost depends on the system type, capacity, plumbing requirements and installation complexity. Request an itemized estimate to understand the equipment and labor costs for your property."},{"q":"What is the best water softener for Santa Fe homes?","a":"The best system depends on measured hardness, household water consumption and installation conditions. A properly sized salt-based system removes calcium and magnesium, while salt-free conditioners focus on reducing scale formation."},{"q":"Can a water softener remove arsenic?","a":"A conventional water softener should not be relied on to remove arsenic. If arsenic is a concern, test the water and choose a treatment system specifically suited to the contaminant."},{"q":"Can I install a water softener if my home uses well water?","a":"Yes, provided the system is suitable for the water conditions. Test well water for hardness, iron and other relevant parameters before selecting equipment. Additional filtration or pretreatment may be necessary."},{"q":"How often does a water softener need maintenance?","a":"Maintenance depends on the equipment, water quality and household consumption. Check salt levels regularly in salt-based systems and follow the manufacturer's instructions for servicing and cleaning."},{"q":"Do you offer water softener service in Santa Fe, NM?","a":"Santa Fe service availability must be confirmed before scheduling. Contact us with your ZIP code and the service you require so we can verify coverage."}]
 markerCount: 5
 ---
@@ -19,13 +19,15 @@ markerCount: 5
 Albuquerque Elite Water Softener provides water softener installation, replacement, repair and maintenance. If you live in Santa Fe, NM, contact us to confirm service availability and discuss the right solution for your home's water. <mark class="data-gap">[NEEDS DATA: confirm the installer serves Santa Fe, and the estimate terms.]</mark> [Request a free estimate](#estimate) or call for service.
 
 
-![Whole-house water softener installed in a clean residential utility room Santa Fe NM](/placeholders/hero.svg)
 
 
 ## Signs Your Santa Fe Home May Need a Water Softener
 
 
-![Mineral deposits on a chrome faucet beside a clean bathroom fixture Santa Fe NM](/placeholders/hero.svg)
+
+![Mineral deposits on a chrome faucet beside a clean bathroom fixture Santa Fe NM](../../assets/images/santa-fe-hard-water-signs-nm.webp)
+
+
 
 Hard water affects more than the appearance of your bathroom. Over time, calcium and magnesium can contribute to scale buildup on fixtures and heating equipment.
 
@@ -48,7 +50,10 @@ Whether you are considering your first water softener or need help with an exist
 <div class="svc-card">
 
 
-![Residential water softener installation with a resin tank, brine tank and neat plumbing Santa Fe NM](/placeholders/card.svg)
+
+![Residential water softener installation with a resin tank, brine tank and neat plumbing Santa Fe NM](../../assets/images/card-santa-fe-softener-installation-nm.webp)
+
+
 
 ### Water Softener Installation
 
@@ -61,7 +66,10 @@ Learn more about our [water softener installation services](/water-softener-inst
 <div class="svc-card">
 
 
-![New water softener installed beside an older unit awaiting removal Santa Fe NM](/placeholders/card.svg)
+
+![New water softener installed beside an older unit awaiting removal Santa Fe NM](../../assets/images/card-santa-fe-softener-replacement-nm.webp)
+
+
 
 ### Water Softener Replacement
 
@@ -72,7 +80,10 @@ An aging softener may require replacement when its tank leaks, its resin no long
 <div class="svc-card">
 
 
-![Water softener control valve and plumbing connections opened for inspection Santa Fe NM](/placeholders/card.svg)
+
+![Water softener control valve and plumbing connections opened for inspection Santa Fe NM](../../assets/images/card-santa-fe-softener-repair-nm.webp)
+
+
 
 ### Water Softener Repair and Maintenance
 
@@ -83,7 +94,10 @@ If your softener stops producing softened water, leaks, fails to regenerate or c
 <div class="svc-card">
 
 
-![Water sample containers and a digital water testing instrument on a clean work surface Santa Fe NM](/placeholders/card.svg)
+
+![Water sample containers and a digital water testing instrument on a clean work surface Santa Fe NM](../../assets/images/card-santa-fe-water-testing-nm.webp)
+
+
 
 ### Water Quality Testing
 
@@ -144,7 +158,10 @@ The right option depends on your water quality, household preferences, maintenan
 ## How to Choose the Right Water Softener for Your Home
 
 
-![Residential water softener with a control valve and brine tank in a tidy utility room Santa Fe NM](/placeholders/hero.svg)
+
+![Residential water softener with a control valve and brine tank in a tidy utility room Santa Fe NM](../../assets/images/santa-fe-choose-softener-nm.webp)
+
+
 
 Choosing a water softener involves more than selecting a tank size or buying the most powerful model. Consider these four factors:
 
