@@ -11,7 +11,7 @@ openingHtml: "Water softener installation and service in Santa Fe, NM covers ins
 formHeading: ""
 formIntro: ""
 leadImage: null
-images: []
+images: [{"file":"water-softener-santa-fe-nm.webp","alt":"Water softener installation and service Santa Fe NM adobe-style residential street","exists":false}]
 faq: [{"q":"How hard is Santa Fe water?","a":"The City of Santa Fe's 2024 water quality report states no hardness figure. Its 2008 table listed 131.89 to 226.58 mg/L for the City wells, and the 2011 report says the added Rio Grande surface water lowered hardness. A free test at your tap gives the current number."},{"q":"Where does Santa Fe's water come from?","a":"The City's 2024 report lists four sources: Santa Fe River reservoir water treated at the Canyon Road plant, Rio Grande water treated at the Buckman Regional Water Treatment Plant, a City Well Field of 6 active wells, and the Buckman Well Field of 13 wells."},{"q":"Does a water softener remove arsenic from Santa Fe water?","a":"No. A softener removes calcium and magnesium. Arsenic needs a reverse osmosis or specialty media filter, and the City's report lists its results by source. Albuquerque Elite Water Softener NM provides water softener installation and service in Santa Fe, NM and serves homes and businesses across Bernalillo County."}]
 markerCount: 2
 ---
