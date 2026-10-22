@@ -1,7 +1,7 @@
 ---
-title: "Water Softener Repair in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Softener Repair Albuquerque, NM | Albuquerque Elite Water Softener"
-description: "Water softener repair in Albuquerque, NM for units that stop regenerating, let hard water through, leak or use too much salt. Request a free estimate."
+title: "Water Softener Repair in Albuquerque, NM"
+seoTitle: "Water Softener Repair in Albuquerque, NM | Free Estimate"
+description: "Water softener not regenerating, leaking, or letting hard water through? Get local repair for valves, motors, injectors and more. Free estimate."
 metaDraft: false
 slug: "/water-softener-repair/"
 pageType: "service"
@@ -18,7 +18,17 @@ markerCount: 0
 
 ## What Water Softener Repairs Are Available in Albuquerque, NM?
 
-Seven repairs cover the common failures: control valve repair, motor [replacement](/water-softener-replacement/), float valve repair, injector cleaning, head replacement, brine line repair and leak repair.
+Seven repairs cover the common failures: control valve repair, motor [replacement](/water-softener-replacement/), float valve repair, injector cleaning, head replacement, brine line repair and leak repair. Find your symptom below, or call and describe what you are seeing.
+
+| What you notice | Likely cause | Repair |
+|---|---|---|
+| Unit stuck in one stage, with a hum or grinding | Failed motor | Motor replacement |
+| Hard water even though the tank has salt | Clogged injector, so no brine reaches the resin | Injector cleaning |
+| Water runs constantly to the drain, or the unit will not cycle | Worn or sticking control valve | Control valve repair |
+| Brine tank overfills, or salt will not dissolve | Stuck float | Float valve repair |
+| Blank display, lost settings or no response | Control head fault | Head replacement |
+| Regeneration fails and the brine line shows cracks or loose fittings | Air leak in the brine line | Brine line repair |
+| Water at the head, drain line, tank connections or bypass | Worn seal, fitting or hose | Leak repair |
 
 <div class="svc-grid">
 
@@ -116,11 +126,24 @@ Leaks occur at the control head, drain line, tank connections or bypass valve. W
 
 ## Is it time to repair or replace?
 
-Repair fits a young unit with one failed part. Replacement fits an old unit, a leaking tank or repeated failures. Our free inspection compares both prices.
+Repair usually fits a young unit with one failed part. Replacement usually fits an old unit, a leaking tank or repeated failures. Our free inspection compares both prices so you can decide.
+
+| Repair usually fits | Replacement usually fits |
+|---|---|
+| A young unit | A unit past about 10 to 15 years |
+| One failed part | Repeated failures |
+| A working tank | A leaking or cracked tank |
 
 
 
 Homeowners comparing options also read about [water softener maintenance](/water-softener-maintenance/), [signs you need a new water softener](/water-softener-guides/signs-you-need-a-new-water-softener/), [how long a water softener lasts](/water-softener-guides/how-long-do-water-softeners-last/), [free water testing](/water-quality-testing/) and [water softener installation](/water-softener-installation/).
+
+## How Water Softener Repair Works
+
+1. **Request a free estimate or call us.**
+2. **We confirm your softener's make and model and a visit time.**
+3. **We inspect the unit and quote a price before any work begins.**
+4. **We repair the failed part and test the system.**
 
 
 
