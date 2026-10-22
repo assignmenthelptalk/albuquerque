@@ -20,7 +20,7 @@ Do not publish while any item below is open. Markers show on the site as highlig
 
 ## Totals
 - Pages built: 30
-- Open markers: 8
+- Open markers: 7
 - Draft meta descriptions: 0
 
 ## Per page
@@ -158,8 +158,7 @@ Do not publish while any item below is open. Markers show on the site as highlig
 
 ### /water-softener-santa-fe-nm/
 - Meta description: final
-- Open markers: 5
-  - [NEEDS DATA: confirm the installer serves Santa Fe, and the estimate terms.]
+- Open markers: 4
   - [NEEDS DATA: a current measured hardness for Santa Fe from the City's Water Division or a tap test.]
   - [NEEDS DATA: installed price range, from the tenant or a sourced New Mexico report.]
   - [NEEDS DATA: confirm the installer serves Santa Fe.]
