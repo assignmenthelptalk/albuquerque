@@ -8,7 +8,6 @@ pageType: "guide-hub"
 parentSlug: "/"
 crumb: "Water Softener Guides for Albuquerque Homeowners"
 openingHtml: "These guides answer the questions Albuquerque, NM homeowners ask before they buy, replace or repair a water softener. Each one uses local water facts and plain explanations, and each links to the service that fits. For installation, replacement and repair, visit <a href=\"/\">Albuquerque Elite Water Softener</a>."
-openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-guides-albuquerque-nm.webp","alt":"Water softener guides Albuquerque NM homeowner reading about hard water"}

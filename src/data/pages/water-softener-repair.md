@@ -8,7 +8,6 @@ pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Softener Repair"
 openingHtml: "Water softener repair in Albuquerque, NM finds and fixes the failed part when your softener stops softening, leaks, stops regenerating or shows an error code. <a href=\"/\">Albuquerque Elite Water Softener</a> repairs control valves, motors, floats, injectors, heads and brine lines, and tells you honestly when replacement costs less. Request a free estimate or call for service."
-openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-repair-albuquerque-nm.webp","alt":"Water softener repair Albuquerque NM technician servicing a control valve"}

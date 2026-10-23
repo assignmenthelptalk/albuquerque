@@ -333,7 +333,7 @@ for (const file of files) {
     parentSlug,
     crumb: crumbOf(h1),
     openingHtml: isHome ? inlineHtml(openingMd) : inlineHtml(openingMd).replace(/href="\/#estimate"/g, 'href="#estimate"'),
-    openingExtraHtml: openingExtraMd ? inlineHtml(openingExtraMd) : "",
+    ...(openingExtraMd ? { openingExtraHtml: inlineHtml(openingExtraMd) } : {}),
     formHeading,
     formIntro,
     leadImage,

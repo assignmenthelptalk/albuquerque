@@ -8,7 +8,6 @@ pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "Well Water Softener and Treatment"
 openingHtml: "A well water softener in Albuquerque, NM treats private-well water that is hard and often carries iron, sulfur or sediment as well. <a href=\"/\">Albuquerque Elite Water Softener</a> tests your well, then installs the softener and filters that match the result. Request a free estimate and a technician will start with a water test."
-openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

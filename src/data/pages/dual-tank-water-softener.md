@@ -8,7 +8,6 @@ pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Dual Tank Water Softener Installation"
 openingHtml: "A dual tank water softener in Albuquerque, NM uses two resin tanks so one always serves the house while the other regenerates, and softened water never stops. <a href=\"/\">Albuquerque Elite Water Softener</a> installs dual tank systems for large households and busy commercial sites that outgrow a single tank. Request a free estimate and a technician will check whether two tanks suit your water use."
-openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

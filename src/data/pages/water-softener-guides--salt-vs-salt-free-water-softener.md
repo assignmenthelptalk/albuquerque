@@ -8,7 +8,6 @@ pageType: "guide"
 parentSlug: "/water-softener-guides/"
 crumb: "Salt-Based vs Salt-Free Water Softener"
 openingHtml: "A salt-based water softener removes the hardness minerals from your water, and a salt-free system conditions them so they form less scale. For Albuquerque, NM homes with hard water, the salt-based softener gives the stronger result and the salt-free system gives the lower maintenance. This guide compares them so you can choose with a water softener Albuquerque NM company that explains both."
-openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"salt-vs-salt-free-water-softener-albuquerque-nm.webp","alt":"Salt vs salt-free water softener Albuquerque NM side by side comparison"}

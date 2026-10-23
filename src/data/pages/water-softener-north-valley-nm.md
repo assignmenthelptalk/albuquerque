@@ -8,7 +8,6 @@ pageType: "geo"
 parentSlug: "/service-areas/"
 crumb: "Water Softener Installation & Service in North Valley, NM"
 openingHtml: "Water softener installation and service in the North Valley, NM covers installing, replacing, repairing and testing softeners for homes on ABCWUA city water and on private wells in this Albuquerque neighborhood. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, but that figure does not cover a private well. Albuquerque Elite Water Softener serves the North Valley from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
-openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null
