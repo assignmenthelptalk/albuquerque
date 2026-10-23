@@ -100,7 +100,7 @@ Check the salt level monthly and refill when it drops below one-third full. Have
 <details class="faq-item">
 <summary>What areas do you serve?</summary>
 
-We serve Albuquerque and Bernalillo County, including Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch.
+We serve Albuquerque and Bernalillo County, including Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch. Sandia Heights is served by Sandia Peak Utility, not ABCWUA, so the city hardness figures on this page do not describe it.
 
 </details>
 
@@ -108,4 +108,4 @@ We serve Albuquerque and Bernalillo County, including Nob Hill, North Valley, Sa
 
 ## Where Do You Install Water Softeners Around Albuquerque, NM?
 
-Albuquerque Elite Water Softener provides water softener installation, replacement, repair and water testing across Albuquerque and Bernalillo County, including Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch. Whether your home uses ABCWUA city water or a private well, call or request a free estimate and we will confirm service to your address.
+Albuquerque Elite Water Softener provides water softener installation, replacement, repair and water testing across Albuquerque and Bernalillo County, including Nob Hill, North Valley, Sandia Heights, Four Hills and Taylor Ranch. Whether your home uses ABCWUA city water or a private well, call or request a free estimate and we will confirm service to your address. ABCWUA's figures do not apply to Sandia Heights, which Sandia Peak Utility serves, or to private wells, so a free test at your tap gives the number that matters there.
