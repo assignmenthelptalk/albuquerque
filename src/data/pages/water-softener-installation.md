@@ -8,6 +8,7 @@ pageType: "core-service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Softener Installation"
 openingHtml: "Water softener installation in Albuquerque, NM connects a softening system to your home's main water line so every faucet, shower and appliance receives softened water. <a href=\"/\">Albuquerque Elite Water Softener</a> sizes, plumbs and starts each system for local water, which ABCWUA supplies as locally pumped groundwater blended with treated San Juan-Chama surface water. Request a free estimate and a technician will recommend a system for your home."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-installation-albuquerque-nm.webp","alt":"Water softener installation Albuquerque NM technician connecting a softener"}

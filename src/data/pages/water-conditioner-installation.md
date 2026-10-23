@@ -8,6 +8,7 @@ pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Conditioner Installation"
 openingHtml: "Water conditioner installation in Albuquerque, NM adds a system that treats hard water so scale builds up more slowly on pipes, heaters and fixtures. <a href=\"/\">Albuquerque Elite Water Softener</a> installs salt-free conditioners, potassium chloride softeners and scale inhibitor systems, and recommends the one that fits your goal. Request a free estimate and a technician will review your water and your plumbing."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-conditioner-installation-albuquerque-nm.webp","alt":"Water conditioner installation Albuquerque NM on a main water line"}

@@ -8,6 +8,7 @@ pageType: "geo"
 parentSlug: "/service-areas/"
 crumb: "Water Softener Santa Fe, NM: Installation and Service"
 openingHtml: "Hard water can leave mineral deposits on faucets, shower doors, dishes and plumbing fixtures. A properly sized water softener helps reduce calcium and magnesium, making everyday cleaning easier and reducing scale buildup inside your plumbing system."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"santa-fe-hero-softener-nm.webp","alt":"Whole-house water softener installed in a clean residential utility room Santa Fe NM"}

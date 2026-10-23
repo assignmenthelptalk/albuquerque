@@ -8,6 +8,7 @@ pageType: "hub"
 parentSlug: "/"
 crumb: "Water Treatment Services"
 openingHtml: "Water treatment services in Albuquerque, NM start with a test, because ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon and free chlorine at 0.9 mg/L, and neither shows in the glass. <a href=\"/\">Albuquerque Elite Water Softener</a> installs filtration, reverse osmosis, UV purification and well water treatment for homes in Albuquerque and Bernalillo County. Choose a service below, or request a free estimate."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

@@ -277,6 +277,16 @@ for (const file of files) {
   const openEnd = body.indexOf("\n\n");
   let openingMd = (openEnd === -1 ? body : body.slice(0, openEnd)).trim();
   body = (openEnd === -1 ? "" : body.slice(openEnd)).trim();
+  // Homepage only: a second plain paragraph directly after the opening one also belongs in the hero.
+  let openingExtraMd = "";
+  if (slug === "/") {
+    const nextEnd = body.indexOf("\n\n");
+    const next = (nextEnd === -1 ? body : body.slice(0, nextEnd)).trim();
+    if (/^[A-Za-z]/.test(next) && !next.includes("\n")) {
+      openingExtraMd = next;
+      body = (nextEnd === -1 ? "" : body.slice(nextEnd)).trim();
+    }
+  }
 
   const isHome = slug === "/";
   let formHeading = "";
@@ -310,7 +320,7 @@ for (const file of files) {
     metaDescRaw && !/NEEDS|VERIFY/.test(metaDescRaw) ? metaDescRaw : draftDescription(openingMd);
   const metaDraft = !(metaDescRaw && !/NEEDS|VERIFY/.test(metaDescRaw));
 
-  const allMarkers = [...(openingMd + "\n" + body + "\n" + formIntro).matchAll(MARKER_RE)].map((m) => m[0]);
+  const allMarkers = [...(openingMd + "\n" + openingExtraMd + "\n" + body + "\n" + formIntro).matchAll(MARKER_RE)].map((m) => m[0]);
   const parentSlug = isHome ? null : parentBySlug.get(slug) ?? "/";
 
   const fm = {
@@ -323,6 +333,7 @@ for (const file of files) {
     parentSlug,
     crumb: crumbOf(h1),
     openingHtml: isHome ? inlineHtml(openingMd) : inlineHtml(openingMd).replace(/href="\/#estimate"/g, 'href="#estimate"'),
+    openingExtraHtml: openingExtraMd ? inlineHtml(openingExtraMd) : "",
     formHeading,
     formIntro,
     leadImage,

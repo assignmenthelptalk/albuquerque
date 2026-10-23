@@ -8,6 +8,7 @@ pageType: "geo-hub"
 parentSlug: "/"
 crumb: "Water Softener Service Areas"
 openingHtml: "<a href=\"/\">Albuquerque Elite Water Softener</a> installs, replaces, repairs and tests water softeners across Albuquerque and Bernalillo County, where ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon within a range of 2.09 to 11.72. Hardness changes with the address, so we tailor each visit to the water at your home. Choose your neighborhood below, or request a free estimate and we will confirm service to your address."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

@@ -8,6 +8,7 @@ pageType: "guide"
 parentSlug: "/water-softener-guides/"
 crumb: "Water Softener Size Guide"
 openingHtml: "The right size water softener matches your household's daily hardness load, measured in grains, and regenerates every three to seven days. A unit that is too small regenerates constantly and lets hard water through, and one that is too large wastes salt and money. This guide shows the formula, a worked example for Albuquerque water and the common sizes, so you can talk to a water softener Albuquerque NM installer with real numbers."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-size-guide-albuquerque-nm.webp","alt":"Water softener size guide Albuquerque NM grain capacity chart"}

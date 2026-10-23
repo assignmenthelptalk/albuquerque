@@ -8,6 +8,7 @@ pageType: "geo"
 parentSlug: "/service-areas/"
 crumb: "Water Softener Installation & Service in Sandia Heights, NM"
 openingHtml: "Water softener installation and service in Sandia Heights, NM covers installing, replacing, repairing and testing softeners for homes in this foothills neighborhood. Sandia Heights is served by Sandia Peak Utility, not by ABCWUA, so the Albuquerque city hardness figures do not describe your water. Albuquerque Elite Water Softener serves Sandia Heights from its <a href=\"/\">water softener Albuquerque NM</a> base. Request a free estimate to get started."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

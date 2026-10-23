@@ -8,6 +8,7 @@ pageType: "guide"
 parentSlug: "/water-softener-guides/"
 crumb: "7 Signs You Need to Replace Your Water Softener"
 openingHtml: "You need to replace your water softener when hard water keeps returning, repairs keep failing, the tank leaks or the unit is past about 10 to 15 years old. Albuquerque's hard water works a softener every day, so these signs show up clearly. This guide lists seven, with a quick check and a repair-or-replace verdict for each, so you can decide with a water softener Albuquerque NM company you trust."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

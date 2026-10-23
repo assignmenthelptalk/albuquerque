@@ -8,6 +8,7 @@ pageType: "guide"
 parentSlug: "/water-softener-guides/"
 crumb: "Water Softener Cost"
 openingHtml: "The cost of a water softener in Albuquerque, NM depends on the system type, its capacity and what the installation involves, so two homes can pay very different amounts for the same result. This guide shows what drives the price, what running a softener costs and how to compare quotes fairly. For an itemized price on your home, request a free estimate from our water softener Albuquerque NM team."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null

@@ -8,6 +8,7 @@ pageType: "guide"
 parentSlug: "/water-softener-guides/"
 crumb: "Hard Water"
 openingHtml: "Hard water in Albuquerque, NM is water that carries dissolved calcium and magnesium, and ABCWUA supplies it from locally pumped groundwater blended with treated San Juan-Chama surface water. This guide explains why Albuquerque water is hard, how hard it is, what it does to your home and which fixes work. For a water softener Albuquerque NM homeowners trust, start with a free water test."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"hard-water-albuquerque-nm.webp","alt":"Hard water scale on a faucet in an Albuquerque NM home water softener needed"}

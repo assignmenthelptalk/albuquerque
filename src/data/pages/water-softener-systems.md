@@ -8,6 +8,7 @@ pageType: "hub"
 parentSlug: "/"
 crumb: "Water Softener Systems"
 openingHtml: "Water softener systems in Albuquerque, NM remove or control the calcium and magnesium that make ABCWUA water hard: ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L. <a href=\"/\">Albuquerque Elite Water Softener</a> installs, replaces, maintains and repairs every major system type for homes and businesses in Albuquerque and Bernalillo County. Choose the system you need below, or request a free estimate."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-systems-albuquerque-nm.webp","alt":"Water softener systems Albuquerque NM salt-based and dual-tank units"}

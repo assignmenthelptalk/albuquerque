@@ -8,6 +8,7 @@ pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "Water Quality Testing"
 openingHtml: "Water quality testing in Albuquerque, NM measures the hardness, minerals, disinfectants and contaminants in your tap water so you know what, if anything, needs treatment. <a href=\"/\">Albuquerque Elite Water Softener</a> tests city and well water and explains each result in plain language. Request a free test and we will contact you to confirm a time."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water quality testing Albuquerque NM technician testing tap water"}

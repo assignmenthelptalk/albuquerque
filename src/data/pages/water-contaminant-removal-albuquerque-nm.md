@@ -8,6 +8,7 @@ pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "Water Contaminant Removal"
 openingHtml: "Water contaminant removal in Albuquerque, NM installs filters that reduce specific substances in your tap water, such as lead, arsenic, fluoride, nitrate, PFAS and chlorine. <a href=\"/\">Albuquerque Elite Water Softener</a> starts with a water test, then recommends the filter that targets what the test finds. Request a free estimate and a technician will explain your options."
+openingExtraHtml: ""
 formHeading: ""
 formIntro: ""
 leadImage: null
