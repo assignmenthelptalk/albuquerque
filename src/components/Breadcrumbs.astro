@@ -54,10 +54,10 @@ const breadcrumbSchema = {
   /* Custom-property hooks (with light-background fallbacks) let a dark
      ancestor — the teal .page-header — recolor the trail without this
      component needing a variant prop. */
-  .breadcrumbs li { display: flex; align-items: center; gap: 6px; color: var(--breadcrumb-color, #64748b); }
+  .breadcrumbs li { display: flex; align-items: center; gap: 6px; color: var(--breadcrumb-color, #666666); }
   /* "›" per CLAUDE.md, not "/" */
-  .breadcrumbs li:not(:last-child)::after { content: "\203A"; margin-left: 6px; color: var(--breadcrumb-color, #64748b); }
-  .breadcrumbs a { color: var(--breadcrumb-color, #64748b); text-decoration: none; transition: color var(--duration-micro) ease; }
+  .breadcrumbs li:not(:last-child)::after { content: "\203A"; margin-left: 6px; color: var(--breadcrumb-color, #666666); }
+  .breadcrumbs a { color: var(--breadcrumb-color, #666666); text-decoration: none; transition: color var(--duration-micro) ease; }
   .breadcrumbs a:hover { color: var(--breadcrumb-hover-color, var(--color-primary)); }
   .breadcrumbs a:focus-visible { outline: 3px solid var(--breadcrumb-hover-color, var(--color-primary)); outline-offset: 2px; border-radius: 2px; }
   .breadcrumbs li[aria-current="page"] { color: var(--breadcrumb-current-color, var(--color-primary)); font-weight: 700; }
