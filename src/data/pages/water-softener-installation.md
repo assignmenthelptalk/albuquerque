@@ -1,6 +1,6 @@
 ---
-title: "Water Softener Installation in Albuquerque, NM | Trusted Local Specialists"
-seoTitle: "Water Softener Installation Albuquerque, NM | Albuquerque Elite Water Softener"
+title: "Water Softener Installation in Albuquerque, NM"
+seoTitle: "Water Softener Installation Albuquerque, NM | Free Estimate"
 description: "Water softener installation in Albuquerque, NM, sized to your household and your water. Bypass valve, drain line and a tested result. Free estimate."
 metaDraft: false
 slug: "/water-softener-installation/"
@@ -11,16 +11,26 @@ openingHtml: "Water softener installation in Albuquerque, NM connects a softenin
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-installation-albuquerque-nm.webp","alt":"Water softener installation Albuquerque NM technician connecting a softener"}
-images: [{"file":"water-softener-installation-albuquerque-nm.webp","alt":"Water softener installation Albuquerque NM technician connecting a softener","exists":true},{"file":"water-softener-process-albuquerque-nm.webp","alt":"Water softener installation Albuquerque NM process diagram","exists":true}]
+images: [{"file":"water-softener-installation-albuquerque-nm.webp","alt":"Water softener installation Albuquerque NM technician connecting a softener","exists":true},{"file":"water-softener-bypass-valve-installed-albuquerque-nm.webp","alt":"Bypass valve and drain air gap on a newly installed water softener","exists":false},{"file":"water-softener-process-albuquerque-nm.webp","alt":"Water softener installation Albuquerque NM process diagram","exists":true},{"file":"finished-water-softener-install-albuquerque-nm.webp","alt":"Completed water softener installation with brine tank and control valve","exists":false}]
 faq: [{"q":"How long does water softener installation take in Albuquerque?","a":"Most installations finish in a single visit. Most standard installs take about 2 to 4 hours. The technician confirms the schedule at your estimate, based on plumbing access, drain location and system type."},{"q":"Do I need a permit to install a water softener in Albuquerque?","a":"Permit rules depend on the plumbing work involved. Ask whether the City of Albuquerque requires a permit for your job. We confirm what applies to your address before the install."},{"q":"Can you install a water softener on a private well?","a":"Yes. Well installations go after the pressure tank, and a water test first checks for iron, sulfur and sediment that need their own filters. Treating those first protects the resin in the softener."},{"q":"Where in my house does the softener go?","a":"The unit goes on the main water line, usually in a garage, utility room or by the water heater, near a drain and an electrical outlet. Outdoor spigots can stay on unsoftened water through a loop if you prefer."},{"q":"Is a bypass valve necessary?","a":"A bypass valve is standard on every installation we do. It lets you isolate the softener for service while the rest of the house keeps water. Albuquerque Elite Water Softener NM provides water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
+
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
+## Our Installation Services
+
+We install five things around a softener: the unit itself, a portable option, a bypass valve, the plumbing connections and, where needed, a pressure regulator and shut-off valve.
 
 ### Whole-House Water Softener Installation
 
 A whole-house water softener is a single unit installed on the main water line that treats every cold and hot water fixture in the home. The technician sizes the unit from your household size, daily water use and a hardness reading, then sets the control head to regenerate on a schedule that matches your usage. A correctly sized unit softens water without running out between regenerations or wasting salt on cycles it does not need.
 
-The installation includes the softener tank, brine tank, control valve, drain connection and a test at every tap before we leave. For homes served by the city, the unit sits after the main shut-off. For homes on a private well, it sits after the pressure tank, and a [water test](/water-quality-testing/) first confirms whether iron or sulfur need separate treatment. ABCWUA's supply is locally pumped groundwater blended with treated San Juan-Chama surface water, and it arrives hard, so a water softener installation protects the water heater and plumbing along the whole line.
+The installation includes the softener tank, brine tank, control valve, drain connection and a test at every tap before we leave. For homes served by the city, the unit sits after the main shut-off. For homes on a [private well](/well-water-softener-albuquerque-nm/), it sits after the pressure tank, and a [water test](/water-quality-testing/) first confirms whether iron or sulfur need separate treatment. ABCWUA's supply is locally pumped groundwater blended with treated San Juan-Chama surface water, and it arrives hard, so a water softener installation protects the water heater and plumbing along the whole line.
 
 ### Portable Water Softener Installation
 
@@ -29,6 +39,9 @@ A portable water softener is an exchange-tank unit that serves temporary, season
 ### Bypass Valve Installation
 
 A bypass valve is a set of valves that routes water around the softener, so you can service or replace the unit without shutting off water to the house. We install a bypass valve on every softener we place. It also lets you send untreated water to outdoor taps or when the unit is being maintained.
+
+
+![Bypass valve and drain air gap on a newly installed water softener](/placeholders/hero.svg)
 
 ### Softener Plumbing Connections
 
@@ -63,9 +76,25 @@ A pressure regulator keeps household water pressure within the range your soften
 
 Water softener installation in Albuquerque costs depend on five things: system type and capacity, whether your home already has a drain and supply stub near the unit, pressure regulator or shut-off valve work, local permit rules and the condition of existing plumbing. Our estimate is free and itemized, so you see each line before work starts.
 
-> **Not a good fit if...** you want a softener with no salt (a salt-free system suits you better), you rent without the owner's approval, or your home uses a private well with iron or sulfur. Wells like that need a water test and sometimes extra filtration before a softener can work properly.
-
 **What to expect on install day:** The technician walks the install spot with you, shuts off and drains the water, sets the unit with a bypass valve and drain line, programs the control head for your hardness and tests every tap before leaving. Ask for the settings and the hardness reading in writing.
+
+
+![Completed water softener installation with brine tank and control valve](/placeholders/hero.svg)
+
+
+## Is a Water Softener Right for You?
+
+The right choice depends on your home, your water and how you use it.
+
+| If you... | Consider |
+|---|---|
+| Own a home on city water | A whole-house softener |
+| Rent or need a short-term fix | A portable exchange system |
+| Want no salt | [Salt-free systems](/salt-free-water-softener-systems/), which condition water and do not soften it |
+| Want softened water that never pauses to regenerate | A [dual tank water softener](/dual-tank-water-softener/) |
+| Have a private well with iron or sulfur | A [water test and well treatment](/well-water-softener-albuquerque-nm/) first, then a softener |
+
+> **Not a good fit if...** you want a softener with no salt (a salt-free system suits you better), you rent without the owner's approval, or your home uses a private well with iron or sulfur. Wells like that need a water test and sometimes extra filtration before a softener can work properly.
 
 
 ## What decides which water softener fits an Albuquerque home?
