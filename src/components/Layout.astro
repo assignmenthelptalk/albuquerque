@@ -14,10 +14,12 @@ interface Props {
    * title order instead. */
   fullTitle?: string;
   description?: string;
+  /** Site-relative path of a page-specific social preview image; falls back to og-default.jpg. */
+  ogImage?: string;
   noindex?: boolean;
 }
 
-const { title, fullTitle, description = site.metaDescription, noindex = false } = Astro.props;
+const { title, fullTitle, description = site.metaDescription, ogImage, noindex = false } = Astro.props;
 
 // Optional image logo: drop src/assets/logo.png (or .webp/.jpg) into the project and the header
 // shows it; without one the built-in text-and-drop mark is used exactly as before.
@@ -84,7 +86,7 @@ const socialUrl = (key: string): string => ((site.socialLinks as Record<string, 
         basic: {
           title,
           type: "website",
-          image: `${site.siteUrl}/og-default.jpg`,
+          image: new URL(ogImage ?? "/og-default.jpg", site.siteUrl).toString(),
           url: canonical,
         },
       }}
