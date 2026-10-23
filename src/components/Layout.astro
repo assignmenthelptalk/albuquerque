@@ -64,6 +64,7 @@ const socialUrl = (key: string): string => ((site.socialLinks as Record<string, 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#5A0F14" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- Loaded as a <link>, not @import, so it fetches in parallel with the
          rest of head instead of blocking on global.css first. 700 added
@@ -273,7 +274,7 @@ const socialUrl = (key: string): string => ((site.socialLinks as Record<string, 
     <style>
       /* ---------- Utility bar ---------- */
       .utility-bar {
-        background: var(--surface-footer);
+        background: var(--color-primary);
         color: rgba(255, 255, 255, 0.85);
       }
       .utility-bar-inner {
@@ -459,7 +460,7 @@ const socialUrl = (key: string): string => ((site.socialLinks as Record<string, 
          type+class selector form so it out-specificities the generic
          ".site-nav a" rules above — a bare class selector would lose to
          those and render muted text instead of a white button label. */
-      a.nav-contact-btn {
+      .site-nav a.nav-contact-btn {
         padding: 9px 18px;
         background: var(--color-accent);
         color: #ffffff;
@@ -471,16 +472,16 @@ const socialUrl = (key: string): string => ((site.socialLinks as Record<string, 
         transition: transform 150ms ease, box-shadow 150ms ease;
         box-shadow: var(--shadow-card);
       }
-      a.nav-contact-btn:hover {
+      .site-nav a.nav-contact-btn:hover {
         color: #ffffff;
         transform: translateY(-1px);
         box-shadow: var(--shadow-button-hover);
       }
-      a.nav-contact-btn:focus-visible {
+      .site-nav a.nav-contact-btn:focus-visible {
         outline: 3px solid var(--color-accent);
         outline-offset: 2px;
       }
-      a.nav-contact-btn:active { color: #ffffff; transform: scale(0.98); }
+      .site-nav a.nav-contact-btn:active { color: #ffffff; transform: scale(0.98); }
 
       /* Hamburger button: hidden on desktop, only shown under the nav breakpoint */
       .nav-toggle {
@@ -613,7 +614,7 @@ const socialUrl = (key: string): string => ((site.socialLinks as Record<string, 
         color: rgba(255, 255, 255, 0.85);
         line-height: 1.5;
       }
-      .footer-legal-item { border-left: 2px solid var(--color-accent); padding-left: 12px; margin-left: 12px; }
+      .footer-legal-item { color: inherit; border-left: 2px solid var(--color-accent); padding-left: 12px; margin-left: 12px; }
       .footer-social { display: flex; align-items: center; gap: 16px; list-style: none; margin: 0; padding: 0; }
       .footer-social a,
       .social-off { display: block; line-height: 0; }
