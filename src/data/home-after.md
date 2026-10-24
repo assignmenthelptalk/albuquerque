@@ -12,7 +12,7 @@ Every installation follows the same four steps, from the first call to the follo
 
 
 
-![Technician installing a water softener in an Albuquerque NM home](../assets/images/water-softener-installation-steps-albuquerque-nm.webp)
+![Softener control head connected to copper pipe with installation tools nearby](../assets/images/water-softener-installation-steps-albuquerque-nm.webp)
 
 
 
