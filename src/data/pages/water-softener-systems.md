@@ -7,8 +7,8 @@ slug: "/water-softener-systems/"
 pageType: "hub"
 parentSlug: "/"
 crumb: "Water Softener Systems"
-openingHtml: "Not sure which water softener system fits your home? <a href=\"/\">Albuquerque Elite Water Softener</a> installs, replaces, maintains and repairs every major system type for homes and businesses in Albuquerque and Bernalillo County."
-openingExtraHtml: "Albuquerque water is hard: ABCWUA's 2023 water quality report put the city average at 8.44 grains per gallon, about 144 mg/L. Choose the system you need below, or request a free estimate."
+openingHtml: "Not sure which water softener system fits your home? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends, installs, replaces, maintains and repairs every major system type for homes and businesses in Albuquerque and Bernalillo County."
+openingExtraHtml: "The best water softener for Albuquerque depends on your household size, your measured hardness and whether you want salt in the picture. ABCWUA's 2023 water quality report put the city average at 8.44 grains per gallon, about 144 mg/L, which is hard, and the figure varies by address. Choose a system below, or request a free estimate."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-systems-albuquerque-nm.webp","alt":"Water softener systems Albuquerque NM salt-based and dual-tank units"}
@@ -23,9 +23,9 @@ markerCount: 0
 
 
 
-## What Types of Water Softener Systems Are Available in Albuquerque, NM?
+## What Are the Best Water Softener Systems in Albuquerque, NM?
 
-This page covers installation, replacement, salt-free systems, dual tank systems, commercial systems, maintenance, repair and water conditioners, starting with why Albuquerque water needs a softener.
+The best water softener for Albuquerque is the one sized to your household and your measured hardness, not one product for every home. This page covers installation, replacement, salt-free systems, dual tank systems, commercial systems, maintenance, repair and water conditioners, starting with why Albuquerque water needs a softener.
 
 <div class="svc-grid">
 
@@ -157,7 +157,7 @@ Albuquerque water tests as hard, and a softening system treats it where it enter
 
 </div>
 
-### How to Choose a Water Softener System
+### How to Choose the Best Water Softener for Your Albuquerque Home
 
 If your water tests above 10.5 grains per gallon and you want the hardness minerals removed, a salt-based softener is the system that does it. If scale control matters more than full softening, or salt and a drain line are a problem, a salt-free system reduces scale instead.
 
