@@ -11,7 +11,7 @@ openingHtml: "Water quality testing in Albuquerque, NM measures the hardness, mi
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet"}
-images: [{"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet","exists":true},{"file":"card-free-hard-water-test-albuquerque-nm.webp","alt":"Free Hard Water Test Albuquerque NM","exists":false},{"file":"card-tds-testing-albuquerque-nm.webp","alt":"TDS Testing Albuquerque NM","exists":false},{"file":"card-iron-content-testing-albuquerque-nm.webp","alt":"Iron Content Testing Albuquerque NM","exists":false},{"file":"card-ph-level-testing-albuquerque-nm.webp","alt":"pH Level Testing Albuquerque NM","exists":false},{"file":"card-chlorine-testing-albuquerque-nm.webp","alt":"Chlorine Testing Albuquerque NM","exists":false},{"file":"card-sulfur-testing-albuquerque-nm.webp","alt":"Sulfur Testing Albuquerque NM","exists":false},{"file":"card-heavy-metals-testing-albuquerque-nm.webp","alt":"Heavy Metals Testing Albuquerque NM","exists":false}]
+images: [{"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet","exists":true},{"file":"card-free-hard-water-test-albuquerque-nm.webp","alt":"Free Hard Water Test Albuquerque NM","exists":true},{"file":"card-tds-testing-albuquerque-nm.webp","alt":"TDS Testing Albuquerque NM","exists":true},{"file":"card-iron-content-testing-albuquerque-nm.webp","alt":"Iron Content Testing Albuquerque NM","exists":true},{"file":"card-ph-level-testing-albuquerque-nm.webp","alt":"pH Level Testing Albuquerque NM","exists":true},{"file":"card-chlorine-testing-albuquerque-nm.webp","alt":"Chlorine Testing Albuquerque NM","exists":false},{"file":"card-sulfur-testing-albuquerque-nm.webp","alt":"Sulfur Testing Albuquerque NM","exists":true},{"file":"card-heavy-metals-testing-albuquerque-nm.webp","alt":"Heavy Metals Testing Albuquerque NM","exists":true}]
 faq: [{"q":"Is the water test really free?","a":"Ask exactly which tests are free and which carry a fee before you book."},{"q":"How long does a water test take?","a":"In-home tests for hardness, TDS, pH, iron and chlorine give results in minutes. Lab tests take longer. Lab results typically take a few business days, depending on the lab and the test."},{"q":"How often does water need testing?","a":"Test city water when you notice a change or move in. Test a private well for bacteria at least once a year, and for other substances as local conditions suggest."},{"q":"Do I need a test before buying a softener?","a":"Yes. The result sizes the softener and shows whether you also need a filter."},{"q":"What test shows if my water is safe to drink?","a":"A certified lab panel for bacteria, nitrate, metals and other regulated substances. ABCWUA reports cover the public supply. Albuquerque Elite Water Softener NM provides water quality testing for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -31,7 +31,10 @@ Seven tests cover hardness, total dissolved solids, iron, pH, chlorine, sulfur a
 <div class="svc-card">
 
 
-![Free Hard Water Test Albuquerque NM](/placeholders/card.svg)
+
+![Free Hard Water Test Albuquerque NM](../../assets/images/card-free-hard-water-test-albuquerque-nm.webp)
+
+
 
 ### Free Hard Water Test
 
@@ -42,7 +45,10 @@ A [hard water](/water-softener-guides/hard-water-albuquerque-nm/) test measures 
 <div class="svc-card">
 
 
-![TDS Testing Albuquerque NM](/placeholders/card.svg)
+
+![TDS Testing Albuquerque NM](../../assets/images/card-tds-testing-albuquerque-nm.webp)
+
+
 
 ### TDS Testing
 
@@ -53,7 +59,10 @@ Total dissolved solids (TDS) is the combined amount of minerals, salts and metal
 <div class="svc-card">
 
 
-![Iron Content Testing Albuquerque NM](/placeholders/card.svg)
+
+![Iron Content Testing Albuquerque NM](../../assets/images/card-iron-content-testing-albuquerque-nm.webp)
+
+
 
 ### Iron Content Testing
 
@@ -64,7 +73,10 @@ An iron test checks for dissolved and particulate iron. The EPA's secondary leve
 <div class="svc-card">
 
 
-![pH Level Testing Albuquerque NM](/placeholders/card.svg)
+
+![pH Level Testing Albuquerque NM](../../assets/images/card-ph-level-testing-albuquerque-nm.webp)
+
+
 
 ### pH Level Testing
 
@@ -86,7 +98,10 @@ A chlorine test measures the disinfectant left in your tap water. It helps expla
 <div class="svc-card">
 
 
-![Sulfur Testing Albuquerque NM](/placeholders/card.svg)
+
+![Sulfur Testing Albuquerque NM](../../assets/images/card-sulfur-testing-albuquerque-nm.webp)
+
+
 
 ### Sulfur Testing
 
@@ -97,7 +112,10 @@ A sulfur test confirms hydrogen sulfide, the cause of a rotten-egg smell, most c
 <div class="svc-card">
 
 
-![Heavy Metals Testing Albuquerque NM](/placeholders/card.svg)
+
+![Heavy Metals Testing Albuquerque NM](../../assets/images/card-heavy-metals-testing-albuquerque-nm.webp)
+
+
 
 ### Heavy Metals Testing
 
