@@ -67,6 +67,7 @@ const badges = ["✓ Free Estimate", "✓ No Obligation", `✓ Serving ${site.ci
     badges={badges}
   >
     <p slot="opening" set:html={fm.openingHtml} />
+    {fm.openingExtraHtml && <p slot="opening" set:html={fm.openingExtraHtml} />}
   </PageHero>
 
   {fm.pageType === "geo-hub" && <ServiceAreaMap />}

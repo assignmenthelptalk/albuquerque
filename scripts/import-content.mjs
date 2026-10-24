@@ -279,9 +279,12 @@ for (const file of files) {
   body = (openEnd === -1 ? "" : body.slice(openEnd)).trim();
   // Homepage only: a second plain paragraph directly after the opening one also belongs in the hero.
   let openingExtraMd = "";
-  if (slug === "/") {
+  // Other pages opt in by starting that paragraph with HERO-EXTRA:
+  const EXTRA_MARK = "HERO-EXTRA:";
+  if (slug === "/" || body.startsWith(EXTRA_MARK)) {
     const nextEnd = body.indexOf("\n\n");
-    const next = (nextEnd === -1 ? body : body.slice(0, nextEnd)).trim();
+    const block = (nextEnd === -1 ? body : body.slice(0, nextEnd)).trim();
+    const next = block.startsWith(EXTRA_MARK) ? block.slice(EXTRA_MARK.length).trim() : block;
     if (/^[A-Za-z]/.test(next) && !next.includes("\n")) {
       openingExtraMd = next;
       body = (nextEnd === -1 ? "" : body.slice(nextEnd)).trim();
@@ -333,7 +336,7 @@ for (const file of files) {
     parentSlug,
     crumb: crumbOf(h1),
     openingHtml: isHome ? inlineHtml(openingMd) : inlineHtml(openingMd).replace(/href="\/#estimate"/g, 'href="#estimate"'),
-    ...(openingExtraMd ? { openingExtraHtml: inlineHtml(openingExtraMd) } : {}),
+    ...(openingExtraMd ? { openingExtraHtml: isHome ? inlineHtml(openingExtraMd) : inlineHtml(openingExtraMd).replace(/href="\/#estimate"/g, 'href="#estimate"') } : {}),
     formHeading,
     formIntro,
     leadImage,
