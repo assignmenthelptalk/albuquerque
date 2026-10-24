@@ -12,7 +12,7 @@ openingExtraHtml: "The best well water softener for Albuquerque is the one that 
 formHeading: ""
 formIntro: ""
 leadImage: null
-images: [{"file":"well-water-softener-albuquerque-nm.webp","alt":"Well water softener Albuquerque NM pressure tank with softener and iron filter","exists":false},{"file":"card-well-water-softener-installation-albuquerque-nm.webp","alt":"Well Water Softener Installation Albuquerque NM","exists":true},{"file":"card-iron-filter-installation-albuquerque-nm.webp","alt":"Iron Filter Installation Albuquerque NM","exists":false},{"file":"card-hydrogen-sulfide-filter-albuquerque-nm.webp","alt":"Hydrogen Sulfide Filter Albuquerque NM","exists":false},{"file":"card-well-water-sediment-filter-albuquerque-nm.webp","alt":"Well Water Sediment Filter Albuquerque NM","exists":false},{"file":"card-why-well-water-needs-special-treatment-albuquerque-nm.webp","alt":"Why Well Water in the Albuquerque Area Needs Special Treatment Albuquerque NM","exists":false}]
+images: [{"file":"well-water-softener-albuquerque-nm.webp","alt":"Well water softener Albuquerque NM pressure tank with softener and iron filter","exists":false},{"file":"card-well-water-softener-installation-albuquerque-nm.webp","alt":"Well Water Softener Installation Albuquerque NM","exists":true},{"file":"card-iron-filter-installation-albuquerque-nm.webp","alt":"Iron Filter Installation Albuquerque NM","exists":true},{"file":"card-hydrogen-sulfide-filter-albuquerque-nm.webp","alt":"Hydrogen Sulfide Filter Albuquerque NM","exists":true},{"file":"card-well-water-sediment-filter-albuquerque-nm.webp","alt":"Well Water Sediment Filter Albuquerque NM","exists":true},{"file":"card-why-well-water-needs-special-treatment-albuquerque-nm.webp","alt":"Why Well Water in the Albuquerque Area Needs Special Treatment Albuquerque NM","exists":true}]
 faq: [{"q":"Can a water softener remove iron from well water?","a":"A softener removes small amounts of dissolved iron, but heavier iron needs an iron filter first or it fouls the resin."},{"q":"How do I know if my well water is safe?","a":"Only a test shows. Guidance recommends testing for bacteria every year, with nitrate and other substances on a schedule that depends on local conditions."},{"q":"Why does my well water smell like rotten eggs?","a":"That smell usually comes from hydrogen sulfide gas. A test confirms it, and an oxidizing filter removes it."},{"q":"Do I need a softener and a filter for a well?","a":"Most wells need both. Filters handle iron, sulfur and sediment, and the softener handles hardness."},{"q":"What does well water treatment cost in Albuquerque?","a":"Iron content and flow rate decide the system, so your test results set the price. The estimate is free and itemized. Albuquerque Elite Water Softener NM provides well water softener and treatment for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -46,7 +46,10 @@ A well water softener installs after the pressure tank so it treats all water en
 <div class="svc-card">
 
 
-![Iron Filter Installation Albuquerque NM](/placeholders/card.svg)
+
+![Iron Filter Installation Albuquerque NM](../../assets/images/card-iron-filter-installation-albuquerque-nm.webp)
+
+
 
 ### Iron Filter Installation
 
@@ -57,7 +60,10 @@ An iron filter removes dissolved iron that causes orange or rust stains on fixtu
 <div class="svc-card">
 
 
-![Hydrogen Sulfide Filter Albuquerque NM](/placeholders/card.svg)
+
+![Hydrogen Sulfide Filter Albuquerque NM](../../assets/images/card-hydrogen-sulfide-filter-albuquerque-nm.webp)
+
+
 
 ### Hydrogen Sulfide Filter
 
@@ -68,7 +74,10 @@ Hydrogen sulfide gives water a rotten-egg smell. A hydrogen sulfide filter uses 
 <div class="svc-card">
 
 
-![Well Water Sediment Filter Albuquerque NM](/placeholders/card.svg)
+
+![Well Water Sediment Filter Albuquerque NM](../../assets/images/card-well-water-sediment-filter-albuquerque-nm.webp)
+
+
 
 ### Well Water Sediment Filter
 
@@ -79,7 +88,10 @@ A sediment filter catches sand, silt and rust particles that cloud well water an
 <div class="svc-card">
 
 
-![Why Well Water in the Albuquerque Area Needs Special Treatment Albuquerque NM](/placeholders/card.svg)
+
+![Why Well Water in the Albuquerque Area Needs Special Treatment Albuquerque NM](../../assets/images/card-why-well-water-needs-special-treatment-albuquerque-nm.webp)
+
+
 
 ### Why Well Water in the Albuquerque Area Needs Special Treatment
 

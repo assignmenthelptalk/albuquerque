@@ -12,7 +12,7 @@ openingExtraHtml: "The best water filter for Albuquerque depends on what your te
 formHeading: ""
 formIntro: ""
 leadImage: null
-images: [{"file":"water-contaminant-removal-albuquerque-nm.webp","alt":"Water contaminant removal Albuquerque NM filter installation","exists":false},{"file":"card-lead-and-arsenic-removal-albuquerque-nm.webp","alt":"Lead and Arsenic Removal Albuquerque NM","exists":false},{"file":"card-chlorine-removal-albuquerque-nm.webp","alt":"Chlorine Removal Albuquerque NM","exists":false},{"file":"card-fluoride-filter-installation-albuquerque-nm.webp","alt":"Fluoride Filter Installation Albuquerque NM","exists":false},{"file":"card-pfas-water-filter-albuquerque-nm.webp","alt":"PFAS Water Filter Albuquerque NM","exists":false},{"file":"card-nitrate-filter-installation-albuquerque-nm.webp","alt":"Nitrate Filter Installation Albuquerque NM","exists":false},{"file":"card-voc-volatile-organic-compound-filter-albuquerque-nm.webp","alt":"VOC (Volatile Organic Compound) Filter Albuquerque NM","exists":false}]
+images: [{"file":"water-contaminant-removal-albuquerque-nm.webp","alt":"Water contaminant removal Albuquerque NM filter installation","exists":false},{"file":"card-lead-and-arsenic-removal-albuquerque-nm.webp","alt":"Lead and Arsenic Removal Albuquerque NM","exists":true},{"file":"card-chlorine-removal-albuquerque-nm.webp","alt":"Chlorine Removal Albuquerque NM","exists":true},{"file":"card-fluoride-filter-installation-albuquerque-nm.webp","alt":"Fluoride Filter Installation Albuquerque NM","exists":true},{"file":"card-pfas-water-filter-albuquerque-nm.webp","alt":"PFAS Water Filter Albuquerque NM","exists":true},{"file":"card-nitrate-filter-installation-albuquerque-nm.webp","alt":"Nitrate Filter Installation Albuquerque NM","exists":true},{"file":"card-voc-volatile-organic-compound-filter-albuquerque-nm.webp","alt":"VOC (Volatile Organic Compound) Filter Albuquerque NM","exists":true}]
 faq: [{"q":"Does one filter remove every contaminant?","a":"No. Each contaminant needs its own method, and reverse osmosis covers the most. A test tells us which ones you need."},{"q":"Is Albuquerque tap water safe?","a":"City reports list results against EPA limits. For your own tap, a home test checks what the report cannot, such as your plumbing."},{"q":"How do I know a filter really works?","a":"Look for certification to NSF/ANSI standards for the specific contaminant, and retest your water after installation."},{"q":"Can a water softener remove these contaminants?","a":"No. A softener removes hardness. Contaminant removal needs a different filter."},{"q":"What does contaminant removal cost?","a":"It depends on the contaminant. The estimate is free and itemized. Albuquerque Elite Water Softener NM provides water contaminant removal for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -32,7 +32,10 @@ Six filter types target specific contaminants: lead and arsenic, chlorine, fluor
 <div class="svc-card">
 
 
-![Lead and Arsenic Removal Albuquerque NM](/placeholders/card.svg)
+
+![Lead and Arsenic Removal Albuquerque NM](../../assets/images/card-lead-and-arsenic-removal-albuquerque-nm.webp)
+
+
 
 ### Lead and Arsenic Removal
 
@@ -43,7 +46,10 @@ Lead enters drinking water mainly from old plumbing, and the EPA sets its health
 <div class="svc-card">
 
 
-![Chlorine Removal Albuquerque NM](/placeholders/card.svg)
+
+![Chlorine Removal Albuquerque NM](../../assets/images/card-chlorine-removal-albuquerque-nm.webp)
+
+
 
 ### Chlorine Removal
 
@@ -54,7 +60,10 @@ Chlorine is the disinfectant in ABCWUA's distribution system, and it can affect 
 <div class="svc-card">
 
 
-![Fluoride Filter Installation Albuquerque NM](/placeholders/card.svg)
+
+![Fluoride Filter Installation Albuquerque NM](../../assets/images/card-fluoride-filter-installation-albuquerque-nm.webp)
+
+
 
 ### Fluoride Filter Installation
 
@@ -65,7 +74,10 @@ Fluoride occurs naturally in some groundwater, and the EPA enforceable limit is 
 <div class="svc-card">
 
 
-![PFAS Water Filter Albuquerque NM](/placeholders/card.svg)
+
+![PFAS Water Filter Albuquerque NM](../../assets/images/card-pfas-water-filter-albuquerque-nm.webp)
+
+
 
 ### PFAS Water Filter
 
@@ -76,7 +88,10 @@ PFAS are man-made chemicals. In 2024 the EPA set limits of 4 parts per trillion 
 <div class="svc-card">
 
 
-![Nitrate Filter Installation Albuquerque NM](/placeholders/card.svg)
+
+![Nitrate Filter Installation Albuquerque NM](../../assets/images/card-nitrate-filter-installation-albuquerque-nm.webp)
+
+
 
 ### Nitrate Filter Installation
 
@@ -87,7 +102,10 @@ Nitrate comes from fertilizer, septic systems and livestock, and the EPA limit i
 <div class="svc-card">
 
 
-![VOC (Volatile Organic Compound) Filter Albuquerque NM](/placeholders/card.svg)
+
+![VOC (Volatile Organic Compound) Filter Albuquerque NM](../../assets/images/card-voc-volatile-organic-compound-filter-albuquerque-nm.webp)
+
+
 
 ### VOC (Volatile Organic Compound) Filter
 

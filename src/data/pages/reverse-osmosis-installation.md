@@ -12,7 +12,7 @@ openingExtraHtml: "The best reverse osmosis system for Albuquerque depends on yo
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"reverse-osmosis-installation-albuquerque-nm.webp","alt":"Reverse osmosis installation Albuquerque NM under sink system"}
-images: [{"file":"reverse-osmosis-installation-albuquerque-nm.webp","alt":"Reverse osmosis installation Albuquerque NM under sink system","exists":true},{"file":"card-how-reverse-osmosis-systems-work-albuquerque-nm.webp","alt":"How Reverse Osmosis Systems Work Albuquerque NM","exists":false},{"file":"card-under-sink-ro-installation-albuquerque-nm.webp","alt":"Under Sink RO Installation Albuquerque NM","exists":false},{"file":"card-whole-house-ro-systems-albuquerque-nm.webp","alt":"Whole House RO Systems Albuquerque NM","exists":false},{"file":"card-ro-membrane-replacement-albuquerque-nm.webp","alt":"RO Membrane Replacement Albuquerque NM","exists":false},{"file":"card-ro-and-water-softener-combination-albuquerque-nm.webp","alt":"RO and Water Softener Combination Albuquerque NM","exists":false}]
+images: [{"file":"reverse-osmosis-installation-albuquerque-nm.webp","alt":"Reverse osmosis installation Albuquerque NM under sink system","exists":true},{"file":"card-how-reverse-osmosis-systems-work-albuquerque-nm.webp","alt":"How Reverse Osmosis Systems Work Albuquerque NM","exists":true},{"file":"card-under-sink-ro-installation-albuquerque-nm.webp","alt":"Under Sink RO Installation Albuquerque NM","exists":true},{"file":"card-whole-house-ro-systems-albuquerque-nm.webp","alt":"Whole House RO Systems Albuquerque NM","exists":true},{"file":"card-ro-membrane-replacement-albuquerque-nm.webp","alt":"RO Membrane Replacement Albuquerque NM","exists":false},{"file":"card-ro-and-water-softener-combination-albuquerque-nm.webp","alt":"RO and Water Softener Combination Albuquerque NM","exists":false}]
 faq: [{"q":"Does reverse osmosis remove hard water minerals?","a":"Yes, RO removes most dissolved minerals from the water it treats, but hard water scales the membrane, so pairing RO with a softener is best."},{"q":"How much water does an RO system waste?","a":"RO sends reject water to the drain. The ratio depends on the system and water pressure. Most traditional systems send about 3 to 4 gallons of water to the drain for every gallon of purified water, while high-efficiency models get closer to 2 to 1."},{"q":"How often do I change RO filters?","a":"Sediment and carbon filters usually change every six to twelve months, and the membrane every two to five years. Follow your system's guidance."},{"q":"Does RO make water taste different?","a":"Yes. RO water tastes cleaner and flatter because minerals are removed."},{"q":"Can you install RO in my kitchen?","a":"Yes, under-sink installation is our most common RO job. Albuquerque Elite Water Softener NM provides reverse osmosis system installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -32,7 +32,10 @@ Reverse osmosis installation covers five topics: how RO systems work, under sink
 <div class="svc-card">
 
 
-![How Reverse Osmosis Systems Work Albuquerque NM](/placeholders/card.svg)
+
+![How Reverse Osmosis Systems Work Albuquerque NM](../../assets/images/card-how-reverse-osmosis-systems-work-albuquerque-nm.webp)
+
+
 
 ### How Reverse Osmosis Systems Work
 
@@ -43,7 +46,10 @@ Reverse osmosis (RO) pushes water under pressure through a semi-permeable membra
 <div class="svc-card">
 
 
-![Under Sink RO Installation Albuquerque NM](/placeholders/card.svg)
+
+![Under Sink RO Installation Albuquerque NM](../../assets/images/card-under-sink-ro-installation-albuquerque-nm.webp)
+
+
 
 ### Under Sink RO Installation
 
@@ -54,7 +60,10 @@ An under-sink RO system treats the water for one tap, usually the kitchen. It in
 <div class="svc-card">
 
 
-![Whole House RO Systems Albuquerque NM](/placeholders/card.svg)
+
+![Whole House RO Systems Albuquerque NM](../../assets/images/card-whole-house-ro-systems-albuquerque-nm.webp)
+
+
 
 ### Whole House RO Systems
 
