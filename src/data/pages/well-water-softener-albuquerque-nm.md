@@ -12,7 +12,7 @@ openingExtraHtml: "The best well water softener for Albuquerque is the one that 
 formHeading: ""
 formIntro: ""
 leadImage: null
-images: [{"file":"well-water-softener-albuquerque-nm.webp","alt":"Well water softener Albuquerque NM pressure tank with softener and iron filter","exists":false},{"file":"card-well-water-softener-installation-albuquerque-nm.webp","alt":"Well Water Softener Installation Albuquerque NM","exists":false},{"file":"card-iron-filter-installation-albuquerque-nm.webp","alt":"Iron Filter Installation Albuquerque NM","exists":false},{"file":"card-hydrogen-sulfide-filter-albuquerque-nm.webp","alt":"Hydrogen Sulfide Filter Albuquerque NM","exists":false},{"file":"card-well-water-sediment-filter-albuquerque-nm.webp","alt":"Well Water Sediment Filter Albuquerque NM","exists":false},{"file":"card-why-well-water-in-the-new-braunfels-area-needs-special-treatment-albuquerque-nm.webp","alt":"Why Well Water in the Albuquerque Area Needs Special Treatment Albuquerque NM","exists":false}]
+images: [{"file":"well-water-softener-albuquerque-nm.webp","alt":"Well water softener Albuquerque NM pressure tank with softener and iron filter","exists":false},{"file":"card-well-water-softener-installation-albuquerque-nm.webp","alt":"Well Water Softener Installation Albuquerque NM","exists":true},{"file":"card-iron-filter-installation-albuquerque-nm.webp","alt":"Iron Filter Installation Albuquerque NM","exists":false},{"file":"card-hydrogen-sulfide-filter-albuquerque-nm.webp","alt":"Hydrogen Sulfide Filter Albuquerque NM","exists":false},{"file":"card-well-water-sediment-filter-albuquerque-nm.webp","alt":"Well Water Sediment Filter Albuquerque NM","exists":false},{"file":"card-why-well-water-needs-special-treatment-albuquerque-nm.webp","alt":"Why Well Water in the Albuquerque Area Needs Special Treatment Albuquerque NM","exists":false}]
 faq: [{"q":"Can a water softener remove iron from well water?","a":"A softener removes small amounts of dissolved iron, but heavier iron needs an iron filter first or it fouls the resin."},{"q":"How do I know if my well water is safe?","a":"Only a test shows. Guidance recommends testing for bacteria every year, with nitrate and other substances on a schedule that depends on local conditions."},{"q":"Why does my well water smell like rotten eggs?","a":"That smell usually comes from hydrogen sulfide gas. A test confirms it, and an oxidizing filter removes it."},{"q":"Do I need a softener and a filter for a well?","a":"Most wells need both. Filters handle iron, sulfur and sediment, and the softener handles hardness."},{"q":"What does well water treatment cost in Albuquerque?","a":"Iron content and flow rate decide the system, so your test results set the price. The estimate is free and itemized. Albuquerque Elite Water Softener NM provides well water softener and treatment for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -32,7 +32,10 @@ Well water treatment covers four systems: a well water softener, an iron filter,
 <div class="svc-card">
 
 
-![Well Water Softener Installation Albuquerque NM](/placeholders/card.svg)
+
+![Well Water Softener Installation Albuquerque NM](../../assets/images/card-well-water-softener-installation-albuquerque-nm.webp)
+
+
 
 ### Well Water Softener Installation
 
