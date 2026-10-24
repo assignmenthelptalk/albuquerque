@@ -12,7 +12,7 @@ openingExtraHtml: "The best water treatment for Albuquerque depends on what your
 formHeading: ""
 formIntro: ""
 leadImage: null
-images: [{"file":"water-treatment-albuquerque-nm.webp","alt":"Water treatment Albuquerque NM whole house filter and water softener setup","exists":false},{"file":"card-why-test-before-you-treat-albuquerque-nm.webp","alt":"Why Test Before You Treat Albuquerque NM","exists":false},{"file":"card-water-quality-testing-albuquerque-nm.webp","alt":"Water Quality Testing Albuquerque NM","exists":true},{"file":"card-water-filtration-system-installation-albuquerque-nm.webp","alt":"Water Filtration System Installation Albuquerque NM","exists":false},{"file":"card-well-water-softener-and-treatment-albuquerque-nm.webp","alt":"Well Water Softener and Treatment Albuquerque NM","exists":false},{"file":"card-water-contaminant-removal-albuquerque-nm.webp","alt":"Water Contaminant Removal Albuquerque NM","exists":false},{"file":"card-reverse-osmosis-system-installation-albuquerque-nm.webp","alt":"Reverse Osmosis System Installation Albuquerque NM","exists":false},{"file":"card-uv-water-purification-system-installation-albuquerque-nm.webp","alt":"UV Water Purification System Installation Albuquerque NM","exists":false},{"file":"card-drinking-water-system-installation-albuquerque-nm.webp","alt":"Drinking Water System Installation Albuquerque NM","exists":false}]
+images: [{"file":"water-treatment-albuquerque-nm.webp","alt":"Water treatment Albuquerque NM whole house filter and water softener setup","exists":false},{"file":"card-why-test-before-you-treat-albuquerque-nm.webp","alt":"Why Test Before You Treat Albuquerque NM","exists":true},{"file":"card-water-quality-testing-albuquerque-nm.webp","alt":"Water Quality Testing Albuquerque NM","exists":true},{"file":"card-water-filtration-system-installation-albuquerque-nm.webp","alt":"Water Filtration System Installation Albuquerque NM","exists":true},{"file":"card-well-water-softener-and-treatment-albuquerque-nm.webp","alt":"Well Water Softener and Treatment Albuquerque NM","exists":true},{"file":"card-water-contaminant-removal-albuquerque-nm.webp","alt":"Water Contaminant Removal Albuquerque NM","exists":true},{"file":"card-reverse-osmosis-system-installation-albuquerque-nm.webp","alt":"Reverse Osmosis System Installation Albuquerque NM","exists":true},{"file":"card-uv-water-purification-system-installation-albuquerque-nm.webp","alt":"UV Water Purification System Installation Albuquerque NM","exists":true},{"file":"card-drinking-water-system-installation-albuquerque-nm.webp","alt":"Drinking Water System Installation Albuquerque NM","exists":true}]
 faq: [{"q":"Do I need a filter if I have a water softener?","a":"A softener and a filter solve different problems, so many homes use both. A softener removes calcium and magnesium, and a carbon filter reduces chlorine taste and odor. ABCWUA's 2023 distribution monitoring measured free chlorine at a city average of 0.9 mg/L, so a carbon stage is the usual choice for households that notice chlorine."},{"q":"Does reverse osmosis remove hardness?","a":"Reverse osmosis removes most dissolved minerals at one tap, but it is built for drinking water, not for protecting a whole house. Hard water shortens a membrane's life, so a softener ahead of the system helps it last."},{"q":"How often does a private well need testing?","a":"EPA recommends that private well owners test for bacteria every year and test for other contaminants when a risk is present. Nobody tests a private well for you, so the owner schedules it."},{"q":"Does Albuquerque city water need UV treatment?","a":"City water from ABCWUA is already disinfected, so UV is mainly for private wells and for homes with a bacteria result on a test. A test shows whether a household needs it. Albuquerque Elite Water Softener NM provides water treatment services for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -32,7 +32,10 @@ The best water treatment for Albuquerque is the one that targets what your test 
 <div class="svc-card">
 
 
-![Why Test Before You Treat Albuquerque NM](/placeholders/card.svg)
+
+![Why Test Before You Treat Albuquerque NM](../../assets/images/card-why-test-before-you-treat-albuquerque-nm.webp)
+
+
 
 ### Why Test Before You Treat
 
@@ -57,7 +60,10 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 <div class="svc-card">
 
 
-![Water Filtration System Installation Albuquerque NM](/placeholders/card.svg)
+
+![Water Filtration System Installation Albuquerque NM](../../assets/images/card-water-filtration-system-installation-albuquerque-nm.webp)
+
+
 
 ### Water Filtration System Installation
 
@@ -68,7 +74,10 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 <div class="svc-card">
 
 
-![Well Water Softener and Treatment Albuquerque NM](/placeholders/card.svg)
+
+![Well Water Softener and Treatment Albuquerque NM](../../assets/images/card-well-water-softener-and-treatment-albuquerque-nm.webp)
+
+
 
 ### Well Water Softener and Treatment
 
@@ -79,7 +88,10 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 <div class="svc-card">
 
 
-![Water Contaminant Removal Albuquerque NM](/placeholders/card.svg)
+
+![Water Contaminant Removal Albuquerque NM](../../assets/images/card-water-contaminant-removal-albuquerque-nm.webp)
+
+
 
 ### Water Contaminant Removal
 
@@ -90,7 +102,10 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 <div class="svc-card">
 
 
-![Reverse Osmosis System Installation Albuquerque NM](/placeholders/card.svg)
+
+![Reverse Osmosis System Installation Albuquerque NM](../../assets/images/card-reverse-osmosis-system-installation-albuquerque-nm.webp)
+
+
 
 ### Reverse Osmosis System Installation
 
@@ -101,7 +116,10 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 <div class="svc-card">
 
 
-![UV Water Purification System Installation Albuquerque NM](/placeholders/card.svg)
+
+![UV Water Purification System Installation Albuquerque NM](../../assets/images/card-uv-water-purification-system-installation-albuquerque-nm.webp)
+
+
 
 ### UV Water Purification System Installation
 
@@ -112,7 +130,10 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 <div class="svc-card">
 
 
-![Drinking Water System Installation Albuquerque NM](/placeholders/card.svg)
+
+![Drinking Water System Installation Albuquerque NM](../../assets/images/card-drinking-water-system-installation-albuquerque-nm.webp)
+
+
 
 ### Drinking Water System Installation
 
