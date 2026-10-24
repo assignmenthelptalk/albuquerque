@@ -7,8 +7,8 @@ slug: "/water-quality-testing/"
 pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "Water Quality Testing"
-openingHtml: "Not sure what is in your tap water? <a href=\"/\">Albuquerque Elite Water Softener</a> tests the hardness, minerals, disinfectants and contaminants in city and well water and explains each result in plain language."
-openingExtraHtml: "You find out what, if anything, needs treatment. Request a free test or call to book a visit."
+openingHtml: "Not sure what is in your tap water? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends the right tests, then tests the hardness, minerals, disinfectants and contaminants in city and well water and explains each result in plain language."
+openingExtraHtml: "The best water test for Albuquerque starts with hardness, TDS and pH, which cover the common local issues, then adds iron and sulfur for wells or staining and heavy metals for older plumbing or an infant in the home. Request a free test or call to book a visit."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet"}
@@ -23,9 +23,9 @@ markerCount: 0
 
 
 
-## What Does Water Quality Testing Measure in Albuquerque, NM?
+## What Are the Best Water Quality Tests in Albuquerque, NM?
 
-Seven tests cover hardness, total dissolved solids, iron, pH, chlorine, sulfur and heavy metals.
+The best test for your home depends on your water source and your plumbing. Seven tests cover hardness, total dissolved solids, iron, pH, chlorine, sulfur and heavy metals.
 
 <div class="svc-grid">
 

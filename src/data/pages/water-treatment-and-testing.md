@@ -7,8 +7,8 @@ slug: "/water-treatment-and-testing/"
 pageType: "hub"
 parentSlug: "/"
 crumb: "Water Treatment Services"
-openingHtml: "Do you know what is in your water? <a href=\"/\">Albuquerque Elite Water Softener</a> installs filtration, reverse osmosis, UV purification and well water treatment for homes in Albuquerque and Bernalillo County, starting with a test."
-openingExtraHtml: "ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon and free chlorine at 0.9 mg/L, and neither shows in the glass. Choose a service below, or request a free estimate."
+openingHtml: "Do you know what is in your water? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends and installs filtration, reverse osmosis, UV purification and well water treatment for homes in Albuquerque and Bernalillo County, starting with a test."
+openingExtraHtml: "The best water treatment for Albuquerque depends on what your test finds. ABCWUA's 2023 report put the city average hardness at 8.44 grains per gallon and free chlorine at 0.9 mg/L, and neither shows in the glass. Choose a service below, or request a free estimate."
 formHeading: ""
 formIntro: ""
 leadImage: null
@@ -23,9 +23,9 @@ markerCount: 0
 
 
 
-## What Water Treatment Services Are Available in Albuquerque, NM?
+## What Are the Best Water Treatment Services in Albuquerque, NM?
 
-Water treatment starts with testing and covers filtration, well water treatment, contaminant removal, reverse osmosis, UV purification and drinking water systems.
+The best water treatment for Albuquerque is the one that targets what your test finds, not one product for every home. Water treatment starts with testing and covers filtration, well water treatment, contaminant removal, reverse osmosis, UV purification and drinking water systems.
 
 <div class="svc-grid">
 
@@ -122,7 +122,7 @@ A water test tells you which problem you have before you pay to solve it. ABCWUA
 
 </div>
 
-### How to Choose a Water Treatment Service
+### How to Choose the Best Water Treatment for Your Albuquerque Home
 
 If your test shows hardness above 10.5 grains per gallon, a softener treats it, and the [Water Softener Systems in Albuquerque, NM](/water-softener-systems/) hub covers that side. If it shows a taste, odor, iron or contaminant result, filtration or reverse osmosis treats it.
 
