@@ -7,8 +7,8 @@ slug: "/water-filtration-systems/"
 pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "Water Filtration System Installation"
-openingHtml: "Want filtered water at the main line, under the sink, at the shower or at the refrigerator? <a href=\"/\">Albuquerque Elite Water Softener</a> installs and replaces water filtration systems of every type."
-openingExtraHtml: "A technician matches filters to what a water test finds. Request a free estimate or call for service."
+openingHtml: "Want filtered water at the main line, under the sink, at the shower or at the refrigerator? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends, installs and replaces water filtration systems of every type."
+openingExtraHtml: "The best water filtration system for Albuquerque depends on what a water test finds and where you want filtered water. A technician matches filters to the result. Request a free estimate or call for service."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-filtration-systems-albuquerque-nm.webp","alt":"Water filtration systems Albuquerque NM whole house filter installation"}
@@ -23,7 +23,7 @@ markerCount: 0
 
 
 
-## What Types of Water Filtration Systems Do Albuquerque Homes Use?
+## What Are the Best Water Filtration Systems for Albuquerque Homes?
 
 Seven filtration options cover the whole house, the sink, the shower and the refrigerator: whole house filters, under sink filters, sediment filters, carbon block filters, shower filters, refrigerator filter replacement and multi-stage filtration.
 

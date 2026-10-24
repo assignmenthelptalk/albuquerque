@@ -7,8 +7,8 @@ slug: "/water-conditioner-installation/"
 pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Water Conditioner Installation"
-openingHtml: "Is scale building up on your pipes, heaters and fixtures? <a href=\"/\">Albuquerque Elite Water Softener</a> installs water conditioners that treat hard water so scale builds up more slowly."
-openingExtraHtml: "We install salt-free conditioners, potassium chloride softeners and scale inhibitor systems, and recommend the one that fits your goal after reviewing your water and plumbing. Request a free estimate or call for service."
+openingHtml: "Is scale building up on your pipes, heaters and fixtures? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends and installs water conditioners that treat hard water so scale builds up more slowly."
+openingExtraHtml: "The best water conditioner for Albuquerque is the one that fits your goal, your water and your plumbing. We install salt-free conditioners, potassium chloride softeners and scale inhibitor systems, and recommend the one that fits your goal after reviewing your water and plumbing. Request a free estimate or call for service."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-conditioner-installation-albuquerque-nm.webp","alt":"Water conditioner installation Albuquerque NM on a main water line"}
@@ -23,7 +23,7 @@ markerCount: 0
 
 
 
-## What Water Conditioning Options Are Available in Albuquerque, NM?
+## What Are the Best Water Conditioning Options in Albuquerque, NM?
 
 Five options treat scale and [hard water](/water-softener-guides/hard-water-albuquerque-nm/): [salt-free conditioners](/salt-free-water-softener-systems/), potassium chloride softener systems, hard water treatment, limescale treatment and scale inhibitor systems.
 

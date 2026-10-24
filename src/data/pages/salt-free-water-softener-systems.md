@@ -7,8 +7,8 @@ slug: "/salt-free-water-softener-systems/"
 pageType: "service"
 parentSlug: "/water-softener-systems/"
 crumb: "Salt-Free Water Softener Systems"
-openingHtml: "Want to reduce scale without salt, a brine tank or a drain line? <a href=\"/\">Albuquerque Elite Water Softener</a> installs salt-free systems that condition hard water so scale no longer clings to pipes, fixtures and appliances."
-openingExtraHtml: "They suit homeowners who want lower maintenance and no added sodium, and a technician tells you honestly whether salt-free fits your water. Request a free estimate or call for service."
+openingHtml: "Want to reduce scale without salt, a brine tank or a drain line? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends and installs salt-free systems that condition hard water so scale no longer clings to pipes, fixtures and appliances."
+openingExtraHtml: "The best salt-free system for Albuquerque depends on your water and how much scale protection you need. They suit homeowners who want lower maintenance and no added sodium, and a technician tells you honestly whether salt-free fits your water. Request a free estimate or call for service."
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"salt-free-water-softener-albuquerque-nm.webp","alt":"Salt-free water softener Albuquerque NM conditioner on main water line"}
@@ -29,7 +29,7 @@ A salt-free water softener system is a [conditioner](/water-conditioner-installa
 
 Albuquerque water is hard, and ABCWUA blends locally pumped groundwater with treated San Juan-Chama surface water. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, which the U.S. Geological Survey rates as hard. A salt-free system reduces scale in that water but does not give the slick, mineral-free feel of a [salt-based](/water-softener-guides/salt-vs-salt-free-water-softener/) softener. For the full range, see our [Water Softener Systems in Albuquerque, NM](/water-softener-systems/).
 
-## Which Salt-Free Water Conditioners Are Available in Albuquerque, NM?
+## What Are the Best Salt-Free Water Conditioners in Albuquerque, NM?
 
 Three salt-free technologies are installed for scale: template assisted crystallization (TAC) systems, electronic descalers and magnetic water conditioners.
 

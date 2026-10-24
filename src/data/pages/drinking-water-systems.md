@@ -7,8 +7,8 @@ slug: "/drinking-water-systems/"
 pageType: "service"
 parentSlug: "/water-treatment-and-testing/"
 crumb: "Drinking Water System Installation"
-openingHtml: "Want cleaner water where you actually drink and cook? <a href=\"/\">Albuquerque Elite Water Softener</a> installs under-sink, countertop and bottleless cooler purification systems for homes and offices and helps you choose between them."
-openingExtraHtml: "A technician matches a system to your space and your water. Request a free estimate or call for service."
+openingHtml: "Want cleaner water where you actually drink and cook? <a href=\"/\">Albuquerque Elite Water Softener</a> recommends and installs under-sink, countertop and bottleless cooler purification systems for homes and offices and helps you choose between them."
+openingExtraHtml: "The best drinking water system for Albuquerque depends on your space and your water. A technician matches a system to your space and your water. Request a free estimate or call for service."
 formHeading: ""
 formIntro: ""
 leadImage: null
@@ -23,7 +23,7 @@ markerCount: 0
 
 
 
-## What Types of Drinking Water Systems Can You Install in Albuquerque, NM?
+## What Are the Best Drinking Water Systems for Albuquerque Homes?
 
 Three drinking water systems cover most homes: under sink systems, countertop purification units and alkaline water systems.
 
