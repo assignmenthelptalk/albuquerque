@@ -16,6 +16,12 @@ faq: [{"q":"How does a dual tank water softener differ from a single tank?","a":
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ### What Is a Dual Tank Water Softener System?
 
 A dual tank water softener is a twin-tank system in which two resin tanks share the softening work. While Tank A softens the water you use, Tank B regenerates, then the roles switch. A single-tank softener pauses softening during regeneration and sends [hard water](/water-softener-guides/hard-water-albuquerque-nm/) to the house until the cycle ends. A dual tank system removes that gap, and many designs regenerate only when a tank is actually exhausted, which uses salt and water in line with real demand.

@@ -16,6 +16,12 @@ faq: [{"q":"Does a salt-free water softener actually soften water?","a":"No. It 
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ### What Is a Salt-Free Water Softener System?
 
 A salt-free water softener system is a [conditioner](/water-conditioner-installation/) that changes how hardness minerals behave instead of removing them. Calcium and magnesium stay in the water, but they are less likely to form hard scale. The unit installs on the main line, needs no electricity or a drain in most designs and has no regeneration cycle. Because it adds no sodium, it suits homeowners watching salt intake.

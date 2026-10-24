@@ -16,6 +16,12 @@ faq: [{"q":"What is the best water softener system for Albuquerque homes?","a":"
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Types of Water Softener Systems Are Available in Albuquerque, NM?
 
 This page covers installation, replacement, salt-free systems, dual tank systems, commercial systems, maintenance, repair and water conditioners, starting with why Albuquerque water needs a softener.

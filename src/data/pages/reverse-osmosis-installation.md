@@ -16,6 +16,12 @@ faq: [{"q":"Does reverse osmosis remove hard water minerals?","a":"Yes, RO remov
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Does Reverse Osmosis Installation Include in Albuquerque, NM?
 
 Reverse osmosis installation covers five topics: how RO systems work, under sink installation, whole house systems, membrane replacement and pairing RO with a water softener.

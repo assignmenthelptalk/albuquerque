@@ -16,6 +16,12 @@ faq: [{"q":"What is the difference between a water conditioner and a water softe
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Water Conditioning Options Are Available in Albuquerque, NM?
 
 Five options treat scale and [hard water](/water-softener-guides/hard-water-albuquerque-nm/): [salt-free conditioners](/salt-free-water-softener-systems/), potassium chloride softener systems, hard water treatment, limescale treatment and scale inhibitor systems.

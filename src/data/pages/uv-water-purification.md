@@ -16,6 +16,12 @@ faq: [{"q":"Does UV remove chemicals or hardness?","a":"No. UV inactivates micro
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## How Does UV Water Purification Work in Albuquerque, NM?
 
 UV purification covers three topics: how UV works, UV system installation and combining UV with a water softener.

@@ -16,6 +16,12 @@ faq: [{"q":"How often does a water filter need replacing?","a":"Replacement depe
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Types of Water Filtration Systems Do Albuquerque Homes Use?
 
 Seven filtration options cover the whole house, the sink, the shower and the refrigerator: whole house filters, under sink filters, sediment filters, carbon block filters, shower filters, refrigerator filter replacement and multi-stage filtration.

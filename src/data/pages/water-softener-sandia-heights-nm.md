@@ -16,6 +16,9 @@ faq: [{"q":"How hard is Sandia Heights water?","a":"Sandia Heights water has no 
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
 ## Why Sandia Heights Residents Need a Hardness Test
 
 The New Mexico Public Regulation Commission lists Sandia Peak Utility's water service as covering Sandia Heights and Primrose Pointe, with its office at #120 Tramway Loop NE in Albuquerque. That makes Sandia Heights a different water system from the one ABCWUA reports on. ABCWUA's 2023 report gave a city average of 8.44 grains per gallon, and that number belongs to ABCWUA's customers, not to Sandia Peak Utility's.

@@ -16,6 +16,12 @@ faq: [{"q":"How much salt does a water softener use?","a":"Salt use depends on h
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Does Water Softener Maintenance Include in Albuquerque, NM?
 
 Four services keep a softener at full capacity: resin cleaning, salt refills, brine tank cleaning and annual maintenance plans.

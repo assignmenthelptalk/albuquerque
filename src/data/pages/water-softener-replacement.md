@@ -16,6 +16,12 @@ faq: [{"q":"How long does water softener replacement take?","a":"Most replacemen
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ## What Water Softener Replacement Options Are Available in Albuquerque, NM?
 
 Three replacement options fit different situations: full system replacement, resin bed replacement and upgrade service.

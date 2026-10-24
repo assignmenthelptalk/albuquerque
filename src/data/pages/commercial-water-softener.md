@@ -16,6 +16,12 @@ faq: [{"q":"How do you size a commercial water softener?","a":"We size it from p
 markerCount: 0
 ---
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;"><a class="btn btn-primary" style="color:#ffffff;" href="/#estimate">Request a Free Estimate</a><a class="btn" style="background:var(--color-primary);color:#ffffff;" href="/contact/">Call for Service</a></div>
+
+
+
+
+
 ### Commercial Water Softener System Types
 
 Commercial systems come in four common forms:
