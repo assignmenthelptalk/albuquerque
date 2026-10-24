@@ -1,6 +1,6 @@
 ---
 title: "Salt-Based vs Salt-Free Water Softener in Albuquerque, NM"
-seoTitle: "Salt vs Salt-Free Softener Albuquerque, NM | Albuquerque Elite Water Softener"
+seoTitle: "Salt vs Salt-Free Softener Albuquerque | Albuquerque Elite"
 description: "Salt-based vs salt-free water softener in Albuquerque, NM: how each works, what each removes and which fits 8.44 gpg water. Compare both before you buy."
 metaDraft: false
 slug: "/water-softener-guides/salt-vs-salt-free-water-softener/"

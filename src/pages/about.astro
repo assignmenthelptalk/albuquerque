@@ -131,7 +131,7 @@ const faqs = [
 
 <Layout
   title={`About ${site.businessName}`}
-  fullTitle={`About ${site.businessName} | ${site.businessName}: Water Softener Installation and Repair`}
+  fullTitle={`About Us | ${site.businessName}`}
   description={`About ${site.businessName}: water softener installation, replacement, repair and water testing for ${site.city}, ${site.stateAbbr} and ${site.region}.`}
 >
   <PageSchema faq={faqs.map((f) => ({ q: f.q, a: f.a.replace(/<mark[^>]*>[^<]*<\/mark>/g, "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() }))} />

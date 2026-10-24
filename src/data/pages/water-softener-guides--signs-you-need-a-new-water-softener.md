@@ -1,6 +1,6 @@
 ---
 title: "7 Signs You Need to Replace Your Water Softener in Albuquerque, NM"
-seoTitle: "7 Signs You Need a New Softener, Albuquerque NM | Albuquerque Elite Water Softener"
+seoTitle: "7 Signs You Need a New Softener | Albuquerque Elite"
 description: "7 signs your water softener needs replacing in Albuquerque, NM, from returning hard-water spots to rising salt use. Learn when repair stops paying off."
 metaDraft: false
 slug: "/water-softener-guides/signs-you-need-a-new-water-softener/"

@@ -1,6 +1,6 @@
 ---
 title: "Hard Water in Albuquerque, NM"
-seoTitle: "Hard Water Albuquerque, NM | Albuquerque Elite Water Softener"
+seoTitle: "Hard Water Albuquerque, NM | Albuquerque Elite"
 description: "Albuquerque water averaged 8.44 grains per gallon in ABCWUA's 2023 report, which is hard. Learn what that does to pipes and fixtures and how to fix it."
 metaDraft: false
 slug: "/water-softener-guides/hard-water-albuquerque-nm/"

@@ -1,6 +1,6 @@
 ---
 title: "Water Quality Testing in Albuquerque, NM"
-seoTitle: "Water Quality Testing Albuquerque, NM | Albuquerque Elite Water Softener"
+seoTitle: "Water Quality Testing Albuquerque, NM | Albuquerque Elite"
 description: "Water quality testing in Albuquerque, NM measures hardness, iron, pH and total dissolved solids so the right system is sized first. Request a free test."
 metaDraft: false
 slug: "/water-quality-testing/"

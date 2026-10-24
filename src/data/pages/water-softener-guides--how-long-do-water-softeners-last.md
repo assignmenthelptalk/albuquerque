@@ -1,6 +1,6 @@
 ---
 title: "How Long Does a Water Softener Last in Albuquerque, NM"
-seoTitle: "How Long Softeners Last Albuquerque, NM | Albuquerque Elite Water Softener"
+seoTitle: "How Long Softeners Last Albuquerque, NM | Albuquerque Elite"
 description: "A well-maintained home water softener commonly lasts 10 to 15 years. See what shortens or extends its life in Albuquerque, NM and when to replace it."
 metaDraft: false
 slug: "/water-softener-guides/how-long-do-water-softeners-last/"
