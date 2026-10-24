@@ -18,7 +18,7 @@ const telHref = `tel:${site.phoneNumber.replace(/[^\d+]/g, "")}`;
   <PageHero
     showForm={false}
     breadcrumbs={[{ label: "Contact" }]}
-    heading={`Contact ${site.businessName} | Trusted Local Specialists`}
+    heading={`Contact ${site.businessName}`}
     primaryCta={{ href: telHref, text: `📞 ${site.phoneNumber}` }}
   >
     <p slot="opening">

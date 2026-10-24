@@ -1,5 +1,5 @@
 ---
-title: "Water Softener Size Guide in Albuquerque, NM | Trusted Local Specialists"
+title: "Water Softener Size Guide in Albuquerque, NM"
 seoTitle: "Water Softener Size Guide Albuquerque, NM | Albuquerque Elite Water Softener"
 description: "Size a water softener for your Albuquerque, NM home. Use daily water use and hardness to find the grain capacity, with a worked example for 8.44 gpg water."
 metaDraft: false

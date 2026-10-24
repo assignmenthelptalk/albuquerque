@@ -137,7 +137,7 @@ const faqs = [
   <PageSchema faq={faqs.map((f) => ({ q: f.q, a: f.a.replace(/<mark[^>]*>[^<]*<\/mark>/g, "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() }))} />
   <PageHero
     breadcrumbs={[{ label: "About" }]}
-    heading={`About ${site.businessName} | Trusted Local Specialists`}
+    heading={`About ${site.businessName}`}
     primaryCta={{ href: telHref, text: `📞 ${site.phoneNumber}` }}
     secondaryCta={{ href: "/contact/", text: "Get a Free Quote" }}
   >

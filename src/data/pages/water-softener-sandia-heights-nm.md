@@ -1,5 +1,5 @@
 ---
-title: "Water Softener Installation & Service in Sandia Heights, NM | Trusted Local Specialists"
+title: "Water Softener Installation & Service in Sandia Heights, NM"
 seoTitle: "Water Softener in Sandia Heights, NM | Albuquerque Elite Water Softener"
 description: "Water softener installation and service in Sandia Heights, NM, where Sandia Peak Utility supplies water. Test your tap for hardness. Free estimate."
 metaDraft: false
