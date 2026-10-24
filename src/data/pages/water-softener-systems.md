@@ -12,7 +12,7 @@ openingExtraHtml: "Albuquerque water is hard: ABCWUA's 2023 water quality report
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-systems-albuquerque-nm.webp","alt":"Water softener systems Albuquerque NM salt-based and dual-tank units"}
-images: [{"file":"water-softener-systems-albuquerque-nm.webp","alt":"Water softener systems Albuquerque NM salt-based and dual-tank units","exists":true},{"file":"card-why-new-braunfels-water-needs-a-water-softener-system-albuquerque-nm.webp","alt":"Why Albuquerque Water Needs a Water Softener System Albuquerque NM","exists":false},{"file":"card-water-softener-installation-albuquerque-nm.webp","alt":"Water Softener Installation Albuquerque NM","exists":true},{"file":"card-water-softener-replacement-albuquerque-nm.webp","alt":"Water Softener Replacement Albuquerque NM","exists":true},{"file":"card-salt-free-water-softener-systems-albuquerque-nm.webp","alt":"Salt-Free Water Softener Systems Albuquerque NM","exists":true},{"file":"card-dual-tank-water-softener-installation-albuquerque-nm.webp","alt":"Dual Tank Water Softener Installation Albuquerque NM","exists":false},{"file":"card-commercial-water-softener-installation-albuquerque-nm.webp","alt":"Commercial Water Softener Installation Albuquerque NM","exists":false},{"file":"card-water-softener-maintenance-albuquerque-nm.webp","alt":"Water Softener Maintenance Albuquerque NM","exists":false},{"file":"card-water-softener-repair-albuquerque-nm.webp","alt":"Water Softener Repair Albuquerque NM","exists":false},{"file":"card-water-conditioner-installation-albuquerque-nm.webp","alt":"Water Conditioner Installation Albuquerque NM","exists":false}]
+images: [{"file":"water-softener-systems-albuquerque-nm.webp","alt":"Water softener systems Albuquerque NM salt-based and dual-tank units","exists":true},{"file":"card-why-albuquerque-water-needs-a-water-softener-system-albuquerque-nm.webp","alt":"Why Albuquerque Water Needs a Water Softener System Albuquerque NM","exists":true},{"file":"card-water-softener-installation-albuquerque-nm.webp","alt":"Water Softener Installation Albuquerque NM","exists":true},{"file":"card-water-softener-replacement-albuquerque-nm.webp","alt":"Water Softener Replacement Albuquerque NM","exists":true},{"file":"card-salt-free-water-softener-systems-albuquerque-nm.webp","alt":"Salt-Free Water Softener Systems Albuquerque NM","exists":true},{"file":"card-dual-tank-water-softener-installation-albuquerque-nm.webp","alt":"Dual Tank Water Softener Installation Albuquerque NM","exists":false},{"file":"card-commercial-water-softener-installation-albuquerque-nm.webp","alt":"Commercial Water Softener Installation Albuquerque NM","exists":false},{"file":"card-water-softener-maintenance-albuquerque-nm.webp","alt":"Water Softener Maintenance Albuquerque NM","exists":true},{"file":"card-water-softener-repair-albuquerque-nm.webp","alt":"Water Softener Repair Albuquerque NM","exists":true},{"file":"card-water-conditioner-installation-albuquerque-nm.webp","alt":"Water Conditioner Installation Albuquerque NM","exists":true}]
 faq: [{"q":"What is the best water softener system for Albuquerque homes?","a":"The best system matches your household size and your test result. A salt-based softener removes hardness minerals and suits readings above 10.5 grains per gallon, and a dual tank unit suits large households that cannot wait through a regeneration."},{"q":"Can I install a water softener myself in New Mexico?","a":"Many homeowners install their own softener, but licensing and permit rules for water treatment and plumbing work are set by the state and the city, so check the New Mexico requirements for your job before you start. Anyone who installs a softener for a fee should hold the licence the state requires, so ask for the licence number and proof of insurance before the work starts."},{"q":"What is the difference between a water softener and a water conditioner?","a":"A softener removes calcium and magnesium through ion exchange, and a conditioner changes how those minerals behave so scale does not stick. The softener lowers the hardness number, and the conditioner leaves it where it is."},{"q":"Does a water softener use electricity?","a":"A softener with an electronic control head uses a small amount of power to run its regeneration schedule, and it needs a nearby outlet. A salt-free conditioner needs no power. Albuquerque Elite Water Softener NM provides water softener systems for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -32,7 +32,10 @@ This page covers installation, replacement, salt-free systems, dual tank systems
 <div class="svc-card">
 
 
-![Why Albuquerque Water Needs a Water Softener System Albuquerque NM](/placeholders/card.svg)
+
+![Why Albuquerque Water Needs a Water Softener System Albuquerque NM](../../assets/images/card-why-albuquerque-water-needs-a-water-softener-system-albuquerque-nm.webp)
+
+
 
 ### Why Albuquerque Water Needs a Water Softener System
 
@@ -107,7 +110,10 @@ Albuquerque water tests as hard, and a softening system treats it where it enter
 <div class="svc-card">
 
 
-![Water Softener Maintenance Albuquerque NM](/placeholders/card.svg)
+
+![Water Softener Maintenance Albuquerque NM](../../assets/images/card-water-softener-maintenance-albuquerque-nm.webp)
+
+
 
 ### Water Softener Maintenance
 
@@ -118,7 +124,10 @@ Albuquerque water tests as hard, and a softening system treats it where it enter
 <div class="svc-card">
 
 
-![Water Softener Repair Albuquerque NM](/placeholders/card.svg)
+
+![Water Softener Repair Albuquerque NM](../../assets/images/card-water-softener-repair-albuquerque-nm.webp)
+
+
 
 ### Water Softener Repair
 
@@ -129,7 +138,10 @@ Albuquerque water tests as hard, and a softening system treats it where it enter
 <div class="svc-card">
 
 
-![Water Conditioner Installation Albuquerque NM](/placeholders/card.svg)
+
+![Water Conditioner Installation Albuquerque NM](../../assets/images/card-water-conditioner-installation-albuquerque-nm.webp)
+
+
 
 ### Water Conditioner Installation
 
