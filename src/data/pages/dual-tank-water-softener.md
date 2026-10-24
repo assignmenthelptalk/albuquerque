@@ -11,8 +11,8 @@ openingHtml: "Does hard water break through while your softener regenerates? <a 
 openingExtraHtml: "The best dual tank water softener for Albuquerque is the one sized to your water use. We install them for large households and busy commercial sites that outgrow a single tank, and a technician checks whether two tanks suit your water use. Request a free estimate or call for service."
 formHeading: ""
 formIntro: ""
-leadImage: null
-images: [{"file":"dual-tank-water-softener-albuquerque-nm.webp","alt":"Dual tank water softener Albuquerque NM twin resin tanks","exists":false}]
+leadImage: {"file":"dual-tank-water-softener-albuquerque-nm.webp","alt":"Dual tank water softener Albuquerque NM twin resin tanks"}
+images: [{"file":"dual-tank-water-softener-albuquerque-nm.webp","alt":"Dual tank water softener Albuquerque NM twin resin tanks","exists":true}]
 faq: [{"q":"How does a dual tank water softener differ from a single tank?","a":"A dual tank unit has two resin tanks that alternate, so softened water is continuous. A single tank pauses softening while it regenerates."},{"q":"Do dual tank softeners use more salt?","a":"Not necessarily. Most dual tank systems regenerate by demand, so salt use follows actual water use rather than a fixed schedule."},{"q":"How much space does a dual tank system need?","a":"It needs more floor area than one tank. We measure your utility room or garage before we recommend it. A dual-tank system typically needs roughly 4 square feet of floor space, about 24 inches wide by 24 inches deep, so check your unit's spec sheet."},{"q":"Can a dual tank system serve a small business?","a":"Yes. It suits businesses that cannot tolerate hard water at any hour, and it is sized from peak flow. Albuquerque Elite Water Softener NM provides dual tank water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---

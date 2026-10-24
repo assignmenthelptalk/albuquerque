@@ -11,8 +11,8 @@ openingHtml: "Is hard water leaving scale in your boilers, dishwashers and ice m
 openingExtraHtml: "The best commercial water softener for Albuquerque is sized from your peak flow rate. A technician reviews your equipment and water use first. Request a free commercial estimate or call for service."
 formHeading: ""
 formIntro: ""
-leadImage: null
-images: [{"file":"commercial-water-softener-albuquerque-nm.webp","alt":"Commercial water softener Albuquerque NM high-flow system in a mechanical room","exists":false}]
+leadImage: {"file":"commercial-water-softener-albuquerque-nm.webp","alt":"Commercial water softener Albuquerque NM high-flow system in a mechanical room"}
+images: [{"file":"commercial-water-softener-albuquerque-nm.webp","alt":"Commercial water softener Albuquerque NM high-flow system in a mechanical room","exists":true}]
 faq: [{"q":"How do you size a commercial water softener?","a":"We size it from peak flow rate and daily water use, plus the hardness of your water. Household size does not apply."},{"q":"Can installation happen without shutting down my business?","a":"Most installs need a short water shutoff. We schedule around your busiest hours to limit downtime."},{"q":"What equipment does a commercial softener protect?","a":"It protects boilers, water heaters, dishwashers, ice machines, steamers and plumbing from scale buildup."},{"q":"Do you offer service contracts?","a":"Ask whether service is offered by contract or per visit. The proposal states what is included."},{"q":"Does a commercial system need filtration too?","a":"Often yes. Sediment and chlorine can harm resin and equipment, and a test shows what your water carries. Albuquerque Elite Water Softener NM provides commercial water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
