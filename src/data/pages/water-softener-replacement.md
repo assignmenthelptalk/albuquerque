@@ -11,7 +11,7 @@ openingHtml: "If your water softener is no longer working as it should, replacin
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-softener-replacement-albuquerque-nm.webp","alt":"Water softener replacement Albuquerque NM old and new unit"}
-images: [{"file":"water-softener-replacement-albuquerque-nm.webp","alt":"Water softener replacement Albuquerque NM old and new unit","exists":true},{"file":"water-softener-inspection-albuquerque-nm.webp","alt":"Water softener control valve opened for inspection","exists":false},{"file":"card-full-water-softener-system-replacement-albuquerque-nm.webp","alt":"Full Water Softener System Replacement Albuquerque NM","exists":false},{"file":"card-resin-bed-replacement-albuquerque-nm.webp","alt":"Resin Bed Replacement Albuquerque NM","exists":false},{"file":"card-water-softener-upgrade-service-albuquerque-nm.webp","alt":"Control Valve Replacement or Upgrade Albuquerque NM","exists":false},{"file":"water-softener-replacement-process-albuquerque-nm.webp","alt":"New water softener connected to home plumbing during a replacement","exists":false}]
+images: [{"file":"water-softener-replacement-albuquerque-nm.webp","alt":"Water softener replacement Albuquerque NM old and new unit","exists":true},{"file":"water-softener-inspection-albuquerque-nm.webp","alt":"Water softener control valve opened for inspection","exists":true},{"file":"card-full-water-softener-system-replacement-albuquerque-nm.webp","alt":"Full Water Softener System Replacement Albuquerque NM","exists":false},{"file":"card-resin-bed-replacement-albuquerque-nm.webp","alt":"Resin Bed Replacement Albuquerque NM","exists":false},{"file":"card-water-softener-upgrade-service-albuquerque-nm.webp","alt":"Control Valve Replacement or Upgrade Albuquerque NM","exists":false},{"file":"water-softener-replacement-process-albuquerque-nm.webp","alt":"New water softener connected to home plumbing during a replacement","exists":true}]
 faq: [{"q":"How do I know whether my water softener needs replacement?","a":"Persistent hard water, leaks, recurring control valve faults and deteriorating resin can all point to a problem. An inspection separates a repairable fault from a system that needs replacement."},{"q":"Can I replace just the resin instead of the whole unit?","a":"Yes, when the tank and other major components are sound. A resin replacement restores softening for less than a new system, and testing and inspection confirm whether the resin is the cause."},{"q":"How long does water softener replacement take?","a":"Most replacements finish in a single visit and typically take about 2 to 4 hours. Plumbing changes and difficult access can add time, so the technician confirms the schedule at your estimate."},{"q":"Will a new softener use less salt?","a":"It may. A newer control head regenerates by actual water use instead of a fixed timer, which cuts unneeded cycles. Actual savings depend on your existing system, the new equipment, the settings and your household's water use."},{"q":"Does the estimate include removal of the old system?","a":"Ask whether removal and disposal of the old unit are included. The written estimate should itemize them so you know the total cost."},{"q":"Should I replace a softener that is 10 to 15 years old?","a":"Not necessarily. Age is one factor, but condition, reliability, repair costs and capacity matter too. An inspection helps you decide."},{"q":"Can you replace water softeners throughout Albuquerque?","a":"We serve Albuquerque and Bernalillo County. Confirm availability for your address when you request an estimate. Albuquerque Elite Water Softener NM provides water softener replacement for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -36,7 +36,10 @@ A water softener can stop working properly even when the brine tank contains sal
 Age alone does not mean a system must be replaced. A technician should inspect the equipment and determine whether a repair can restore its performance.
 
 
-![Water softener control valve opened for inspection](/placeholders/hero.svg)
+
+![Water softener control valve opened for inspection](../../assets/images/water-softener-inspection-albuquerque-nm.webp)
+
+
 
 ## What Water Softener Replacement Options Are Available in Albuquerque, NM?
 
@@ -111,7 +114,10 @@ Our estimate is free and itemized. A written estimate should identify the propos
 A straightforward replacement typically takes about 2 to 4 hours, but the actual time depends on plumbing access, the equipment and any added work. Confirm the schedule at your estimate.
 
 
-![New water softener connected to home plumbing during a replacement](/placeholders/hero.svg)
+
+![New water softener connected to home plumbing during a replacement](../../assets/images/water-softener-replacement-process-albuquerque-nm.webp)
+
+
 
 
 ## Should You Repair or Replace Your Water Softener?
