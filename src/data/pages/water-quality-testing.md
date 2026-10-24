@@ -107,6 +107,18 @@ Heavy metal tests screen for lead, arsenic and similar metals. These need a cert
 
 </div>
 
+### The Seven Tests at a Glance
+
+| Test | What it measures | Reference point | What the result decides |
+|---|---|---|---|
+| Hardness | Calcium and magnesium | USGS: under 60 mg/L soft, 61 to 120 moderately hard, 121 to 180 hard, over 180 very hard | Softener size |
+| TDS | Dissolved minerals, salts and metals | EPA secondary guideline 500 mg/L | Whether reverse osmosis is worth considering |
+| Iron | Dissolved and particulate iron | EPA secondary level 0.3 mg/L | Whether a filter must go ahead of the softener |
+| pH | How acidic or basic the water is | EPA secondary range 6.5 to 8.5 | Corrosion or scale risk, and filter media |
+| Chlorine | Disinfectant left in tap water | ABCWUA 2023 city average 0.9 mg/L, range 0.3 to 1.4 | Taste and odor, carbon filter choice |
+| Sulfur | Hydrogen sulfide, the rotten-egg smell | Most common in private wells | Whether an oxidizing filter is needed |
+| Heavy metals | Lead, arsenic and similar metals | Needs a certified lab | Whether a contaminant filter or reverse osmosis is justified |
+
 ### City vs. Well Water Testing in Albuquerque
 
 City water and well water need different testing. ABCWUA's 2025 report says customers rely on locally pumped groundwater plus surface water imported through the San Juan-Chama Project, and ABCWUA treats and tests that water before it reaches homes. Private wells are not tested for you, and well-water guidance recommends testing for bacteria every year, with nitrate and other substances on a schedule that depends on local conditions. A tap test shows what reaches your home, whichever source it comes from. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, which the U.S. Geological Survey rates as hard.

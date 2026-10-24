@@ -73,6 +73,14 @@ A magnetic water conditioner clamps magnets onto the pipe to alter how minerals 
 
 A salt-based softener removes calcium and magnesium through ion exchange, and it delivers true soft water. A salt-free system reduces scale but leaves the minerals in place.
 
+| | Salt-based softener | Salt-free system |
+|---|---|---|
+| What it does | Removes calcium and magnesium by ion exchange | Conditions the minerals so scale does not stick; they stay in the water |
+| Water feel | True soft water | Less scale, but not the slick, mineral-free feel |
+| Salt | Needs salt | None |
+| Drain line | Needs a drain connection and discharges brine during regeneration | None in most designs |
+| Upkeep | Salt refills and annual service | TAC media replaced on a schedule, about 5 to 8 years |
+
 - **Choose salt-based** if your water is very hard, you want soft-feeling water, or spotting on glass and fixtures bothers you most.
 - **Choose salt-free** if you want no salt, no drain connection and minimal upkeep, and scale protection is the main goal.
 

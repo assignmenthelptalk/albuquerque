@@ -89,12 +89,27 @@ Replacement cost depends on whether you replace the whole system, only the resin
 
 > **Not a good fit if...** your unit is under about five years old and only needs a service, or your real problem is iron, sediment or chlorine rather than hardness. In those cases repair or a filter fixes the issue for less.
 
-**What to expect on replacement day:** The technician disconnects and removes the old unit, checks the water lines and drain, installs and programs the new system for your hardness and tests every tap before leaving. Ask for the new settings and the hardness reading in writing.
+**What to expect on replacement day:**
+
+1. **The technician disconnects and removes the old unit.**
+2. **The water lines and drain are checked.**
+3. **The new system is installed and programmed for your hardness.**
+4. **Every tap is tested before the technician leaves.**
+
+Ask for the new settings and the hardness reading in writing.
 
 
 ## Repair or replace: which fits your water softener?
 
 Repair makes sense when the unit is young and one part has failed. Replacement makes sense when the tank leaks, the resin is spent or repairs keep returning. A free inspection gives you both prices side by side.
+
+| Your situation | Usually the better fit |
+|---|---|
+| Young unit with one failed part | Repair |
+| Tank or control valve leaks, or repairs keep returning | Full system replacement |
+| Resin is spent but the tank and valve are sound | Resin bed replacement |
+| The household has outgrown the unit | Upgrade to a higher-capacity unit |
+| Unit is well past about 10 to 15 years old | Replacement |
 
 
 

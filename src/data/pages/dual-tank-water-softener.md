@@ -34,6 +34,13 @@ ABCWUA's supply is locally pumped groundwater blended with treated San Juan-Cham
 - **Homes with multiple bathrooms, pools or irrigation draws** that put heavy demand on a single tank.
 - **Households with night-time or early-morning peaks**, since regeneration no longer interrupts softened water.
 
+| | Single tank | Dual tank |
+|---|---|---|
+| During regeneration | Softening pauses and hard water reaches the house | Softened water is continuous; the tanks alternate |
+| Floor space | Less | More; roughly 4 square feet, so check the unit's spec sheet |
+| Best for | Small households with modest water use | Large families, several bathrooms, pools or irrigation, and night or early-morning peaks |
+| Cost | Costs less when properly sized | Priced by tank capacity, number of units and plumbing changes |
+
 A dual tank unit takes more floor space than a single tank, so we measure your utility area before recommending it. For the full range, see our [Water Softener Systems in Albuquerque, NM](/water-softener-systems/).
 
 ### Commercial Dual Tank Systems

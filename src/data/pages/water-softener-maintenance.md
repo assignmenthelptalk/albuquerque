@@ -78,6 +78,12 @@ An annual maintenance plan covers a scheduled inspection of the resin, control v
 
 Service a softener once a year, check salt monthly and clean the brine tank annually. Heavier hardness or iron in the water shortens those intervals. Albuquerque water is locally pumped groundwater blended with treated San Juan-Chama surface water, and the hardness minerals in it load the resin every day. ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, which the U.S. Geological Survey rates as hard.
 
+| Task | How often | Who usually does it |
+|---|---|---|
+| Check the salt level | Monthly, and refill when it drops below about one-third full | You |
+| Clean the brine tank | About once a year, sooner with a salt bridge or a thick, wet layer at the bottom | Technician |
+| Clean the resin and inspect the valve, injector and settings | Once a year | Technician |
+
 > **Not a good fit if...** your unit leaks, never regenerates or shows repeated error codes. That is a repair job, not maintenance.
 
 
