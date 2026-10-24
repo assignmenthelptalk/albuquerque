@@ -14,7 +14,7 @@ Do not publish while any item below is open. Markers show on the site as highlig
 - [ ] Service-areas map: 4 pins, some approximate. Confirm each pin's coordinates (neighbourhood pins are approximate unless verified)
 - [ ] Form replies: the Contact page, Thank-you page and service pages promise a reply within 24 hours. Before launch set businessEmail and the phone number, and confirm who receives the forms and that 24 hours can be met (or change the wording)
 - [ ] Pages not written yet: 0 link(s) are shown as plain text until the target page exists (none). Write the page, re-run the import and the link comes back
-- [ ] Build the images still missing (code-made diagrams, listed here): card-what-is-hard-water-albuquerque-nm.webp, card-why-is-new-braunfels-water-hard-albuquerque-nm.webp, card-how-hard-is-new-braunfels-water-albuquerque-nm.webp, card-hard-water-symptoms-return-albuquerque-nm.webp, card-salt-use-rises-sharply-albuquerque-nm.webp, card-salt-bridges-or-mush-keep-returning-albuquerque-nm.webp, card-leaks-from-the-tank-head-or-drain-albuquerque-nm.webp, card-error-codes-or-no-cycling-albuquerque-nm.webp, card-resin-beads-in-faucets-or-sinks-albuquerque-nm.webp
+- [ ] Build the images still missing (code-made diagrams, listed here): none
 - [ ] Final meta descriptions for every page marked DRAFT
 - [ ] Write or decide the remaining location pages (see the strategy folder's reports/)
 

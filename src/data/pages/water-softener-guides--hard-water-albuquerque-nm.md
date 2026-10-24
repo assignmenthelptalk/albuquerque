@@ -11,7 +11,7 @@ openingHtml: "Hard water in Albuquerque, NM is water that carries dissolved calc
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"hard-water-albuquerque-nm.webp","alt":"Hard water scale on a faucet in an Albuquerque NM home water softener needed"}
-images: [{"file":"hard-water-albuquerque-nm.webp","alt":"Hard water scale on a faucet in an Albuquerque NM home water softener needed","exists":true},{"file":"card-what-is-hard-water-albuquerque-nm.webp","alt":"What Is Hard Water? Albuquerque NM","exists":false},{"file":"card-why-is-new-braunfels-water-hard-albuquerque-nm.webp","alt":"Why Is Albuquerque Water Hard? Albuquerque NM","exists":false},{"file":"card-how-hard-is-new-braunfels-water-albuquerque-nm.webp","alt":"How Hard Is Albuquerque Water? Albuquerque NM","exists":false}]
+images: [{"file":"hard-water-albuquerque-nm.webp","alt":"Hard water scale on a faucet in an Albuquerque NM home water softener needed","exists":true},{"file":"card-what-is-hard-water-albuquerque-nm.webp","alt":"What Is Hard Water? Albuquerque NM","exists":true},{"file":"card-why-is-albuquerque-water-hard-albuquerque-nm.webp","alt":"Why Is Albuquerque Water Hard? Albuquerque NM","exists":true},{"file":"card-how-hard-is-albuquerque-water-albuquerque-nm.webp","alt":"How Hard Is Albuquerque Water? Albuquerque NM","exists":true}]
 faq: [{"q":"Is Albuquerque water safe to drink?","a":"ABCWUA's water quality reports list results against federal limits. Hardness is a quality issue, not a health limit, and the reports cover regulated contaminants separately."},{"q":"Does a water softener remove minerals I need?","a":"A softener swaps calcium and magnesium for sodium or potassium. Food supplies most of your minerals, and drinking water is a minor source."},{"q":"Why does my glassware spot even with a rinse aid?","a":"Dissolved minerals dry on glass as white spots. Softened water stops the spotting at the source."},{"q":"Can hard water damage my water heater?","a":"Scale insulates the heating element or tank bottom, which makes the heater work harder and shortens its life. Flushing helps, and softened water prevents most of the buildup."},{"q":"Do homes on well water have harder water?","a":"Often yes, since private wells draw directly from the aquifer. A test shows the hardness and checks for iron and other minerals. Albuquerque Elite Water Softener NM provides water softener installation for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -25,7 +25,10 @@ Three questions cover the basics: what hard water is, why Albuquerque water is h
 <div class="svc-card">
 
 
-![What Is Hard Water? Albuquerque NM](/placeholders/card.svg)
+
+![What Is Hard Water? Albuquerque NM](../../assets/images/card-what-is-hard-water-albuquerque-nm.webp)
+
+
 
 ### What Is Hard Water?
 
@@ -36,7 +39,10 @@ Hard water is water with a high concentration of dissolved calcium and magnesium
 <div class="svc-card">
 
 
-![Why Is Albuquerque Water Hard? Albuquerque NM](/placeholders/card.svg)
+
+![Why Is Albuquerque Water Hard? Albuquerque NM](../../assets/images/card-why-is-albuquerque-water-hard-albuquerque-nm.webp)
+
+
 
 ### Why Is Albuquerque Water Hard?
 
@@ -47,7 +53,10 @@ Albuquerque water is hard because of the rock and sediment the water moves throu
 <div class="svc-card">
 
 
-![How Hard Is Albuquerque Water? Albuquerque NM](/placeholders/card.svg)
+
+![How Hard Is Albuquerque Water? Albuquerque NM](../../assets/images/card-how-hard-is-albuquerque-water-albuquerque-nm.webp)
+
+
 
 ### How Hard Is Albuquerque Water?
 

@@ -11,7 +11,7 @@ openingHtml: "You need to replace your water softener when hard water keeps retu
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"signs-you-need-a-new-water-softener-albuquerque-nm.webp","alt":"Rusted water softener tank leaking onto the floor beside a salt-crusted brine tank"}
-images: [{"file":"signs-you-need-a-new-water-softener-albuquerque-nm.webp","alt":"Rusted water softener tank leaking onto the floor beside a salt-crusted brine tank","exists":true},{"file":"card-hard-water-symptoms-return-albuquerque-nm.webp","alt":"Hard-Water Symptoms Return Albuquerque NM","exists":false},{"file":"card-salt-use-rises-sharply-albuquerque-nm.webp","alt":"Salt Use Rises Sharply Albuquerque NM","exists":false},{"file":"card-salt-bridges-or-mush-keep-returning-albuquerque-nm.webp","alt":"Salt Bridges or Mush Keep Returning Albuquerque NM","exists":false},{"file":"card-leaks-from-the-tank-head-or-drain-albuquerque-nm.webp","alt":"Leaks From the Tank, Head or Drain Albuquerque NM","exists":false},{"file":"card-error-codes-or-no-cycling-albuquerque-nm.webp","alt":"Error Codes or No Cycling Albuquerque NM","exists":false},{"file":"card-resin-beads-in-faucets-or-sinks-albuquerque-nm.webp","alt":"Resin Beads in Faucets or Sinks Albuquerque NM","exists":false}]
+images: [{"file":"signs-you-need-a-new-water-softener-albuquerque-nm.webp","alt":"Rusted water softener tank leaking onto the floor beside a salt-crusted brine tank","exists":true},{"file":"card-hard-water-symptoms-return-albuquerque-nm.webp","alt":"Hard-Water Symptoms Return Albuquerque NM","exists":true},{"file":"card-salt-use-rises-sharply-albuquerque-nm.webp","alt":"Salt Use Rises Sharply Albuquerque NM","exists":true},{"file":"card-salt-bridges-or-mush-keep-returning-albuquerque-nm.webp","alt":"Salt Bridges or Mush Keep Returning Albuquerque NM","exists":true},{"file":"card-leaks-from-the-tank-head-or-drain-albuquerque-nm.webp","alt":"Leaks From the Tank, Head or Drain Albuquerque NM","exists":true},{"file":"card-error-codes-or-no-cycling-albuquerque-nm.webp","alt":"Error Codes or No Cycling Albuquerque NM","exists":true},{"file":"card-resin-beads-in-faucets-or-sinks-albuquerque-nm.webp","alt":"Resin Beads in Faucets or Sinks Albuquerque NM","exists":true}]
 faq: [{"q":"How can I tell if my softener is working?","a":"Test the softened water for hardness or watch for spots and scale. Soft water also makes soap lather easily."},{"q":"Is a new softener worth it if mine is 12 years old?","a":"Often yes, if it shows any of the signs above. New units regenerate by demand and use less salt and water."},{"q":"Can I replace just the control head?","a":"Yes, when the tank and resin are sound. It restores timing and cycles for less than a new unit."},{"q":"How long does replacement take?","a":"Most replacements finish in one visit, often in 2 to 4 hours. Albuquerque Elite Water Softener NM provides water softener replacement for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -25,7 +25,10 @@ Seven signs show a softener is failing, and the first six are listed below.
 <div class="svc-card">
 
 
-![Hard-Water Symptoms Return Albuquerque NM](/placeholders/card.svg)
+
+![Hard-Water Symptoms Return Albuquerque NM](../../assets/images/card-hard-water-symptoms-return-albuquerque-nm.webp)
+
+
 
 ### 1. Hard-Water Symptoms Return
 
@@ -36,7 +39,10 @@ Spotted dishes, scale on faucets, soap film and stiff laundry come back even tho
 <div class="svc-card">
 
 
-![Salt Use Rises Sharply Albuquerque NM](/placeholders/card.svg)
+
+![Salt Use Rises Sharply Albuquerque NM](../../assets/images/card-salt-use-rises-sharply-albuquerque-nm.webp)
+
+
 
 ### 2. Salt Use Rises Sharply
 
@@ -47,7 +53,10 @@ The unit goes through salt much faster than it used to. **Check:** compare how o
 <div class="svc-card">
 
 
-![Salt Bridges or Mush Keep Returning Albuquerque NM](/placeholders/card.svg)
+
+![Salt Bridges or Mush Keep Returning Albuquerque NM](../../assets/images/card-salt-bridges-or-mush-keep-returning-albuquerque-nm.webp)
+
+
 
 ### 3. Salt Bridges or Mush Keep Returning
 
@@ -58,7 +67,10 @@ A salt bridge is a hard crust above the water in the brine tank, and mush is a s
 <div class="svc-card">
 
 
-![Leaks From the Tank, Head or Drain Albuquerque NM](/placeholders/card.svg)
+
+![Leaks From the Tank, Head or Drain Albuquerque NM](../../assets/images/card-leaks-from-the-tank-head-or-drain-albuquerque-nm.webp)
+
+
 
 ### 4. Leaks From the Tank, Head or Drain
 
@@ -69,7 +81,10 @@ Water pools around the softener or drips from the control head. **Check:** find 
 <div class="svc-card">
 
 
-![Error Codes or No Cycling Albuquerque NM](/placeholders/card.svg)
+
+![Error Codes or No Cycling Albuquerque NM](../../assets/images/card-error-codes-or-no-cycling-albuquerque-nm.webp)
+
+
 
 ### 5. Error Codes or No Cycling
 
@@ -80,7 +95,10 @@ The display shows repeated codes or the unit never starts a regeneration. **Chec
 <div class="svc-card">
 
 
-![Resin Beads in Faucets or Sinks Albuquerque NM](/placeholders/card.svg)
+
+![Resin Beads in Faucets or Sinks Albuquerque NM](../../assets/images/card-resin-beads-in-faucets-or-sinks-albuquerque-nm.webp)
+
+
 
 ### 6. Resin Beads in Faucets or Sinks
 
