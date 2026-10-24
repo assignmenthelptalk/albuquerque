@@ -11,7 +11,7 @@ openingHtml: "Water quality testing in Albuquerque, NM measures the hardness, mi
 formHeading: ""
 formIntro: ""
 leadImage: {"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet"}
-images: [{"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet","exists":true},{"file":"card-free-hard-water-test-albuquerque-nm.webp","alt":"Free Hard Water Test Albuquerque NM","exists":true},{"file":"card-tds-testing-albuquerque-nm.webp","alt":"TDS Testing Albuquerque NM","exists":true},{"file":"card-iron-content-testing-albuquerque-nm.webp","alt":"Iron Content Testing Albuquerque NM","exists":true},{"file":"card-ph-level-testing-albuquerque-nm.webp","alt":"pH Level Testing Albuquerque NM","exists":true},{"file":"card-chlorine-testing-albuquerque-nm.webp","alt":"Chlorine Testing Albuquerque NM","exists":false},{"file":"card-sulfur-testing-albuquerque-nm.webp","alt":"Sulfur Testing Albuquerque NM","exists":true},{"file":"card-heavy-metals-testing-albuquerque-nm.webp","alt":"Heavy Metals Testing Albuquerque NM","exists":true}]
+images: [{"file":"water-quality-testing-albuquerque-nm.webp","alt":"Water test strips and sample vial beside a running kitchen faucet","exists":true},{"file":"card-free-hard-water-test-albuquerque-nm.webp","alt":"Free Hard Water Test Albuquerque NM","exists":true},{"file":"card-tds-testing-albuquerque-nm.webp","alt":"TDS Testing Albuquerque NM","exists":true},{"file":"card-iron-content-testing-albuquerque-nm.webp","alt":"Iron Content Testing Albuquerque NM","exists":true},{"file":"card-ph-level-testing-albuquerque-nm.webp","alt":"pH Level Testing Albuquerque NM","exists":true},{"file":"card-chlorine-testing-albuquerque-nm.webp","alt":"Chlorine Testing Albuquerque NM","exists":true},{"file":"card-sulfur-testing-albuquerque-nm.webp","alt":"Sulfur Testing Albuquerque NM","exists":true},{"file":"card-heavy-metals-testing-albuquerque-nm.webp","alt":"Heavy Metals Testing Albuquerque NM","exists":true}]
 faq: [{"q":"Is the water test really free?","a":"Ask exactly which tests are free and which carry a fee before you book."},{"q":"How long does a water test take?","a":"In-home tests for hardness, TDS, pH, iron and chlorine give results in minutes. Lab tests take longer. Lab results typically take a few business days, depending on the lab and the test."},{"q":"How often does water need testing?","a":"Test city water when you notice a change or move in. Test a private well for bacteria at least once a year, and for other substances as local conditions suggest."},{"q":"Do I need a test before buying a softener?","a":"Yes. The result sizes the softener and shows whether you also need a filter."},{"q":"What test shows if my water is safe to drink?","a":"A certified lab panel for bacteria, nitrate, metals and other regulated substances. ABCWUA reports cover the public supply. Albuquerque Elite Water Softener NM provides water quality testing for homes and businesses across Albuquerque and Bernalillo County."}]
 markerCount: 0
 ---
@@ -87,7 +87,10 @@ pH measures how acidic or basic water is. The EPA's secondary range is 6.5 to 8.
 <div class="svc-card">
 
 
-![Chlorine Testing Albuquerque NM](/placeholders/card.svg)
+
+![Chlorine Testing Albuquerque NM](../../assets/images/card-chlorine-testing-albuquerque-nm.webp)
+
+
 
 ### Chlorine Testing
 
