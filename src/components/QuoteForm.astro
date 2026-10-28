@@ -233,7 +233,7 @@ const trustSignals = ["Free Consultation", "No obligation", `Local ${site.city} 
   .form-checkbox-row input:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
   .form-checkbox-row label { font-size: 0.8125rem; color: var(--color-text-muted); }
 
-  /* Primary conversion action: accent orange, heading-font label, spring hover */
+  /* Primary conversion action: navy blue, heading-font label, spring hover */
   .form-submit {
     display: block;
     width: 100%;
@@ -241,7 +241,7 @@ const trustSignals = ["Free Consultation", "No obligation", `Local ${site.city} 
     font-family: var(--font-heading);
     font-size: 1.0625rem;
     color: #ffffff;
-    background: var(--gradient-accent);
+    background: linear-gradient(135deg, var(--color-navy) 0%, color-mix(in srgb, var(--color-navy) 78%, black) 100%);
     border: none;
     border-radius: var(--radius-brand);
     box-shadow: var(--shadow-card);
@@ -250,12 +250,12 @@ const trustSignals = ["Free Consultation", "No obligation", `Local ${site.city} 
                 box-shadow var(--duration-micro) var(--ease-spring);
   }
   .form-submit:hover { transform: scale(1.02); box-shadow: var(--shadow-button-hover); }
-  .form-submit:active { transform: scale(0.98); background: var(--color-accent-dark); }
-  .form-submit:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+  .form-submit:active { transform: scale(0.98); background: color-mix(in srgb, var(--color-navy) 78%, black); }
+  .form-submit:focus-visible { outline: 3px solid var(--color-navy); outline-offset: 2px; }
   .form-submit:disabled {
-    /* Stays orange (not gray) even when unconfigured, so the button still
+    /* Stays blue (not gray) even when unconfigured, so the button still
        reads as "the real button" on the boilerplate — just not clickable. */
-    background: var(--color-accent);
+    background: var(--color-navy);
     opacity: 0.55;
     box-shadow: none;
     cursor: not-allowed;
