@@ -125,8 +125,6 @@ As local water treatment specialists, Albuquerque Elite Water Softener installs 
 
 * Scale Mitigation: Converts minerals into harmless crystals before they form scale.
 * Zero Maintenance: No sodium discharge, no wastewater, and zero salt purchases.
-* Professional Fitting: Installed by Albuquerque Elite Water Softener to New Mexico plumbing codes.
-
 </div>
 
 <div class="svc-card">
