@@ -86,6 +86,9 @@ Albuquerque Elite Water Softener covers six core services, from first installati
 
 With Albuquerque water hardness ranging from 2.09 to 11.72 grains per gallon, generic off-the-shelf softeners often underperform. At Albuquerque Elite Water Softener, our licensed and WQA-certified plumbing technicians perform on-site water testing to size a commercial-grade, NSF-certified system tailored specifically to your household's daily flow demand.
 
+* ABCWUA Aquifer Calibration: Every system installed by Albuquerque Elite Water Softener is fine-tuned to handle Albuquerque Bernalillo County Water Utility Authority mineral profiles, ensuring optimal salt-efficiency and continuous flow.
+* Turnkey Code Compliance: Installed exclusively by licensed New Mexico plumbers with full main line connection, heavy-duty bypass valves, and code-compliant drain and brine line integration.
+
 </div>
 
 <div class="svc-card">
