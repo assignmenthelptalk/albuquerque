@@ -184,7 +184,9 @@ Dual tank and commercial water softeners, water conditioners, reverse osmosis an
 
 ## Why Is Albuquerque Water So Hard?
 
-Albuquerque water is hard because of the rock and sediment the water moves through. According to a 1988 U.S. Geological Survey report by Scott K. Anderholm, titled “Ground-Water Geochemistry of the Albuquerque-Belen Basin, Central New Mexico,” the chemistry of the water flowing into the basin's principal aquifer, the Santa Fe Group sediments, has the largest effect on the water quality found in different parts of the basin. The same report found that calcium and bicarbonate are the dominant ions in ground water on the eastern side of the basin, while in a large area west of Albuquerque sodium dominates, probably because calcium and magnesium exchange for sodium.
+Albuquerque's unique geology directly dictates your home's water quality. According to U.S. Geological Survey (USGS) research on the Albuquerque-Belen Basin, water flowing through the Santa Fe Group sediments absorbs heavy concentrations of dissolved minerals. Calcium and bicarbonate ions dominate groundwater on the eastern side of the basin, while sodium exchange occurs further west.
+
+At Albuquerque Elite Water Softener, our technicians analyze these specific hydro-geological shifts to calibrate softening systems that effectively counter Albuquerque's mineral profile.
 
 <div class="issues-split">
 
@@ -204,31 +206,30 @@ Albuquerque water is hard because of the rock and sediment the water moves throu
 
 ### Where Does Albuquerque Water Come From?
 
-According to ABCWUA's 2025 water quality report, customers rely on locally pumped groundwater plus surface water imported from the Colorado River basin through the San Juan-Chama Project. ABCWUA says treated surface water and groundwater from both sides of the river have been blended and served throughout its system since December 2008.
+According to recent Albuquerque Bernalillo County Water Utility Authority (ABCWUA) reports, local tap water is a blend of locally pumped groundwater and surface water imported from the Colorado River basin via the San Juan-Chama Project. Because ABCWUA continuously blends these sources across the metro grid, municipal water mineral content shifts seasonally across neighborhoods.
 
 </div>
 
 <div class="issue-item">
 
-### Why Does Rock and Sediment Make Water Hard?
+### Why Does Rock & Sediment Cause Water Hardness?
 
-Water that has moved through rock and sediment picks up dissolved calcium and magnesium, and those two minerals define hardness. ABCWUA's 2023 report lists a city average of 48.64 ppm calcium and 5.55 ppm magnesium.
-
-</div>
-
-<div class="issue-item">
-
-### How Is Water Hardness Measured?
-
-Hardness is measured in milligrams per liter (mg/L) or grains per gallon (gpg), where 1 gpg equals about 17.1 mg/L. The U.S. Geological Survey rates water under 60 mg/L as soft, 61 to 120 mg/L as moderately hard, 121 to 180 mg/L as hard and anything over 180 mg/L as very hard.
+As water percolates through regional rock strata, it picks up dissolved calcium and magnesium—the primary minerals responsible for scale buildup. Municipal reports record city averages of 48.64 ppm calcium and 5.55 ppm magnesium. Albuquerque Elite Water Softener designs treatment setups specifically targeting these dual minerals to stop scale before it damages your plumbing.
 
 </div>
 
-<div class="issue-item">
+<div class="issue-item issue-item-wide">
 
 ### How Hard Is Albuquerque Water?
 
-ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains per gallon, about 144 mg/L, with a range of 2.09 to 11.72 grains per gallon, which places the average in the hard range on the U.S. Geological Survey scale. ABCWUA's own FAQ says that depending on the sources and blend, the hardness ranges from moderately hard to hard.
+ABCWUA monitoring puts citywide hardness at an average of 8.44 GPG (144 mg/L), with localized readings ranging from 2.09 to 11.72 GPG. On the USGS classification scale, this places Albuquerque tap water firmly in the "Hard" to "Very Hard" categories.
+
+| USGS Hardness Category | Concentration Range (mg/L) | Albuquerque Status |
+| --- | --- | --- |
+| Soft | Under 60 mg/L | — |
+| Moderately Hard | 61 – 120 mg/L | Lower Range (2.09 GPG) |
+| Hard | 121 – 180 mg/L | City Average (8.44 GPG) |
+| Very Hard | Over 180 mg/L | Upper Range (11.72+ GPG) |
 
 </div>
 
@@ -236,15 +237,15 @@ ABCWUA's 2023 water quality report put the city average hardness at 8.44 grains 
 
 ### What Does ABCWUA's Water Quality Report Show?
 
-ABCWUA's 2023 distribution monitoring measured free chlorine at a city average of 0.9 mg/L and total dissolved solids at a city average of 291 ppm, and its 2025 report says it collects and tests more than 5,500 water samples a year. Hardness itself is a household problem: scale narrows pipes, coats heating elements and spots glass.
+ABCWUA testing records average free chlorine at 0.9 mg/L and Total Dissolved Solids (TDS) at 291 ppm across more than 5,000 annual samples. While safe to drink, this mineral combination forms severe limescale inside pipes, coats water heater elements, and leaves stubborn mineral spots on glassware.
 
 </div>
 
 <div class="issue-item">
 
-### How Do You Find Your Exact Hardness?
+### How Do You Find Your Exact Hardness Level?
 
-A free water test shows the exact reading at your tap, because the supply blend and home plumbing both move the number.
+Because municipal water blending and local plumbing lines alter readings from house to house, generic municipal averages aren't enough for exact system sizing. Albuquerque Elite Water Softener provides free on-site tap testing to give you the precise GPG reading at your specific address.
 
 </div>
 
