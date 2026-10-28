@@ -115,15 +115,15 @@ const [heroH1, heroH2] = fm.title.split(" - ");
       z-index: 0;
     }
 
-    /* Darker on the left where the text sits, lighter toward the form */
+    /* Navy wash over the photo: deeper on the left where the text sits, lighter toward the form */
     .hero-overlay {
       position: absolute;
       inset: 0;
       background: linear-gradient(
         to right,
-        rgba(51, 51, 51, 0.86) 0%,
-        rgba(51, 51, 51, 0.76) 50%,
-        rgba(51, 51, 51, 0.5) 100%
+        color-mix(in srgb, var(--color-navy) 92%, black) 0%,
+        color-mix(in srgb, var(--color-navy) 84%, transparent) 50%,
+        color-mix(in srgb, var(--color-navy) 58%, transparent) 100%
       );
       z-index: 1;
     }
@@ -238,7 +238,7 @@ const [heroH1, heroH2] = fm.title.split(" - ");
         padding: 48px 20px;
         gap: 32px;
       }
-      .hero-overlay { background: rgba(51, 51, 51, 0.82); }
+      .hero-overlay { background: color-mix(in srgb, var(--color-navy) 86%, transparent); }
     }
   </style>
 </Layout>
