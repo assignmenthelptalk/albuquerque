@@ -161,8 +161,6 @@ Installed directly at your main water point of entry (POE), point-of-entry filtr
 
 * Point-of-Entry Protection: High-capacity activated carbon blocks intercept municipal disinfectants, volatile organic compounds (VOCs), and foul odors at the main line.
 * Sediment & Silt Mitigation: Multi-grade sediment cartridges capture fine particles, iron rust, and desert sand to prevent plumbing blockages and protect appliance valves.
-* Dual-Action Integration: Engineered by Albuquerque Elite Water Softener to work alongside softening systems for pure, scale-free water at every shower and tap.
-
 </div>
 
 <div class="svc-card">
@@ -179,8 +177,6 @@ Accurate diagnostics form the foundation of effective water treatment. At Albuqu
 
 * Comprehensive Parameter Analysis: Precise digital testing measures grains per gallon (GPG) hardness, dissolved minerals, manganese, pH levels, and TDS counts.
 * Aquifer & Source Profiling: Custom evaluation tailored to specific regional water characteristics across the Albuquerque metro area and surrounding private wells.
-* Tailored System Sizing: Handled by Albuquerque Elite Water Softener to ensure every equipment recommendation matches your household's actual flow rate and filtration needs.
-
 </div>
 
 </div>
