@@ -214,7 +214,7 @@ According to recent Albuquerque Bernalillo County Water Utility Authority (ABCWU
 
 ### Why Does Rock & Sediment Cause Water Hardness?
 
-As water percolates through regional rock strata, it picks up dissolved calcium and magnesium—the primary minerals responsible for scale buildup. Municipal reports record city averages of 48.64 ppm calcium and 5.55 ppm magnesium. Albuquerque Elite Water Softener designs treatment setups specifically targeting these dual minerals to stop scale before it damages your plumbing.
+As water percolates through regional rock strata, it picks up dissolved calcium and magnesium, the primary minerals responsible for scale buildup. Municipal reports record city averages of 48.64 ppm calcium and 5.55 ppm magnesium. Albuquerque Elite Water Softener designs treatment setups specifically targeting these dual minerals to stop scale before it damages your plumbing.
 
 </div>
 
@@ -226,8 +226,8 @@ ABCWUA monitoring puts citywide hardness at an average of 8.44 GPG (144 mg/L), w
 
 | USGS Hardness Category | Concentration Range (mg/L) | Albuquerque Status |
 | --- | --- | --- |
-| Soft | Under 60 mg/L | — |
-| Moderately Hard | 61 – 120 mg/L | Lower Range (2.09 GPG) |
+| Soft | Under 60 mg/L | Lower Range (2.09 GPG) |
+| Moderately Hard | 61 – 120 mg/L | Within reported range |
 | Hard | 121 – 180 mg/L | City Average (8.44 GPG) |
 | Very Hard | Over 180 mg/L | Upper Range (11.72+ GPG) |
 
