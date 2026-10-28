@@ -231,6 +231,14 @@ const [heroH1, heroH2] = fm.title.split(" - ");
     /* The card chrome lives on QuoteForm's own compact styles */
     .hero-form-card { align-self: start; scroll-margin-top: 96px; }
 
+    /* Quote form button: navy blue on the homepage (inner-page forms keep the orange accent) */
+    .hero-form-card :global(.form-submit) {
+      background: linear-gradient(135deg, var(--color-navy) 0%, color-mix(in srgb, var(--color-navy) 78%, black) 100%);
+    }
+    .hero-form-card :global(.form-submit:active) { background: color-mix(in srgb, var(--color-navy) 78%, black); }
+    .hero-form-card :global(.form-submit:disabled) { background: var(--color-navy); }
+    .hero-form-card :global(.form-submit:focus-visible) { outline-color: var(--color-navy); }
+
     @media (max-width: 900px) {
       .hero-section { min-height: auto; }
       .hero-inner {
