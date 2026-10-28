@@ -206,7 +206,7 @@ At Albuquerque Elite Water Softener, our technicians analyze these specific hydr
 
 ### Where Does Albuquerque Water Come From?
 
-According to recent Albuquerque Bernalillo County Water Utility Authority (ABCWUA) reports, local tap water is a blend of locally pumped groundwater and surface water imported from the Colorado River basin via the San Juan-Chama Project. Because ABCWUA continuously blends these sources across the metro grid, municipal water mineral content shifts seasonally across neighborhoods.
+According to recent Albuquerque Bernalillo County Water Utility Authority (ABCWUA) reports, local tap water is a blend of locally pumped groundwater and surface water imported from the Colorado River basin via the San Juan-Chama Project. Because ABCWUA blends these sources throughout its system, mineral content can differ by distribution zone and over time.
 
 </div>
 
@@ -222,7 +222,7 @@ As water percolates through regional rock strata, it picks up dissolved calcium 
 
 ### How Hard Is Albuquerque Water?
 
-ABCWUA monitoring puts citywide hardness at an average of 8.44 GPG (144 mg/L), with localized readings ranging from 2.09 to 11.72 GPG. On the USGS classification scale, this places Albuquerque tap water firmly in the "Hard" to "Very Hard" categories.
+ABCWUA monitoring puts citywide hardness at an average of 8.44 GPG (144 mg/L), with localized readings ranging from 2.09 to 11.72 GPG. On the USGS classification scale, the city average places Albuquerque tap water in the "Hard" category, and readings across the city span the "Soft" to "Very Hard" categories.
 
 | USGS Hardness Category | Concentration Range (mg/L) | Albuquerque Status |
 | --- | --- | --- |
@@ -237,7 +237,7 @@ ABCWUA monitoring puts citywide hardness at an average of 8.44 GPG (144 mg/L), w
 
 ### What Does ABCWUA's Water Quality Report Show?
 
-ABCWUA testing records average free chlorine at 0.9 mg/L and Total Dissolved Solids (TDS) at 291 ppm across more than 5,000 annual samples. While safe to drink, this mineral combination forms severe limescale inside pipes, coats water heater elements, and leaves stubborn mineral spots on glassware.
+ABCWUA testing records average free chlorine at 0.9 mg/L and Total Dissolved Solids (TDS) at 291 ppm across more than 5,500 annual samples. While safe to drink, this mineral combination forms severe limescale inside pipes, coats water heater elements, and leaves stubborn mineral spots on glassware.
 
 </div>
 
