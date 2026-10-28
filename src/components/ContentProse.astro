@@ -159,6 +159,54 @@
     .prose :global(.svc-grid-wide .svc-card > p:first-child) { margin: 0 0 1rem; }
   }
 
+  /* Labelled bullet lists (homepage service cards and service areas): each item is a tinted row
+     with a check badge and a bold maroon label, instead of a plain disc bullet */
+  .prose :global(.svc-grid-wide .svc-card ul),
+  .prose :global(.feature-list ul) {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.65rem;
+    font-size: 0.97rem;
+  }
+  .prose :global(.svc-grid-wide .svc-card li),
+  .prose :global(.feature-list li) {
+    position: relative;
+    margin: 0;
+    padding: 0.7rem 1rem 0.7rem 3rem;
+    background: var(--surface-elevated);
+    border-left: 3px solid var(--color-accent);
+    border-radius: 0 var(--radius-brand) var(--radius-brand) 0;
+    line-height: 1.6;
+  }
+  .prose :global(.svc-grid-wide .svc-card li::before),
+  .prose :global(.feature-list li::before) {
+    content: "";
+    position: absolute;
+    left: 0.85rem;
+    top: 0.82rem;
+    width: 1.35rem;
+    height: 1.35rem;
+    border-radius: 50%;
+    background: var(--color-accent);
+  }
+  .prose :global(.svc-grid-wide .svc-card li::after),
+  .prose :global(.feature-list li::after) {
+    content: "";
+    position: absolute;
+    left: 1.36rem;
+    top: 1.12rem;
+    width: 0.34rem;
+    height: 0.64rem;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  .prose :global(.svc-grid-wide .svc-card li strong),
+  .prose :global(.feature-list li strong) { color: var(--color-primary); font-weight: 700; }
+  .prose :global(.feature-list ul) { font-size: 1rem; }
+
   /* Homepage installation steps: photo on the left, "Step N: Title" blocks on the right */
   .prose :global(.steps-split) {
     display: grid;

@@ -86,8 +86,8 @@ Albuquerque Elite Water Softener covers six core services, from first installati
 
 With Albuquerque water hardness ranging from 2.09 to 11.72 grains per gallon, generic off-the-shelf softeners often underperform. At Albuquerque Elite Water Softener, our licensed and WQA-certified plumbing technicians perform on-site water testing to size a commercial-grade, NSF-certified system tailored specifically to your household's daily flow demand.
 
-* ABCWUA Aquifer Calibration: Every system installed by Albuquerque Elite Water Softener is fine-tuned to handle Albuquerque Bernalillo County Water Utility Authority mineral profiles, ensuring optimal salt-efficiency and continuous flow.
-* Turnkey Code Compliance: Installed exclusively by licensed New Mexico plumbers with full main line connection, heavy-duty bypass valves, and code-compliant drain and brine line integration.
+* **ABCWUA Aquifer Calibration:** Every system installed by Albuquerque Elite Water Softener is fine-tuned to handle Albuquerque Bernalillo County Water Utility Authority mineral profiles, ensuring optimal salt-efficiency and continuous flow.
+* **Turnkey Code Compliance:** Installed exclusively by licensed New Mexico plumbers with full main line connection, heavy-duty bypass valves, and code-compliant drain and brine line integration.
 
 </div>
 
@@ -103,9 +103,9 @@ With Albuquerque water hardness ranging from 2.09 to 11.72 grains per gallon, ge
 
 Prolonged exposure to Albuquerque's 2.09 to 11.72 grains per gallon (GPG) hard water causes resin degradation, valve failure, and mineral build-up in aging units. We replace failing systems with high-efficiency, demand-initiated softening units sized specifically for your home's water usage.
 
-* Complete System Swaps: Removal of old units and installation of NSF/ANSI-certified softeners onto existing loop lines.
-* Targeted Component Upgrades: Cross-linked resin bed re-bedding, metered control valve replacements, and brine tank overhauls.
-* Guaranteed Performance: Backed by local licensed plumbers, full code compliance, and multi-year equipment warranties.
+* **Complete System Swaps:** Removal of old units and installation of NSF/ANSI-certified softeners onto existing loop lines.
+* **Targeted Component Upgrades:** Cross-linked resin bed re-bedding, metered control valve replacements, and brine tank overhauls.
+* **Guaranteed Performance:** Backed by local licensed plumbers, full code compliance, and multi-year equipment warranties.
 
 </div>
 
@@ -123,8 +123,8 @@ Designed for Albuquerque's 2.09 to 11.72 GPG mineral levels, our salt-free condi
 
 As local water treatment specialists, Albuquerque Elite Water Softener installs eco-friendly systems requiring no drain line, no electricity, and zero salt refills. It is the ultimate low-maintenance protection for Albuquerque homes.
 
-* Scale Mitigation: Converts minerals into harmless crystals before they form scale.
-* Zero Maintenance: No sodium discharge, no wastewater, and zero salt purchases.
+* **Scale Mitigation:** Converts minerals into harmless crystals before they form scale.
+* **Zero Maintenance:** No sodium discharge, no wastewater, and zero salt purchases.
 </div>
 
 <div class="svc-card">
@@ -139,9 +139,9 @@ As local water treatment specialists, Albuquerque Elite Water Softener installs 
 
 Continuous exposure to Albuquerque's hard municipal water steadily degrades control valves, motor drives, and ion-exchange resin beds over time. At Albuquerque Elite Water Softener, our certified technicians rapidly diagnose and repair systems that fail to regenerate, leak at the control head, or consume excess salt.
 
-* Diagnostic & Valve Repair: Troubleshooting of control heads, metered timers, and motor assemblies to restore proper backwash and regeneration cycles.
-* Resin & Brine Maintenance: Brine tank cleanouts, salt-bridge clearing, and resin bed iron-fouling treatments calibrated for local groundwater conditions.
-* Comprehensive Servicing: Handled by Albuquerque Elite Water Softener using OEM-certified replacement parts to ensure long-term reliability and leak-free operation.
+* **Diagnostic & Valve Repair:** Troubleshooting of control heads, metered timers, and motor assemblies to restore proper backwash and regeneration cycles.
+* **Resin & Brine Maintenance:** Brine tank cleanouts, salt-bridge clearing, and resin bed iron-fouling treatments calibrated for local groundwater conditions.
+* **Comprehensive Servicing:** Handled by Albuquerque Elite Water Softener using OEM-certified replacement parts to ensure long-term reliability and leak-free operation.
 
 </div>
 
@@ -157,8 +157,8 @@ Continuous exposure to Albuquerque's hard municipal water steadily degrades cont
 
 Installed directly at your main water point of entry (POE), point-of-entry filtration protects your plumbing before tap water spreads to a single faucet. At Albuquerque Elite Water Softener, we integrate activated carbon and multi-stage sediment filters to remove municipal chlorine, chloramines, sand, and heavy metals. Pairing filtration with water softening delivers complete treatment: filtration removes chemical taste and sediment, while softening targets scale-forming hardness minerals.
 
-* Point-of-Entry Protection: High-capacity activated carbon blocks intercept municipal disinfectants, volatile organic compounds (VOCs), and foul odors at the main line.
-* Sediment & Silt Mitigation: Multi-grade sediment cartridges capture fine particles, iron rust, and desert sand to prevent plumbing blockages and protect appliance valves.
+* **Point-of-Entry Protection:** High-capacity activated carbon blocks intercept municipal disinfectants, volatile organic compounds (VOCs), and foul odors at the main line.
+* **Sediment & Silt Mitigation:** Multi-grade sediment cartridges capture fine particles, iron rust, and desert sand to prevent plumbing blockages and protect appliance valves.
 </div>
 
 <div class="svc-card">
@@ -173,8 +173,8 @@ Installed directly at your main water point of entry (POE), point-of-entry filtr
 
 Accurate diagnostics form the foundation of effective water treatment. At Albuquerque Elite Water Softener, our certified specialists perform comprehensive on-site analysis to evaluate total dissolved solids (TDS), mineral hardness, iron content, and pH balance directly from your tap. By mapping your home's exact chemistry against Albuquerque municipal supply and private well data, we eliminate guesswork and ensure your treatment system is perfectly calibrated for long-term performance.
 
-* Comprehensive Parameter Analysis: Precise digital testing measures grains per gallon (GPG) hardness, dissolved minerals, manganese, pH levels, and TDS counts.
-* Aquifer & Source Profiling: Custom evaluation tailored to specific regional water characteristics across the Albuquerque metro area and surrounding private wells.
+* **Comprehensive Parameter Analysis:** Precise digital testing measures grains per gallon (GPG) hardness, dissolved minerals, manganese, pH levels, and TDS counts.
+* **Aquifer & Source Profiling:** Custom evaluation tailored to specific regional water characteristics across the Albuquerque metro area and surrounding private wells.
 </div>
 
 </div>

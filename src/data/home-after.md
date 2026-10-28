@@ -110,6 +110,10 @@ We serve Albuquerque and Bernalillo County, including Nob Hill, North Valley, Sa
 
 Albuquerque Elite Water Softener provides local water softener installation, replacement, diagnostic repairs, and whole-house filtration services throughout Albuquerque and Bernalillo County. Because municipal water characteristics and private well mineral levels vary across the region, our licensed technicians engineer systems tailored specifically to your localized water supply.
 
-* Albuquerque Neighborhoods: Serving residential and commercial properties in Nob Hill, North Valley, Sandia Heights, Four Hills, Taylor Ranch, High Desert, and the East Mountain area.
-* Utility Coverage Area: Certified installations and service for homes connected to the Albuquerque Bernalillo County Water Utility Authority (ABCWUA), independent utility zones like Sandia Peak Utility, and rural private wells.
-* On-Site Location Verification: Because water hardness profiles differ by neighborhood and water source, Albuquerque Elite Water Softener conducts free on-site water testing to confirm precise hardness levels and verify service availability directly at your address.
+<div class="feature-list">
+
+* **Albuquerque Neighborhoods:** Serving residential and commercial properties in Nob Hill, North Valley, Sandia Heights, Four Hills, Taylor Ranch, High Desert, and the East Mountain area.
+* **Utility Coverage Area:** Certified installations and service for homes connected to the Albuquerque Bernalillo County Water Utility Authority (ABCWUA), independent utility zones like Sandia Peak Utility, and rural private wells.
+* **On-Site Location Verification:** Because water hardness profiles differ by neighborhood and water source, Albuquerque Elite Water Softener conducts free on-site water testing to confirm precise hardness levels and verify service availability directly at your address.
+
+</div>
