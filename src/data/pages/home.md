@@ -157,7 +157,11 @@ Continuous exposure to Albuquerque's hard municipal water steadily degrades cont
 
 ### Whole House Water Filtration
 
-Whole house filtration treats water where it enters the home, reducing chlorine taste and sediment before it reaches every tap. It pairs with a softener because filtration and softening solve different problems.
+Installed directly at your main water point of entry (POE), point-of-entry filtration protects your plumbing before tap water spreads to a single faucet. At Albuquerque Elite Water Softener, we integrate activated carbon and multi-stage sediment filters to remove municipal chlorine, chloramines, sand, and heavy metals. Pairing filtration with water softening delivers complete treatment: filtration removes chemical taste and sediment, while softening targets scale-forming hardness minerals.
+
+* Point-of-Entry Protection: High-capacity activated carbon blocks intercept municipal disinfectants, volatile organic compounds (VOCs), and foul odors at the main line.
+* Sediment & Silt Mitigation: Multi-grade sediment cartridges capture fine particles, iron rust, and desert sand to prevent plumbing blockages and protect appliance valves.
+* Dual-Action Integration: Engineered by Albuquerque Elite Water Softener to work alongside softening systems for pure, scale-free water at every shower and tap.
 
 </div>
 
