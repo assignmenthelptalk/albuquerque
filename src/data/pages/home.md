@@ -114,9 +114,15 @@ Prolonged exposure to Albuquerque's 2.09 to 11.72 grains per gallon (GPG) hard w
 
 
 
-### Salt-Free Water Softener Systems
+### Salt-Free Water Conditioning Systems
 
-A salt-free system conditions hard water so scale no longer clings to pipes and fixtures. It does not remove calcium and magnesium, needs no salt and no drain line, and fits homeowners who want lower maintenance over full softening.
+Designed for Albuquerque's 2.09 to 11.72 GPG mineral levels, our salt-free conditioners use Template-Assisted Crystallization (TAC) to prevent scale without salt or chemicals. TAC transforms calcium and magnesium into inactive micro-crystals that cannot bind to pipes or fixtures.
+
+As local water treatment specialists, Albuquerque Elite Water Softener installs eco-friendly systems requiring no drain line, no electricity, and zero salt refills. It is the ultimate low-maintenance protection for Albuquerque homes.
+
+* Scale Mitigation: Converts minerals into harmless crystals before they form scale.
+* Zero Maintenance: No sodium discharge, no wastewater, and zero salt purchases.
+* Professional Fitting: Installed by Albuquerque Elite Water Softener to New Mexico plumbing codes.
 
 </div>
 
