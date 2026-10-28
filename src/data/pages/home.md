@@ -175,7 +175,11 @@ Installed directly at your main water point of entry (POE), point-of-entry filtr
 
 ### Water Quality Testing
 
-A water quality test measures hardness, iron, pH, total dissolved solids and other values that decide which system fits. It is the first step of every recommendation.
+Accurate diagnostics form the foundation of effective water treatment. At Albuquerque Elite Water Softener, our certified specialists perform comprehensive on-site analysis to evaluate total dissolved solids (TDS), mineral hardness, iron content, and pH balance directly from your tap. By mapping your home's exact chemistry against Albuquerque municipal supply and private well data, we eliminate guesswork and ensure your treatment system is perfectly calibrated for long-term performance.
+
+* Comprehensive Parameter Analysis: Precise digital testing measures grains per gallon (GPG) hardness, dissolved minerals, manganese, pH levels, and TDS counts.
+* Aquifer & Source Profiling: Custom evaluation tailored to specific regional water characteristics across the Albuquerque metro area and surrounding private wells.
+* Tailored System Sizing: Handled by Albuquerque Elite Water Softener to ensure every equipment recommendation matches your household's actual flow rate and filtration needs.
 
 </div>
 
