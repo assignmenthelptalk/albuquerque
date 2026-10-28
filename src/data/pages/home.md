@@ -17,6 +17,14 @@ faq: [{"q":"How hard is Albuquerque water?","a":"Albuquerque water is hard. ABCW
 markerCount: 0
 ---
 
+<div class="why-intro">
+
+## Why Choose Albuquerque Elite Water Softener?
+
+Albuquerque's water hardness ranges from **2.09 to 11.72 grains per gallon**, depending on your location. At Albuquerque Elite Water Softener, we use on-site water testing to help you choose a system suited to your home's water conditions, household size, and daily water usage.
+
+</div>
+
 <div class="why-split">
 
 <div class="why-photo">
@@ -30,10 +38,6 @@ markerCount: 0
 </div>
 
 <div class="why-text">
-
-## Why Choose Albuquerque Elite Water Softener?
-
-Albuquerque's water hardness ranges from **2.09 to 11.72 grains per gallon**, depending on your location. At Albuquerque Elite Water Softener, we use on-site water testing to help you choose a system suited to your home's water conditions, household size, and daily water usage.
 
 ### Our Water Softener Installation Process
 
