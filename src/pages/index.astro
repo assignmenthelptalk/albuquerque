@@ -27,6 +27,8 @@ const heroFiles = import.meta.glob<{ default: ImageMetadata }>("../assets/images
 const heroImage = Object.values(heroFiles)[0]?.default;
 const HERO_PLACEHOLDER = "/placeholders/hero.svg"; // local file in public/placeholders (no network at build)
 const badges = ["✓ Free Estimate", "✓ No Obligation", `✓ Serving ${site.city}, ${site.stateAbbr}`];
+// Title is "Business Name - Service in City, ST": brand name is the H1, the rest is the H2.
+const [heroH1, heroH2] = fm.title.split(" - ");
 ---
 
 <Layout title={fm.title} fullTitle={fm.seoTitle} description={fm.description}>
@@ -51,7 +53,8 @@ const badges = ["✓ Free Estimate", "✓ No Obligation", `✓ Serving ${site.ci
           {badges.map((badge) => <span class="hero-badge">{badge}</span>)}
         </div>
 
-        <h1 class="hero-h1">{fm.title}</h1>
+        <h1 class:list={["hero-h1", { "hero-h1-tight": heroH2 }]}>{heroH1}</h1>
+        {heroH2 && <h2 class="hero-h2">{heroH2}</h2>}
 
         <p class="hero-p" set:html={fm.openingHtml} />
         {fm.openingExtraHtml && <p class="hero-p" set:html={fm.openingExtraHtml} />}
@@ -161,6 +164,19 @@ const badges = ["✓ Free Estimate", "✓ No Obligation", `✓ Serving ${site.ci
       font-size: clamp(26px, 3.7vw, 42px);
       color: #ffffff;
       line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+    }
+    .hero-h1-tight { margin-bottom: 10px; }
+
+    /* H2: italic, warm accent tint so it reads apart from the white H1 (accent #C2410C is too dark on the overlay) */
+    .hero-h2 {
+      font-family: var(--font-heading);
+      font-size: clamp(18px, 2.3vw, 26px);
+      font-style: italic;
+      font-weight: 400;
+      color: color-mix(in oklab, var(--color-accent) 55%, white);
+      line-height: 1.25;
       letter-spacing: -0.02em;
       margin-bottom: 20px;
     }

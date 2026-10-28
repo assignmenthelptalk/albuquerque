@@ -8,7 +8,7 @@ pageType: "home"
 parentSlug: null
 crumb: "Albuquerque Elite Water Softener - Water Softener Installation"
 openingHtml: "Albuquerque Elite Water Softener installs, replaces, and services water softeners for homes in Albuquerque and Bernalillo County."
-openingExtraHtml: "Albuquerque's water is a blend of local groundwater and treated San Juan-Chama surface water. The Albuquerque Bernalillo County Water Utility Authority (ABCWUA) reported a 2023 city average of 8.44 grains per gallon (gpg), which is hard water. We size every system to your household and your water, not to a standard package."
+openingExtraHtml: "Albuquerque's water comes from a blend of local groundwater and treated San Juan-Chama surface water. Because water hardness can vary, we help you choose a water softener based on your home's water conditions, household size, and water usage."
 formHeading: "Get Your Free Water Softener Estimate in Albuquerque, NM"
 formIntro: "A free estimate covers your home's water use, the right system size and a clear installed price. Fill in the form and we will contact you to confirm a time."
 leadImage: {"file":"hero-water-softener-albuquerque-nm.webp","alt":"Water softener installed in a New Mexico laundry room"}
