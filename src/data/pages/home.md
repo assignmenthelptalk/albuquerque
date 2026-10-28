@@ -33,25 +33,29 @@ markerCount: 0
 
 ## Why Choose Albuquerque Elite Water Softener?
 
-Albuquerque Elite Water Softener helps homeowners across Albuquerque, from Nob Hill and North Valley to Taylor Ranch, Four Hills, and Sandia Heights. Because Albuquerque Water Utility Authority (ABCWUA) blends locally pumped groundwater with treated San Juan-Chama surface water, water hardness can vary by address, ranging from 2.09 to 11.72 grains per gallon in its reported city range.
+Albuquerque's water hardness ranges from **2.09 to 11.72 grains per gallon**, depending on your location. At Albuquerque Elite Water Softener, we use on-site water testing to help you choose a system suited to your home's water conditions, household size, and daily water usage.
 
 ### Our Water Softener Installation Process
 
-**1. Assess Your Water**
+**1. Test Your Water**
 
-We start by evaluating your home's water hardness, household size, and daily water usage to understand your needs.
+Our technicians assess your home's water hardness and household water needs to determine the appropriate level of softening.
 
 **2. Recommend the Right System**
 
-Based on your water conditions and household requirements, we help you select a properly sized water softener.
+We size a commercial-grade, NSF-certified water softener to match your water conditions and household flow demand.
 
-**3. Provide Clear Pricing**
+**3. Install Your System Professionally**
 
-We explain the recommended system, installation costs, and applicable warranty terms before work begins.
+Our licensed, WQA-certified plumbing technicians complete the installation in accordance with applicable local plumbing codes. Installations include main water line connections, heavy-duty bypass valves, drain integration, and custom digital programming.
 
-**4. Install and Check Your System**
+**4. Test and Configure Your System**
 
-We install the water softener, check that it operates correctly, and explain its basic settings and maintenance requirements.
+We check system operation at multiple taps, verify the installation, and explain the settings and routine maintenance requirements.
+
+### Backed by Warranty and a Satisfaction Guarantee
+
+Every installation comes with a **10-year parts warranty** and a **100% satisfaction guarantee**, giving you added confidence in your investment.
 
 [Request Your Free Estimate](#estimate)
 
