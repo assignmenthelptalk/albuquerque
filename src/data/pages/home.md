@@ -139,7 +139,11 @@ As local water treatment specialists, Albuquerque Elite Water Softener installs 
 
 ### Water Softener Repair & Service
 
-Repair and service restores softeners that stop regenerating, leave hard water, run out of salt too fast or leak at the control head. Routine service includes resin and brine tank checks, cleaning, salt refills and valve testing.
+Continuous exposure to Albuquerque's hard municipal water steadily degrades control valves, motor drives, and ion-exchange resin beds over time. At Albuquerque Elite Water Softener, our certified technicians rapidly diagnose and repair systems that fail to regenerate, leak at the control head, or consume excess salt.
+
+* Diagnostic & Valve Repair: Troubleshooting of control heads, metered timers, and motor assemblies to restore proper backwash and regeneration cycles.
+* Resin & Brine Maintenance: Brine tank cleanouts, salt-bridge clearing, and resin bed iron-fouling treatments calibrated for local groundwater conditions.
+* Comprehensive Servicing: Handled by Albuquerque Elite Water Softener using OEM-certified replacement parts to ensure long-term reliability and leak-free operation.
 
 </div>
 
