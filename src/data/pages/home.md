@@ -84,9 +84,7 @@ Albuquerque Elite Water Softener covers six core services, from first installati
 
 ### Water Softener Installation
 
-With Albuquerque water hardness ranging from 12 to over 18 grains per gallon, generic off-the-shelf softeners often underperform. At Albuquerque Elite Water Softener, our licensed and WQA-certified plumbing technicians perform on-site water testing to size a commercial-grade, NSF-certified system tailored specifically to your household's daily flow demand.
-
-Every installation complies with local plumbing codes and includes full main line hookup, heavy-duty bypass valves, professional drain integration, custom digital programming, and thorough multi-tap testing. Backed by our 10-year parts warranty and 100% satisfaction guarantee, we ensure long-lasting protection for your home's plumbing and appliances.
+With Albuquerque water hardness ranging from 2.09 to 11.72 grains per gallon, generic off-the-shelf softeners often underperform. At Albuquerque Elite Water Softener, our licensed and WQA-certified plumbing technicians perform on-site water testing to size a commercial-grade, NSF-certified system tailored specifically to your household's daily flow demand.
 
 </div>
 
@@ -100,7 +98,11 @@ Every installation complies with local plumbing codes and includes full main lin
 
 ### Water Softener Replacement
 
-Replacement removes an old or failing softener and installs a new, correctly sized unit on the existing plumbing. It covers full system replacement, resin bed replacement and upgrades for systems that no longer soften, leak, or cost more to repair than they are worth.
+Prolonged exposure to Albuquerque's 2.09 to 11.72 grains per gallon (GPG) hard water causes resin degradation, valve failure, and mineral build-up in aging units. We replace failing systems with high-efficiency, demand-initiated softening units sized specifically for your home's water usage.
+
+* Complete System Swaps: Removal of old units and installation of NSF/ANSI-certified softeners onto existing loop lines.
+* Targeted Component Upgrades: Cross-linked resin bed re-bedding, metered control valve replacements, and brine tank overhauls.
+* Guaranteed Performance: Backed by local licensed plumbers, full code compliance, and multi-year equipment warranties.
 
 </div>
 
