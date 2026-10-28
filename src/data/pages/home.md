@@ -84,7 +84,9 @@ Albuquerque Elite Water Softener covers six core services, from first installati
 
 ### Water Softener Installation
 
-Installation connects a new softener to your home's main water line so every faucet, shower and appliance receives softened water. The unit is sized to your household and water use, fitted with a bypass valve, connected to a drain and brine line, programmed and tested at every tap before the technician leaves.
+With Albuquerque water hardness ranging from 12 to over 18 grains per gallon, generic off-the-shelf softeners often underperform. At Albuquerque Elite Water Softener, our licensed and WQA-certified plumbing technicians perform on-site water testing to size a commercial-grade, NSF-certified system tailored specifically to your household's daily flow demand.
+
+Every installation complies with local plumbing codes and includes full main line hookup, heavy-duty bypass valves, professional drain integration, custom digital programming, and thorough multi-tap testing. Backed by our 10-year parts warranty and 100% satisfaction guarantee, we ensure long-lasting protection for your home's plumbing and appliances.
 
 </div>
 
