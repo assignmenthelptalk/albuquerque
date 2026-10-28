@@ -72,7 +72,7 @@ Every installation comes with a **10-year parts warranty** and a **100% satisfac
 
 Albuquerque Elite Water Softener covers six core services, from first installation to long-term maintenance, and adds specialty systems for larger homes, businesses and wells.
 
-<div class="svc-grid">
+<div class="svc-grid svc-grid-wide">
 
 <div class="svc-card">
 

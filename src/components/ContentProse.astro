@@ -143,6 +143,22 @@
   @media (max-width: 900px) { .prose :global(.svc-grid) { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .prose :global(.svc-grid) { grid-template-columns: 1fr; } }
 
+  /* Homepage only: one wide row per service (photo left, text right) so cards of different text length never leave blank gaps */
+  .prose :global(.svc-grid-wide) { grid-template-columns: 1fr; gap: 2.4rem; }
+  .prose :global(.svc-grid-wide .svc-card) {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    column-gap: 2.4rem;
+    align-items: start;
+  }
+  .prose :global(.svc-grid-wide .svc-card > *) { grid-column: 2; }
+  .prose :global(.svc-grid-wide .svc-card > p:first-child) { grid-column: 1; grid-row: 1 / span 8; margin: 0; }
+  @media (max-width: 800px) {
+    .prose :global(.svc-grid-wide) { grid-template-columns: 1fr; }
+    .prose :global(.svc-grid-wide .svc-card) { display: block; }
+    .prose :global(.svc-grid-wide .svc-card > p:first-child) { margin: 0 0 1rem; }
+  }
+
   /* Homepage installation steps: photo on the left, "Step N: Title" blocks on the right */
   .prose :global(.steps-split) {
     display: grid;
