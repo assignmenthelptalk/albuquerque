@@ -113,14 +113,14 @@
      edge without extra markup or a 100vw width, so there is no horizontal scroll. */
   .prose > :global(h2),
   .prose > :global(h2:first-child) {
-    background: var(--color-primary);
+    background: var(--color-navy);
     color: #fff;
     text-align: center;
     max-width: none;
     border-top: 0;
     padding: 2rem 1rem;
     margin: 3rem 0 2rem;
-    box-shadow: 0 0 0 100vmax var(--color-primary);
+    box-shadow: 0 0 0 100vmax var(--color-navy);
     clip-path: inset(0 -100vmax);
   }
   /* Homepage services: a 3-column card grid that breaks out of the 780px text column */
@@ -250,18 +250,10 @@
   .prose :global(.issue-item-wide) { grid-column: 1 / -1; }
   .prose :global(.issue-item table) { margin: 1rem 0 0; font-size: 0.92rem; }
 
-  /* Homepage headings and the full-width section bands are navy blue (inner pages keep the maroon bands) */
+  /* Sub-headings are navy blue on every page, matching the full-width navy section bands */
   .prose { --heading-blue: var(--color-navy); }
-  :global(.home-copy) .prose > :global(h2),
-  :global(.home-copy) .prose > :global(h2:first-child) {
-    background: var(--heading-blue);
-    box-shadow: 0 0 0 100vmax var(--heading-blue);
-  }
-  .prose :global(.why-intro h2),
-  .prose :global(.why-text h3),
-  .prose :global(.issue-item h3),
-  .prose :global(.steps-list h3) { color: var(--heading-blue); }
-  :global(.home-copy) .prose :global(.faq-item > summary) { color: var(--heading-blue); }
+  .prose :global(h3),
+  .prose :global(.why-intro h2) { color: var(--heading-blue); }
   @media (max-width: 900px) { .prose :global(.issues-split) { grid-template-columns: 1fr; gap: 1.5rem; } .prose :global(.issues-photo) { position: static; } }
   @media (max-width: 600px) { .prose :global(.issues-grid) { grid-template-columns: 1fr; } }
 
@@ -328,7 +320,7 @@
     cursor: pointer;
     padding: 0.95rem 3rem 0.95rem 1.2rem;
     font-weight: 600;
-    color: var(--color-primary);
+    color: var(--heading-blue);
     position: relative;
   }
   .prose :global(.faq-item > summary::-webkit-details-marker) { display: none; }
