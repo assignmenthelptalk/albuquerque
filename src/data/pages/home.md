@@ -31,16 +31,27 @@ markerCount: 0
 
 <div class="why-text">
 
-## How Do You Choose a Water Softener Installer in Albuquerque, NM?
+## Why Choose Albuquerque Elite Water Softener?
 
-Homeowners choose a water softener company on five things: who does the work, how the system is backed, how fast help arrives, whether the installer knows local water, and what the estimate includes. Use these six checks with any company, this one included.
+Albuquerque Elite Water Softener helps homeowners across Albuquerque, from Nob Hill and North Valley to Taylor Ranch, Four Hills, and Sandia Heights. Because Albuquerque Water Utility Authority (ABCWUA) blends locally pumped groundwater with treated San Juan-Chama surface water, water hardness can vary by address, ranging from 2.09 to 11.72 grains per gallon in its reported city range.
 
-- **Licence:** Ask any installer for the licence number New Mexico requires for the work and for proof of insurance before work starts.
-- **Warranty:** The estimate states the warranty on the equipment and on the labor. Read it before you approve the work.
-- **Sizing by test:** A correct system size comes from a hardness test and your household's daily water use, not from a standard package.
-- **Local water knowledge:** ABCWUA blends locally pumped groundwater with treated San Juan-Chama surface water, and its 2023 report gave a city hardness range of 2.09 to 11.72 grains per gallon, so the number changes with the address.
-- **Scheduling:** Ask how quickly the installer can fit your job in. Same-day service depends on technician availability.
-- **Itemized estimate:** The estimate lists the unit, the plumbing work and the labor, so you see what is included before work starts.
+### Our Water Softener Installation Process
+
+**1. Assess Your Water**
+
+We start by evaluating your home's water hardness, household size, and daily water usage to understand your needs.
+
+**2. Recommend the Right System**
+
+Based on your water conditions and household requirements, we help you select a properly sized water softener.
+
+**3. Provide Clear Pricing**
+
+We explain the recommended system, installation costs, and applicable warranty terms before work begins.
+
+**4. Install and Check Your System**
+
+We install the water softener, check that it operates correctly, and explain its basic settings and maintenance requirements.
 
 [Request Your Free Estimate](#estimate)
 
