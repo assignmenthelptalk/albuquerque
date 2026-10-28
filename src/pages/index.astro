@@ -189,6 +189,11 @@ const [heroH1, heroH2] = fm.title.split(" - ");
       margin-bottom: 16px;
       max-width: 560px;
     }
+    /* Brand name in the opening line: solid white and bold against the softer body text */
+    .hero-p :global(strong) {
+      color: #ffffff;
+      font-weight: 700;
+    }
     .hero-p :global(a) {
       color: #ffffff;
       font-weight: 600;

@@ -7,7 +7,7 @@ slug: "/"
 pageType: "home"
 parentSlug: null
 crumb: "Albuquerque Elite Water Softener - Water Softener Installation"
-openingHtml: "Albuquerque Elite Water Softener installs, replaces, and services water softeners for homes in Albuquerque and Bernalillo County."
+openingHtml: "<strong>Albuquerque Elite Water Softener</strong> installs, replaces, and services water softeners for homes in Albuquerque and Bernalillo County."
 openingExtraHtml: "Albuquerque's water comes from a blend of local groundwater and treated San Juan-Chama surface water. Because water hardness can vary, we help you choose a water softener based on your home's water conditions, household size, and water usage."
 formHeading: "Get Your Free Water Softener Estimate in Albuquerque, NM"
 formIntro: "A free estimate covers your home's water use, the right system size and a clear installed price. Fill in the form and we will contact you to confirm a time."
