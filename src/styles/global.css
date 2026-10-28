@@ -20,6 +20,7 @@
   --color-accent:        #C2410C;
   --color-accent-dark:   #9A3412; /* accent hover/active state */
   --color-accent-light:  #FFF3F3; /* light accent tint for badges */
+  --color-navy:          #1b4f7a; /* homepage section bands, headings and list labels */
 
   /* Depth system: base -> elevated -> floating, never one flat z-plane */
   --surface-base:     #ffffff;

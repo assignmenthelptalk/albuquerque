@@ -250,8 +250,13 @@
   .prose :global(.issue-item-wide) { grid-column: 1 / -1; }
   .prose :global(.issue-item table) { margin: 1rem 0 0; font-size: 0.92rem; }
 
-  /* Homepage headings are navy blue; the full-width maroon bands keep their white text */
-  .prose { --heading-blue: #1b4f7a; }
+  /* Homepage headings and the full-width section bands are navy blue (inner pages keep the maroon bands) */
+  .prose { --heading-blue: var(--color-navy); }
+  :global(.home-copy) .prose > :global(h2),
+  :global(.home-copy) .prose > :global(h2:first-child) {
+    background: var(--heading-blue);
+    box-shadow: 0 0 0 100vmax var(--heading-blue);
+  }
   .prose :global(.why-intro h2),
   .prose :global(.why-text h3),
   .prose :global(.issue-item h3),
