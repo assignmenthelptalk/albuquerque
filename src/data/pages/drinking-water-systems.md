@@ -39,7 +39,7 @@ Three drinking water systems cover most homes: under sink systems, countertop pu
 
 ### Under Sink Drinking Water Systems
 
-An under-sink drinking water system installs in the cabinet and delivers filtered water to a dedicated faucet. Options range from carbon filters to full [reverse osmosis](/reverse-osmosis-installation/). It gives the best balance of water quality, flow and convenience for a kitchen. ABCWUA's supply is locally pumped groundwater blended with treated San Juan-Chama surface water, and many homeowners add an under-sink system to improve taste. ABCWUA's 2023 water quality report put the city average total dissolved solids at 291 ppm, and a test at your tap gives the number that decides whether a softener and an under-sink reverse osmosis system belong together.
+An under-sink drinking water system installs in the cabinet and delivers filtered water to a dedicated faucet. Options range from carbon filters to full [reverse osmosis installation Albuquerque](/reverse-osmosis-installation/). It gives the best balance of water quality, flow and convenience for a kitchen. ABCWUA's supply is locally pumped groundwater blended with treated San Juan-Chama surface water, and many homeowners add an under-sink system to improve taste. ABCWUA's 2023 water quality report put the city average total dissolved solids at 291 ppm, and a test at your tap gives the number that decides whether a softener and an under-sink reverse osmosis system belong together.
 
 </div>
 

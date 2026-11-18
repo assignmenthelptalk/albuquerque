@@ -53,7 +53,7 @@ A [hard water](/water-softener-guides/hard-water-albuquerque-nm/) test measures 
 
 ### TDS Testing
 
-Total dissolved solids (TDS) is the combined amount of minerals, salts and metals dissolved in water, in milligrams per liter. The EPA's secondary guideline for TDS is 500 mg/L, based on taste and appearance rather than health. A high reading points to [reverse osmosis](/reverse-osmosis-installation/) or a mineral-focused treatment.
+Total dissolved solids (TDS) is the combined amount of minerals, salts and metals dissolved in water, in milligrams per liter. The EPA's secondary guideline for TDS is 500 mg/L, based on taste and appearance rather than health. A high reading points to [reverse osmosis installation Albuquerque](/reverse-osmosis-installation/) or a mineral-focused treatment.
 
 </div>
 

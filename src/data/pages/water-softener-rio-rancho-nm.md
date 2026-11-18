@@ -147,7 +147,7 @@ The City's 2025 report states no hardness figure. <mark class="data-gap">[NEEDS 
 
 A conventional salt-based water softener uses ion exchange to remove calcium and magnesium from water. This helps reduce mineral scale and can improve soap performance. It does not remove every possible contaminant, and it should not be confused with a drinking water filtration or purification system.
 
-The City's 2025 report lists naturally occurring arsenic from the volcanic aquifer rock at 4 to 5.8 parts per billion, below the 10 ppb limit. A softener does not remove arsenic, so if you want it lower at the drinking tap, ask about [reverse osmosis](/reverse-osmosis-installation/) and other options under [water treatment and testing](/water-treatment-and-testing/).
+The City's 2025 report lists naturally occurring arsenic from the volcanic aquifer rock at 4 to 5.8 parts per billion, below the 10 ppb limit. A softener does not remove arsenic, so if you want it lower at the drinking tap, ask about [reverse osmosis installation Albuquerque](/reverse-osmosis-installation/) and other options under [water treatment and testing](/water-treatment-and-testing/).
 
 ### Do You Need a Water Softener or a Salt-Free Conditioner?
 
