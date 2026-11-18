@@ -16,9 +16,9 @@ faq: [{"q":"Is Albuquerque water safe to drink?","a":"ABCWUA's water quality rep
 markerCount: 0
 ---
 
-## What Do Albuquerque Homeowners Need to Know About Hard Water?
+## Does Albuquerque Have Hard Water?
 
-Three questions cover the basics: what hard water is, why Albuquerque water is hard and how hard it measures.
+Yes. ABCWUA's 2023 water quality report put the city average at 8.44 grains per gallon, which the U.S. Geological Survey rates as hard. Three questions cover the basics: what hard water is, why Albuquerque water is hard and how hard it measures.
 
 <div class="svc-grid">
 

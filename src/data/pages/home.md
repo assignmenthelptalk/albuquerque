@@ -19,9 +19,9 @@ markerCount: 0
 
 <div class="why-intro">
 
-## Why Choose Albuquerque Elite Water Softener?
+## Who Sells Water Softeners in Albuquerque?
 
-Albuquerque's water hardness ranges from **2.09 to 11.72 grains per gallon**, depending on your location. At Albuquerque Elite Water Softener, we use on-site water testing to help you choose a system suited to your home's water conditions, household size, and daily water usage.
+Albuquerque Elite Water Softener sells, installs and services water softeners for homes in Albuquerque and Bernalillo County. Albuquerque's water hardness ranges from **2.09 to 11.72 grains per gallon**, depending on your location. At Albuquerque Elite Water Softener, we use on-site water testing to help you choose a system suited to your home's water conditions, household size, and daily water usage.
 
 </div>
 
